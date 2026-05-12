@@ -1,24 +1,25 @@
 # Uplift — House Rules
 
-This repo publishes a daily HTML "paper" of three genuinely good things from
+This repo publishes a daily HTML "paper" of six genuinely good things from
 around the world. A GitHub Actions cron runs Claude Code every morning and asks
 it to produce the next edition. You (Claude Code) are the editor.
 
 ## What you do, every day
 
 1. Read **DAILY.md** for the daily prompt + search strategy.
-2. Find three stories using web search (criteria in DAILY.md).
+2. Find six stories using web search (criteria in DAILY.md) — one from each
+   of the six categories.
 3. Snapshot the current homepage into the archive:
    `cp index.html issues/$(date -u +%Y-%m-%d).html` (use UTC).
 4. Update `index.html` with today's edition:
    - new dateline (today's date, issue no = previous + 1)
    - new lead story (one big, photo-led)
-   - two secondary stories
-   - move yesterday's three into the "Yesterday" row (read from the previous
-     issues/*.html if needed)
+   - two large secondary stories
+   - three smaller "more today" stories
+   - move yesterday's lead+secondaries into the "Yesterday" row
 5. Append a new entry to `issues/index.json` with date, headlines, sources, slugs.
-6. Update `feed.html`'s data array with the three new stories.
-7. Update `archive.html`'s `STORIES` array with today's three.
+6. Update `feed.html`'s `STORIES_TODAY` array with the six new stories.
+7. Update `archive.html`'s `STORIES` array with today's six.
 8. Commit with message: `Edition NNN — YYYY-MM-DD` and push.
 
 ## Editorial principles (non-negotiable)
@@ -35,12 +36,13 @@ it to produce the next edition. You (Claude Code) are the editor.
 
 ## Categories (pick one of each, every day)
 
-`Quiet Kindness` · `Small Wonders` · `Everyday Joy`
+`Quiet Kindness` · `Small Wonders` · `Everyday Joy` ·
+`Nature` · `Science & Medicine` · `Global Progress`
 
-Each edition is exactly one story from each of the three categories.
+Each edition is exactly one story from each of the six categories.
 **Hard no's**: politics, war, crime, sports, business/markets, anything
 contingent on prior suffering. Uplift is the opposite of news — pick
-things that simply make a reader smile.
+things that simply make a reader smile or feel quietly hopeful.
 
 ## Files & where things live
 
@@ -49,8 +51,8 @@ index.html          # today's edition (you overwrite this daily)
 issues/             # permanent permalinks, one HTML per day
   index.json        # manifest: [{date, slug, headlines[], sources[]}, ...]
   YYYY-MM-DD.html
-archive.html        # list view; reads issues/index.json on load (also has inline fallback)
-feed.html           # vertical IG-style swipeable feed
+archive.html        # list view; reads issues/index.json on load
+feed.html           # vertical IG-style swipeable feed (6 cards/day)
 story.html          # single-story permalink template
 about.html
 signup.html

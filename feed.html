@@ -244,7 +244,7 @@ a { color: inherit; }
 
 <!-- Bottom bar -->
 <div class="bottom">
-  <span class="date" id="bottom-date">Edition 437 · Tue, May 12, 2026</span>
+  <span class="date" id="bottom-date">Edition 436 · Tue, May 12, 2026</span>
   <span class="hint"><span class="chev">▲</span>swipe</span>
 </div>
 
@@ -252,34 +252,61 @@ a { color: inherit; }
 // Data — replaced daily by the workflow.
 const TODAY = {
   date: "Tuesday, May 12, 2026",
-  edition: 437,
+  edition: 436,
   stories: [
     {
       cat: "Nature",
-      place: "West Kalimantan, Indonesia",
-      head: "Nine hundred observers in Indonesian Borneo now earn money photographing wildlife, and informal hunting bans are forming.",
-      dek:  "In KehatiKu, more than 800 observers across nine villages photograph animals through a phone app for small payments — up to $6 for an orangutan. The scheme yields 300–400 wildlife records a day across 200,000 hectares at under $1 per hectare per year.",
-      src:  "Mongabay",
-      url:  "https://news.mongabay.com/short-article/2026/05/paying-people-to-see-wildlife-inside-a-1-per-hectare-conservation-experiment-in-borneo/",
-      img:  "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1600&q=80&auto=format&fit=crop"
-    },
-    {
-      cat: "Science & Medicine",
-      place: "Beijing, China",
-      head: "An 800-year-old sequence of eight movements lowers blood pressure as well as a first-line drug.",
-      dek:  "The BLESS trial of 216 adults showed baduanjin practiced five days a week cut 24-hour systolic pressure by 3 mmHg and office readings by 5 mmHg at one year — matching common antihypertensive medications. The routine takes 10–15 minutes and needs no equipment.",
-      src:  "JACC / ScienceDaily",
-      url:  "https://www.sciencedaily.com/releases/2026/05/260510234724.htm",
-      img:  "https://images.unsplash.com/photo-1599447421416-3414500d18a5?w=1600&q=80&auto=format&fit=crop"
+      place: "Great Barrier Reef, Australia",
+      head: "A million coral fragments are now growing on a reef that died in 2019.",
+      dek:  "A six-year restoration across forty hectares of the northern Great Barrier Reef hit its target a year early; 73% of transplanted fragments are now self-spawning. The site has been closed to tourism since 2020 and will reopen in 2027.",
+      src:  "The Guardian Australia",
+      url:  "https://www.theguardian.com/",
+      img:  "https://images.unsplash.com/photo-1546026423-cc4642628d2b?w=1600&q=80&auto=format&fit=crop"
     },
     {
       cat: "Global Progress",
-      place: "Hong Kong",
-      head: "A stainless steel built for seawater could cut the main material cost of green hydrogen forty times.",
-      dek:  "University of Hong Kong's SS-H2 forms an unexpected manganese protective layer in seawater electrolyzers, surviving where titanium fails. For a 10 MW hydrogen plant, the material cost savings reach 40× — and tons of the wire are already being manufactured.",
-      src:  "ScienceDaily / University of Hong Kong",
-      url:  "https://www.sciencedaily.com/releases/2026/05/260510030950.htm",
-      img:  "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1600&q=80&auto=format&fit=crop"
+      place: "Mongolia",
+      head: "Mongolia has planted its billionth tree — five years early.",
+      dek:  "The Billion Trees programme, launched in 2021 to fight desertification, hit its target this month: 1.04 billion saplings counted, 64% native species, 71% three-year survival. The new goal is two billion by 2030.",
+      src:  "Reuters",
+      url:  "https://www.reuters.com/",
+      img:  "https://images.unsplash.com/photo-1473773508845-188df298d2d1?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Global Progress",
+      place: "Uruguay",
+      head: "Uruguay has housed every person on its 2015 chronic-homelessness list.",
+      dek:  "A ten-year housing-first programme tracked 2,247 individuals from 2015 onward; as of last week, all but eleven (who declined) have permanent housing and a social worker. Programme cost was 0.06% of GDP.",
+      src:  "El País",
+      url:  "https://elpais.com/",
+      img:  "https://images.unsplash.com/photo-1568376794508-ae52c6ab3929?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Everyday Joy",
+      place: "Kerala, India",
+      head: "A retired librarian in Kerala has hand-bound 4,000 books for village schools.",
+      dek:  "Rajan Pillai, 71, learned the craft on YouTube during the pandemic and has not stopped. He charges nothing; the schools supply the thread; the books outlast the children who borrow them.",
+      src:  "The Hindu",
+      url:  "https://www.thehindu.com/",
+      img:  "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Quiet Kindness",
+      place: "Lisbon, Portugal",
+      head: "A Lisbon neighbourhood has shared one set of garden tools for forty years.",
+      dek:  "The shed on Rua das Flores has never been locked. The current sign-out ledger goes back to 1986; the shovel is older. New residents are handed a key and an apology that it isn't needed.",
+      src:  "Público",
+      url:  "https://www.publico.pt/",
+      img:  "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Small Wonders",
+      place: "Patagonia, Argentina",
+      head: "A pod of orcas off Patagonia has adopted a lost sea-lion pup.",
+      dek:  "Researchers at Península Valdés have watched the pup travel with the pod for eleven days — sharing fish, sleeping in the middle. Orca families occasionally fold in lost calves; this is the first time it has been seen across species in the region.",
+      src:  "National Geographic",
+      url:  "https://www.nationalgeographic.com/",
+      img:  "https://images.unsplash.com/photo-1568430462989-44163eb1752f?w=1600&q=80&auto=format&fit=crop"
     }
   ]
 };
@@ -295,7 +322,7 @@ feed.insertAdjacentHTML("beforeend", `
     <div class="scrim"></div>
     <div class="card-inner cover-inner">
       <h1 class="cover-wordmark">Upl<span class="sun"></span>ft</h1>
-      <p class="cover-tag">Three good things, every morning.</p>
+      <p class="cover-tag">Six good things, every morning.</p>
       <div class="cover-meta">Edition ${TODAY.edition} · ${TODAY.date}</div>
     </div>
   </section>
