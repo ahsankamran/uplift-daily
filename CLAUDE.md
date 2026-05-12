@@ -33,12 +33,14 @@ it to produce the next edition. You (Claude Code) are the editor.
 - **One photograph per story**, with a real photographer credit. Prefer Unsplash
   URLs with photographer attribution if no licensed image is available.
 
-## Categories (pick from these)
+## Categories (pick one of each, every day)
 
-`Nature` · `Science & Medicine` · `Community` · `Human Achievement` ·
-`Global Progress` · `Innovation`
+`Quiet Kindness` · `Small Wonders` · `Everyday Joy`
 
-Aim for variety day to day. Avoid running two Innovation stories in one day.
+Each edition is exactly one story from each of the three categories.
+**Hard no's**: politics, war, crime, sports, business/markets, anything
+contingent on prior suffering. Uplift is the opposite of news — pick
+things that simply make a reader smile.
 
 ## Files & where things live
 
