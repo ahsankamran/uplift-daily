@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write
 
 jobs:
   publish:
@@ -35,7 +36,7 @@ jobs:
           # OAuth token from a Max plan — produced by running `claude /install-github-app`
           # locally and pasting the token into this repo's Secrets as CLAUDE_CODE_OAUTH_TOKEN.
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          allowed_tools: "Bash,Read,Write,Edit,WebSearch,WebFetch"
+          claude_args: "--allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
           prompt: |
             You are the editor for the day. Read CLAUDE.md and DAILY.md
             in this repo, then produce today's edition following the
@@ -53,3 +54,4 @@ jobs:
             git commit -m "Edition (auto-push fallback) — $(date -u +%F)" || true
             git push || true
           fi
+
