@@ -373,6 +373,49 @@ html[data-mark="quiet"] .wordmark .sun { display: none; }
   margin-top: 16px;
 }
 
+/* ---------- Print ---------- */
+@media print {
+  @page { size: Letter; margin: 0.6in 0.55in; }
+  html, body { background: #fff !important; color: #111 !important; font-size: 11pt; }
+  .tweaks-panel, .nav, .masthead-utility, .signup-inline, .foot,
+  section[aria-labelledby="yesterday-h"], .today-label .note,
+  .featured-meta a, .featured a.photo[href]::after { display: none !important; }
+  a { color: inherit !important; text-decoration: none !important; }
+  .masthead { padding: 0; border-bottom: 1px solid #999; margin-bottom: 18pt; }
+  .masthead-rule { border-color: #777; }
+  .masthead-rule--thin { border-color: #bbb; }
+  .wordmark-wrap { padding: 8pt 0 6pt; }
+  .wordmark { font-size: 42pt !important; letter-spacing: 0.14em; }
+  .tagline { font-size: 10pt; margin-top: 4pt; }
+  .page { max-width: none; padding: 0; }
+  .dateline { padding: 6pt 0; margin-bottom: 14pt; font-size: 8pt; border-bottom: 1px solid #ccc; }
+  .today-label { margin-bottom: 12pt; }
+  .today-label .greeting { font-size: 16pt; }
+  .featured { display: block !important; padding-bottom: 16pt; border-bottom: 1px solid #ccc; }
+  .featured .photo { aspect-ratio: 16/7 !important; max-height: 3.2in; margin-bottom: 10pt; }
+  .featured .photo img { object-fit: cover; }
+  .featured .headline { font-size: 28pt !important; line-height: 1.05; margin: 6pt 0; }
+  .featured .dek { font-size: 12pt; line-height: 1.45; }
+  .featured .featured-text { max-width: none; }
+  .featured-meta { margin-top: 8pt; }
+  .featured-meta .byline { font-size: 8pt; color: #444; }
+  .two-up {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 22pt !important;
+    padding: 14pt 0 0 !important;
+    border-bottom: 0 !important;
+    page-break-inside: avoid;
+  }
+  .two-up .story-card .photo { aspect-ratio: 3/2 !important; max-height: 1.8in; margin-bottom: 8pt; }
+  .two-up .headline { font-size: 16pt !important; line-height: 1.15; }
+  .two-up .dek { font-size: 10.5pt; line-height: 1.4; }
+  .two-up .byline { font-size: 7.5pt; margin-top: 6pt; }
+  .kicker { font-size: 8pt; margin-bottom: 4pt; }
+  .photo--placeholder::before, .photo--placeholder::after { display: none; }
+  .photo { background: #f0ece4; }
+}
+
 /* ---------- Tweaks panel ---------- */
 .tweaks-panel {
   position: fixed;
@@ -727,7 +770,7 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
       <a href="archive.html">Archive</a>
       <a href="about.html">About</a>
       <a href="about.html#principles">Principles</a>
-      <a href="mailto:hello@uplift.daily">hello@uplift.daily</a>
+      <a href="/cdn-cgi/l/email-protection#ea828f868685aa9f9a86838c9ec48e8b838693"><span class="__cf_email__" data-cfemail="a1c9c4cdcdcee1d4d1cdc8c7d58fc5c0c8cdd8">[email&#160;protected]</span></a>
       <a href="signup.html">Subscribe</a>
     </div>
   </div>
@@ -766,7 +809,7 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   </div>
 </aside>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // Shared tweak logic for Uplift — palette + wordmark + featured layout.
 (function () {
   const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
