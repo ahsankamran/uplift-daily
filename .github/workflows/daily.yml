@@ -1,0 +1,55 @@
+name: Daily edition
+
+on:
+  schedule:
+    # 14:00 UTC = 07:00 PT (PDT). Adjust if you want a different deliver time.
+    - cron: "0 14 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node (for card rendering)
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Puppeteer (for IG cards)
+        run: |
+          npm init -y >/dev/null
+          npm install --no-save puppeteer@22
+
+      - name: Run Claude Code — produce today's edition
+        uses: anthropics/claude-code-action@v1
+        with:
+          # OAuth token from a Max plan — produced by running `claude /install-github-app`
+          # locally and pasting the token into this repo's Secrets as CLAUDE_CODE_OAUTH_TOKEN.
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_tools: "Bash,Read,Write,Edit,WebSearch,WebFetch"
+          prompt: |
+            You are the editor for the day. Read CLAUDE.md and DAILY.md
+            in this repo, then produce today's edition following the
+            instructions in DAILY.md. When done, commit and push with
+            the message "Edition NNN — YYYY-MM-DD" where NNN is the new
+            edition number. Do not skip steps. Do not invent facts —
+            only use stories you can verify via web search.
+
+      - name: Push changes (safety net if Claude didn't push)
+        run: |
+          git config user.name "uplift-bot"
+          git config user.email "bot@uplift.daily"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Edition (auto-push fallback) — $(date -u +%F)" || true
+            git push || true
+          fi
