@@ -244,69 +244,69 @@ a { color: inherit; }
 
 <!-- Bottom bar -->
 <div class="bottom">
-  <span class="date" id="bottom-date">Edition 436 · Tue, May 12, 2026</span>
+  <span class="date" id="bottom-date">Edition 438 · Wed, May 13, 2026</span>
   <span class="hint"><span class="chev">▲</span>swipe</span>
 </div>
 
 <script>
 // Data — replaced daily by the workflow.
 const TODAY = {
-  date: "Tuesday, May 12, 2026",
-  edition: 436,
+  date: "Wednesday, May 13, 2026",
+  edition: 438,
   stories: [
     {
       cat: "Nature",
-      place: "Great Barrier Reef, Australia",
-      head: "A million coral fragments are now growing on a reef that died in 2019.",
-      dek:  "A six-year restoration across forty hectares of the northern Great Barrier Reef hit its target a year early; 73% of transplanted fragments are now self-spawning. The site has been closed to tourism since 2020 and will reopen in 2027.",
-      src:  "The Guardian Australia",
-      url:  "https://www.theguardian.com/",
-      img:  "https://images.unsplash.com/photo-1546026423-cc4642628d2b?w=1600&q=80&auto=format&fit=crop"
+      place: "South Arran, Scotland",
+      head: "Scotland's first community-won marine reserve now holds twice as many species as the unprotected sea beside it.",
+      dek:  "Nearly a decade without bottom-trawling has transformed 269 km² of the Firth of Clyde: twice as many species and three times as many individual animals in the protected zone as in nearby fished seabed. Worms, sea urchins, and juvenile cod have recolonised muds scraped bare for most of the twentieth century.",
+      src:  "University of Exeter / Convex Seascape Survey",
+      url:  "https://www.exeter.ac.uk/",
+      img:  "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=1600&q=80&auto=format&fit=crop"
     },
     {
-      cat: "Global Progress",
-      place: "Mongolia",
-      head: "Mongolia has planted its billionth tree — five years early.",
-      dek:  "The Billion Trees programme, launched in 2021 to fight desertification, hit its target this month: 1.04 billion saplings counted, 64% native species, 71% three-year survival. The new goal is two billion by 2030.",
-      src:  "Reuters",
-      url:  "https://www.reuters.com/",
-      img:  "https://images.unsplash.com/photo-1473773508845-188df298d2d1?w=1600&q=80&auto=format&fit=crop"
-    },
-    {
-      cat: "Global Progress",
-      place: "Uruguay",
-      head: "Uruguay has housed every person on its 2015 chronic-homelessness list.",
-      dek:  "A ten-year housing-first programme tracked 2,247 individuals from 2015 onward; as of last week, all but eleven (who declined) have permanent housing and a social worker. Programme cost was 0.06% of GDP.",
-      src:  "El País",
-      url:  "https://elpais.com/",
-      img:  "https://images.unsplash.com/photo-1568376794508-ae52c6ab3929?w=1600&q=80&auto=format&fit=crop"
-    },
-    {
-      cat: "Everyday Joy",
-      place: "Kerala, India",
-      head: "A retired librarian in Kerala has hand-bound 4,000 books for village schools.",
-      dek:  "Rajan Pillai, 71, learned the craft on YouTube during the pandemic and has not stopped. He charges nothing; the schools supply the thread; the books outlast the children who borrow them.",
-      src:  "The Hindu",
-      url:  "https://www.thehindu.com/",
-      img:  "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1600&q=80&auto=format&fit=crop"
+      cat: "Science & Medicine",
+      place: "Global",
+      head: "A targeted drug roughly doubles survival time for the most common form of pancreatic cancer.",
+      dek:  "A Phase 3 trial of daraxonrasib, published in the New England Journal of Medicine, found median overall survival of 13.2 months versus 6.7 months for standard chemotherapy — a hazard ratio of 0.40. About 90 percent of patients achieved disease control.",
+      src:  "New England Journal of Medicine",
+      url:  "https://www.nejm.org/",
+      img:  "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=1600&q=80&auto=format&fit=crop"
     },
     {
       cat: "Quiet Kindness",
-      place: "Lisbon, Portugal",
-      head: "A Lisbon neighbourhood has shared one set of garden tools for forty years.",
-      dek:  "The shed on Rua das Flores has never been locked. The current sign-out ledger goes back to 1986; the shovel is older. New residents are handed a key and an apology that it isn't needed.",
-      src:  "Público",
-      url:  "https://www.publico.pt/",
-      img:  "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1600&q=80&auto=format&fit=crop"
+      place: "Wellington, New Zealand",
+      head: "Wellingtonians finished returning 250 kiwi to hills where none had called at night for a century.",
+      dek:  "The Capital Kiwi Project completed its final translocation after four years: 250 North Island brown kiwi, 24,000 hectares of managed habitat, 5,000 stoat traps, and a 90 percent chick survival rate. The birds are now breeding on hills empty of them since the early twentieth century.",
+      src:  "Phys.org / AP",
+      url:  "https://phys.org/",
+      img:  "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1600&q=80&auto=format&fit=crop"
     },
     {
       cat: "Small Wonders",
-      place: "Patagonia, Argentina",
-      head: "A pod of orcas off Patagonia has adopted a lost sea-lion pup.",
-      dek:  "Researchers at Península Valdés have watched the pup travel with the pod for eleven days — sharing fish, sleeping in the middle. Orca families occasionally fold in lost calves; this is the first time it has been seen across species in the region.",
-      src:  "National Geographic",
-      url:  "https://www.nationalgeographic.com/",
-      img:  "https://images.unsplash.com/photo-1568430462989-44163eb1752f?w=1600&q=80&auto=format&fit=crop"
+      place: "Knepp Estate, England",
+      head: "Larvae of a butterfly absent from Britain for a century are feeding well on Sussex hawthorn.",
+      dek:  "The black-veined white (Aporia crataegi), gone since the early 1900s, arrived at Knepp Estate in West Sussex: larvae flown from Europe have overwintered and are eating hawthorn and blackthorn normally. The Knepp Wildland Foundation, Butterfly Conservation, and ZSL are leading the reintroduction.",
+      src:  "Good News Network / Butterfly Conservation",
+      url:  "https://www.goodnewsnetwork.org/",
+      img:  "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Everyday Joy",
+      place: "Poland",
+      head: "A Polish streamer ran nine days and raised $76 million — more than triple the world record.",
+      dek:  "Piotr Hancke streamed continuously for nine days, raising $76 million for the Cancer Fighters Foundation and setting a new Guinness World Record for a fundraising livestream. Athletes, musicians, and comedians joined at intervals to keep the broadcast going.",
+      src:  "Reuters",
+      url:  "https://www.reuters.com/",
+      img:  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Global Progress",
+      place: "Greater Cape, Ghana",
+      head: "Ghana has protected its first marine reserve — 703 square kilometres of West African coastline.",
+      dek:  "The Greater Cape Marine Reserve covers 703 km² and includes no-take core zones to let overfished stocks recover. The designation benefits 21 coastal fishing communities and marks the first time Ghana has protected any of its ocean.",
+      src:  "Environmental Justice Foundation",
+      url:  "https://ejfoundation.org/",
+      img:  "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1600&q=80&auto=format&fit=crop"
     }
   ]
 };
