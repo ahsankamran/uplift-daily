@@ -244,69 +244,69 @@ a { color: inherit; }
 
 <!-- Bottom bar -->
 <div class="bottom">
-  <span class="date" id="bottom-date">Edition 439 · Thu, May 14, 2026</span>
+  <span class="date" id="bottom-date">Edition 440 · Fri, May 15, 2026</span>
   <span class="hint"><span class="chev">▲</span>swipe</span>
 </div>
 
 <script>
 // Data — replaced daily by the workflow.
 const TODAY = {
-  date: "Thursday, May 14, 2026",
-  edition: 439,
+  date: "Friday, May 15, 2026",
+  edition: 440,
   stories: [
     {
       cat: "Nature",
-      place: "Eastern Mongolia",
-      head: "Hundreds of wild asses are grazing in eastern Mongolia again after a sixty-five-year absence.",
-      dek:  "Wildlife Conservation Society researchers documented 384 khulan east of the Trans-Mongolian Railway in October 2024, four years after the species first crossed back into its historical range. Removing 1.5 km of barrier fencing and formalising a safe-passage zone allowed the herd to reclaim more than 4,000 km² of steppe. Twenty-nine individuals are now GPS-collared as the animals disperse further east.",
-      src:  "Wildlife Conservation Society / Mongabay",
-      url:  "https://news.mongabay.com/",
-      img:  "https://images.unsplash.com/photo-HDDZOfX8pLA?w=1600&q=80&auto=format&fit=crop"
-    },
-    {
-      cat: "Quiet Kindness",
-      place: "Broken Hill, Australia",
-      head: "Five hundred freshwater turtles are swimming again after an Australian community raised A$100,000 to keep their lake alive.",
-      dek:  "La Trobe University researchers found more than 500 turtles packed into a lake approaching its lowest water level in 130 years. Landcare Broken Hill launched a crowdfunding campaign that raised over A$100,000 in days, enough to truck in water until record rains arrived at the end of February. The turtles are now breeding normally.",
-      src:  "Goodgoodgood / Broken Hill Times",
-      url:  "https://www.goodgoodgood.co/",
-      img:  "https://images.unsplash.com/photo-qYNDwztlbEE?w=1600&q=80&auto=format&fit=crop"
-    },
-    {
-      cat: "Global Progress",
-      place: "Tunisia",
-      head: "Tunisia has eliminated trachoma, ending a disease that once blinded at least half its population.",
-      dek:  "The WHO validated Tunisia on 14 May as the 31st country to eliminate trachoma as a public health problem — the first neglected tropical disease eradicated there. Decades of the SAFE strategy drove prevalence below the elimination threshold. The global population requiring trachoma interventions has now fallen below 100 million for the first time.",
-      src:  "World Health Organization",
-      url:  "https://www.who.int/",
-      img:  "https://images.unsplash.com/photo-NULfCuLFTLg?w=1600&q=80&auto=format&fit=crop"
-    },
-    {
-      cat: "Small Wonders",
-      place: "Madhya Pradesh, India",
-      head: "Hard-ground barasingha are thriving in two new reserves, ending a century of existing in only one place.",
-      dek:  "Madhya Pradesh forest authorities translocated 98 swamp deer from Kanha Tiger Reserve to Satpura beginning in 2015; that cohort grew to 172 by 2023. A second group of 48 sent to Bandhavgarh has expanded to 64, ending a single-point-of-failure risk that had kept the entire subspecies in one reserve.",
-      src:  "Mongabay / IUCN Deer Specialist Group",
-      url:  "https://news.mongabay.com/",
-      img:  "https://images.unsplash.com/photo-M03OCZvYSxY?w=1600&q=80&auto=format&fit=crop"
+      place: "Laikipia, Kenya",
+      head: "Four mountain bongos from a Czech zoo have touched Kenyan soil, joining efforts to restore a species down to fewer than fifty individuals in the wild.",
+      dek:  "Four male mountain bongos raised at Safari Park Dvůr Králové in the Czech Republic landed at the Mount Kenya Wildlife Conservancy near Nanyuki in late April, where over 100 managed animals are being readied for forest release. Fewer than 50 mountain bongos survive in Kenya's wild today; the first ten were reintroduced to Mount Kenya forest in 2022. Kenya's national strategy targets 750 wild individuals by 2075.",
+      src:  "Chester Zoo / AP",
+      url:  "https://www.chesterzoo.org/",
+      img:  "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=1600&q=80&auto=format&fit=crop"
     },
     {
       cat: "Everyday Joy",
-      place: "Hanoi, Vietnam",
-      head: "Hanoi has taken the fences down from its public parks and given them back to the street.",
-      dek:  "More than 2,000 metres of iron fencing came down around Thong Nhat Park — the city's largest — completing a programme that also opened Cau Giay and Bách Thảo parks at any hour of the day. Foot traffic rose immediately; residents now pass through as part of a commute rather than making a dedicated detour.",
-      src:  "Vietnam News / The Optimist Daily",
-      url:  "https://vietnamnews.vn/",
-      img:  "https://images.unsplash.com/photo-QaKLyVqasUM?w=1600&q=80&auto=format&fit=crop"
+      place: "Nasiriyah, Iraq",
+      head: "Conservators in southern Iraq are hand-making mud bricks to restore the 4,000-year-old Ziggurat of Ur, matching the original clay chemistry one brick at a time.",
+      dek:  "A $382,000 conservation project at the Ziggurat of Ur has begun producing handmade mudbrick on-site; lead archaeologist Khadim Hassoun Honaein sampled original 2100 BCE bricks to identify their precise mineral composition. Workers source clay from soils chemically similar to ancient Ur's and shape each brick by hand — the same sequence used under the Third Dynasty of Ur. The UNESCO site had not received significant conservation attention since 1999.",
+      src:  "Good News Network / Al Jazeera",
+      url:  "https://www.goodnewsnetwork.org/",
+      img:  "https://images.unsplash.com/photo-1609766418204-94aae0ecfd22?w=1600&q=80&auto=format&fit=crop"
     },
     {
       cat: "Science & Medicine",
-      place: "Columbia, Missouri",
-      head: "Engineered algae can pull nine-tenths of microplastics out of water in under an hour.",
-      dek:  "University of Missouri researcher Susie Dai modified algae to produce limonene, which makes the algae surface hydrophobic; microplastics clump onto it and settle to the bottom, achieving 91.4 percent removal in 60 minutes. The algae also clean wastewater nutrients while growing, making the process self-sustaining in treatment conditions.",
-      src:  "ScienceDaily / Nature Communications",
-      url:  "https://www.sciencedaily.com/",
-      img:  "https://images.unsplash.com/photo-ggqRoCW6VFc?w=1600&q=80&auto=format&fit=crop"
+      place: "Global",
+      head: "An oral antiviral taken within three days of household exposure cuts the risk of developing COVID-19 by two-thirds, a Phase 3 trial found.",
+      dek:  "The SCORPIO-PEP trial, published 14 May in the New England Journal of Medicine, enrolled 2,377 household contacts: 2.9 percent given ensitrelvir developed symptoms vs. 9.0 percent given placebo. Among participants with risk factors for severe disease, relative risk reduction rose to 76 percent. Ensitrelvir — developed by Osaka-based Shionogi — has an FDA review decision scheduled for June 2026.",
+      src:  "New England Journal of Medicine",
+      url:  "https://www.nejm.org/",
+      img:  "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Global Progress",
+      place: "Global",
+      head: "New HIV infections have fallen 40 percent worldwide since 2010, with the African region recording a 70 percent drop in AIDS-related deaths since the 2005 peak.",
+      dek:  "The World Health Statistics 2026 report, published 13 May by the WHO, documents a 40 percent global reduction in new HIV infections over fifteen years; South Africa's annual AIDS-related death toll dropped from roughly 280,000 in 2005 to 53,000 in 2024. The same report found 567 million more people globally now covered by essential health services without catastrophic spending.",
+      src:  "World Health Organization",
+      url:  "https://www.who.int/",
+      img:  "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Small Wonders",
+      place: "Valdivia, Chile",
+      head: "A 3.5 mm wasp that spent 40 years unsorted in a museum drawer turned out to be an entirely new genus — named after David Attenborough on his 100th birthday.",
+      dek:  "A parasitic wasp collected in Chile's Valdivia province in 1983 was identified by Natural History Museum volunteer Augustijn De Ketelaere as belonging outside any known genus, distinguished by a T-shaped abdominal marking and toothlike ovipositor structures. Named Attenboroughnculus tau in Zootaxa on 8 May, Attenborough replied with a handwritten note of appreciation. The species joins only three other known members of the Darwin wasp subfamily Pedunculinae.",
+      src:  "Natural History Museum / CNN",
+      url:  "https://www.nhm.ac.uk/",
+      img:  "https://images.unsplash.com/photo-1589802829985-817e51171b92?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Quiet Kindness",
+      place: "Moncton, Canada",
+      head: "A retired gym teacher in Moncton has spent 14 years collecting and repairing donated bicycles so no child who cannot afford one goes without.",
+      dek:  "Krista Richard runs \"Bikes and Trikes for Everyone\" in Moncton, New Brunswick, distributing free bicycles on Sunday mornings from April to October; she gave away 88 in a single day last season from a waiting list of roughly 400 children. She and a small team collect donations year-round and repair each bike by hand before passing it on. This spring she expanded the programme to include adult bicycles so parents can ride alongside their children.",
+      src:  "CBC News / Good News Network",
+      url:  "https://www.cbc.ca/",
+      img:  "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=1600&q=80&auto=format&fit=crop"
     }
   ]
 };

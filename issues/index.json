@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-15",
+    "slug": "2026-05-15",
+    "edition": 440,
+    "headlines": [
+      "Four mountain bongos from a Czech zoo have touched Kenyan soil, joining efforts to restore a species down to fewer than fifty individuals in the wild.",
+      "Conservators in southern Iraq are hand-making mud bricks to restore the 4,000-year-old Ziggurat of Ur, matching the original clay chemistry one brick at a time.",
+      "An oral antiviral taken within three days of household exposure cuts the risk of developing COVID-19 by two-thirds, a Phase 3 trial found.",
+      "New HIV infections have fallen 40 percent worldwide since 2010, with the African region recording a 70 percent drop in AIDS-related deaths since the 2005 peak.",
+      "A 3.5 mm wasp that spent 40 years unsorted in a museum drawer turned out to be an entirely new genus — named after David Attenborough on his 100th birthday.",
+      "A retired gym teacher in Moncton has spent 14 years collecting and repairing donated bicycles so no child who cannot afford one goes without."
+    ],
+    "sources": ["Chester Zoo / AP", "Good News Network / Al Jazeera", "New England Journal of Medicine", "World Health Organization", "Natural History Museum / CNN", "CBC News / Good News Network"]
+  },
+  {
     "date": "2026-05-14",
     "slug": "2026-05-14",
     "edition": 439,
