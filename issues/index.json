@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-19",
+    "slug": "2026-05-19",
+    "edition": 444,
+    "headlines": [
+      "On Global Big Day 2026, birders across 203 countries recorded 8,023 species in a single day — the first time the annual tally has broken the 8,000-species threshold.",
+      "Edinburgh's library service gifted 150 prisoners hand-wrapped books in a Secret Santa scheme that cost £20 and helped earn the city's libraries the UK's Library of the Year award.",
+      "Thirty adults with high-risk blood cancer received CRISPR-edited stem cell transplants in the first human trial to safely combine gene editing with antibody therapy — and all thirty achieved full engraftment.",
+      "Zoos on four continents competed to film tree kangaroos crunching loudly — and a week of videos drew millions of views while raising awareness of a rain-forest marsupial under pressure.",
+      "A daily direct train between Prague and Copenhagen runs again for the first time in over a decade, crossing four countries through central Europe's finest landscapes in twelve hours.",
+      "The World Health Organization formally recognised Portugal and the United Arab Emirates for eliminating industrially produced trans fats — a dietary change estimated to prevent hundreds of thousands of deaths each year."
+    ],
+    "sources": ["Cornell Lab of Ornithology / eBird", "The Reading Agency / British Book Awards", "Nature Medicine / WashU Medicine", "AZA SAFE Tree Kangaroo / Popular Science", "Euronews Travel / RailTech.com", "WHO / World Health Assembly, Geneva"]
+  },
+  {
     "date": "2026-05-18",
     "slug": "2026-05-18",
     "edition": 443,
