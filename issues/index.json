@@ -2,6 +2,27 @@
   {
     "date": "2026-05-21",
     "slug": "2026-05-21",
+    "edition": 447,
+    "headlines": [
+      "Tail photographs confirm two humpback whales crossed the Pacific between Australia and Brazil, setting the longest individual migration distances ever recorded for the species.",
+      "Taiwan Travelogue, set in Japanese-occupied Taiwan in 1938, becomes the first novel translated from Mandarin Chinese to win the International Booker Prize.",
+      "A nanometre-scale imaging technique maps the sugar coating on human cell surfaces and can distinguish healthy tissue from cancerous tissue by molecular pattern alone.",
+      "A village leader in Gujarat has spent three years making one-minute videos explaining welfare schemes, so that neighbours who qualify can actually claim what they are owed.",
+      "A nine-year conservation partnership in Indonesia's Kei Islands has cut leatherback turtle poaching by 85 percent on the beaches where the species nests.",
+      "Burundi has eliminated trachoma as a public health problem, capping twenty years of community-wide antibiotic campaigns in one of central Africa's most densely populated nations."
+    ],
+    "sources": [
+      "Griffith University / Royal Society Open Science",
+      "The Booker Prizes",
+      "Max Planck Institute / Nature Nanotechnology",
+      "Reasons to Be Cheerful",
+      "NOAA Fisheries / WWF Indonesia",
+      "WHO / 79th World Health Assembly"
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "slug": "2026-05-21",
     "edition": 446,
     "headlines": [
       "Vivid Sydney 2026 opens on Friday for twenty-three nights of free light installations along the harbour, and for the first time in the festival's sixteen-year history extends the programme into daylight hours.",
@@ -11,7 +32,14 @@
       "Thirteen youth-led pollinator conservation projects have been selected across Europe with EU funding and IUCN oversight, from biodiversity gardens in Romania to wet-meadow restoration for an endangered Spanish butterfly.",
       "In two of Zimbabwe's most remote districts, community health workers known as 'vaccine cyclists' have immunised 22,000 girls against cervical cancer by riding bicycles from homestead to homestead."
     ],
-    "sources": ["Vivid Sydney / NSW Government", "MIT / Nature", "WHO / World Health Assembly, Geneva", "Queensland Herbarium / ScienceDaily", "IUCN / European Fund for Youth Action on Pollinators", "Gavi / World Bicycle Relief"]
+    "sources": [
+      "Vivid Sydney / NSW Government",
+      "MIT / Nature",
+      "WHO / World Health Assembly, Geneva",
+      "Queensland Herbarium / ScienceDaily",
+      "IUCN / European Fund for Youth Action on Pollinators",
+      "Gavi / World Bicycle Relief"
+    ]
   },
   {
     "date": "2026-05-20",
@@ -25,7 +53,14 @@
       "Thirteen rescued Asian giant tortoises at a Nagaland zoo have produced 114 captive-bred offspring — roughly half the estimated wild population remaining across all of Asia.",
       "A woman in Bradford crocheted and delivered more than 100 baby blankets to the maternity ward of the hospital that saved her sight — arriving in person with the hundredth."
     ],
-    "sources": ["European Tree of the Year / Good News Network", "WHO / World Health Assembly, Geneva", "Karolinska Institutet / Journal of Cachexia, Sarcopenia and Muscle", "Fundación Dinópolis / Vertebrate Zoology", "The Revelator / Good News Network", "Sunny Skyz"]
+    "sources": [
+      "European Tree of the Year / Good News Network",
+      "WHO / World Health Assembly, Geneva",
+      "Karolinska Institutet / Journal of Cachexia, Sarcopenia and Muscle",
+      "Fundación Dinópolis / Vertebrate Zoology",
+      "The Revelator / Good News Network",
+      "Sunny Skyz"
+    ]
   },
   {
     "date": "2026-05-19",
@@ -39,7 +74,14 @@
       "A daily direct train between Prague and Copenhagen runs again for the first time in over a decade, crossing four countries through central Europe's finest landscapes in twelve hours.",
       "The World Health Organization formally recognised Portugal and the United Arab Emirates for eliminating industrially produced trans fats — a dietary change estimated to prevent hundreds of thousands of deaths each year."
     ],
-    "sources": ["Cornell Lab of Ornithology / eBird", "The Reading Agency / British Book Awards", "Nature Medicine / WashU Medicine", "AZA SAFE Tree Kangaroo / Popular Science", "Euronews Travel / RailTech.com", "WHO / World Health Assembly, Geneva"]
+    "sources": [
+      "Cornell Lab of Ornithology / eBird",
+      "The Reading Agency / British Book Awards",
+      "Nature Medicine / WashU Medicine",
+      "AZA SAFE Tree Kangaroo / Popular Science",
+      "Euronews Travel / RailTech.com",
+      "WHO / World Health Assembly, Geneva"
+    ]
   },
   {
     "date": "2026-05-18",
@@ -53,7 +95,14 @@
       "Japan's Hobby Show celebrates its 50th year at Tokyo Big Sight, drawing 120,000 visitors over three May days to a festival devoted to making things by hand.",
       "A retired advertising executive in Mumbai carries a blank canvas into public squares and invites strangers to paint on it — free of charge, free of instruction, and free of the possibility of getting it wrong."
     ],
-    "sources": ["Times of Central Asia / Qazinform", "UCL / ScienceDaily", "pv magazine International", "Curtin University / Environmental DNA", "MICE Times / Metropolis Japan", "The Better India"]
+    "sources": [
+      "Times of Central Asia / Qazinform",
+      "UCL / ScienceDaily",
+      "pv magazine International",
+      "Curtin University / Environmental DNA",
+      "MICE Times / Metropolis Japan",
+      "The Better India"
+    ]
   },
   {
     "date": "2026-05-17",
@@ -67,7 +116,14 @@
       "New Zealand's rangers tunnelled through the back wall of a clifftop nest to rescue a kākāpō chick perched above a 60-metre drop, lifting the 2026 season's record total to 106 hatchings.",
       "An SPCA inspector bound for an animal rescue in South Africa's Vaal region found her vehicle trapped in deep mud — and a stranger named Sean arrived with a tractor before she could ask."
     ],
-    "sources": ["Comune di Venezia / Venice Insider Guide", "The Lancet / World Health Organization", "Nature / McGill University", "ClientEarth / Undercurrent News", "RNZ / Department of Conservation", "Vaalweekblad, South Africa"]
+    "sources": [
+      "Comune di Venezia / Venice Insider Guide",
+      "The Lancet / World Health Organization",
+      "Nature / McGill University",
+      "ClientEarth / Undercurrent News",
+      "RNZ / Department of Conservation",
+      "Vaalweekblad, South Africa"
+    ]
   },
   {
     "date": "2026-05-16",
@@ -81,7 +137,14 @@
       "The veins of a common houseplant trace a Voronoi diagram — the geometry mathematicians use to divide a plane — produced entirely by plant hormones, with no measuring and no plan.",
       "A Phase 2 trial in Nigeria finds favipiravir safe in Lassa fever patients, establishing the dosing rationale for a full efficacy study now under way."
     ],
-    "sources": ["Japan Guide / Fuji Motosuko Resort", "Press Information Bureau, India", "NOAA Fisheries / New England Aquarium", "Saskatoon Makerspace / CKOM Radio", "Nature Communications", "Nature Medicine / Bernhard Nocht Institute"]
+    "sources": [
+      "Japan Guide / Fuji Motosuko Resort",
+      "Press Information Bureau, India",
+      "NOAA Fisheries / New England Aquarium",
+      "Saskatoon Makerspace / CKOM Radio",
+      "Nature Communications",
+      "Nature Medicine / Bernhard Nocht Institute"
+    ]
   },
   {
     "date": "2026-05-15",
@@ -95,7 +158,14 @@
       "A 3.5 mm wasp that spent 40 years unsorted in a museum drawer turned out to be an entirely new genus — named after David Attenborough on his 100th birthday.",
       "A retired gym teacher in Moncton has spent 14 years collecting and repairing donated bicycles so no child who cannot afford one goes without."
     ],
-    "sources": ["Chester Zoo / AP", "Good News Network / Al Jazeera", "New England Journal of Medicine", "World Health Organization", "Natural History Museum / CNN", "CBC News / Good News Network"]
+    "sources": [
+      "Chester Zoo / AP",
+      "Good News Network / Al Jazeera",
+      "New England Journal of Medicine",
+      "World Health Organization",
+      "Natural History Museum / CNN",
+      "CBC News / Good News Network"
+    ]
   },
   {
     "date": "2026-05-14",
@@ -109,7 +179,14 @@
       "Hanoi has taken the fences down from its public parks and given them back to the street.",
       "Engineered algae can pull nine-tenths of microplastics out of water in under an hour."
     ],
-    "sources": ["Wildlife Conservation Society / Mongabay", "Goodgoodgood / Broken Hill Times", "World Health Organization", "Mongabay / IUCN Deer Specialist Group", "Vietnam News / The Optimist Daily", "ScienceDaily / Nature Communications"]
+    "sources": [
+      "Wildlife Conservation Society / Mongabay",
+      "Goodgoodgood / Broken Hill Times",
+      "World Health Organization",
+      "Mongabay / IUCN Deer Specialist Group",
+      "Vietnam News / The Optimist Daily",
+      "ScienceDaily / Nature Communications"
+    ]
   },
   {
     "date": "2026-05-13",
@@ -123,7 +200,14 @@
       "A Polish streamer ran nine days and raised $76 million — more than triple the world record.",
       "Ghana has protected its first marine reserve — 703 square kilometres of West African coastline."
     ],
-    "sources": ["University of Exeter / Convex Seascape Survey", "New England Journal of Medicine", "Phys.org / AP", "Good News Network / Butterfly Conservation", "Reuters", "Environmental Justice Foundation"]
+    "sources": [
+      "University of Exeter / Convex Seascape Survey",
+      "New England Journal of Medicine",
+      "Phys.org / AP",
+      "Good News Network / Butterfly Conservation",
+      "Reuters",
+      "Environmental Justice Foundation"
+    ]
   },
   {
     "date": "2026-05-12",
@@ -134,6 +218,10 @@
       "An 800-year-old sequence of eight movements lowers blood pressure as well as a first-line drug.",
       "A stainless steel built for seawater could cut the main material cost of green hydrogen forty times."
     ],
-    "sources": ["Mongabay", "JACC / ScienceDaily", "ScienceDaily / University of Hong Kong"]
+    "sources": [
+      "Mongabay",
+      "JACC / ScienceDaily",
+      "ScienceDaily / University of Hong Kong"
+    ]
   }
 ]
