@@ -46,14 +46,30 @@ async function loadIssue() {
   if (!match) throw new Error(`No issue found for ${dateArg}`);
 
   const storiesRaw =
-    pick(match, ["stories", "items", "headlines", "entries"]) || [];
-  const stories = storiesRaw.slice(0, 6).map((s) => ({
-    cat: pick(s, ["cat", "category"]) || "",
-    place: pick(s, ["place", "location", "where"]) || "",
-    head: pick(s, ["head", "headline", "title", "head"]) || "",
-    src: pick(s, ["src", "source", "publication"]) || "",
-    img: pick(s, ["img", "image", "photo"]) || "",
-  }));
+    pick(match, ["stories", "items", "entries"]) || null;
+
+  let stories;
+  if (storiesRaw && Array.isArray(storiesRaw) && typeof storiesRaw[0] === "object") {
+    // Structured format: [{cat, place, head, src, img}, ...]
+    stories = storiesRaw.slice(0, 6).map((s) => ({
+      cat: pick(s, ["cat", "category"]) || "",
+      place: pick(s, ["place", "location", "where"]) || "",
+      head: pick(s, ["head", "headline", "title"]) || "",
+      src: pick(s, ["src", "source", "publication"]) || "",
+      img: pick(s, ["img", "image", "photo"]) || "",
+    }));
+  } else {
+    // Flat format fallback: separate headlines[] + sources[] arrays
+    const heads = match.headlines || [];
+    const srcs = match.sources || [];
+    stories = heads.slice(0, 6).map((h, i) => ({
+      cat: "",
+      place: "",
+      head: h || "",
+      src: srcs[i] || "",
+      img: "",
+    }));
+  }
   return {
     date: match.date || dateArg,
     number: match.number || match.edition || match.no || "",

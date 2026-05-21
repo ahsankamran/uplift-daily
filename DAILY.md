@@ -6,7 +6,11 @@ the previous issue's number + 1 (look at `issues/index.json`).
 ## Step 1 — Find six stories
 
 Use web search. Find six stories that will make a reader genuinely
-**smile** — published in the last 7 days, one from each category:
+**smile** — published in the last 7 days, one from each category.
+For each story, find the **exact article URL** (not a homepage or
+section page). Every `url` field in `index.json` and every `href` in
+`index.html` must link to the specific article, not the publication root.
+Categories:
 
 1. **Quiet Kindness** — small acts of generosity between strangers,
    neighbours helping neighbours, communities looking after their own.
@@ -75,7 +79,27 @@ the dateline. Layout:
 
 Also update:
 - `feed.html` — `STORIES_TODAY` array near the top; replace its six entries
-- `issues/index.json` — prepend the new entry (six headlines/sources)
+- `issues/index.json` — prepend the new entry using **exactly** this shape:
+  ```json
+  {
+    "date": "YYYY-MM-DD",
+    "slug": "YYYY-MM-DD",
+    "edition": NNN,
+    "stories": [
+      {
+        "cat": "Category Name",
+        "place": "City, Country",
+        "head": "Headline sentence ending with a period.",
+        "src": "Publication Name",
+        "url": "https://exact-article-url",
+        "img": "https://images.unsplash.com/photo-ID?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  }
+  ```
+  The `stories` array must have exactly 6 objects, one per category.
+  Do NOT use flat `headlines`/`sources` arrays — the card renderer needs
+  structured `stories` objects.
 - `archive.html` — prepend six new entries to the `STORIES` array
 - `issues/YYYY-MM-DD.html` — write a standalone copy of today's edition
 

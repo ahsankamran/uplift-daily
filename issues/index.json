@@ -192,21 +192,55 @@
     "date": "2026-05-21",
     "slug": "2026-05-21",
     "edition": 447,
-    "headlines": [
-      "Tail photographs confirm two humpback whales crossed the Pacific between Australia and Brazil, setting the longest individual migration distances ever recorded for the species.",
-      "Taiwan Travelogue, set in Japanese-occupied Taiwan in 1938, becomes the first novel translated from Mandarin Chinese to win the International Booker Prize.",
-      "A nanometre-scale imaging technique maps the sugar coating on human cell surfaces and can distinguish healthy tissue from cancerous tissue by molecular pattern alone.",
-      "A village leader in Gujarat has spent three years making one-minute videos explaining welfare schemes, so that neighbours who qualify can actually claim what they are owed.",
-      "A nine-year conservation partnership in Indonesia's Kei Islands has cut leatherback turtle poaching by 85 percent on the beaches where the species nests.",
-      "Burundi has eliminated trachoma as a public health problem, capping twenty years of community-wide antibiotic campaigns in one of central Africa's most densely populated nations."
-    ],
-    "sources": [
-      "Griffith University / Royal Society Open Science",
-      "The Booker Prizes",
-      "Max Planck Institute / Nature Nanotechnology",
-      "Reasons to Be Cheerful",
-      "NOAA Fisheries / WWF Indonesia",
-      "WHO / 79th World Health Assembly"
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Hervey Bay, Australia",
+        "head": "Tail photographs confirm two humpback whales crossed the Pacific between Australia and Brazil, setting the longest individual migration distances ever recorded for the species.",
+        "src": "Griffith University / Royal Society Open Science",
+        "url": "https://news.griffith.edu.au/2026/05/20/intrepid-tails-fluke-photos-confirm-humpback-whales-mount-14000km-ocean-crossing-to-breeding-grounds/",
+        "img": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Taipei, Taiwan",
+        "head": "Taiwan Travelogue, set in Japanese-occupied Taiwan in 1938, becomes the first novel translated from Mandarin Chinese to win the International Booker Prize.",
+        "src": "The Booker Prizes",
+        "url": "https://thebookerprizes.com/the-booker-library/prize-years/international/2026",
+        "img": "https://images.unsplash.com/photo-1519638831568-d9897f54ed69?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Erlangen, Germany",
+        "head": "A nanometre-scale imaging technique maps the sugar coating on human cell surfaces and can distinguish healthy tissue from cancerous tissue by molecular pattern alone.",
+        "src": "Max Planck Institute / Nature Nanotechnology",
+        "url": "https://www.sciencedaily.com/releases/2026/05/260517211431.htm",
+        "img": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Tapi district, Gujarat, India",
+        "head": "A village leader in Gujarat has spent three years making one-minute videos explaining welfare schemes, so that neighbours who qualify can actually claim what they are owed.",
+        "src": "Reasons to Be Cheerful",
+        "url": "https://reasonstobecheerful.world/indian-village-leader-viral-explainer-videos",
+        "img": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Kei Islands, Indonesia",
+        "head": "A nine-year conservation partnership in Indonesia's Kei Islands has cut leatherback turtle poaching by 85 percent on the beaches where the species nests.",
+        "src": "NOAA Fisheries / WWF Indonesia",
+        "url": "https://www.fisheries.noaa.gov/feature-story/recovering-endangered-indo-pacific-leatherback-turtles",
+        "img": "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Bujumbura, Burundi",
+        "head": "Burundi has eliminated trachoma as a public health problem, capping twenty years of community-wide antibiotic campaigns in one of central Africa's most densely populated nations.",
+        "src": "WHO / 79th World Health Assembly",
+        "url": "https://www.who.int/news/item/19-05-2026-seventy-ninth-world-health-assembly---daily-update--19-may-2026",
+        "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&q=80&auto=format&fit=crop"
+      }
     ]
   },
   {

@@ -590,6 +590,14 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   html[data-featured="broadsheet"] .featured { grid-template-columns: 1fr; }
   .dateline { flex-direction: column; gap: 4px; align-items: flex-start; }
   .dateline .weather { gap: 14px; }
+  .today-label { flex-wrap: wrap; }
+  .featured .dek,
+  .story-card .dek {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+  }
 }
 </style>
 </head>
