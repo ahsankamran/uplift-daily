@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-21",
+    "slug": "2026-05-21",
+    "edition": 446,
+    "headlines": [
+      "Vivid Sydney 2026 opens on Friday for twenty-three nights of free light installations along the harbour, and for the first time in the festival's sixteen-year history extends the programme into daylight hours.",
+      "MIT scientists find that cysteine — an amino acid in eggs, meat, dairy, and pulses — activates an immune pathway that regenerates the intestinal lining, opening a new direction for cancer patients recovering from radiotherapy.",
+      "At the 79th World Health Assembly, WHO certified ten countries for eliminating mother-to-child transmission of HIV, syphilis, or hepatitis B — with Denmark as the first EU member state, and the Maldives the first country to clear all three diseases at once.",
+      "A plant thought extinct since 1967 has reappeared in the Queensland outback, identified from a photograph uploaded to iNaturalist by a bird bander who noticed something unfamiliar growing between the baobabs.",
+      "Thirteen youth-led pollinator conservation projects have been selected across Europe with EU funding and IUCN oversight, from biodiversity gardens in Romania to wet-meadow restoration for an endangered Spanish butterfly.",
+      "In two of Zimbabwe's most remote districts, community health workers known as 'vaccine cyclists' have immunised 22,000 girls against cervical cancer by riding bicycles from homestead to homestead."
+    ],
+    "sources": ["Vivid Sydney / NSW Government", "MIT / Nature", "WHO / World Health Assembly, Geneva", "Queensland Herbarium / ScienceDaily", "IUCN / European Fund for Youth Action on Pollinators", "Gavi / World Bicycle Relief"]
+  },
+  {
     "date": "2026-05-20",
     "slug": "2026-05-20",
     "edition": 445,
