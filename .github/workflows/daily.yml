@@ -45,13 +45,18 @@ jobs:
             edition number. Do not skip steps. Do not invent facts —
             only use stories you can verify via web search.
 
-      - name: Push changes (safety net if Claude didn't push)
+      - name: Pull Claude's commit before rendering cards
+        run: git pull --rebase || true
+
+      - name: Render Instagram cards (PNG + caption)
+        run: node scripts/render-cards.mjs || echo "Card rendering failed (non-fatal)"
+
+      - name: Commit cards + safety-net push
         run: |
           git config user.name "uplift-bot"
           git config user.email "bot@uplift.daily"
           git add -A
           if ! git diff --cached --quiet; then
-            git commit -m "Edition (auto-push fallback) — $(date -u +%F)" || true
+            git commit -m "Cards + fallback — $(date -u +%F)" || true
             git push || true
           fi
-
