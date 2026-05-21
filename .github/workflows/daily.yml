@@ -33,8 +33,6 @@ jobs:
       - name: Run Claude Code — produce today's edition
         uses: anthropics/claude-code-action@v1
         with:
-          # OAuth token from a Max plan — produced by running `claude /install-github-app`
-          # locally and pasting the token into this repo's Secrets as CLAUDE_CODE_OAUTH_TOKEN.
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           claude_args: "--allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
           prompt: |
@@ -51,12 +49,13 @@ jobs:
       - name: Render Instagram cards (PNG + caption)
         run: node scripts/render-cards.mjs || echo "Card rendering failed (non-fatal)"
 
-      - name: Commit cards + safety-net push
+      - name: Commit cards (only — never node_modules)
         run: |
           git config user.name "uplift-bot"
           git config user.email "bot@uplift.daily"
-          git add -A
+          # Only commit the cards folder. NEVER add node_modules or build junk.
+          git add cards/ || true
           if ! git diff --cached --quiet; then
-            git commit -m "Cards + fallback — $(date -u +%F)" || true
+            git commit -m "Cards — $(date -u +%F)" || true
             git push || true
           fi
