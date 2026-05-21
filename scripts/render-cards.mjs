@@ -34,9 +34,9 @@ function pick(obj, keys) {
 async function loadIssue() {
   const raw = await fs.readFile(path.join(ROOT, "issues/index.json"), "utf8");
   const parsed = JSON.parse(raw);
-  let list =
-    pick(parsed, ["issues", "entries", "editions", "items"]) ||
-    (Array.isArray(parsed) ? parsed : null);
+  let list = Array.isArray(parsed)
+    ? parsed
+    : pick(parsed, ["issues", "entries", "editions", "items"]) || null;
   if (!list) throw new Error("Cannot find issue list in issues/index.json");
 
   // Sort so newest is first (defensive — manifest may or may not already be ordered)
@@ -139,5 +139,6 @@ async function main() {
 
 main().catch((err) => {
   console.error("Card render failed:", err.message);
+  console.error(err.stack);
   process.exit(1);
 });
