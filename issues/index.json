@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-06-01",
+    "slug": "2026-06-01",
+    "edition": 458,
+    "headlines": [
+      "Brazil's Amazon lost less forest in 2025 than in any year since monitoring began — and deforestation across all Brazilian biomes fell 20.6 percent, a record low.",
+      "DNA taken from 200-year-old museum specimens has solved a 250-year puzzle: the crocodiles of the Seychelles swam at least 3,000 kilometres across the open Indian Ocean to get there.",
+      "More than fifty Cotswolds farmers have pooled 3,000 hectares of land to let their shared rivers run free again — and three catchments are measurably cleaner after two years of work on the ground.",
+      "England's first Dutch-style 'cycle street' has opened in Cambridge, where 3,000 cyclists a day now have legal right of way over cars on a road redesigned around bikes.",
+      "A study of 268 people aged 8 to 34 finds that rhythmic musical training — not melody or ear training — is what sharpens sustained attention at every stage of development.",
+      "Global teenage birth rates have fallen by more than 40 percent since 2000, with every major world region now below its year-2000 figure and Central and South Asia recording a decline of more than three-quarters."
+    ],
+    "sources": [
+      "MapBiomas / AFP / Phys.org",
+      "Bavarian State Collections of Natural History, Germany / Royal Society Open Science",
+      "Evenlode Landscape Recovery Project / Water Magazine",
+      "Cycling Weekly / road.cc / Greater Cambridge Partnership",
+      "University of Granada / Communications Psychology (Nature)",
+      "Our World in Data / United Nations"
+    ]
+  },
+  {
     "date": "2026-05-31",
     "slug": "2026-05-31",
     "edition": 457,
