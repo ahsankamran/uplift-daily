@@ -590,14 +590,6 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   html[data-featured="broadsheet"] .featured { grid-template-columns: 1fr; }
   .dateline { flex-direction: column; gap: 4px; align-items: flex-start; }
   .dateline .weather { gap: 14px; }
-  .today-label { flex-wrap: wrap; }
-  .featured .dek,
-  .story-card .dek {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 6;
-    overflow: hidden;
-  }
 }
 </style>
 </head>
@@ -608,8 +600,8 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   <div class="masthead-inner">
     <div class="masthead-utility">
       <div class="issue">
-        <span>Saturday, June&nbsp;6, 2026</span>
-        <span>No.&nbsp;463</span>
+        <span>Thursday, June&nbsp;4, 2026</span>
+        <span>No.&nbsp;461</span>
       </div>
       <div><a href="signup.html">Subscribe →</a></div>
     </div>
@@ -638,8 +630,8 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   <div class="dateline">
     <div class="date-main">Issued daily at dawn, wherever you are reading.</div>
     <div class="weather">
-      <span>Filed from 4 continents today</span>
-      <span>Edition 463</span>
+      <span>Filed from 2 continents today</span>
+      <span>Edition 461</span>
     </div>
   </div>
 
@@ -647,26 +639,26 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   <section aria-labelledby="today-h">
     <div class="today-label">
       <h2 id="today-h" class="greeting">Today, <em>six good things.</em></h2>
-      <span class="note">4 min read · 900 words</span>
+      <span class="note">5 min read · 1,060 words</span>
     </div>
 
     <!-- Featured / lead -->
     <article class="featured">
-      <a class="photo" href="story.html" aria-label="Read: A bird species recorded just once in over a century was found alive on a remote Indonesian volcano — the blue-fronted lorikeet, rediscovered on Buru Island">
+      <a class="photo" href="story.html" aria-label="Read: Critically endangered black rhinos have returned to Zimbabwe's Matusadona National Park — for the first time in thirty years — as Zimbabwe's national count crosses 1,000 rhinos for the first time since the early 1990s">
         <img
-          src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=1600&q=80&auto=format&fit=crop"
-          alt="A small, brilliantly coloured lorikeet perches among the leaves of a flowering tree in dense tropical cloud forest, its vivid plumage catching a shaft of light filtering through the canopy"
+          src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=1600&q=80&auto=format&fit=crop"
+          alt="A black rhinoceros walks slowly through dry savanna scrub, its silhouette framed against a wide African sky at the end of the day"
           loading="eager"
-          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Buru Island, Indonesia — BirdLife International / American Bird Conservancy, June 2026'); this.remove();" />
+          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Matusadona National Park, Lake Kariba, Zimbabwe — African Parks / Zimbabwe Parks and Wildlife Management Authority, June 2026'); this.remove();" />
       </a>
       <div class="featured-text">
-        <span class="kicker">Small Wonders · Buru Island, Indonesia</span>
-        <h2 class="headline"><a href="story.html">A bird species recorded just once in over a century was found alive on a remote Indonesian volcano — the blue-fronted lorikeet, rediscovered by an expedition that had to climb to 8,900 feet to find it.</a></h2>
-        <p class="dek">A blue-fronted lorikeet — listed as a "lost species" since the early twentieth century and not reliably documented in over a hundred years — was photographed and recorded on Mount Kapalatmada on Buru Island, Indonesia, in April 2026. An expedition by the American Bird Conservancy, Birdtour Asia, and Yayasan Planet Indonesia trekked through unexplored montane cloud forest to 8,900 feet, found at least nine individuals darting between flowering trees, and captured the species' calls on tape for the first time on record. BirdLife International published the findings on June 3, 2026, confirming the lorikeet's survival in the high-altitude isolation that had kept it hidden from science for more than a century.</p>
+        <span class="kicker">Nature · Matusadona, Zimbabwe</span>
+        <h2 class="headline"><a href="story.html">Critically endangered black rhinos have returned to Zimbabwe's Matusadona National Park — for the first time in thirty years — as Zimbabwe's national count crosses 1,000 rhinos for the first time since the early 1990s.</a></h2>
+        <p class="dek">Critically endangered black rhinos were reintroduced to the shores of Lake Kariba at Matusadona National Park on June 3, returning to a landscape from which poaching had eliminated every last rhino by the early 1990s — the animals are direct descendants of individuals rescued from the Sebungwe region in the late 1980s before the local population collapsed entirely. The reintroduction, led by Zimbabwe Parks and Wildlife Management Authority and African Parks, releases the animals in phases into a new 175-square-kilometre Intensive Protection Zone where rangers will monitor each individual as the population establishes. Zimbabwe's national count now stands at 1,033 rhinos — 616 black and 417 white — the first time the country has recorded more than 1,000 in over three decades, built through sustained anti-poaching patrols, community partnerships, and coordinated breeding across its network of reserves.</p>
         <div class="featured-meta">
           <div class="byline">
-            Reported by <strong style="font-weight:500">BirdLife International / American Bird Conservancy</strong>
-            <span class="dot">·</span> Photograph by Zdeněk Macháček
+            Reported by <strong style="font-weight:500">Newsday Zimbabwe / African Parks / News24</strong>
+            <span class="dot">·</span> Photograph by Wolfgang Hasselmann
           </div>
           <a href="story.html" style="font-family:var(--sans); font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-deep); text-decoration:none;">Read the story →</a>
         </div>
@@ -676,36 +668,36 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
     <!-- Two secondary -->
     <div class="two-up">
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: New Zealand gazetted five new marine reserves along the Otago coast — adding 308 square kilometres of protected ocean and increasing mainland coverage by nearly half — to be co-managed with Kāi Tahu rangers starting July 1">
+        <a class="photo" href="story.html" aria-label="Read: Gut bacteria present in a baby's first year can neutralise an inherited risk of autism spectrum disorder and ADHD, a study tracking infants from birth to age three finds">
           <img
-            src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=1200&q=80&auto=format&fit=crop"
-            alt="Long golden-brown kelp fronds rise through cold, clear green water off the New Zealand coast, shafts of sunlight filtering down from the surface through the underwater forest"
+            src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&q=80&auto=format&fit=crop"
+            alt="A researcher in a white lab coat examines a small vial under laboratory lighting, rows of specimen tubes arranged on the bench beside her"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Otago coast, New Zealand — NZ Department of Conservation, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','The Chinese University of Hong Kong — ScienceDaily / Technology Networks, June 2026'); this.remove();" />
         </a>
-        <span class="kicker">Nature · Otago coast, New Zealand</span>
-        <h3 class="headline"><a href="story.html">New Zealand gazetted five new marine reserves along the Otago coast — adding 308 square kilometres of protected ocean and increasing mainland coverage by nearly half — to be co-managed with Kāi Tahu rangers starting July 1.</a></h3>
-        <p class="dek">The five reserves, gazetted on June 2, 2026, protect giant kelp forests, rocky reefs, deep offshore canyons, yellow-eyed penguins, and New Zealand sea lions along a stretch of the South Island coast without full protection for over a decade. The network has been renamed Te Au Roa o Te Rakihouia in honour of Kāi Tahu ancestral voyagers who navigated these waters; under a first-of-its-kind arrangement for New Zealand marine reserves, the Department of Conservation and Kāi Tahu rangers will manage them jointly from day to day. At 308 square kilometres, the reserves increase mainland New Zealand's total protected marine area by nearly 50 percent in a single decision, with the reserves entering legal force on 1 July 2026.</p>
+        <span class="kicker">Science &amp; Medicine · The Chinese University of Hong Kong</span>
+        <h3 class="headline"><a href="story.html">Gut bacteria present in a baby's first year can neutralise an inherited risk of autism spectrum disorder and ADHD, a study tracking infants from birth to age three finds.</a></h3>
+        <p class="dek">Researchers at The Chinese University of Hong Kong tracked infants from birth to age three, mapping both their epigenetic risk profile for autism spectrum disorder and ADHD and the gut bacteria that colonised them in their first year — finding that certain strains, including Lachnospira, can substantially offset inherited neurodevelopmental risk regardless of genetic loading. The study, published in June 2026, showed that epigenetic patterns set at birth shape which microbes take root, but that the microbiome can then modulate the effect of those patterns on early brain development, shifting measurable outcomes. A trial of live biotherapeutics targeted at the identified protective strains is now being designed, with the goal of delivering the intervention as a probiotic supplement in the first weeks of life.</p>
         <div class="byline">
-          <strong style="font-weight:500">New Zealand Department of Conservation / Scoop</strong>
-          <span class="dot">·</span> Photo by Enrique Ortega Miranda
+          <strong style="font-weight:500">ScienceDaily / Technology Networks / Chinese University of Hong Kong</strong>
+          <span class="dot">·</span> Photo by Julia Koblitz
         </div>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: A study of 27,000 people published in Nature finds that the thymus — long assumed to go quiet in adulthood — predicts mortality risk with striking precision, cutting risk of death by half in those with the healthiest readings">
+        <a class="photo" href="story.html" aria-label="Read: Kyoto's Heian Shrine has marked 75 years of Takigi Noh — a tradition of performing Japan's 600-year-old masked theatre by bonfire light, begun in 1950 to return Noh to the open air">
           <img
-            src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1200&q=80&auto=format&fit=crop"
-            alt="A researcher examines glowing samples in a clinical laboratory, rows of labelled specimen vials and imaging equipment arranged across a spotlit bench in a darkened room"
+            src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&q=80&auto=format&fit=crop"
+            alt="The great gate of a Kyoto shrine is lit warmly at dusk, red-lacquered columns glowing under lantern light as visitors move silently through the courtyard"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Mass General Brigham, Boston, Massachusetts — Nature, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Heian Jingu, Kyoto, Japan — Discover Kyoto / MatsuriMap, June 2026'); this.remove();" />
         </a>
-        <span class="kicker">Science &amp; Medicine · Boston, Massachusetts</span>
-        <h3 class="headline"><a href="story.html">A study of 27,000 people published in Nature finds that the thymus — long assumed to go quiet in adulthood — predicts mortality risk with striking precision, cutting the risk of death by half in those with the healthiest readings.</a></h3>
-        <p class="dek">Researchers at Mass General Brigham used deep-learning AI to analyse chest CT scans from two large prospective cohorts — the National Lung Screening Trial and the Framingham Heart Study — and found that adults with a denser, more active thymus had roughly 50 percent lower risk of death from all causes, 63 percent lower risk of cardiovascular death, and 36 percent lower risk of lung cancer. In a separate analysis of 1,200 cancer patients on immunotherapy, the same healthier-thymus signal predicted 44 percent lower odds of dying. Published June 1, 2026 in Nature, the findings suggest the thymus may be a measurable target for longevity-focused therapies, with clinical trials now in planning.</p>
+        <span class="kicker">Everyday Joy · Heian Jingu, Kyoto, Japan</span>
+        <h3 class="headline"><a href="story.html">Kyoto's Heian Shrine has marked 75 years of Takigi Noh — a tradition of performing Japan's 600-year-old masked theatre by bonfire light, begun in 1950 to return Noh to the open air.</a></h3>
+        <p class="dek">On 1 and 2 June 2026, Heian Jingu lit its ceremonial bonfires — kagaribi — for the 75th consecutive Takigi Noh, as three classical schools performed masked Noh and comedic Kyogen pieces before the shrine's illuminated vermilion gate; the programme also marked 130 years since the shrine's founding in 1895. Tickets sell out weeks in advance, and rain sends audiences to a nearby concert hall — a contingency that has itself become part of the tradition across three-quarters of a century. Takigi Noh was revived here in 1950 specifically to open a theatre form that had retreated almost entirely into private aristocratic patronage, and the fact that it has held for 75 years is the quiet proof that the idea was right.</p>
         <div class="byline">
-          <strong style="font-weight:500">Mass General Brigham / Nature</strong>
-          <span class="dot">·</span> Photo by Hal Gatewood
+          <strong style="font-weight:500">MatsuriMap / Discover Kyoto</strong>
+          <span class="dot">·</span> Photo by Jezael Melgoza
         </div>
       </article>
     </div>
@@ -713,88 +705,88 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
     <!-- More today — 3 smaller cards -->
     <div class="yesterday" style="border-top:1px solid var(--rule-soft); padding-top: clamp(28px, 3.4vw, 48px);">
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: On a busy British Columbia highway, a dozen strangers stopped their vehicles and carried a stranded moose calf back over a concrete divider to its waiting mother — then drove off without exchanging names">
+        <a class="photo" href="story.html" aria-label="Read: South Korea opened walk-in welfare stations where anyone may collect meals and essentials without an eligibility check — 107 pilot sites have expanded across 67 cities, en route to 300 by year's end">
           <img
-            src="https://images.unsplash.com/photo-1516934434832-3d0490c4db99?w=1000&q=80&auto=format&fit=crop"
-            alt="A young moose calf stands at the edge of a boreal forest, its long spindly legs and large soft ears giving it a gentle, uncertain presence in the dappled morning light"
+            src="https://images.unsplash.com/photo-1556900703-bb1021fde498?w=1000&q=80&auto=format&fit=crop"
+            alt="Residents walk through a covered outdoor market passage in a Korean city, afternoon light filtering through the canopy above a row of small stalls"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Prince George, British Columbia, Canada — CBC News, May 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','South Korea — Korea Herald / Ministry of Health and Welfare, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Quiet Kindness · Prince George, British Columbia, Canada</span>
-        <h3 class="headline"><a href="story.html">On a busy British Columbia highway, a dozen strangers stopped their vehicles and carried a stranded moose calf back over a concrete divider to its waiting mother — then drove off without exchanging names.</a></h3>
-        <p class="dek">On May 28, a baby moose unable to climb a concrete highway divider on Highway 16 in Prince George brought traffic in both directions to a standstill until driver Duane Hogberg stepped out, scooped the calf into his arms, and walked it over the barrier to its mother. Hogberg described the animal as "super soft, like kitten fur"; others blocked lanes until the pair were safely reunited. No one exchanged names, and traffic resumed within minutes.</p>
+        <span class="kicker">Quiet Kindness · South Korea</span>
+        <h3 class="headline"><a href="story.html">South Korea opened walk-in welfare stations where anyone may collect meals and essentials without an eligibility check — 107 pilot sites have expanded across 67 cities, en route to 300 by year's end.</a></h3>
+        <p class="dek">South Korea's Ministry of Health and Welfare launched the "Just Give Center" programme — walk-in stations where anyone may collect up to 20,000 won in ready-made meals and daily necessities without proving income, residency, or eligibility — across 107 sites in 67 cities and counties during a two-month pilot. The government has committed 12.9 billion won to expand the network to roughly 300 locations by the end of 2026; during the pilot, around 200 people without resident registration or formal documentation — who could not navigate standard welfare paperwork — were connected onward to longer-term support services. The programme rests on the finding that means-testing routinely fails the people who need help most, and removes the test entirely.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: Six shipwrecks in Nassau Harbour have been confirmed as the first physical remains of the Golden Age of Piracy — the decade when Blackbeard, Calico Jack, and Anne Bonny based themselves on New Providence Island">
+        <a class="photo" href="story.html" aria-label="Read: Four new records of a shark endemic to Madagascar have surfaced after twenty years of scientific silence — the blue-spotted bamboo shark, first described in 1914, rediscovered through fish-market surveys">
           <img
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=80&auto=format&fit=crop"
-            alt="The turquoise and deep-blue waters of a Bahamian cove, shallow sandy bottom visible through the clear surface, the low silhouette of an island and swaying palms at the horizon"
+            src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=1000&q=80&auto=format&fit=crop"
+            alt="A small spotted shark rests motionless among rocky reef formations in clear shallow tropical water, its patterned skin catching dappled light from above"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Nassau Harbour, The Bahamas — LiveScience / Wreckwatch Magazine, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Madagascar coastal waters — Madagascar Whale Shark Project / Oryx, June 2026'); this.remove();" />
         </a>
-        <span class="kicker">Everyday Joy · Nassau Harbour, The Bahamas</span>
-        <h3 class="headline"><a href="story.html">Six shipwrecks in Nassau Harbour have been confirmed as the first physical remains of the Golden Age of Piracy — the decade when Blackbeard, Calico Jack, and Anne Bonny based themselves on New Providence Island.</a></h3>
-        <p class="dek">Marine archaeologist Dr Sean Kingsley and Bahamian archaeologist Dr Michael Pateman recovered iron cannons, lead musket balls, a sword-grinding stone, and charred hull timbers from sites in and around Nassau Harbour, alongside a 3D reconstruction of the pirate settlement as it stood around 1715. The finds, published in Wreckwatch Magazine on June 4, 2026, are the first physical evidence of any of the roughly 40 ships historically recorded as sunk or burned near Nassau during the piracy era. Three centuries of shipwreck hunting, resolved in a place most researchers assumed had already been thoroughly searched.</p>
+        <span class="kicker">Small Wonders · Madagascar</span>
+        <h3 class="headline"><a href="story.html">Four new records of a shark endemic to Madagascar have surfaced after twenty years of scientific silence — the blue-spotted bamboo shark, first described in 1914, rediscovered through fish-market surveys.</a></h3>
+        <p class="dek">Researchers from the Madagascar Whale Shark Project confirmed four records of Chiloscyllium caeruleopunctatum — the blue-spotted bamboo shark — through surveys of fish markets and a university specimen collection along Madagascar's coast, ending a gap of nearly twenty years since a single photograph in 2006; the findings were published in the journal Oryx on June 4. The small, spotted shark was first formally described from a Madagascar specimen in 1914; lead author Tsarahasina Fanomezana says it has likely been misidentified in catch data for decades and effectively omitted from the island's conservation map. The rediscovery strengthens the case for systematic surveys of Madagascar's coastal fish markets, where dozens of shark species pass through with little scientific scrutiny.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: Papua New Guinea has cut its malaria death rate by 92 percent since 2000 — from 13 deaths per 100,000 to one — using diagnostic testing, artemisinin therapies, and bed nets, without a vaccine">
+        <a class="photo" href="story.html" aria-label="Read: Egypt has been certified free of trachoma by the WHO — the 30th country globally to eliminate the leading infectious cause of blindness — after driving infection below threshold in all 27 of its governorates">
           <img
-            src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1000&q=80&auto=format&fit=crop"
-            alt="A community health worker walks along a shaded path between traditional homes in a highland village, a medical bag over one shoulder and a cluster of thatched roofs and green hills in the distance"
+            src="https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=1000&q=80&auto=format&fit=crop"
+            alt="A whitewashed village in southern Egypt rises above surrounding fields, palms and mud-brick houses receding toward low hills in soft afternoon light"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Papua New Guinea — Good News Network / The National, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Southern Egypt — Daily News Egypt / Ahram Online / WHO, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Global Progress · Papua New Guinea</span>
-        <h3 class="headline"><a href="story.html">Papua New Guinea has cut its malaria death rate by 92 percent since 2000 — from 13 deaths per 100,000 to one — using diagnostic testing, artemisinin therapies, and bed nets, and without a vaccine.</a></h3>
-        <p class="dek">Annual malaria deaths in Papua New Guinea fell from roughly 700 in 2000 to 148 in 2025; Morobe province, the country's most populous, recorded just 66 malaria deaths last year. The reduction relied on no new technology — only expanded deployment of diagnostics, artemisinin-based combination therapies, and insecticide-treated bed nets across some of the world's most difficult terrain. Because Papua New Guinea accounts for approximately 90 percent of all malaria cases in the Western Pacific, a reduction of this magnitude has significance across the entire Pacific region.</p>
+        <span class="kicker">Global Progress · Egypt</span>
+        <h3 class="headline"><a href="story.html">Egypt has been certified free of trachoma by the WHO — the 30th country globally to eliminate the leading infectious cause of blindness — after driving infection below threshold in all 27 of its governorates.</a></h3>
+        <p class="dek">WHO Director-General Tedros Adhanom Ghebreyesus presented Egypt's trachoma elimination certificate at the 79th World Health Assembly in Geneva on May 21, confirming that active trachoma prevalence among children aged 1 to 9 had been driven below 5 percent across all 27 of Egypt's governorates — a standard reached through decades of mass antibiotic distribution, facial hygiene campaigns, and improved access to clean water in thousands of rural communities. Egypt becomes the 7th country in the Eastern Mediterranean region and the 30th globally to reach the milestone. The certification also makes Egypt the first African country to hold WHO-validated elimination of five diseases: polio, measles, rubella, malaria, and trachoma.</p>
       </article>
     </div>
   </section>
 
   <!-- Yesterday -->
   <section aria-labelledby="yesterday-h">
-    <div class="section-label"><span id="yesterday-h">Yesterday · June 5</span></div>
+    <div class="section-label"><span id="yesterday-h">Yesterday · June 3</span></div>
 
     <div class="yesterday">
       <article class="story-card">
-        <a class="photo" href="issues/2026-06-05.html" aria-label="Read: In Spello, Umbria, every Corpus Christi the town's neighbourhood groups spend the night laying a two-kilometre carpet of fresh flower petals across the medieval streets — and a Sunday morning procession walks it to pieces">
+        <a class="photo" href="issues/2026-06-03.html" aria-label="Read: A 460-acre former dairy farm in Somerset recorded 27 new bird species and more than doubled its butterfly count in three years — after intensive grazing ended and the land was simply left alone">
           <img
-            src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1000&q=80&auto=format&fit=crop"
-            alt="A narrow medieval street in Spello, Umbria, covered end to end with an elaborate carpet of fresh flower petals arranged in intricate geometric patterns, stone buildings rising on either side"
+            src="https://images.unsplash.com/photo-1500485329006-54f89e8e4af1?w=1000&q=80&auto=format&fit=crop"
+            alt="A sunlit English meadow in early summer, long grasses and wildflowers catching the light, with hedgerows rising along the far edge of the field"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Spello, Umbria, Italy — Comune di Spello / Idealista.it, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Heal Somerset, East Somerset, England — Heal Rewilding / Pressat, June 2026'); this.remove();" />
         </a>
-        <span class="kicker">Everyday Joy · Spello, Umbria, Italy</span>
-        <h3 class="headline"><a href="issues/2026-06-05.html">In Spello, Umbria, every Corpus Christi the town's neighbourhood groups spend the night laying a two-kilometre carpet of fresh flower petals across the medieval streets — and a Sunday morning procession walks it to pieces.</a></h3>
-        <p class="dek">On the night of 6 June 2026, twelve competing neighbourhood groups carry tonnes of freshly pressed petals, seeds, and mosses from the surrounding Umbrian hills into Spello's old town, working through the dark to assemble elaborate geometric, botanical, and sacred designs across the cobblestones before dawn. Spello's Infiorata is inscribed as national cultural heritage and covers almost three kilometres of the historic alleys; the town's population roughly doubles for the weekend.</p>
+        <span class="kicker">Nature · East Somerset, England</span>
+        <h3 class="headline"><a href="issues/2026-06-03.html">A 460-acre former dairy farm in Somerset recorded 27 new bird species and more than doubled its butterfly count in three years — after intensive grazing ended and the land was simply left alone.</a></h3>
+        <p class="dek">Heal Rewilding published its inaugural State of Nature report for Heal Somerset on 2 June, counting butterfly species risen from 11 to 24, bird species from 67 to 94, and small mammal populations 188 percent more abundant than on a neighbouring organic farm — with no trees planted and no animals reintroduced.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="issues/2026-06-05.html" aria-label="Read: Denmark now has thirteen breeding white stork pairs — the highest count since 1991 — as two entirely new nesting sites established themselves in Sønderjylland and outside Roskilde this spring">
+        <a class="photo" href="issues/2026-06-03.html" aria-label="Read: A newly named dinosaur from Patagonia had the hooked claws of a raptor and the neck of a heron — the first theropod ever described as a fish-hunter from the water's edge">
           <img
-            src="https://images.unsplash.com/photo-1444464666168-49d0855cf9d4?w=1000&q=80&auto=format&fit=crop"
-            alt="A white stork stands tall in a sunlit Central European meadow, its red bill and long legs distinctive against pale summer grasses"
+            src="https://images.unsplash.com/photo-1531761535209-180857e963b9?w=1000&q=80&auto=format&fit=crop"
+            alt="A wide Patagonian river valley under an overcast sky, grey-blue water threading between rocky banks and the low scrub of the Argentine steppe"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Sønderjylland, Denmark — Storkene.dk / Daily Northern, May 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Patagonia, Argentina — Museo Argentino de Ciencias Naturales / Journal of Vertebrate Palaeontology, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Nature · Sønderjylland, Denmark</span>
-        <h3 class="headline"><a href="issues/2026-06-05.html">Denmark now has thirteen breeding white stork pairs — the highest count since 1991 — as two entirely new nesting sites established themselves in Sønderjylland and outside Roskilde this spring.</a></h3>
-        <p class="dek">The spring 2026 survey by Storkene.dk recorded thirteen breeding pairs — up from eleven the previous year and the most since 1991 — following decades of volunteer nest-platform installation and habitat management. The group projects 32 to 33 fledglings will take wing by late summer, with the two entirely new sites the first storks to nest in those locations within living memory.</p>
+        <span class="kicker">Small Wonders · Patagonia, Argentina</span>
+        <h3 class="headline"><a href="issues/2026-06-03.html">A newly named dinosaur from Patagonia had the hooked claws of a raptor and the neck of a heron — the first theropod ever described as a fish-hunter from the water's edge.</a></h3>
+        <p class="dek">Palaeontologists at the Museo Argentino de Ciencias Naturales described Kank australis, a 70-million-year-old theropod whose fossilised neck vertebrae match the rapid-strike anatomy that allows modern herons to spear fish — the first demonstration of fish-hunting in its lineage and an example of convergent evolution across 70 million years.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="issues/2026-06-05.html" aria-label="Read: It is the type of dietary fat — not the amount — that determines how fast pancreatic tumours grow, a Yale study published in Cancer Discovery finds">
+        <a class="photo" href="issues/2026-06-03.html" aria-label="Read: A 21-year-old music student stepped from the audience onto a Sydney stage and completed an orchestral concert after the featured pianist fell ill mid-performance">
           <img
-            src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=1000&q=80&auto=format&fit=crop"
-            alt="A researcher in a white coat examines petri dishes under the fluorescent light of a laboratory biosafety cabinet, rows of cell-culture plates arranged methodically on the bench"
+            src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1000&q=80&auto=format&fit=crop"
+            alt="An orchestra mid-performance in a concert hall, string and wind players illuminated by warm stage light, the conductor's baton raised"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Yale School of Medicine, New Haven, Connecticut — Cancer Discovery / AACR, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Darling Harbour Theatre — Sydney, Australia, June 2026'); this.remove();" />
         </a>
-        <span class="kicker">Science &amp; Medicine · Yale School of Medicine, Connecticut</span>
-        <h3 class="headline"><a href="issues/2026-06-05.html">It is the type of dietary fat — not the amount — that determines how fast pancreatic tumours grow, a Yale study published in Cancer Discovery finds, establishing the first biological rationale for a dietary trial in a cancer with a 13 percent five-year survival rate.</a></h3>
-        <p class="dek">Researchers tested twelve high-fat diets in mice with KRAS mutations matching human pancreatic cancer, keeping calories identical while varying fat sources, and found tumours grew 50 percent slower in mice fed omega-3-rich fish-oil diets. The mechanism is ferroptosis: polyunsaturated fats sensitise cancer cells to a form of programmed death triggered by lipid oxidation, while monounsaturated fats protect them from it.</p>
+        <span class="kicker">Everyday Joy · Sydney, Australia</span>
+        <h3 class="headline"><a href="issues/2026-06-03.html">A 21-year-old music student stepped from the audience onto a Sydney stage and completed an orchestral concert after the featured pianist fell ill mid-performance.</a></h3>
+        <p class="dek">At a La La Land film-score concert at Darling Harbour Theatre on 1 June, Sterling Nasa raised his hand when the conductor asked whether any trained pianist was in the 2,500-person audience, then performed the remainder of the show without rehearsal and to a standing ovation.</p>
       </article>
     </div>
   </section>

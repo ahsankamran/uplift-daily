@@ -590,14 +590,6 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   html[data-featured="broadsheet"] .featured { grid-template-columns: 1fr; }
   .dateline { flex-direction: column; gap: 4px; align-items: flex-start; }
   .dateline .weather { gap: 14px; }
-  .today-label { flex-wrap: wrap; }
-  .featured .dek,
-  .story-card .dek {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 6;
-    overflow: hidden;
-  }
 }
 </style>
 </head>
@@ -608,8 +600,8 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   <div class="masthead-inner">
     <div class="masthead-utility">
       <div class="issue">
-        <span>Saturday, June&nbsp;6, 2026</span>
-        <span>No.&nbsp;463</span>
+        <span>Tuesday, June&nbsp;2, 2026</span>
+        <span>No.&nbsp;459</span>
       </div>
       <div><a href="signup.html">Subscribe →</a></div>
     </div>
@@ -639,7 +631,7 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
     <div class="date-main">Issued daily at dawn, wherever you are reading.</div>
     <div class="weather">
       <span>Filed from 4 continents today</span>
-      <span>Edition 463</span>
+      <span>Edition 459</span>
     </div>
   </div>
 
@@ -647,26 +639,26 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   <section aria-labelledby="today-h">
     <div class="today-label">
       <h2 id="today-h" class="greeting">Today, <em>six good things.</em></h2>
-      <span class="note">4 min read · 900 words</span>
+      <span class="note">5 min read · 1,080 words</span>
     </div>
 
     <!-- Featured / lead -->
     <article class="featured">
-      <a class="photo" href="story.html" aria-label="Read: A bird species recorded just once in over a century was found alive on a remote Indonesian volcano — the blue-fronted lorikeet, rediscovered on Buru Island">
+      <a class="photo" href="story.html" aria-label="Read: China's Yangtze sturgeon — declared extinct in the wild — has reproduced naturally in the Chishui River for the first time in 25 years, after 342 small hydropower stations were dismantled across three provinces">
         <img
-          src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=1600&q=80&auto=format&fit=crop"
-          alt="A small, brilliantly coloured lorikeet perches among the leaves of a flowering tree in dense tropical cloud forest, its vivid plumage catching a shaft of light filtering through the canopy"
+          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80&auto=format&fit=crop"
+          alt="A misty river valley in southern China, its forested banks catching early morning light as water flows silently through the ancient gorge"
           loading="eager"
-          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Buru Island, Indonesia — BirdLife International / American Bird Conservancy, June 2026'); this.remove();" />
+          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Chishui River, Guizhou, China — Chinese Academy of Sciences / Xinhua, 2026'); this.remove();" />
       </a>
       <div class="featured-text">
-        <span class="kicker">Small Wonders · Buru Island, Indonesia</span>
-        <h2 class="headline"><a href="story.html">A bird species recorded just once in over a century was found alive on a remote Indonesian volcano — the blue-fronted lorikeet, rediscovered by an expedition that had to climb to 8,900 feet to find it.</a></h2>
-        <p class="dek">A blue-fronted lorikeet — listed as a "lost species" since the early twentieth century and not reliably documented in over a hundred years — was photographed and recorded on Mount Kapalatmada on Buru Island, Indonesia, in April 2026. An expedition by the American Bird Conservancy, Birdtour Asia, and Yayasan Planet Indonesia trekked through unexplored montane cloud forest to 8,900 feet, found at least nine individuals darting between flowering trees, and captured the species' calls on tape for the first time on record. BirdLife International published the findings on June 3, 2026, confirming the lorikeet's survival in the high-altitude isolation that had kept it hidden from science for more than a century.</p>
+        <span class="kicker">Nature · Chishui River, Guizhou, China</span>
+        <h2 class="headline"><a href="story.html">China's Yangtze sturgeon — declared extinct in the wild — has reproduced naturally in the Chishui River for the first time in 25 years, after 342 small hydropower stations were dismantled across three provinces.</a></h2>
+        <p class="dek">Researchers at the Chinese Academy of Sciences recorded more than 200,000 fertilized eggs on the Chishui riverbed in spring and confirmed juvenile sturgeon hatchlings — the first natural reproduction of the species since 2000, when dam construction severed its upstream spawning routes along the tributaries of the upper Yangtze. The recovery followed a programme in which Guizhou, Yunnan, and Sichuan provinces dismantled 342 small hydropower stations between 2020 and 2024, reconnecting more than twenty tributaries and restoring 492 kilometres of migratory corridor that the sturgeon — a prehistoric fish that has swum Chinese rivers for 140 million years — had been unable to access for decades. A peer-reviewed analysis published in the journal <em>Water</em> in 2026 documented rising fish biodiversity across the Chishui each year since dismantling began, with the sturgeon's natural reproduction providing the strongest evidence yet that removing dams can reverse what had seemed like an irreversible extinction in the wild.</p>
         <div class="featured-meta">
           <div class="byline">
-            Reported by <strong style="font-weight:500">BirdLife International / American Bird Conservancy</strong>
-            <span class="dot">·</span> Photograph by Zdeněk Macháček
+            Reported by <strong style="font-weight:500">Chinese Academy of Sciences / Xinhua / Water (MDPI)</strong>
+            <span class="dot">·</span> Photograph by Samuel Ferrara
           </div>
           <a href="story.html" style="font-family:var(--sans); font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-deep); text-decoration:none;">Read the story →</a>
         </div>
@@ -676,36 +668,36 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
     <!-- Two secondary -->
     <div class="two-up">
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: New Zealand gazetted five new marine reserves along the Otago coast — adding 308 square kilometres of protected ocean and increasing mainland coverage by nearly half — to be co-managed with Kāi Tahu rangers starting July 1">
+        <a class="photo" href="story.html" aria-label="Read: Africa added a record 11.3 gigawatts of renewable energy in 2025 — triple the previous year — and for the first time solar and wind projects outnumbered all new fossil-fuel announcements across the continent">
           <img
-            src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=1200&q=80&auto=format&fit=crop"
-            alt="Long golden-brown kelp fronds rise through cold, clear green water off the New Zealand coast, shafts of sunlight filtering down from the surface through the underwater forest"
+            src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=80&auto=format&fit=crop"
+            alt="Rows of solar panels arrayed across a flat African landscape under a wide blue sky, the panels catching afternoon light in perfect formation"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Otago coast, New Zealand — NZ Department of Conservation, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Solar capacity expansion — IRENA / Associated Press, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Nature · Otago coast, New Zealand</span>
-        <h3 class="headline"><a href="story.html">New Zealand gazetted five new marine reserves along the Otago coast — adding 308 square kilometres of protected ocean and increasing mainland coverage by nearly half — to be co-managed with Kāi Tahu rangers starting July 1.</a></h3>
-        <p class="dek">The five reserves, gazetted on June 2, 2026, protect giant kelp forests, rocky reefs, deep offshore canyons, yellow-eyed penguins, and New Zealand sea lions along a stretch of the South Island coast without full protection for over a decade. The network has been renamed Te Au Roa o Te Rakihouia in honour of Kāi Tahu ancestral voyagers who navigated these waters; under a first-of-its-kind arrangement for New Zealand marine reserves, the Department of Conservation and Kāi Tahu rangers will manage them jointly from day to day. At 308 square kilometres, the reserves increase mainland New Zealand's total protected marine area by nearly 50 percent in a single decision, with the reserves entering legal force on 1 July 2026.</p>
+        <span class="kicker">Global Progress · Sub-Saharan Africa</span>
+        <h3 class="headline"><a href="story.html">Africa added a record 11.3 gigawatts of renewable energy in 2025 — triple the previous year — and for the first time solar and wind projects outnumbered all new fossil-fuel announcements across the continent.</a></h3>
+        <p class="dek">Analysis published by the Associated Press on 27 May shows that Africa's new renewable capacity in 2025 reached 11.3 gigawatts, with 173 of the continent's 322 announced energy projects classified as solar or wind — outnumbering coal, gas, and large-hydro commitments for the first time on record. South Africa, Egypt, and Ethiopia drove most of the growth, while the International Renewable Energy Agency notes that utility-scale solar in parts of Africa now generates electricity below the operating cost of existing coal plants, making the switch economically straightforward without policy pressure. The African Development Bank, whose Mission 300 electricity-access tracker launched on 31 May, reports its active portfolio has already connected 5.2 million people to power and targets 300 million more by 2030.</p>
         <div class="byline">
-          <strong style="font-weight:500">New Zealand Department of Conservation / Scoop</strong>
-          <span class="dot">·</span> Photo by Enrique Ortega Miranda
+          <strong style="font-weight:500">International Renewable Energy Agency / Associated Press / African Development Bank</strong>
+          <span class="dot">·</span> Photo by Zbynek Burival
         </div>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: A study of 27,000 people published in Nature finds that the thymus — long assumed to go quiet in adulthood — predicts mortality risk with striking precision, cutting risk of death by half in those with the healthiest readings">
+        <a class="photo" href="story.html" aria-label="Read: The world's biggest São João opens this week in Campina Grande, Brazil — 33 nights of forró, quadrilha dancing, and bonfire parades drawing three million visitors">
           <img
-            src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1200&q=80&auto=format&fit=crop"
-            alt="A researcher examines glowing samples in a clinical laboratory, rows of labelled specimen vials and imaging equipment arranged across a spotlit bench in a darkened room"
+            src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&q=80&auto=format&fit=crop"
+            alt="A vast outdoor festival square at night, hundreds of people moving beneath warm strings of lights and the glow of a tall bonfire stage"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Mass General Brigham, Boston, Massachusetts — Nature, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Maior São João do Mundo, Parque do Povo — Campina Grande, Paraíba, Brazil, June 2026'); this.remove();" />
         </a>
-        <span class="kicker">Science &amp; Medicine · Boston, Massachusetts</span>
-        <h3 class="headline"><a href="story.html">A study of 27,000 people published in Nature finds that the thymus — long assumed to go quiet in adulthood — predicts mortality risk with striking precision, cutting the risk of death by half in those with the healthiest readings.</a></h3>
-        <p class="dek">Researchers at Mass General Brigham used deep-learning AI to analyse chest CT scans from two large prospective cohorts — the National Lung Screening Trial and the Framingham Heart Study — and found that adults with a denser, more active thymus had roughly 50 percent lower risk of death from all causes, 63 percent lower risk of cardiovascular death, and 36 percent lower risk of lung cancer. In a separate analysis of 1,200 cancer patients on immunotherapy, the same healthier-thymus signal predicted 44 percent lower odds of dying. Published June 1, 2026 in Nature, the findings suggest the thymus may be a measurable target for longevity-focused therapies, with clinical trials now in planning.</p>
+        <span class="kicker">Everyday Joy · Campina Grande, Paraíba, Brazil</span>
+        <h3 class="headline"><a href="story.html">The world's biggest São João opens this week in Campina Grande, Brazil — 33 nights of forró, quadrilha dancing, and bonfire parades expected to draw three million visitors to the country's northeast.</a></h3>
+        <p class="dek">Brazil's June festival calendar peaks in Campina Grande, Paraíba, where the self-proclaimed Maior São João do Mundo fills the 60,000-capacity Parque do Povo for 33 consecutive nights with forró accordion bands, quadrilha junina troupes in hand-sewn country costumes, and bonfire platforms eight metres tall. The tradition blends the Catholic feast day of Saint John the Baptist with centuries of northeastern Brazilian rural custom: quadrilha groups spend months rehearsing mock wedding pageants complete with painted freckles and straw hats, then compete each night before judges who score for storytelling and costume. The 43rd edition — running 3 June to 5 July — has been registered by Brazil as part of its Intangible Cultural Heritage, joining a parallel celebration in Caruaru 300 kilometres away in what Brazilians call the month of the arraiá.</p>
         <div class="byline">
-          <strong style="font-weight:500">Mass General Brigham / Nature</strong>
-          <span class="dot">·</span> Photo by Hal Gatewood
+          <strong style="font-weight:500">Prefeitura de Campina Grande / Brazil Ministry of Tourism</strong>
+          <span class="dot">·</span> Photo by Tony Pham
         </div>
       </article>
     </div>
@@ -713,88 +705,88 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
     <!-- More today — 3 smaller cards -->
     <div class="yesterday" style="border-top:1px solid var(--rule-soft); padding-top: clamp(28px, 3.4vw, 48px);">
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: On a busy British Columbia highway, a dozen strangers stopped their vehicles and carried a stranded moose calf back over a concrete divider to its waiting mother — then drove off without exchanging names">
+        <a class="photo" href="story.html" aria-label="Read: A Singapore photojournalist cooked for nearly 20 hours and served free soup to 50 strangers at his housing-block void deck — and plans to do it every month">
           <img
-            src="https://images.unsplash.com/photo-1516934434832-3d0490c4db99?w=1000&q=80&auto=format&fit=crop"
-            alt="A young moose calf stands at the edge of a boreal forest, its long spindly legs and large soft ears giving it a gentle, uncertain presence in the dappled morning light"
+            src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=1000&q=80&auto=format&fit=crop"
+            alt="Two steaming bowls of soup on a simple wooden table, their warmth rising in curls of steam in a quiet, softly lit room"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Prince George, British Columbia, Canada — CBC News, May 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Kampong Soup Kitchen, Tampines — Mothership.SG / Stomp.SG, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Quiet Kindness · Prince George, British Columbia, Canada</span>
-        <h3 class="headline"><a href="story.html">On a busy British Columbia highway, a dozen strangers stopped their vehicles and carried a stranded moose calf back over a concrete divider to its waiting mother — then drove off without exchanging names.</a></h3>
-        <p class="dek">On May 28, a baby moose unable to climb a concrete highway divider on Highway 16 in Prince George brought traffic in both directions to a standstill until driver Duane Hogberg stepped out, scooped the calf into his arms, and walked it over the barrier to its mother. Hogberg described the animal as "super soft, like kitten fur"; others blocked lanes until the pair were safely reunited. No one exchanged names, and traffic resumed within minutes.</p>
+        <span class="kicker">Quiet Kindness · Tampines, Singapore</span>
+        <h3 class="headline"><a href="story.html">A Singapore photojournalist cooked for nearly 20 hours and served free soup to 50 strangers at his housing-block void deck — and plans to do it every month.</a></h3>
+        <p class="dek">Ngoh Shian Bang, a photojournalist at Lianhe Zaobao, paid S$89 to rent a community space at his housing block in Tampines, simmered a clear chicken-and-vegetable broth alongside a spiced pumpkin-and-red-lentil coconut-milk soup through a 20-hour preparation, and opened his table on 30 May to any neighbour or stranger who wished to eat. Over 40 people came; conversations started between residents who had never spoken despite living in the same block for years; his Reddit post drew more than 6,600 upvotes. He has already applied for the same community booking in July and calls the project his Kampong Soup Kitchen — kampong being the Malay word for village.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: Six shipwrecks in Nassau Harbour have been confirmed as the first physical remains of the Golden Age of Piracy — the decade when Blackbeard, Calico Jack, and Anne Bonny based themselves on New Providence Island">
+        <a class="photo" href="story.html" aria-label="Read: Three endangered giant otter pups took their first swimming lessons at Chester Zoo on 28 May, guided into the water one by one by their parents">
           <img
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=80&auto=format&fit=crop"
-            alt="The turquoise and deep-blue waters of a Bahamian cove, shallow sandy bottom visible through the clear surface, the low silhouette of an island and swaying palms at the horizon"
+            src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=1000&q=80&auto=format&fit=crop"
+            alt="An otter floating on its back in clear, calm water, its small paws folded across its chest and eyes bright with curiosity"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Nassau Harbour, The Bahamas — LiveScience / Wreckwatch Magazine, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Giant otter triplets Uca, Yali &amp; Yara — Chester Zoo / Talker News, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Everyday Joy · Nassau Harbour, The Bahamas</span>
-        <h3 class="headline"><a href="story.html">Six shipwrecks in Nassau Harbour have been confirmed as the first physical remains of the Golden Age of Piracy — the decade when Blackbeard, Calico Jack, and Anne Bonny based themselves on New Providence Island.</a></h3>
-        <p class="dek">Marine archaeologist Dr Sean Kingsley and Bahamian archaeologist Dr Michael Pateman recovered iron cannons, lead musket balls, a sword-grinding stone, and charred hull timbers from sites in and around Nassau Harbour, alongside a 3D reconstruction of the pirate settlement as it stood around 1715. The finds, published in Wreckwatch Magazine on June 4, 2026, are the first physical evidence of any of the roughly 40 ships historically recorded as sunk or burned near Nassau during the piracy era. Three centuries of shipwreck hunting, resolved in a place most researchers assumed had already been thoroughly searched.</p>
+        <span class="kicker">Small Wonders · Chester Zoo, England</span>
+        <h3 class="headline"><a href="story.html">Three endangered giant otter pups took their first swimming lessons at Chester Zoo on 28 May, guided into the water one by one by their parents.</a></h3>
+        <p class="dek">Giant otter pups Uca, Yali, and Yara — born 9 February to parents Bonita and Manu — completed their first swimming session when each parent took a pup by the scruff and lowered it into the water; within minutes all three were paddling independently. Giant otters are classified as endangered by the IUCN, with between 2,000 and 5,000 individuals remaining in South America's rivers, making every birth in the European coordinated breeding programme a meaningful contribution. Chester Zoo says the triplets will be reported to the European Association of Zoos and Aquaria as part of an international effort to maintain genetic diversity for eventual reintroduction programmes.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: Papua New Guinea has cut its malaria death rate by 92 percent since 2000 — from 13 deaths per 100,000 to one — using diagnostic testing, artemisinin therapies, and bed nets, without a vaccine">
+        <a class="photo" href="story.html" aria-label="Read: Japanese chemists synthesised vitamin K analogues three times more potent at generating new brain neurons — and confirmed the compounds cross the blood-brain barrier in mice">
           <img
-            src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1000&q=80&auto=format&fit=crop"
-            alt="A community health worker walks along a shaded path between traditional homes in a highland village, a medical bag over one shoulder and a cluster of thatched roofs and green hills in the distance"
+            src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1000&q=80&auto=format&fit=crop"
+            alt="A researcher holds a pipette above a row of small vials in a brightly lit laboratory, concentrating on a precise measurement"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Papua New Guinea — Good News Network / The National, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Vitamin K neurogenesis analogues — Shibaura Institute of Technology / ACS Chemical Neuroscience, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Global Progress · Papua New Guinea</span>
-        <h3 class="headline"><a href="story.html">Papua New Guinea has cut its malaria death rate by 92 percent since 2000 — from 13 deaths per 100,000 to one — using diagnostic testing, artemisinin therapies, and bed nets, and without a vaccine.</a></h3>
-        <p class="dek">Annual malaria deaths in Papua New Guinea fell from roughly 700 in 2000 to 148 in 2025; Morobe province, the country's most populous, recorded just 66 malaria deaths last year. The reduction relied on no new technology — only expanded deployment of diagnostics, artemisinin-based combination therapies, and insecticide-treated bed nets across some of the world's most difficult terrain. Because Papua New Guinea accounts for approximately 90 percent of all malaria cases in the Western Pacific, a reduction of this magnitude has significance across the entire Pacific region.</p>
+        <span class="kicker">Science &amp; Medicine · Shibaura Institute of Technology, Tokyo, Japan</span>
+        <h3 class="headline"><a href="story.html">Japanese chemists synthesised vitamin K analogues three times more potent at generating new brain neurons — and confirmed the compounds cross the blood-brain barrier in mice.</a></h3>
+        <p class="dek">Researchers at Shibaura Institute of Technology in Tokyo fused vitamin K molecules with retinoic acid to create hybrid analogues; in laboratory models the compounds activated the mGluR1 receptor at three times the potency of natural vitamin K, steering neural stem cells to differentiate into neurons rather than the support cells they produce by default. When administered to mice, the compounds accumulated in neural tissue at higher concentrations than unmodified vitamin K, confirming they can cross the blood-brain barrier — a long-standing obstacle to using vitamin K as a brain therapy. The research team, led by Associate Professor Yoshihisa Hirota, says the analogues are a candidate platform for future Alzheimer's and Parkinson's treatments, though human trials have not yet begun.</p>
       </article>
     </div>
   </section>
 
   <!-- Yesterday -->
   <section aria-labelledby="yesterday-h">
-    <div class="section-label"><span id="yesterday-h">Yesterday · June 5</span></div>
+    <div class="section-label"><span id="yesterday-h">Yesterday · June 1</span></div>
 
     <div class="yesterday">
       <article class="story-card">
-        <a class="photo" href="issues/2026-06-05.html" aria-label="Read: In Spello, Umbria, every Corpus Christi the town's neighbourhood groups spend the night laying a two-kilometre carpet of fresh flower petals across the medieval streets — and a Sunday morning procession walks it to pieces">
+        <a class="photo" href="issues/2026-06-01.html" aria-label="Read: Brazil's Amazon lost less forest in 2025 than in any year since monitoring began — and deforestation across all Brazilian biomes fell 20.6 percent, a record low">
           <img
-            src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1000&q=80&auto=format&fit=crop"
-            alt="A narrow medieval street in Spello, Umbria, covered end to end with an elaborate carpet of fresh flower petals arranged in intricate geometric patterns, stone buildings rising on either side"
+            src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1000&q=80&auto=format&fit=crop"
+            alt="Sunlight breaking through the dense canopy of a tropical rainforest, illuminating a carpet of green leaves and ancient tree trunks below"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Spello, Umbria, Italy — Comune di Spello / Idealista.it, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Amazon Basin, Brazil — MapBiomas / AFP, June 2026'); this.remove();" />
         </a>
-        <span class="kicker">Everyday Joy · Spello, Umbria, Italy</span>
-        <h3 class="headline"><a href="issues/2026-06-05.html">In Spello, Umbria, every Corpus Christi the town's neighbourhood groups spend the night laying a two-kilometre carpet of fresh flower petals across the medieval streets — and a Sunday morning procession walks it to pieces.</a></h3>
-        <p class="dek">On the night of 6 June 2026, twelve competing neighbourhood groups carry tonnes of freshly pressed petals, seeds, and mosses from the surrounding Umbrian hills into Spello's old town, working through the dark to assemble elaborate geometric, botanical, and sacred designs across the cobblestones before dawn. Spello's Infiorata is inscribed as national cultural heritage and covers almost three kilometres of the historic alleys; the town's population roughly doubles for the weekend.</p>
+        <span class="kicker">Nature · Amazon Basin, Brazil</span>
+        <h3 class="headline"><a href="issues/2026-06-01.html">Brazil's Amazon lost less forest in 2025 than in any year since monitoring began — and deforestation across all Brazilian biomes fell 20.6 percent, a record low.</a></h3>
+        <p class="dek">The MapBiomas consortium recorded 985,000 hectares of native vegetation lost across Brazil in 2025 — a 20.6 percent drop from 2024 and the lowest since systematic records began in 2019, with Amazon forest loss down 23.5 percent and four biomes each setting their own monitoring-era records.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="issues/2026-06-05.html" aria-label="Read: Denmark now has thirteen breeding white stork pairs — the highest count since 1991 — as two entirely new nesting sites established themselves in Sønderjylland and outside Roskilde this spring">
+        <a class="photo" href="issues/2026-06-01.html" aria-label="Read: DNA taken from 200-year-old museum specimens has solved a 250-year puzzle: the crocodiles of the Seychelles swam at least 3,000 kilometres across the open Indian Ocean to get there">
           <img
-            src="https://images.unsplash.com/photo-1444464666168-49d0855cf9d4?w=1000&q=80&auto=format&fit=crop"
-            alt="A white stork stands tall in a sunlit Central European meadow, its red bill and long legs distinctive against pale summer grasses"
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=80&auto=format&fit=crop"
+            alt="A vast turquoise ocean stretching to the horizon under a clear sky, the water clear and still"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Sønderjylland, Denmark — Storkene.dk / Daily Northern, May 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Indian Ocean / Seychelles — Bavarian State Collections / Royal Society Open Science, June 2026'); this.remove();" />
         </a>
-        <span class="kicker">Nature · Sønderjylland, Denmark</span>
-        <h3 class="headline"><a href="issues/2026-06-05.html">Denmark now has thirteen breeding white stork pairs — the highest count since 1991 — as two entirely new nesting sites established themselves in Sønderjylland and outside Roskilde this spring.</a></h3>
-        <p class="dek">The spring 2026 survey by Storkene.dk recorded thirteen breeding pairs — up from eleven the previous year and the most since 1991 — following decades of volunteer nest-platform installation and habitat management. The group projects 32 to 33 fledglings will take wing by late summer, with the two entirely new sites the first storks to nest in those locations within living memory.</p>
+        <span class="kicker">Small Wonders · Seychelles, Indian Ocean</span>
+        <h3 class="headline"><a href="issues/2026-06-01.html">DNA taken from 200-year-old museum specimens has solved a 250-year puzzle: the crocodiles of the Seychelles swam at least 3,000 kilometres across the open Indian Ocean to get there.</a></h3>
+        <p class="dek">Researchers found that preserved Seychelles crocodile specimens were not a distinct island species but an isolated population of saltwater crocodiles that drifted from the Asian or East African mainland — covering at least 3,000 kilometres of open ocean before settlers exterminated them within fifty years of arrival in 1770.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="issues/2026-06-05.html" aria-label="Read: It is the type of dietary fat — not the amount — that determines how fast pancreatic tumours grow, a Yale study published in Cancer Discovery finds">
+        <a class="photo" href="issues/2026-06-01.html" aria-label="Read: More than fifty Cotswolds farmers have pooled 3,000 hectares of land to let their shared rivers run free again — and three catchments are measurably cleaner after two years">
           <img
-            src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=1000&q=80&auto=format&fit=crop"
-            alt="A researcher in a white coat examines petri dishes under the fluorescent light of a laboratory biosafety cabinet, rows of cell-culture plates arranged methodically on the bench"
+            src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1000&q=80&auto=format&fit=crop"
+            alt="A gentle river winding through a lush green English meadow, its banks lined with willows and wildflowers under a soft overcast sky"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Yale School of Medicine, New Haven, Connecticut — Cancer Discovery / AACR, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Evenlode Valley, Oxfordshire — Evenlode Landscape Recovery, June 2026'); this.remove();" />
         </a>
-        <span class="kicker">Science &amp; Medicine · Yale School of Medicine, Connecticut</span>
-        <h3 class="headline"><a href="issues/2026-06-05.html">It is the type of dietary fat — not the amount — that determines how fast pancreatic tumours grow, a Yale study published in Cancer Discovery finds, establishing the first biological rationale for a dietary trial in a cancer with a 13 percent five-year survival rate.</a></h3>
-        <p class="dek">Researchers tested twelve high-fat diets in mice with KRAS mutations matching human pancreatic cancer, keeping calories identical while varying fat sources, and found tumours grew 50 percent slower in mice fed omega-3-rich fish-oil diets. The mechanism is ferroptosis: polyunsaturated fats sensitise cancer cells to a form of programmed death triggered by lipid oxidation, while monounsaturated fats protect them from it.</p>
+        <span class="kicker">Quiet Kindness · Evenlode Valley, Oxfordshire, England</span>
+        <h3 class="headline"><a href="issues/2026-06-01.html">More than fifty Cotswolds farmers have pooled 3,000 hectares of land to let their shared rivers run free again — and three catchments are measurably cleaner after two years of work on the ground.</a></h3>
+        <p class="dek">The North East Cotswold Farmer Cluster secured more than £3 million to restore the Evenlode, Glyme, and Dorn valleys, reconnecting floodplains and pulling grazing back from riverbanks; water-quality monitoring published in May shows measurable improvements across all three catchments within two years of fieldwork beginning.</p>
       </article>
     </div>
   </section>

@@ -590,14 +590,6 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   html[data-featured="broadsheet"] .featured { grid-template-columns: 1fr; }
   .dateline { flex-direction: column; gap: 4px; align-items: flex-start; }
   .dateline .weather { gap: 14px; }
-  .today-label { flex-wrap: wrap; }
-  .featured .dek,
-  .story-card .dek {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 6;
-    overflow: hidden;
-  }
 }
 </style>
 </head>
@@ -608,8 +600,8 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   <div class="masthead-inner">
     <div class="masthead-utility">
       <div class="issue">
-        <span>Saturday, June&nbsp;6, 2026</span>
-        <span>No.&nbsp;463</span>
+        <span>Monday, June&nbsp;1, 2026</span>
+        <span>No.&nbsp;458</span>
       </div>
       <div><a href="signup.html">Subscribe →</a></div>
     </div>
@@ -638,8 +630,8 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   <div class="dateline">
     <div class="date-main">Issued daily at dawn, wherever you are reading.</div>
     <div class="weather">
-      <span>Filed from 4 continents today</span>
-      <span>Edition 463</span>
+      <span>Filed from 3 continents today</span>
+      <span>Edition 458</span>
     </div>
   </div>
 
@@ -647,26 +639,26 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
   <section aria-labelledby="today-h">
     <div class="today-label">
       <h2 id="today-h" class="greeting">Today, <em>six good things.</em></h2>
-      <span class="note">4 min read · 900 words</span>
+      <span class="note">5 min read · 1,080 words</span>
     </div>
 
     <!-- Featured / lead -->
     <article class="featured">
-      <a class="photo" href="story.html" aria-label="Read: A bird species recorded just once in over a century was found alive on a remote Indonesian volcano — the blue-fronted lorikeet, rediscovered on Buru Island">
+      <a class="photo" href="story.html" aria-label="Read: Brazil's Amazon lost less forest in 2025 than in any year since monitoring began — and deforestation across all Brazilian biomes fell 20.6 percent, a record low">
         <img
-          src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=1600&q=80&auto=format&fit=crop"
-          alt="A small, brilliantly coloured lorikeet perches among the leaves of a flowering tree in dense tropical cloud forest, its vivid plumage catching a shaft of light filtering through the canopy"
+          src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80&auto=format&fit=crop"
+          alt="Sunlight breaking through the dense canopy of a tropical rainforest, illuminating a carpet of green leaves and ancient tree trunks below"
           loading="eager"
-          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Buru Island, Indonesia — BirdLife International / American Bird Conservancy, June 2026'); this.remove();" />
+          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Amazon Basin, Brazil — MapBiomas / AFP, May 2026'); this.remove();" />
       </a>
       <div class="featured-text">
-        <span class="kicker">Small Wonders · Buru Island, Indonesia</span>
-        <h2 class="headline"><a href="story.html">A bird species recorded just once in over a century was found alive on a remote Indonesian volcano — the blue-fronted lorikeet, rediscovered by an expedition that had to climb to 8,900 feet to find it.</a></h2>
-        <p class="dek">A blue-fronted lorikeet — listed as a "lost species" since the early twentieth century and not reliably documented in over a hundred years — was photographed and recorded on Mount Kapalatmada on Buru Island, Indonesia, in April 2026. An expedition by the American Bird Conservancy, Birdtour Asia, and Yayasan Planet Indonesia trekked through unexplored montane cloud forest to 8,900 feet, found at least nine individuals darting between flowering trees, and captured the species' calls on tape for the first time on record. BirdLife International published the findings on June 3, 2026, confirming the lorikeet's survival in the high-altitude isolation that had kept it hidden from science for more than a century.</p>
+        <span class="kicker">Nature · Amazon Basin, Brazil</span>
+        <h2 class="headline"><a href="story.html">Brazil's Amazon lost less forest in 2025 than in any year since monitoring began — and deforestation across all Brazilian biomes fell 20.6 percent, a record low.</a></h2>
+        <p class="dek">The MapBiomas satellite-monitoring consortium — a coalition of universities, tech companies, and research institutes — recorded 985,000 hectares of native vegetation lost across Brazil in 2025, a 20.6 percent drop from 2024 and the lowest total since systematic records began in 2019. In the Amazon basin itself, home to roughly ten percent of all life on Earth, forest loss fell by 23.5 percent — a decline that the network's technical coordinator, Marcos Rosa, links directly to sustained enforcement operations and sanctions across all biomes. The figures confirm a multi-year trajectory: Amazon deforestation has fallen by more than half since its 2022 peak, and four of Brazil's six biomes each set their own monitoring-era records for low forest loss in 2025.</p>
         <div class="featured-meta">
           <div class="byline">
-            Reported by <strong style="font-weight:500">BirdLife International / American Bird Conservancy</strong>
-            <span class="dot">·</span> Photograph by Zdeněk Macháček
+            Reported by <strong style="font-weight:500">MapBiomas / AFP / Phys.org</strong>
+            <span class="dot">·</span> Photograph by Felix Mittermeier
           </div>
           <a href="story.html" style="font-family:var(--sans); font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-deep); text-decoration:none;">Read the story →</a>
         </div>
@@ -676,36 +668,36 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
     <!-- Two secondary -->
     <div class="two-up">
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: New Zealand gazetted five new marine reserves along the Otago coast — adding 308 square kilometres of protected ocean and increasing mainland coverage by nearly half — to be co-managed with Kāi Tahu rangers starting July 1">
+        <a class="photo" href="story.html" aria-label="Read: DNA taken from 200-year-old museum specimens has solved a 250-year puzzle: the crocodiles of the Seychelles swam at least 3,000 kilometres across the open Indian Ocean to get there">
           <img
-            src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=1200&q=80&auto=format&fit=crop"
-            alt="Long golden-brown kelp fronds rise through cold, clear green water off the New Zealand coast, shafts of sunlight filtering down from the surface through the underwater forest"
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80&auto=format&fit=crop"
+            alt="A vast turquoise ocean stretching to the horizon under a clear sky, the water clear and still with no land in sight"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Otago coast, New Zealand — NZ Department of Conservation, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Indian Ocean / Seychelles — Bavarian State Collections of Natural History / Royal Society Open Science, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Nature · Otago coast, New Zealand</span>
-        <h3 class="headline"><a href="story.html">New Zealand gazetted five new marine reserves along the Otago coast — adding 308 square kilometres of protected ocean and increasing mainland coverage by nearly half — to be co-managed with Kāi Tahu rangers starting July 1.</a></h3>
-        <p class="dek">The five reserves, gazetted on June 2, 2026, protect giant kelp forests, rocky reefs, deep offshore canyons, yellow-eyed penguins, and New Zealand sea lions along a stretch of the South Island coast without full protection for over a decade. The network has been renamed Te Au Roa o Te Rakihouia in honour of Kāi Tahu ancestral voyagers who navigated these waters; under a first-of-its-kind arrangement for New Zealand marine reserves, the Department of Conservation and Kāi Tahu rangers will manage them jointly from day to day. At 308 square kilometres, the reserves increase mainland New Zealand's total protected marine area by nearly 50 percent in a single decision, with the reserves entering legal force on 1 July 2026.</p>
+        <span class="kicker">Small Wonders · Seychelles, Indian Ocean</span>
+        <h3 class="headline"><a href="story.html">DNA taken from 200-year-old museum specimens has solved a 250-year puzzle: the crocodiles of the Seychelles swam at least 3,000 kilometres across the open Indian Ocean to get there.</a></h3>
+        <p class="dek">Researchers at Germany's Bavarian State Collections of Natural History analysed mitochondrial genomes from preserved specimens of the Seychelles crocodile — which vanished within fifty years of European settlers arriving in 1770 — and found that the animals were not a unique island species but an isolated population of saltwater crocodiles that must have drifted from the Asian or East African mainland. Published 28 May in <em>Royal Society Open Science</em>, the study shows that saltwater crocodiles, the only reptile equipped with salt-excreting glands for sustained ocean crossings, covered at least 3,000 kilometres of open water to reach an archipelago where no land reptile had previously existed. Before settlers exterminated them within fifty years, the Seychelles population formed the westernmost tip of a range stretching more than 12,000 kilometres to Vanuatu in the Pacific.</p>
         <div class="byline">
-          <strong style="font-weight:500">New Zealand Department of Conservation / Scoop</strong>
-          <span class="dot">·</span> Photo by Enrique Ortega Miranda
+          <strong style="font-weight:500">Bavarian State Collections of Natural History, Germany / Royal Society Open Science</strong>
+          <span class="dot">·</span> Photo by Sean Oulashin
         </div>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: A study of 27,000 people published in Nature finds that the thymus — long assumed to go quiet in adulthood — predicts mortality risk with striking precision, cutting risk of death by half in those with the healthiest readings">
+        <a class="photo" href="story.html" aria-label="Read: More than fifty Cotswolds farmers have pooled 3,000 hectares of land to let their shared rivers run free again — and three river catchments are measurably cleaner after two years of work">
           <img
-            src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1200&q=80&auto=format&fit=crop"
-            alt="A researcher examines glowing samples in a clinical laboratory, rows of labelled specimen vials and imaging equipment arranged across a spotlit bench in a darkened room"
+            src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80&auto=format&fit=crop"
+            alt="A gentle river winding through a lush green English meadow, its banks lined with willows and wildflowers under a soft overcast sky"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Mass General Brigham, Boston, Massachusetts — Nature, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Evenlode Valley, Oxfordshire — North East Cotswold Farmer Cluster / Evenlode Landscape Recovery, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Science &amp; Medicine · Boston, Massachusetts</span>
-        <h3 class="headline"><a href="story.html">A study of 27,000 people published in Nature finds that the thymus — long assumed to go quiet in adulthood — predicts mortality risk with striking precision, cutting the risk of death by half in those with the healthiest readings.</a></h3>
-        <p class="dek">Researchers at Mass General Brigham used deep-learning AI to analyse chest CT scans from two large prospective cohorts — the National Lung Screening Trial and the Framingham Heart Study — and found that adults with a denser, more active thymus had roughly 50 percent lower risk of death from all causes, 63 percent lower risk of cardiovascular death, and 36 percent lower risk of lung cancer. In a separate analysis of 1,200 cancer patients on immunotherapy, the same healthier-thymus signal predicted 44 percent lower odds of dying. Published June 1, 2026 in Nature, the findings suggest the thymus may be a measurable target for longevity-focused therapies, with clinical trials now in planning.</p>
+        <span class="kicker">Quiet Kindness · Evenlode Valley, Oxfordshire, England</span>
+        <h3 class="headline"><a href="story.html">More than fifty Cotswolds farmers have pooled 3,000 hectares of land to let their shared rivers run free again — and three catchments are measurably cleaner after two years of work on the ground.</a></h3>
+        <p class="dek">The North East Cotswold Farmer Cluster, a co-operative of more than fifty land managers and tenant farmers, is restoring the valleys of the Evenlode, Glyme, and Dorn rivers by reconnecting floodplains, creating wetlands, and pulling grazing back from riverbanks — pooling across property boundaries a risk and cost that no single farm could carry alone. The project has secured more than £3 million in blended investment from Network Rail and Scottish and Southern Electricity Networks, both of which benefit when flood peaks are absorbed upstream before reaching infrastructure downstream. Water quality monitoring published in May shows measurable improvements across all three river catchments within two years of fieldwork beginning, a pace that project managers say demonstrates the model can be replicated widely across England.</p>
         <div class="byline">
-          <strong style="font-weight:500">Mass General Brigham / Nature</strong>
-          <span class="dot">·</span> Photo by Hal Gatewood
+          <strong style="font-weight:500">Evenlode Landscape Recovery Project / Water Magazine</strong>
+          <span class="dot">·</span> Photo by James Bellman
         </div>
       </article>
     </div>
@@ -713,88 +705,88 @@ html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.
     <!-- More today — 3 smaller cards -->
     <div class="yesterday" style="border-top:1px solid var(--rule-soft); padding-top: clamp(28px, 3.4vw, 48px);">
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: On a busy British Columbia highway, a dozen strangers stopped their vehicles and carried a stranded moose calf back over a concrete divider to its waiting mother — then drove off without exchanging names">
+        <a class="photo" href="story.html" aria-label="Read: England's first Dutch-style cycle street has opened in Cambridge, where 3,000 cyclists a day now have legal right of way over cars">
           <img
-            src="https://images.unsplash.com/photo-1516934434832-3d0490c4db99?w=1000&q=80&auto=format&fit=crop"
-            alt="A young moose calf stands at the edge of a boreal forest, its long spindly legs and large soft ears giving it a gentle, uncertain presence in the dappled morning light"
+            src="https://images.unsplash.com/photo-1558980664-769d59546b3d?w=1000&q=80&auto=format&fit=crop"
+            alt="A lone cyclist riding along a quiet tree-lined road, sunlight filtering through leaves onto the empty lane ahead"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Prince George, British Columbia, Canada — CBC News, May 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Adams Road fietsstraat — Greater Cambridge Partnership / Cycling Weekly, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Quiet Kindness · Prince George, British Columbia, Canada</span>
-        <h3 class="headline"><a href="story.html">On a busy British Columbia highway, a dozen strangers stopped their vehicles and carried a stranded moose calf back over a concrete divider to its waiting mother — then drove off without exchanging names.</a></h3>
-        <p class="dek">On May 28, a baby moose unable to climb a concrete highway divider on Highway 16 in Prince George brought traffic in both directions to a standstill until driver Duane Hogberg stepped out, scooped the calf into his arms, and walked it over the barrier to its mother. Hogberg described the animal as "super soft, like kitten fur"; others blocked lanes until the pair were safely reunited. No one exchanged names, and traffic resumed within minutes.</p>
+        <span class="kicker">Everyday Joy · Cambridge, England</span>
+        <h3 class="headline"><a href="story.html">England's first Dutch-style "cycle street" has opened in Cambridge, where 3,000 cyclists a day now have legal right of way over cars on a road redesigned around bikes.</a></h3>
+        <p class="dek">Adams Road, which runs beside Cambridge University Library and carries an estimated 3,000 cyclists each day, has been redesigned as England's first fietsstraat — a road type common across the Netherlands where motorists are legally guests, may not overtake cyclists, and must yield at all junctions. The £2.4 million scheme raised crossings to road level, removed on-road parking, widened footpaths, and planted rainwater gardens to manage surface water along the route. The Greater Cambridge Partnership says Adams Road will serve as a template for a rolling programme of similar conversions across a city where cycling already outnumbers driving on the most-used commuter routes.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: Six shipwrecks in Nassau Harbour have been confirmed as the first physical remains of the Golden Age of Piracy — the decade when Blackbeard, Calico Jack, and Anne Bonny based themselves on New Providence Island">
+        <a class="photo" href="story.html" aria-label="Read: A study of 268 people from age 8 to 34 finds that rhythmic musical training is what sharpens sustained attention at every stage of development">
           <img
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000&q=80&auto=format&fit=crop"
-            alt="The turquoise and deep-blue waters of a Bahamian cove, shallow sandy bottom visible through the clear surface, the low silhouette of an island and swaying palms at the horizon"
+            src="https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1000&q=80&auto=format&fit=crop"
+            alt="A pair of hands resting on the keys of an upright piano, soft light falling across the polished wood and white keys"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Nassau Harbour, The Bahamas — LiveScience / Wreckwatch Magazine, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Musicians attention study — University of Granada / Communications Psychology, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Everyday Joy · Nassau Harbour, The Bahamas</span>
-        <h3 class="headline"><a href="story.html">Six shipwrecks in Nassau Harbour have been confirmed as the first physical remains of the Golden Age of Piracy — the decade when Blackbeard, Calico Jack, and Anne Bonny based themselves on New Providence Island.</a></h3>
-        <p class="dek">Marine archaeologist Dr Sean Kingsley and Bahamian archaeologist Dr Michael Pateman recovered iron cannons, lead musket balls, a sword-grinding stone, and charred hull timbers from sites in and around Nassau Harbour, alongside a 3D reconstruction of the pirate settlement as it stood around 1715. The finds, published in Wreckwatch Magazine on June 4, 2026, are the first physical evidence of any of the roughly 40 ships historically recorded as sunk or burned near Nassau during the piracy era. Three centuries of shipwreck hunting, resolved in a place most researchers assumed had already been thoroughly searched.</p>
+        <span class="kicker">Science &amp; Medicine · University of Granada, Spain</span>
+        <h3 class="headline"><a href="story.html">A study of 268 people aged 8 to 34 finds that rhythmic musical training — not melody or ear training — is what sharpens sustained attention at every stage of development.</a></h3>
+        <p class="dek">Researchers at the Mind, Brain and Behaviour Research Centre at the University of Granada recruited 268 musicians and non-musicians aged 8 to 34 and measured their performance on demanding attention tasks; musicians at every age responded faster and produced measurably fewer concentration lapses than matched non-musicians. The study, published in <em>Communications Psychology</em>, identified rhythmic skill — precise synchronisation of movement with a beat — as the active mechanism, operating through improvements in both sustained attention and phonological processing rather than any general advantage in processing speed. The finding suggests that rhythm-focused music education, even in brief formats, may produce lasting cognitive gains independent of musical achievement — a case the authors say is relevant to schools weighing the cost of dedicated arts time.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="story.html" aria-label="Read: Papua New Guinea has cut its malaria death rate by 92 percent since 2000 — from 13 deaths per 100,000 to one — using diagnostic testing, artemisinin therapies, and bed nets, without a vaccine">
+        <a class="photo" href="story.html" aria-label="Read: Global teenage birth rates have fallen by more than 40 percent since 2000, with every major world region now below its year-2000 figure">
           <img
-            src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1000&q=80&auto=format&fit=crop"
-            alt="A community health worker walks along a shaded path between traditional homes in a highland village, a medical bag over one shoulder and a cluster of thatched roofs and green hills in the distance"
+            src="https://images.unsplash.com/photo-1516321165247-4aa89a48be55?w=1000&q=80&auto=format&fit=crop"
+            alt="A group of girls in school uniforms walking and talking together in a bright schoolyard, their books tucked under their arms"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Papua New Guinea — Good News Network / The National, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Adolescent birth rate decline — Our World in Data / United Nations, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Global Progress · Papua New Guinea</span>
-        <h3 class="headline"><a href="story.html">Papua New Guinea has cut its malaria death rate by 92 percent since 2000 — from 13 deaths per 100,000 to one — using diagnostic testing, artemisinin therapies, and bed nets, and without a vaccine.</a></h3>
-        <p class="dek">Annual malaria deaths in Papua New Guinea fell from roughly 700 in 2000 to 148 in 2025; Morobe province, the country's most populous, recorded just 66 malaria deaths last year. The reduction relied on no new technology — only expanded deployment of diagnostics, artemisinin-based combination therapies, and insecticide-treated bed nets across some of the world's most difficult terrain. Because Papua New Guinea accounts for approximately 90 percent of all malaria cases in the Western Pacific, a reduction of this magnitude has significance across the entire Pacific region.</p>
+        <span class="kicker">Global Progress · Worldwide</span>
+        <h3 class="headline"><a href="story.html">Global teenage birth rates have fallen by more than 40 percent since 2000, with every major world region now below its year-2000 figure and Central and South Asia recording a decline of more than three-quarters.</a></h3>
+        <p class="dek">United Nations data compiled by Our World in Data shows the global adolescent birth rate — live births per 1,000 girls aged 15 to 19 — fell from 66 in 2000 to 38 in 2024, a decline driven in every region by rising rates of girls' secondary school enrolment and expanding access to reproductive health services. The sharpest improvement came in Central and South Asia, where the rate fell from 106 to 25, a reduction of more than three-quarters; Latin America and the Caribbean fell from 83 to 50, and Sub-Saharan Africa from 129 to 93. For the first time since records began, no major world region now reports a rate above 100 births per 1,000 adolescent girls — a threshold that marked much of the developing world at the turn of the millennium.</p>
       </article>
     </div>
   </section>
 
   <!-- Yesterday -->
   <section aria-labelledby="yesterday-h">
-    <div class="section-label"><span id="yesterday-h">Yesterday · June 5</span></div>
+    <div class="section-label"><span id="yesterday-h">Yesterday · May 31</span></div>
 
     <div class="yesterday">
       <article class="story-card">
-        <a class="photo" href="issues/2026-06-05.html" aria-label="Read: In Spello, Umbria, every Corpus Christi the town's neighbourhood groups spend the night laying a two-kilometre carpet of fresh flower petals across the medieval streets — and a Sunday morning procession walks it to pieces">
+        <a class="photo" href="issues/2026-05-31.html" aria-label="Read: Crowds packed Cheung Chau island this weekend for Hong Kong's annual Bun Festival, which climaxes at midnight with a race up a fourteen-metre tower stacked with 9,000 steamed buns">
           <img
-            src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1000&q=80&auto=format&fit=crop"
-            alt="A narrow medieval street in Spello, Umbria, covered end to end with an elaborate carpet of fresh flower petals arranged in intricate geometric patterns, stone buildings rising on either side"
+            src="https://images.unsplash.com/photo-1543349689-9a4d426bee8e?w=1000&q=80&auto=format&fit=crop"
+            alt="Dozens of glowing red and gold paper lanterns suspended above a crowded festival street at dusk, their warm light reflected in the faces below"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Spello, Umbria, Italy — Comune di Spello / Idealista.it, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Cheung Chau Bun Festival — Hong Kong Free Press / Timeout Hong Kong, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Everyday Joy · Spello, Umbria, Italy</span>
-        <h3 class="headline"><a href="issues/2026-06-05.html">In Spello, Umbria, every Corpus Christi the town's neighbourhood groups spend the night laying a two-kilometre carpet of fresh flower petals across the medieval streets — and a Sunday morning procession walks it to pieces.</a></h3>
-        <p class="dek">On the night of 6 June 2026, twelve competing neighbourhood groups carry tonnes of freshly pressed petals, seeds, and mosses from the surrounding Umbrian hills into Spello's old town, working through the dark to assemble elaborate geometric, botanical, and sacred designs across the cobblestones before dawn. Spello's Infiorata is inscribed as national cultural heritage and covers almost three kilometres of the historic alleys; the town's population roughly doubles for the weekend.</p>
+        <span class="kicker">Everyday Joy · Cheung Chau island, Hong Kong</span>
+        <h3 class="headline"><a href="issues/2026-05-31.html">Crowds packed Cheung Chau island this weekend for Hong Kong's annual Bun Festival, which climaxes at midnight with a race up a fourteen-metre tower stacked with 9,000 steamed buns.</a></h3>
+        <p class="dek">Every year on the ninth day of the fourth lunar month, the traffic-free island of Cheung Chau holds a four-day festival honouring the sea deity Pak Tai, with the climax a timed midnight scramble in which twelve finalists race to grab as many buns as possible from a fourteen-metre bamboo tower — buns at greater height worth more points and said to carry greater luck.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="issues/2026-06-05.html" aria-label="Read: Denmark now has thirteen breeding white stork pairs — the highest count since 1991 — as two entirely new nesting sites established themselves in Sønderjylland and outside Roskilde this spring">
+        <a class="photo" href="issues/2026-05-31.html" aria-label="Read: An oral drug called daraxonrasib nearly doubled median overall survival for patients with metastatic pancreatic cancer in a Phase 3 trial — the first RAS inhibitor to do so">
           <img
-            src="https://images.unsplash.com/photo-1444464666168-49d0855cf9d4?w=1000&q=80&auto=format&fit=crop"
-            alt="A white stork stands tall in a sunlit Central European meadow, its red bill and long legs distinctive against pale summer grasses"
+            src="https://images.unsplash.com/photo-1579165466741-7f35e4755169?w=1000&q=80&auto=format&fit=crop"
+            alt="A researcher in protective gloves examines a small sample in a clinical laboratory, shelves of vials and equipment visible behind"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Sønderjylland, Denmark — Storkene.dk / Daily Northern, May 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','RASolute 302 trial — daraxonrasib / Dana-Farber / NEJM, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Nature · Sønderjylland, Denmark</span>
-        <h3 class="headline"><a href="issues/2026-06-05.html">Denmark now has thirteen breeding white stork pairs — the highest count since 1991 — as two entirely new nesting sites established themselves in Sønderjylland and outside Roskilde this spring.</a></h3>
-        <p class="dek">The spring 2026 survey by Storkene.dk recorded thirteen breeding pairs — up from eleven the previous year and the most since 1991 — following decades of volunteer nest-platform installation and habitat management. The group projects 32 to 33 fledglings will take wing by late summer, with the two entirely new sites the first storks to nest in those locations within living memory.</p>
+        <span class="kicker">Science &amp; Medicine · Boston, USA / Global</span>
+        <h3 class="headline"><a href="issues/2026-05-31.html">An oral drug called daraxonrasib nearly doubled median overall survival for patients with metastatic pancreatic cancer in a Phase 3 trial — the first RAS inhibitor to do so.</a></h3>
+        <p class="dek">In the RASolute 302 trial of 500 patients, daraxonrasib extended median overall survival to 13.2 months against 6.7 months on standard chemotherapy; results were presented at ASCO and published simultaneously in the <em>New England Journal of Medicine</em> on 31 May.</p>
       </article>
 
       <article class="story-card">
-        <a class="photo" href="issues/2026-06-05.html" aria-label="Read: It is the type of dietary fat — not the amount — that determines how fast pancreatic tumours grow, a Yale study published in Cancer Discovery finds">
+        <a class="photo" href="issues/2026-05-31.html" aria-label="Read: Twenty-nine European countries dismantled 603 river barriers in 2025, reconnecting 3,740 kilometres of waterway in the fifth consecutive year to set a new continental record">
           <img
-            src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=1000&q=80&auto=format&fit=crop"
-            alt="A researcher in a white coat examines petri dishes under the fluorescent light of a laboratory biosafety cabinet, rows of cell-culture plates arranged methodically on the bench"
+            src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1000&q=80&auto=format&fit=crop"
+            alt="A clear swift river winding through a dense green valley, its banks lush and undisturbed, sunlight catching the water's surface"
             loading="lazy"
-            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Yale School of Medicine, New Haven, Connecticut — Cancer Discovery / AACR, June 2026'); this.remove();" />
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Dam Removal Europe 2025 — 603 barriers removed / Wetlands International, May 2026'); this.remove();" />
         </a>
-        <span class="kicker">Science &amp; Medicine · Yale School of Medicine, Connecticut</span>
-        <h3 class="headline"><a href="issues/2026-06-05.html">It is the type of dietary fat — not the amount — that determines how fast pancreatic tumours grow, a Yale study published in Cancer Discovery finds, establishing the first biological rationale for a dietary trial in a cancer with a 13 percent five-year survival rate.</a></h3>
-        <p class="dek">Researchers tested twelve high-fat diets in mice with KRAS mutations matching human pancreatic cancer, keeping calories identical while varying fat sources, and found tumours grew 50 percent slower in mice fed omega-3-rich fish-oil diets. The mechanism is ferroptosis: polyunsaturated fats sensitise cancer cells to a form of programmed death triggered by lipid oxidation, while monounsaturated fats protect them from it.</p>
+        <span class="kicker">Global Progress · 29 European countries</span>
+        <h3 class="headline"><a href="issues/2026-05-31.html">Twenty-nine European countries dismantled 603 river barriers in 2025, reconnecting 3,740 kilometres of waterway in the fifth consecutive year to set a new continental record.</a></h3>
+        <p class="dek">Across 29 countries in 2025, teams removed 603 obsolete dams, weirs, sluices, and culverts — an 11 percent increase over 2024 — reconnecting more than 3,740 kilometres of river and bringing the EU measurably closer to its target of 25,000 kilometres of free-flowing waterway by 2030.</p>
       </article>
     </div>
   </section>
