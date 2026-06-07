@@ -6,6 +6,7 @@ it to produce the next edition. You (Claude Code) are the editor.
 
 ## What you do, every day
 
+0. **Sync first.** Run `git pull --no-rebase origin main` before doing anything. This repo is published by a daily cron, so the remote is usually ahead of local — pushing without pulling first will be rejected with "fetch first."
 1. Read **DAILY.md** for the daily prompt + search strategy.
 2. Find six stories using web search (criteria in DAILY.md) — one from each
    of the six categories.
