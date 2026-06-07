@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-07",
+    "slug": "2026-06-07",
+    "edition": 464,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Altyn Dala reserve, Kazakhstan",
+        "head": "Thirteen Przewalski's horses have been released into Kazakhstan's Altyn Dala steppe this spring — the first of the species to live wild in that landscape in more than 200 years.",
+        "src": "The Astana Times",
+        "url": "https://astanatimes.com/2026/06/kazakhstan-advances-przewalskis-horse-restoration-with-wild-release-and-new-arrivals/",
+        "img": "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Hakusan, Bunkyo, Tokyo, Japan",
+        "head": "Tokyo's 42nd Bunkyo Hydrangea Festival opens at Hakusan Shrine this week with 3,000 blooms, a rarely unlocked miniature Mt. Fuji, and free toothbrushes for the first hundred visitors.",
+        "src": "GO TOKYO / Hakusan Shrine",
+        "url": "https://www.gotokyo.org/en/spot/ev031/index.html",
+        "img": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Toronto, Canada",
+        "head": "A triple-hormone drug called retatrutide cut blood sugar and body weight simultaneously in 90 percent of type 2 diabetes patients in a phase 3 trial, published June 6 in The Lancet.",
+        "src": "The Lancet",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00967-0/abstract",
+        "img": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Bonn, Germany",
+        "head": "Homing pigeons navigate in overcast skies using iron stripped from old red blood cells and stored in their livers — a living magnetic compass hidden in a routine organ.",
+        "src": "Science News / Science",
+        "url": "https://www.sciencenews.org/article/pigeon-navigation-iron-liver-cells",
+        "img": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Singapore",
+        "head": "On a crowded Singapore train, a stranger fanned a sweating mother and her sleeping toddler for fifteen minutes without being asked, then declined to give her name.",
+        "src": "Asianet Newsable",
+        "url": "https://newsable.asianetnews.com/world/one-pushed-one-helped-indian-woman-recalls-kind-gesture-singapore-metro-goes-viral-watch-articleshow-0plzdbx",
+        "img": "https://images.unsplash.com/photo-1536599424071-0b215a388ba7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Global",
+        "head": "In April 2026, wind and solar generated more electricity worldwide than natural gas for the first time in recorded history — 531 terawatt-hours against gas's 477.",
+        "src": "Ember",
+        "url": "https://ember-energy.org/latest-updates/for-the-first-time-wind-and-solar-generated-more-electricity-than-gas-worldwide-in-april-2026/",
+        "img": "https://images.unsplash.com/photo-1466611653911-0072c949b957?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-06",
     "slug": "2026-06-06",
     "edition": 463,
