@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-08",
+    "slug": "2026-06-08",
+    "edition": 465,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Kimboza and Ruvu forest reserves, Tanzania",
+        "head": "Trade bans and a decade of community forest restoration have brought Tanzania's turquoise dwarf gecko back from near-extinction — populations have returned to pre-collection levels for the first time since the illegal pet trade peaked.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/06/how-trade-bans-and-local-conservation-helped-save-a-dazzling-blue-gecko/",
+        "img": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Hanover, New Hampshire, USA",
+        "head": "Octopuses have learned to use a mirror to locate prey hidden outside their line of sight — the first invertebrate shown to navigate by its own reflection, bridging 500 million years of separate evolution.",
+        "src": "Current Biology / Dartmouth College",
+        "url": "https://home.dartmouth.edu/news/2026/06/study-shows-octopuses-impressive-ability-navigate-space",
+        "img": "https://images.unsplash.com/photo-1508866347614-3e680c00286d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Cambridge and Southampton, United Kingdom",
+        "head": "A vaccine designed entirely by computer simulations passed its first human trial safely — triggering immune responses against SARS-CoV-2, SARS-CoV-1, and related bat-origin viruses in all 39 volunteers.",
+        "src": "Journal of Infection / University of Cambridge",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260605023357.htm",
+        "img": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "India",
+        "head": "A social worker from India has earned the Guinness World Record for the world's largest collection of paper cups — 858 vessels gathered from 31 countries, ranging from 5 ml to 500 ml.",
+        "src": "Guinness World Records",
+        "url": "https://www.guinnessworldrecords.com/news/2026/5/indian-man-with-record-collection-of-800-paper-cups-says-commit-to-your-passion",
+        "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Sydenham, South London, England",
+        "head": "A nurse at a South London hospice spent months searching for an elderly patient's long-lost brother — and found him already volunteering at the hospice's own charity shop around the corner.",
+        "src": "St. Christopher's Hospice",
+        "url": "https://www.stchristophers.org.uk/long-lost-siblings-reunited-muriels-story/",
+        "img": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Latin America and the Caribbean",
+        "head": "The Americas' standardised hypertension programme now operates in 10,950 clinics across 34 countries, serving 50 million adults — with six in ten patients achieving controlled blood pressure where the programme runs fully.",
+        "src": "PAHO (Pan American Health Organization)",
+        "url": "https://www.paho.org/en/news/3-6-2026-paho-director-presents-2025-annual-report-oas-permanent-council",
+        "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-07",
     "slug": "2026-06-07",
     "edition": 464,
