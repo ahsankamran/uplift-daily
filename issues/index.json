@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-10",
+    "slug": "2026-06-10",
+    "edition": 467,
+    "stories": [
+      {
+        "cat": "Everyday Joy",
+        "place": "Sapporo, Hokkaido, Japan",
+        "head": "The 35th Yosakoi Soran Festival fills Sapporo with 30,000 dancers across seventeen outdoor stages — a tradition born in 1992 when Hokkaido University students fused two regional folk dance cultures.",
+        "src": "Japan Cheapo",
+        "url": "https://japancheapo.com/events/yosakoi-soran-festival/",
+        "img": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "21 Countries, Europe",
+        "head": "A record 603 dams, weirs, and culverts were removed across 21 European countries in 2025 — the most in a single year since monitoring began — reopening 3,700 kilometres of river corridor for migratory fish.",
+        "src": "Circle of Blue / Dam Removal Europe",
+        "url": "https://www.circleofblue.org/newsletter/the-stream-june-2026-europe-removed-record-number-of-river-barriers-last-year-reconnecting-thousands-of-miles-of-waterways/",
+        "img": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Global",
+        "head": "A daily pill called daraxonrasib nearly doubled median survival in previously treated metastatic pancreatic cancer — 13.2 months versus 6.7 months on chemotherapy — in a Phase 3 trial published in the New England Journal of Medicine.",
+        "src": "ASCO Post / New England Journal of Medicine",
+        "url": "https://ascopost.com/news/june-2026/daraxonrasib-nearly-doubles-survival-in-previously-treated-metastatic-pancreatic-cancer/",
+        "img": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Indonesia",
+        "head": "Indonesia's national electrification rate reached 99.83 percent in the first quarter of 2026 — covering 280 million people across 17,000 islands, up from 91 percent a decade ago.",
+        "src": "ANTARA News",
+        "url": "https://en.antaranews.com/news/418041/indonesias-electrification-rate-reaches-9983-percent-in-q1-2026",
+        "img": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Nanaimo, British Columbia, Canada",
+        "head": "In Nanaimo, British Columbia, a woman answered her door to find a 12-year-old boy whose father had collapsed — and performed chest compressions until paramedics arrived and revived him.",
+        "src": "NanaimoNewsNOW",
+        "url": "https://nanaimonewsnow.com/2026/06/03/im-just-happy-that-i-answered-my-door-nanaimo-woman-provides-lifesaving-first-aid/",
+        "img": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Jupiter Beach, Florida, USA",
+        "head": "An olive ridley sea turtle nicknamed Tini came ashore at Jupiter Beach, Florida — 1,500 miles north of her species' usual nesting range — to lay the first olive ridley nest ever documented in the state.",
+        "src": "CBS12 / Loggerhead Marinelife Center",
+        "url": "https://cbs12.com/news/local/rare-olive-ridley-sea-turtle-nest-documented-in-florida-for-first-time-juno-beach-loggerhead-marinelifecenter-brazil-trinidad-suriname-gabon-nesting-tini-jupiter-beach",
+        "img": "https://images.unsplash.com/photo-1544551763-92ab472cad5d?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-09",
     "slug": "2026-06-09",
     "edition": 466,
