@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-11",
+    "slug": "2026-06-11",
+    "edition": 468,
+    "stories": [
+      {
+        "cat": "Everyday Joy",
+        "place": "Kaskelen, Almaty, Kazakhstan",
+        "head": "The Qazaqstan International Balloon Festival returns to the Almaty foothills after a two-year break, with 29 hot-air balloons and pilots from 12 countries soaring above the Trans-Ili Alatau mountain corridor.",
+        "src": "Kazinform",
+        "url": "https://qazinform.com/news/colorful-hot-air-balloons-soar-above-kazakhstans-kaskelen-6f91a8",
+        "img": "https://images.unsplash.com/photo-1570498839593-e565b39455fc?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Buru Island, Maluku, Indonesia",
+        "head": "After nearly a century of near-disappearance, the blue-fronted lorikeet has been photographed alive on Buru Island — nine individuals confirmed in a 14-day expedition that reached a summit no scientist had previously climbed.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/this-colorful-parakeet-had-been-seen-only-once-over-the-past-century-birders-just-rediscovered-it-in-an-unexplored-indonesian-forest-180988907/",
+        "img": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Global",
+        "head": "Once-weekly survodutide cleared fatty liver disease entirely in 61 percent of patients in the SYNCHRONIZE-MASLD Phase 3 trial — the strongest result yet for a condition affecting 38 percent of adults worldwide.",
+        "src": "Nature Medicine",
+        "url": "https://www.nature.com/articles/s41591-026-04479-3",
+        "img": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Firth of Forth, Scotland",
+        "head": "Bass Rock — home to one of the world's largest northern gannet colonies and called one of the '12 wildlife wonders of the world' by Sir David Attenborough — has passed into conservation ownership for the first time in 320 years.",
+        "src": "STV News",
+        "url": "https://news.stv.tv/east-central/rspb-buys-scottish-islands-to-safeguard-awe-inspiring-seabird-sanctuaries",
+        "img": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Amritsar, Punjab, India",
+        "head": "A clothing shopkeeper near the Golden Temple in Amritsar served chai, cooked a full Punjabi meal, walked a foreign visitor through the neighbourhood, and placed a traditional scarf around his neck — all after the visitor arrived with no money.",
+        "src": "The Tribune India",
+        "url": "https://www.tribuneindia.com/news/punjab/no-money-no-problem-bro-youre-in-india-amritsar-shopkeepers-kindness-to-british-tourist-wins-hearts-online/",
+        "img": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Turks and Caicos Islands",
+        "head": "The World Health Organization certified the Turks and Caicos Islands for eliminating mother-to-child transmission of both HIV and hepatitis B — the first territory in the Americas to achieve the hepatitis B milestone.",
+        "src": "PAHO / WHO",
+        "url": "https://www.paho.org/en/news/3-6-2026-who-certifies-turks-and-caicos-eliminating-mother-child-transmission-hiv-and",
+        "img": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-10",
     "slug": "2026-06-10",
     "edition": 467,
