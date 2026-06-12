@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-12",
+    "slug": "2026-06-12",
+    "edition": 469,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "New South Wales, Australia",
+        "head": "The Nari Nari Tribal Council has taken ownership of 33,000 hectares of the Great Cumbung Swamp, permanently protecting one of the Murray-Darling Basin's largest remaining reed wetlands.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/06/indigenous-organization-buys-wetland-property-in-australia-to-help-conserve-it/",
+        "img": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Cambridge, United Kingdom",
+        "head": "An AI-designed universal coronavirus vaccine passed its first human trial safely, generating immune responses against SARS-CoV-2, SARS-CoV-1, and bat-origin coronaviruses in all 39 volunteers.",
+        "src": "ScienceDaily / Journal of Infection",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260605023357.htm",
+        "img": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Essaouira, Morocco",
+        "head": "For its 27th year, the Gnaoua Festival fills a Moroccan coastal medina with three nights of ancient trance music and jazz performed free in the open air.",
+        "src": "La Nouvelle Tribune",
+        "url": "https://lnt.ma/gnaoua-festival-in-essaouira-transmission-at-the-heart-of-the-2026-edition/",
+        "img": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Niigata Prefecture, Japan",
+        "head": "A 7-Eleven franchise owner in Niigata placed signs at his three stores inviting anyone feeling unwell from the heat to come inside and cool down, no purchase required — and the gesture prompted 7-Eleven Japan to adopt a nationwide campaign.",
+        "src": "Good News Network / Mainichi Shimbun",
+        "url": "https://www.goodnewsnetwork.org/7-eleven-owner-pays-forward-kindness-from-a-decade-ago-with-viral-signs-offering-shelter-from-scorching-heat/",
+        "img": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Babar Islands, Indonesia",
+        "head": "A small fantail bird on Indonesia's Babar Islands has been recognised as an entirely new species — revealed not by appearance but by a song no ornithologist had written down for 120 years.",
+        "src": "Sci.News / Bulletin of the British Ornithologists' Club",
+        "url": "https://www.sci.news/biology/rhipidura-laguceria-14829.html",
+        "img": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Africa",
+        "head": "The African Development Bank launched a public real-time dashboard showing that its Mission 300 electrification drive has already reached 5.2 million people, with 74 active projects expected to add 35 million more.",
+        "src": "pv magazine",
+        "url": "https://www.pv-magazine.com/2026/06/05/la-bad-lance-un-tableau-de-bord-public-pour-suivre-lelectrification-de-lafrique/",
+        "img": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-11",
     "slug": "2026-06-11",
     "edition": 468,
