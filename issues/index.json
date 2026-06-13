@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-13",
+    "slug": "2026-06-13",
+    "edition": 470,
+    "stories": [
+      {
+        "cat": "Global Progress",
+        "place": "French Polynesia",
+        "head": "French Polynesia has designated 520,000 square kilometres of ocean around the Austral and Marquesas Islands as the world's largest national marine protected area under the strictest conservation standard.",
+        "src": "Conservation International",
+        "url": "https://www.conservation.org/news/the-world-just-gained-a-marine-protected-area-the-size-of-france",
+        "img": "https://images.unsplash.com/photo-k4XDVl-JCpQ?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Iberian Peninsula, Spain and Portugal",
+        "head": "The Iberian lynx has reached 2,663 individuals — a 95 percent increase in four years and the highest count ever recorded — marking the first measurable step toward the population target for formal recovery.",
+        "src": "The Portugal News",
+        "url": "https://www.theportugalnews.com/news/2026-06-08/iberian-lynx-population-grew-by-95/1036280",
+        "img": "https://images.unsplash.com/photo-6njkAeHHMOE?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Spello, Umbria, Italy",
+        "head": "For its 123rd year, some 2,000 residents of Spello spent the night of June 6 carpeting nearly two kilometres of medieval cobblestones with 1.5 million flower petals.",
+        "src": "SiViaggia",
+        "url": "https://siviaggia.it/notizie/infiorate-spello-2026-umbria/590519/",
+        "img": "https://images.unsplash.com/photo-v-3NQ3pmWkY?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Stanford, California, USA",
+        "head": "Stanford researchers restored measurable cartilage in aged mice by blocking a single enzyme that doubles in joints as the body ages, with matching results in human tissue samples.",
+        "src": "ScienceDaily / Science",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260612021604.htm",
+        "img": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Mairehau, Christchurch, New Zealand",
+        "head": "A one-in-a-million chimera apple — split precisely half red, half golden-yellow, divided by a near-perfect straight line from stem to core — has become the quiet celebrity of a Christchurch corner shop.",
+        "src": "New Zealand Herald",
+        "url": "https://www.nzherald.co.nz/nz/unusual-split-colour-chimera-apple-amazes-shoppers-at-christchurch-fruit-shop/CM6YI22KXRDARHPG5BQEV3IEPQ/",
+        "img": "https://images.unsplash.com/photo-O99GEXDopTk?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Eling, Hampshire, England",
+        "head": "Two neighbours in Eling founded a volunteer collective that cleared a fly-tipped lane and replanted it with fruit trees, wildflowers, and insect hotels for the whole street.",
+        "src": "Good News Post",
+        "url": "https://www.goodnewspost.co.uk/volunteers-transform-fly-tipped-eling-lane-into-community-green-space/",
+        "img": "https://images.unsplash.com/photo-HkEHZZA5jwU?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-12",
     "slug": "2026-06-12",
     "edition": 469,
