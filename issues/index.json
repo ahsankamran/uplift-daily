@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-14",
+    "slug": "2026-06-14",
+    "edition": 471,
+    "stories": [
+      {
+        "cat": "Global Progress",
+        "place": "Brazilian Amazon",
+        "head": "Brazil's Amazon recorded just 3,182 square kilometres of deforestation alerts over the past twelve months — the lowest annual figure since 2014 and the lowest May reading in the history of satellite monitoring.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/06/amazon-deforestation-alerts-fall-to-lowest-12-month-level-since-2014-show-brazilian-data/",
+        "img": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Zinave National Park, Mozambique",
+        "head": "Nine female white rhinos transported from South Africa have completed Mozambique's first viable rhino breeding population in nearly four decades at Zinave National Park.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/06/mozambique-completes-first-white-rhino-breeding-population-in-decades/",
+        "img": "https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Vienna, Austria",
+        "head": "Researchers analyzing 884 captive parrots across 30 species found that 413 birds use human names as specific labels for individual people and animals — not as random mimicry.",
+        "src": "PLOS ONE / University of Vienna",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0346830",
+        "img": "https://images.unsplash.com/photo-1548366086-7f1b76106622?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Kyoto, Japan",
+        "head": "A four-year Kyoto University study finds that older adults who continue playing a musical instrument preserve working memory and show measurably less brain shrinkage than those who stop.",
+        "src": "ScienceDaily / Imaging Neuroscience",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260613034217.htm",
+        "img": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "George, Western Cape, South Africa",
+        "head": "South Africa's 67 Blankets movement invited strangers to knit side-by-side at fifteen bookshops across three provinces, making squares and scarves for children's homes on Worldwide Knit in Public Day.",
+        "src": "George Herald",
+        "url": "https://www.georgeherald.com/News/Article/Local-News/george-joins-global-movement-for-worldwide-knit-in-public-day-202606120915",
+        "img": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Western Highlands, Guatemala",
+        "head": "Some 6,000 farming families across sixty villages in Guatemala's western highlands are sharing ancestral Maya techniques to make their own biopesticides, cutting household costs by five-sixths without outside instruction.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/06/ancient-maya-knowledge-helps-guatemalan-farmers-cut-agrochemical-use/",
+        "img": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-13",
     "slug": "2026-06-13",
     "edition": 470,
