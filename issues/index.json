@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-15",
+    "slug": "2026-06-15",
+    "edition": 472,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Ulong Island, Palau",
+        "head": "Rat removal from a single Palau island sent seabird calls up 286 percent within one year — and the coral reef below is already recovering.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/06/researchers-find-dramatic-restoration-on-land-and-sea-after-island-rat-removal/",
+        "img": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "South Africa",
+        "head": "South Africa has begun distributing lenacapavir — a twice-yearly injection proven nearly 100 percent effective against HIV — at 360 public clinics across six provinces.",
+        "src": "ABC News / AP",
+        "url": "https://abcnews.go.com/International/wireStory/highly-effective-prevention-drug-arrives-south-africa-worlds-133703721",
+        "img": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "London, UK",
+        "head": "A pooled analysis of two decade-long trials finds that people who reversed prediabetes cut their risk of cardiovascular death or heart failure by 58 percent.",
+        "src": "ScienceDaily / The Lancet Diabetes & Endocrinology",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260613034237.htm",
+        "img": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Oaxaca, Mexico",
+        "head": "The Mexican long-tongued bat extends an eight-centimetre tongue to drink agave nectar — and without it neither wild agave nor artisanal mezcal could survive.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/06/the-bats-that-pollinate-for-tequila-photo-of-the-week/",
+        "img": "https://images.unsplash.com/photo-1545696968-1a31ea033ca2?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Willaston, Cheshire, England",
+        "head": "Willaston held its 47th World Worm Charming Championships on June 13, with competitors stomping, patting, and playing music to coax earthworms from three-metre plots.",
+        "src": "The Nantwich News",
+        "url": "https://thenantwichnews.co.uk/2026/06/14/global-spotlight-falls-on-willaston-worm-charming-spectacle/",
+        "img": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Kelowna, British Columbia, Canada",
+        "head": "After a crash on a rural British Columbia highway sent her dog into the wilderness, a community of volunteers spent 96 hours finding her.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/community-spares-no-effort-to-reunite-lost-dog-with-owner-after-their-car-was-rolled-in-a-crash/",
+        "img": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-14",
     "slug": "2026-06-14",
     "edition": 471,
