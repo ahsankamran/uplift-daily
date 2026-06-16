@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-16",
+    "slug": "2026-06-16",
+    "edition": 473,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Austral & Marquesas Islands, French Polynesia",
+        "head": "French Polynesia has placed 200,000 square miles of ocean surrounding the Austral and Marquesas Islands under full protection, sealing a decade of community planning into law.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/french-polynesia-protects-biodiverse-ocean-area-twice-the-size-of-arizona-teeming-with-life/",
+        "img": "https://images.unsplash.com/photo-7AmBaTymwJg?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Gran, Hadeland, Norway",
+        "head": "On a school field trip in Hadeland, six-year-old Henrik found a corroded iron blade half-hidden in the earth — a 1,300-year-old scramseax from the early Viking age.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/6-year-old-finds-ancient-viking-sword-on-school-field-trip-buried-for-1300-years/",
+        "img": "https://images.unsplash.com/photo-e1sTn8-hGEE?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Global",
+        "head": "Scientists have mapped Earth's underground fungal highways for the first time and found 110 quadrillion kilometres of living thread — enough to circle the Sun a billion times — hidden beneath every field, meadow, and forest.",
+        "src": "Phys.org / Science",
+        "url": "https://phys.org/news/2026-06-global-mycorrhizal-fungi-reveals-true.html",
+        "img": "https://images.unsplash.com/photo-GjfjdnO0Eg0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Nagaoka, Niigata, Japan",
+        "head": "A 7-Eleven owner in Niigata posted signs welcoming heat-stricken strangers to cool off at no charge — repaying a kindness from a decade ago that he had carried with him ever since.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/7-eleven-owner-pays-forward-kindness-from-a-decade-ago-with-viral-signs-offering-shelter-from-scorching-heat/",
+        "img": "https://images.unsplash.com/photo-qi2hmCwlhcE?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Dallas, Texas, USA",
+        "head": "A University of Texas at Dallas study of 3,966 people aged 19 to 94 found that brain health improved at every age through five to fifteen minutes of daily training.",
+        "src": "ScienceDaily / Scientific Reports",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260613034222.htm",
+        "img": "https://images.unsplash.com/photo-hPKTYwJ4FUo?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Africa",
+        "head": "Africa has gained ten years of average life expectancy since 2000, the WHO's 2026 annual report finds — a steady, continent-wide rise through decades of conflict, famine, and epidemic disease.",
+        "src": "Good News Network / WHO",
+        "url": "https://www.goodnewsnetwork.org/african-continent-gains-10-years-of-life-expectancy-since-2000-despite-wars-famine-and-instability/",
+        "img": "https://images.unsplash.com/photo-gogGhbvHrYw?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-15",
     "slug": "2026-06-15",
     "edition": 472,
