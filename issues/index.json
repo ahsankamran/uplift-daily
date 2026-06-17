@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-17",
+    "slug": "2026-06-17",
+    "edition": 474,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Global",
+        "head": "Earth's mangrove forests have turned a corner — for the first time in four decades, annual gains in coverage now outpace losses.",
+        "src": "Phys.org / Science",
+        "url": "https://phys.org/news/2026-06-global-mangrove-forests-rebound-climate.html",
+        "img": "https://images.unsplash.com/photo-l0Cc0rKPIUk?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Altyn Dala, Kazakhstan",
+        "head": "The last truly wild horses on Earth are galloping free on the Kazakh steppe again — five released onto the Altyn Dala reserve in the third wave of a transnational restoration.",
+        "src": "The Astana Times",
+        "url": "https://astanatimes.com/2026/06/kazakhstan-advances-przewalskis-horse-restoration-with-wild-release-and-new-arrivals/",
+        "img": "https://images.unsplash.com/photo-A81818EFqGQ?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Tunis, Tunisia",
+        "head": "Tunisia has become the 31st country to eliminate trachoma — ending the leading infectious cause of blindness after fifty years of sustained national effort.",
+        "src": "WHO",
+        "url": "https://www.who.int/news/item/14-05-2026-tunisia-validated-by-who-as-having-eliminated-trachoma-as-a-public-health-problem",
+        "img": "https://images.unsplash.com/photo-AqCyaVmr_7I?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Dallas, Texas, USA",
+        "head": "After a 2–2 draw with the Netherlands at the World Cup in Dallas, Japanese supporters stayed behind to collect cups and wrappers from their stadium section before leaving.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/japanese-fans-cleaned-the-stadium-after-world-cup-match-while-the-players-cleaned-locker-room/",
+        "img": "https://images.unsplash.com/photo-MPhf5gE1qrI?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Galápagos Islands, Ecuador",
+        "head": "Scalloped hammerhead sharks — tracked by satellite on a 1,400-kilometre round trip from the Galápagos to Central American nursery waters — have won full international protection across their entire migratory range.",
+        "src": "The Cooldown / CMS",
+        "url": "https://www.thecooldown.com/green-tech/scalloped-hammerhead-sharks-international-protections/",
+        "img": "https://images.unsplash.com/photo-YDQ7XfbDEkw?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Berlin, Germany",
+        "head": "A Berlin-led trial gave four in five patients with severe knee osteoarthritis meaningful pain relief through a minimally invasive procedure — no surgery, no stitches, and no general anaesthesia required.",
+        "src": "Good News Network / Radiology",
+        "url": "https://www.goodnewsnetwork.org/knee-pain-suffered-by-millions-can-be-eased-using-new-non-surgical-procedure/",
+        "img": "https://images.unsplash.com/photo-pbUWW-CBoqY?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-16",
     "slug": "2026-06-16",
     "edition": 473,
