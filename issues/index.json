@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-19",
+    "slug": "2026-06-19",
+    "edition": 475,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Canterbury, Kent, UK",
+        "head": "Four Sumatran tiger cubs — the first ever born at Howletts Wild Animal Park in Kent — have begun venturing outside their den, watched over by first-time mother Tipah.",
+        "src": "The Aspinall Foundation",
+        "url": "https://www.goodnewsnetwork.org/sumatran-tiger-cubs-born-in-the-uk-is-huge-win-with-only-400-left-in-wild/",
+        "img": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Mombasa, Kenya",
+        "head": "Nine African governments announced marine-protection commitments at the 11th Our Ocean Conference in Mombasa — the first time the global ocean summit has convened on African soil.",
+        "src": "WCS / Our Ocean Conference",
+        "url": "https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/26307/9-African-Governments-Announce-New-Marine-Protections-at-Our-Ocean-Conference.aspx",
+        "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "India",
+        "head": "A pilot trial in India found that older adults with depression who took a daily probiotic alongside standard antidepressants improved significantly more than those on medication alone.",
+        "src": "ScienceDaily / Journal of the American Geriatrics Society",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260617032149.htm",
+        "img": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Fruitland, Iowa, USA",
+        "head": "Two 13-year-olds out for a summer bike ride near Fruitland, Iowa, found an elderly neighbour lying alone in her yard — she had been there for sixteen hours, unable to reach her phone.",
+        "src": "Sunnyskyz / KWQC",
+        "url": "https://www.sunnyskyz.com/good-news/6221/Two-Teen-Out-for-a-Summer-Bike-Ride-End-Up-Saving-Elderly-Woman-Trapped-Outside-for-16-Hours",
+        "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Canada",
+        "head": "Since a Métis woman rescued an injured crow from a rooftop gutter in Canada, the local crow population has been leaving small gifts along her walking route.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/woman-who-rescued-injured-crow-keeps-getting-thank-you-gifts-from-other-birds/",
+        "img": "https://images.unsplash.com/photo-1548268770-66184a21657e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "İzmir, Turkey",
+        "head": "A stray ginger cat strolled onto the stage at an open-air theatre in İzmir during the climactic death scene of Romeo and Juliet, settled beside the fallen Romeo, and began to nibble his hair.",
+        "src": "Classic FM",
+        "url": "https://www.classicfm.com/discover-music/periods-genres/ballet/cat-stage-romeo-juliet/",
+        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-17",
     "slug": "2026-06-17",
     "edition": 474,
