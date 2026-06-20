@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-20",
+    "slug": "2026-06-20",
+    "edition": 476,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Lake Tuz, Türkiye",
+        "head": "More than five thousand flamingo chicks have hatched at Lake Tuz in central Turkey — more than double last year's count — after a water-pumping project reversed the drought damage that wiped out entire cohorts of nestlings in 2021.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/thousands-of-flamingo-chicks-hatch-in-major-comeback-after-climate-disaster/",
+        "img": "https://images.unsplash.com/photo-q4fxCjCj_GI?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "India, Nepal & Pakistan",
+        "head": "Twenty years after India, Nepal, and Pakistan banned a cattle drug that had reduced vulture populations by 99.9%, captive-bred white-rumped vultures are now raising wild chicks of their own.",
+        "src": "RSPB / Saving Asia's Vultures from Extinction",
+        "url": "https://www.rspb.org.uk/whats-happening/news/spotlight-on-asias-vultures-twenty-years-after-game-changing-drug-ban",
+        "img": "https://images.unsplash.com/photo-Pc5Yv7QX4Ts?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "London, UK",
+        "head": "London's clean-air zones have cut emergency hospital admissions for heart disease at a rate of 8.1 percent per year since the scheme began — the first study to measure the effect directly against a matched control area.",
+        "src": "Imperial College London / Environment International",
+        "url": "https://www.imperial.ac.uk/news/articles/2026/londons-ulez-and-t-charge-linked-to-reductions-in-emergency-hospital-admissions/",
+        "img": "https://images.unsplash.com/photo-LcuBRr7pRCc?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Mumbai, India",
+        "head": "Each Sunday morning at 4 a.m., a Mumbai couple wake, cook, and serve breakfast to a hundred people — a routine they have kept for nearly three years and fifteen thousand meals.",
+        "src": "The Better India",
+        "url": "https://thebetterindia.com/changemakers/pooja-dipesh-dedhia-matoshree-foundation-mumbai-sunday-breakfast-meals-12039100",
+        "img": "https://images.unsplash.com/photo-EEzYovNQYss?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "São Tomé and Príncipe",
+        "head": "São Tomé and Príncipe's president has signed the nation's first marine protected areas into law — two coastal reserves protecting coral reefs, shark nursery grounds, and sea-turtle nesting beaches.",
+        "src": "Fauna & Flora",
+        "url": "https://www.fauna-flora.org/news/minister-announces-eight-new-marine-protected-areas-for-sao-tome-and-principe/",
+        "img": "https://images.unsplash.com/photo-DDA1vq93tzk?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Malmö to Oslo, Sweden & Norway",
+        "head": "A new daytime train from Malmö to Oslo launched on 15 June — a six-and-a-half-hour journey through Gothenburg's waterfront, Sweden's ancient lake country, and granite gorges, with a dining car serving food sourced from communities along the route.",
+        "src": "Good News Network / Snälltåget",
+        "url": "https://www.goodnewsnetwork.org/swedens-breathtaking-new-train-ride-to-oslo-passes-by-best-of-countrys-landscape/",
+        "img": "https://images.unsplash.com/photo-9xhu1BA1RqA?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-19",
     "slug": "2026-06-19",
     "edition": 475,
