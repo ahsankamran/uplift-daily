@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-21",
+    "slug": "2026-06-21",
+    "edition": 477,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Kyrgyzstan",
+        "head": "Kyrgyzstan formalized an 800,000-hectare wildlife corridor designed around 2070 climate models, giving snow leopards space to shift as mountain habitats change.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/06/a-climate-ready-corridor-created-for-kyrgyzstans-snow-leopards/",
+        "img": "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Atlantic Ocean",
+        "head": "On World Sea Turtle Day, fifty organizations across 25 countries launched a coordinated alliance to protect Atlantic leatherback turtles, listed as critically endangered in part of their range.",
+        "src": "Phys.org / University of Exeter",
+        "url": "https://phys.org/news/2026-06-alliance-atlantic-leatherback-turtles-world.html",
+        "img": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Orchid Island, Taiwan",
+        "head": "Sixty Tao paddlers crossed 111 miles of open sea in a hand-built canoe to reunite with their Philippine kin after 300 years of silence.",
+        "src": "Taiwan News",
+        "url": "https://www.taiwannews.com.tw/news/6384531",
+        "img": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Llanganates-Sangay, Ecuador",
+        "head": "A spider found in Ecuador's Amazon disguises itself as a zombie-fungus victim to fool predators and prey alike.",
+        "src": "ScienceDaily / Zootaxa",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260617032201.htm",
+        "img": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "London, UK",
+        "head": "A London podcast duo has been holding pub evenings where fathers learn to braid their daughters' hair and sit through a pub quiz on the menstrual cycle.",
+        "src": "Good Good Good",
+        "url": "https://www.goodgoodgood.co/articles/pints-ponytails-periods-secret-life-of-dads-pubs",
+        "img": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "29 countries",
+        "head": "A phase 3 trial of bepirovirsen achieved a functional cure in one in five chronic hepatitis B patients — the first time a finite course of treatment has cleared the surface antigen at scale.",
+        "src": "CIDRAP / New England Journal of Medicine",
+        "url": "https://www.cidrap.umn.edu/hepatitis/phase-3-trials-novel-drug-show-functional-cure-20-chronic-hepatitis-b-patients",
+        "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-20",
     "slug": "2026-06-20",
     "edition": 476,
