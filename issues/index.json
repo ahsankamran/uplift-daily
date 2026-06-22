@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-22",
+    "slug": "2026-06-22",
+    "edition": 478,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Otago, New Zealand",
+        "head": "Five strict no-take marine reserves protecting 308 square kilometres take effect on July 1 along New Zealand's Otago coast — the country's largest single expansion of marine protection in more than a decade.",
+        "src": "RNZ News / DOC New Zealand",
+        "url": "https://www.rnz.co.nz/news/environment/597037/new-te-au-roa-o-te-rakihouia-marine-reserves-coming-into-force-in-otago",
+        "img": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Ceiriog Valley, Wales",
+        "head": "Britain's longest dragonfly landed on conservation officer Sarah Hawkes' thumb during an early-morning walk beside a Welsh river — still too cool to fly, it simply rested on her hand.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/britains-longest-dragonfly-hitches-ride-on-womans-thumb/",
+        "img": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "14 countries",
+        "head": "The world's largest clinical trial for golden staph bloodstream infections found that two older antibiotics each cut mortality compared with the drug that has been standard of care for decades.",
+        "src": "MedicalXpress / The Lancet",
+        "url": "https://medicalxpress.com/news/2026-06-global-clinical-trial-reveals-safest.html",
+        "img": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Mombasa, Kenya",
+        "head": "Fifteen countries signed the Mombasa Declaration on June 17, pledging to publish fishing-vessel registries and share catch data in the most concrete international step yet against illegal fishing.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/06/to-help-combat-illegal-fishing-15-countries-commit-to-sharing-fisheries-data/",
+        "img": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Agra, India",
+        "head": "Every afternoon since mid-April, Suyash Jain has walked a route through Agra to distribute chilled sharbat to outdoor workers — and his family tends fifteen bird-water stations across the city each morning.",
+        "src": "The Better India",
+        "url": "https://thebetterindia.com/changemakers/agra-man-serving-sharbat-workers-water-bowls-birds-summer-relief-volunteer-donate-12054528",
+        "img": "https://images.unsplash.com/photo-1546173159-315724a31696?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "London, UK",
+        "head": "Five Guinness World Records for penny-farthing bicycles were broken in the City of London on June 13, including the world's largest — ridden on stilts — and the world's smallest, ridden by a six-year-old.",
+        "src": "Guinness World Records",
+        "url": "https://www.guinnessworldrecords.com/news/2026/6/wheels-of-fortune-worlds-largest-and-smallest-penny-farthing-bikes-unveiled-in-london",
+        "img": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-21",
     "slug": "2026-06-21",
     "edition": 477,
