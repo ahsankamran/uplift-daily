@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-23",
+    "slug": "2026-06-23",
+    "edition": 479,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Melville Island, Australia",
+        "head": "After twenty-two years of sustained effort, Tiwi Island rangers have eradicated invasive tropical fire ants from Melville Island — completing one of the top three invasive-ant removals recorded globally.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/06/rangers-eradicate-invasive-tropical-fire-ants-in-australias-tiwi-islands/",
+        "img": "https://images.unsplash.com/photo-nTF7sqg1vJo?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "New Haven, USA",
+        "head": "A twelve-year study of eleven thousand older adults finds that nearly half improved cognitively or physically — and that positive beliefs about ageing predicted the size of the gain.",
+        "src": "ScienceDaily / Yale School of Public Health",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260620100428.htm",
+        "img": "https://images.unsplash.com/photo-IzIERuIwJWo?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Salonga National Park, DRC",
+        "head": "In Congo's Salonga National Park, a group of wild bonobos that once fled at first sight of a human now allows two quiet observers to sit nearby for two to three hours at a time.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/06/before-tourists-can-see-bonobos-trackers-must-earn-their-trust/",
+        "img": "https://images.unsplash.com/photo-L5LfGXIwUGo?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Cape Verde",
+        "head": "When Cape Verde goalkeeper Vozinha expressed the wish that his mother could see him play at the World Cup, officials at FIFA, the U.S. State Department, and Cape Verde's football federation spent weeks coordinating to make it happen.",
+        "src": "Sunny Skyz",
+        "url": "https://www.sunnyskyz.com/good-news/6231/After-a-Global-Effort-Football-Star-039-s-Mother-Makes-First-Ever-Trip-Abroad-to-Watch-Her-Son-at-the-World-Cup",
+        "img": "https://images.unsplash.com/photo-j5vZBAPSlnQ?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Khyber Pakhtunkhwa, Pakistan",
+        "head": "Pakistan has pre-validated six of its seven administrative regions for the elimination of maternal and neonatal tetanus — putting ninety-four percent of the country's 265 million people in areas where the disease has been controlled.",
+        "src": "The Nation Pakistan / WHO-UNICEF",
+        "url": "https://www.nation.com.pk/20-Jun-2026/pakistan-moves-closer-mnt-elimination-kp-achievement",
+        "img": "https://images.unsplash.com/photo-UmF5HGRuwIg?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Bulford, Wiltshire, England",
+        "head": "An archaeologist excavating three miles from Stonehenge drew a line between two 5,000-year-old post holes on a hunch — and found they were aligned precisely with the midsummer sunrise.",
+        "src": "Good News Network / Wessex Archaeology",
+        "url": "https://www.goodnewsnetwork.org/a-stonehenge-prototype-aligned-with-the-solstices-is-a-once-in-a-lifetime-find-for-these-archaeologists/",
+        "img": "https://images.unsplash.com/photo-oQ9pECond48?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-22",
     "slug": "2026-06-22",
     "edition": 478,
