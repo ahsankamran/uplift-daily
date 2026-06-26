@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-26",
+    "slug": "2026-06-26",
+    "edition": 481,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Senegal, Madagascar, Chile, Canada",
+        "head": "Six ocean sanctuaries across four continents have earned Blue Park status for the highest standard of marine protection — four of the awards going to sites in Africa.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/06/six-marine-sanctuaries-recognized-as-blue-parks-four-of-them-in-africa/",
+        "img": "https://images.unsplash.com/photo-HYHYGLs-Rp8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "England",
+        "head": "In the five years to 2024, no woman in her early twenties has died from cervical cancer in England — the first time this has been true in recorded history.",
+        "src": "Gavi / The Lancet",
+        "url": "https://www.gavi.org/vaccineswork/hpv-vaccine-means-no-young-women-die-cervical-cancer-england-study-finds",
+        "img": "https://images.unsplash.com/photo-NFvdKIhxYlU?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Italy",
+        "head": "For the first time since the Middle Ages, Italy's forests cover more land than its farms — a reversal driven by young people returning to mountain villages.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/italys-forests-larger-than-agriculture-land-for-the-first-time-since-the-middle-ages/",
+        "img": "https://images.unsplash.com/photo-s8KAw4dZleI?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Ealing, London, England",
+        "head": "Five beavers introduced to a west London park in 2023 have quietly engineered the end of a decade of flooding at Greenford Underground station.",
+        "src": "Positive News",
+        "url": "https://www.positive.news/environment/how-beavers-solved-a-flooding-problem-in-west-london/",
+        "img": "https://images.unsplash.com/photo-HCc-wwtquu8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Neuchâtel, Switzerland",
+        "head": "More than eleven thousand trains have rolled over a set of solar panels laid between live rails in Switzerland, and the first-year results are in.",
+        "src": "SWI swissinfo.ch",
+        "url": "https://www.swissinfo.ch/eng/emissions-reduction/solar-energy-from-railways-shows-first-positive-results-in-switzerland/91628036",
+        "img": "https://images.unsplash.com/photo-lvR9JS7ehZ0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "White Rock, British Columbia, Canada",
+        "head": "A stranger heard a scooter crash in a White Rock neighbourhood, came out with first aid, loaded the broken bike into his truck, and drove the rider home.",
+        "src": "Peace Arch News",
+        "url": "https://peacearchnews.com/2026/06/20/letter-how-a-strangers-kindness-helped-after-this-scooter-riders-tumble/",
+        "img": "https://images.unsplash.com/photo-keb_MEXMesg?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-25",
     "slug": "2026-06-25",
     "edition": 480,
