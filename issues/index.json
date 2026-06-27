@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-27",
+    "slug": "2026-06-27",
+    "edition": 482,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Pacific, Caribbean, Indo-Pacific",
+        "head": "Researchers have identified 165,000 square kilometres of coral reef that may withstand climate change through 2050 — a new map of what to protect most urgently.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/06/not-all-coral-reefs-are-doomed-as-a-result-of-climate-change-study-suggests/",
+        "img": "https://images.unsplash.com/photo-vPKNGHhD6XE?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "North Island, New Zealand",
+        "head": "A New Zealand cave has yielded the bones of a flying ancestor of the kākāpō, sealed in volcanic ash for a million years and never before seen in the fossil record.",
+        "src": "ScienceDaily / Flinders University",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260623011129.htm",
+        "img": "https://images.unsplash.com/photo-WkfDrhxDozc?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "South Africa",
+        "head": "South Africa has begun rolling out lenacapavir — a twice-yearly HIV prevention injection — across 360 public health facilities in 24 high-burden districts, the world's largest deployment of this technology so far.",
+        "src": "AllAfrica",
+        "url": "https://allafrica.com/stories/202606260302.html",
+        "img": "https://images.unsplash.com/photo-jr3Y7BYVXYM?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Mexico City, Mexico",
+        "head": "One of only six women's blind football clubs in Mexico trains three times a week in Mexico City with blackout covers and a rattling ball — and has set its sights on Copa América in September.",
+        "src": "Positive News",
+        "url": "https://www.positive.news/world/the-blind-football-team-opening-up-the-world-for-women-in-mexico/",
+        "img": "https://images.unsplash.com/photo-pE_Sxm_GVU4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Milan, Italy",
+        "head": "Older adults who took a placebo pill — and knew it was a placebo — still improved their memory scores by up to 21 per cent in a three-week Milan trial.",
+        "src": "ScienceDaily / Università Cattolica",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260625060159.htm",
+        "img": "https://images.unsplash.com/photo-cGNCepznaV8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Eagan, Minnesota, United States",
+        "head": "A disability housing home in Eagan, Minnesota launched a refurbished Little Free Library and met neighbours who had lived on the same street for 26 years without ever introducing themselves.",
+        "src": "Sun Thisweek",
+        "url": "https://www.hometownsource.com/sun_thisweek/free/little-free-library-launch-brings-neighbors-together-in-eagan/article_43d8e6d9-f93b-42f7-a757-cf35a4319d78.html",
+        "img": "https://images.unsplash.com/photo-YLSwjSy7stw?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-26",
     "slug": "2026-06-26",
     "edition": 481,
