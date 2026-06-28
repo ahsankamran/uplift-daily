@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-28",
+    "slug": "2026-06-28",
+    "edition": 483,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Global / Southeast Asia",
+        "head": "A study of four decades of satellite imagery finds that global mangrove forests have recovered to within 1 per cent of their 1980s extent, with net growth outpacing loss every year since 2010.",
+        "src": "Mongabay / Science",
+        "url": "https://news.mongabay.com/2026/06/can-globally-essential-mangroves-bounce-back-from-deforestation-new-study-gives-hope/",
+        "img": "https://images.unsplash.com/photo-i5kMNyhiw6c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Cooktown, Queensland, Australia",
+        "head": "Researchers in Queensland have documented a spider that builds a spring-loaded silk catapult to fling attacking ants more than 30 centimetres into its own web.",
+        "src": "Current Biology / Macquarie University",
+        "url": "https://www.smithsonianmag.com/smart-news/this-newly-discovered-spider-builds-a-unique-web-that-sends-ants-catapulting-through-the-air-180989003/",
+        "img": "https://images.unsplash.com/photo-ywzg0n9nH8k?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Dartford, Kent, United Kingdom",
+        "head": "A Polish-born woman in Dartford, Kent, who won £1 million gave her neighbours of 14 years £5,000 the same afternoon so they could take their first family holiday abroad.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/woman-wins-lottery-and-immediately-gives-neighbor-5000-for-family-vacation/",
+        "img": "https://images.unsplash.com/photo-RIAUZwnUxp8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Antarctica / United Kingdom",
+        "head": "The BBC World Service transmitted its 71st annual Antarctic Midwinter Broadcast on June 21, carrying music requests and messages from home to the small crews spending the polar night at Britain's remotest research stations.",
+        "src": "BBC World Service / SWLing Post",
+        "url": "https://swling.com/blog/2026/06/my-recording-of-the-2026-bbc-midwinter-broadcast-to-antarctica/",
+        "img": "https://images.unsplash.com/photo-WWVD4wXRX38?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Calgary, Canada",
+        "head": "A Phase I/II trial in Calgary found that 82 per cent of glioblastoma patients showed no disease progression at six months when high-dose vitamin B3 was added to standard treatment.",
+        "src": "Journal of Neuro-Oncology / University of Calgary",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260622014313.htm",
+        "img": "https://images.unsplash.com/photo-jLwVAUtLOAQ?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Global",
+        "head": "Global AIDS-related deaths have fallen 56 per cent since 2010, and United Nations member states adopted a declaration on June 23 committing to put 40 million people on antiretroviral treatment by 2030.",
+        "src": "UNAIDS",
+        "url": "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2026/june/20260624_HLM2026AIDS_concludes",
+        "img": "https://images.unsplash.com/photo-gogGhbvHrYw?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-27",
     "slug": "2026-06-27",
     "edition": 482,

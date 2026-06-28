@@ -280,69 +280,69 @@ a { color: inherit; }
 
 <!-- Bottom bar -->
 <div class="bottom">
-  <span class="date" id="bottom-date">Edition 478 · Mon, June 22, 2026</span>
+  <span class="date" id="bottom-date">Edition 483 · Sun, June 28, 2026</span>
   <span class="hint"><span class="chev">▲</span>swipe</span>
 </div>
 
 <script>
 // Data — replaced daily by the workflow.
 const TODAY = {
-  date: "Saturday, June 27, 2026",
-  edition: 482,
+  date: "Sunday, June 28, 2026",
+  edition: 483,
   stories: [
     {
       cat: "Nature",
-      place: "Pacific, Caribbean, Indo-Pacific",
-      head: "Researchers have identified 165,000 square kilometres of coral reef that may withstand climate change through 2050 — a new map of what to protect most urgently.",
-      dek:  "A study combining more than 45,000 field observations from 1960 to 2025 with AI climate modelling identified reef systems across 71 countries likely to remain functional through mid-century even under warming scenarios; the resilient areas are concentrated most densely in the Bahamas, Cuba, Australia, Indonesia, and the Philippines. Researchers from the Wildlife Conservation Society and Macquarie University presented the findings at the Our Ocean Conference in Mombasa in June 2026, noting that more than half of the resilient reefs lie within the territorial waters of their host nations — meaning local governance is the decisive variable. The study offers conservation planners a ranked list of sites where funding and attention would return the greatest results, shifting the conversation from mourning what has been lost to precision about what can still be saved.",
-      src:  "Mongabay",
-      url:  "https://news.mongabay.com/short-article/2026/06/not-all-coral-reefs-are-doomed-as-a-result-of-climate-change-study-suggests/",
-      img:  "https://images.unsplash.com/photo-vPKNGHhD6XE?w=1600&q=80&auto=format&fit=crop"
+      place: "Global / Southeast Asia",
+      head: "A study of four decades of satellite imagery finds that global mangrove forests have recovered to within 1 per cent of their 1980s extent, with net growth outpacing loss every year since 2010.",
+      dek:  "Researchers at Tulane University analysed Landsat imagery from 1984 to 2023 and found that after losing nearly 3,000 square kilometres between the 1980s and 2010, the world's coastal forests reversed course; by 2023, closed-canopy coverage had climbed from roughly 50 per cent to 58 per cent, and total net loss over the four-decade period stood at less than 1 per cent. The paper, published in Science (vol. 392, June 2026), credits natural regeneration, the phase-out of destructive shrimp-pond conversion, and improved national management — particularly in Indonesia, Malaysia, and Myanmar. Mangroves store up to five times as much carbon per hectare as tropical rainforest and shelter hundreds of millions of people from storm surges; the findings give conservationists a documented recovery to defend.",
+      src:  "Mongabay / Science",
+      url:  "https://news.mongabay.com/2026/06/can-globally-essential-mangroves-bounce-back-from-deforestation-new-study-gives-hope/",
+      img:  "https://images.unsplash.com/photo-i5kMNyhiw6c?w=1600&q=80&auto=format&fit=crop"
     },
     {
       cat: "Small Wonders",
-      place: "North Island, New Zealand",
-      head: "A New Zealand cave has yielded the bones of a flying ancestor of the kākāpō, sealed in volcanic ash for a million years and never before seen in the fossil record.",
-      dek:  "Working with a deposit locked between two ash layers in a North Island cave, researchers from Flinders University identified the remains of a parrot ancestral to the kākāpō that was still capable of flight — revealing that the world's heaviest, most famously earthbound parrot lost its wings relatively recently in evolutionary time. Alongside the proto-kākāpō, the cave held 12 bird species and four frog species not previously documented in New Zealand's fossil record, many of them victims of volcanic upheaval that predates human arrival by a million years. The discovery adds at least a third more lost species to the pre-human picture and suggests the islands were even more extravagantly birdful than their already remarkable modern fauna implies.",
-      src:  "ScienceDaily / Flinders University",
-      url:  "https://www.sciencedaily.com/releases/2026/06/260623011129.htm",
-      img:  "https://images.unsplash.com/photo-WkfDrhxDozc?w=1600&q=80&auto=format&fit=crop"
-    },
-    {
-      cat: "Global Progress",
-      place: "South Africa",
-      head: "South Africa has begun rolling out lenacapavir — a twice-yearly HIV prevention injection — across 360 public health facilities in 24 high-burden districts, the world's largest deployment of this technology so far.",
-      dek:  "The rollout, active across six provinces as of June 2026, targets populations for whom daily pills have been hardest to sustain — including adolescent girls, young women, and people with irregular routines. South Africa carries the world's largest HIV burden, with 8.15 million people living with the virus; lenacapavir's twice-yearly dosing addresses one of the most persistent barriers to prevention. The programme aims to reach one million people by the end of 2027 and three million within three years, in what health officials are calling the most consequential shift in HIV prevention since the introduction of daily pre-exposure prophylaxis.",
-      src:  "AllAfrica",
-      url:  "https://allafrica.com/stories/202606260302.html",
-      img:  "https://images.unsplash.com/photo-jr3Y7BYVXYM?w=1600&q=80&auto=format&fit=crop"
-    },
-    {
-      cat: "Everyday Joy",
-      place: "Mexico City, Mexico",
-      head: "One of only six women's blind football clubs in Mexico trains three times a week in Mexico City with blackout covers and a rattling ball — and has set its sights on Copa América in September.",
-      dek:  "Chilangas FC, founded in 2022 by coach Wendy del Río, gives visually impaired women something rare: a competitive team and a community in a country where many have been told their lives should stay small. Players navigate the pitch entirely by sound, following the rattle in the ball and calling out to teammates; member Pau, 31, commutes two hours across the city to each session and says the sport changed how she sees herself. In September, the club hopes to represent Mexico at Copa América in São Paulo — making Mexico the fourth nation to field a women's blind football national team.",
-      src:  "Positive News",
-      url:  "https://www.positive.news/world/the-blind-football-team-opening-up-the-world-for-women-in-mexico/",
-      img:  "https://images.unsplash.com/photo-pE_Sxm_GVU4?w=1600&q=80&auto=format&fit=crop"
-    },
-    {
-      cat: "Science & Medicine",
-      place: "Milan, Italy",
-      head: "Older adults who took a placebo pill — and knew it was a placebo — still improved their memory scores by up to 21 per cent in a three-week Milan trial.",
-      dek:  "In a randomised controlled trial at Università Cattolica del Sacro Cuore, 90 healthy adults over 60 were assigned to no treatment, a standard placebo, or an open-label placebo they were told contained no active ingredient; both placebo groups outperformed the control on cognitive tests (6.9 to 21.5 per cent improvement), physical performance, and self-reported stress. The findings, published in the International Journal of Clinical and Health Psychology, suggest the placebo mechanism operates below conscious belief — opening a path to drug-free, fully ethical cognitive support for older adults that requires no pretence at all.",
-      src:  "ScienceDaily / Università Cattolica",
-      url:  "https://www.sciencedaily.com/releases/2026/06/260625060159.htm",
-      img:  "https://images.unsplash.com/photo-cGNCepznaV8?w=1600&q=80&auto=format&fit=crop"
+      place: "Cooktown, Queensland, Australia",
+      head: "Researchers in Queensland have documented a spider that builds a spring-loaded silk catapult to fling attacking ants more than 30 centimetres into its own web.",
+      dek:  "A newly described species of the genus Propostira, found in the rainforest near Cooktown in far north Queensland, weaves a cone of 15 to 60 tensioned silk strands that fires when a green tree ant bites the base — accelerating the ant at more than 1,300 metres per second squared, faster than a Formula One car's initial launch. The research, published 26 June in Current Biology by Professor Ajay Narendra's group at Macquarie University, found that the spider hunts only this single ant species. Researchers have named the mechanism a 'ballista' after the Roman siege weapon; it is the first known silk-based mechanical catapult in nature.",
+      src:  "Current Biology / Macquarie University",
+      url:  "https://www.smithsonianmag.com/smart-news/this-newly-discovered-spider-builds-a-unique-web-that-sends-ants-catapulting-through-the-air-180989003/",
+      img:  "https://images.unsplash.com/photo-ywzg0n9nH8k?w=1600&q=80&auto=format&fit=crop"
     },
     {
       cat: "Quiet Kindness",
-      place: "Eagan, Minnesota, United States",
-      head: "A disability housing home in Eagan, Minnesota launched a refurbished Little Free Library and met neighbours who had lived on the same street for 26 years without ever introducing themselves.",
-      dek:  "On 16 June, residents of Living Well Disability Services' Highview home hosted the opening of a library stocked with books featuring disabled characters; the afternoon brought yard games and the kind of unhurried conversation that neighbours who have lived within metres of each other for decades rarely find occasion for. One visitor made a spontaneous cash donation on the spot to expand the collection before the day was over.",
-      src:  "Sun Thisweek",
-      url:  "https://www.hometownsource.com/sun_thisweek/free/little-free-library-launch-brings-neighbors-together-in-eagan/article_43d8e6d9-f93b-42f7-a757-cf35a4319d78.html",
-      img:  "https://images.unsplash.com/photo-YLSwjSy7stw?w=1600&q=80&auto=format&fit=crop"
+      place: "Dartford, Kent, United Kingdom",
+      head: "A Polish-born woman in Dartford, Kent, who won £1 million gave her neighbours of 14 years £5,000 the same afternoon so they could take their first family holiday abroad.",
+      dek:  "Honorata Jamrozik, 48, had just returned from her father's funeral in Poland when she discovered on June 28 that she had won the UK Omaze Monthly Millionaire Draw; within hours she knocked on the door next to hers and handed over enough for the family beside her to book their first foreign trip together. Jamrozik, who came to the UK from Poland 25 years ago and has lived in Dartford throughout, said she had always wanted to do something like this for neighbours who had been quietly consistent throughout her years in the country. She plans to use the rest of the prize to resume fostering children — a vocation she set aside seven years ago to care for elderly parents.",
+      src:  "Good News Network",
+      url:  "https://www.goodnewsnetwork.org/woman-wins-lottery-and-immediately-gives-neighbor-5000-for-family-vacation/",
+      img:  "https://images.unsplash.com/photo-RIAUZwnUxp8?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Everyday Joy",
+      place: "Antarctica / United Kingdom",
+      head: "The BBC World Service transmitted its 71st annual Antarctic Midwinter Broadcast on June 21, carrying music requests and messages from home to the small crews spending the polar night at Britain's remotest research stations.",
+      dek:  "On the winter solstice, shortwave transmitters in Woofferton, England, and on Ascension Island beamed a thirty-minute programme to the overwintering scientists at Rothera, Bird Island, and King Edward Point — three British Antarctic Survey bases where fewer than 60 people are spending the polar winter. The broadcast followed the same format as the first transmission in 1955: music chosen by the crews, messages from family and friends, and a word from the King; thousands of shortwave enthusiasts around the world tuned in. Listener recordings published by the SWLing Post noted this year's signal was notably clear across western Europe.",
+      src:  "BBC World Service / SWLing Post",
+      url:  "https://swling.com/blog/2026/06/my-recording-of-the-2026-bbc-midwinter-broadcast-to-antarctica/",
+      img:  "https://images.unsplash.com/photo-WWVD4wXRX38?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Science & Medicine",
+      place: "Calgary, Canada",
+      head: "A Phase I/II trial in Calgary found that 82 per cent of glioblastoma patients showed no disease progression at six months when high-dose vitamin B3 was added to standard treatment.",
+      dek:  "In the trial at the University of Calgary, the first 24 participants with newly diagnosed glioblastoma received controlled-release high-dose niacin alongside standard radiotherapy and temozolomide chemotherapy; 82 per cent showed no progression at six months, compared with a historical benchmark of roughly 54 per cent. Researchers found that high-dose niacin restored tumour-infiltrating immune-cell function and shifted the tumour's inflammatory environment in an antitumour direction — the vitamin acting as a precursor to NAD+, which controls both energy metabolism and immune signalling. The results, published in the Journal of Neuro-Oncology (vol. 176(1), 2026), are moving into a larger enrolment phase through early 2027.",
+      src:  "Journal of Neuro-Oncology / University of Calgary",
+      url:  "https://www.sciencedaily.com/releases/2026/06/260622014313.htm",
+      img:  "https://images.unsplash.com/photo-jLwVAUtLOAQ?w=1600&q=80&auto=format&fit=crop"
+    },
+    {
+      cat: "Global Progress",
+      place: "Global",
+      head: "Global AIDS-related deaths have fallen 56 per cent since 2010, and United Nations member states adopted a declaration on June 23 committing to put 40 million people on antiretroviral treatment by 2030.",
+      dek:  "At the UN High-Level Meeting on HIV/AIDS in New York, an overwhelming majority of member states signed a Political Declaration anchored in documented progress: 32.1 million people are now on sustained antiretroviral therapy — the highest in the epidemic's history — alongside a 43 per cent drop in new global infections since 2010. The declaration sets a 2030 target of 40 million people on virally suppressive treatment and 20 million more reached by prevention tools including the twice-yearly injectable lenacapavir, currently in rollout in South Africa. UNAIDS described it as the most consequential global AIDS agreement since the early-2000s access negotiations that first brought treatment within reach of lower-income countries.",
+      src:  "UNAIDS",
+      url:  "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2026/june/20260624_HLM2026AIDS_concludes",
+      img:  "https://images.unsplash.com/photo-gogGhbvHrYw?w=1600&q=80&auto=format&fit=crop"
     }
   ]
 };
