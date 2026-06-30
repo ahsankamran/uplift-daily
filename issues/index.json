@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-06-30",
+    "slug": "2026-06-30",
+    "edition": 485,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Rio de Janeiro, Brazil",
+        "head": "Conservationists working in Tijuca National Park have released the first blue-and-yellow macaws to live above Rio de Janeiro in 200 years, part of a long effort to restock a forest full of trees but empty of the animals that once seeded them.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/06/rewilding-rio-conservationists-restock-an-empty-forest-one-species-at-a-time/",
+        "img": "https://images.unsplash.com/photo-aNqFBuVCicc?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Ladakh, India",
+        "head": "Hemis Monastery in Ladakh marked Guru Padmasambhava's birthday on June 24 with two days of sacred masked dances performed before thousands of pilgrims in the high-altitude courtyard of one of the Himalayas' largest monasteries.",
+        "src": "All India Radio / Akashvani",
+        "url": "https://newsonair.gov.in/hemis-festival-2026-begins-at-historic-hemis-monastery-in-ladakh/",
+        "img": "https://images.unsplash.com/photo-kPacZeCrzA8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Tel Aviv, Israel",
+        "head": "Researchers at Tel Aviv University identify a rare subset of cochlear cells with a hidden ability to regenerate into sensory hair cells, opening a potential path to treatments that restore lost hearing.",
+        "src": "phys.org / Science Advances",
+        "url": "https://phys.org/news/2026-06-rare-ear-cells-regenerative-treatments.html",
+        "img": "https://images.unsplash.com/photo-GTPrFNJ0pV4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Gqeberha, South Africa",
+        "head": "Kind strangers in a Port Elizabeth Facebook group identified faces in a Taiwanese man's thirty-year-old photographs and reunited him with his South African half-sister the same day he asked.",
+        "src": "The Herald, South Africa",
+        "url": "https://www.theherald.co.za/news/2026-06-30-kind-strangers-help-man-to-reconnect-with-half-sister-after-30-years/",
+        "img": "https://images.unsplash.com/photo-Lks7vei-eAg?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Netherlands / West Africa",
+        "head": "A pied flycatcher fostering experiment shows that when Dutch eggs are raised by Swedish parents, the chicks migrate to a destination halfway between both populations' wintering areas in West Africa.",
+        "src": "phys.org / Science",
+        "url": "https://phys.org/news/2026-06-birds-africa-flycatcher-reveals-genes.html",
+        "img": "https://images.unsplash.com/photo-VhG-Q5n9Nts?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "São Tomé and Príncipe",
+        "head": "São Tomé and Príncipe formally designated its first two marine protected areas on June 29, covering mangroves, rocky reefs, and sea turtle nesting beaches in the Gulf of Guinea.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/06/sao-tome-declares-first-two-of-eight-planned-marine-protected-areas/",
+        "img": "https://images.unsplash.com/photo-tDRbTSmfMs4?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-29",
     "slug": "2026-06-29",
     "edition": 484,
