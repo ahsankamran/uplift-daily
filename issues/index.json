@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-01",
+    "slug": "2026-07-01",
+    "edition": 486,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Milne Bay, Papua New Guinea",
+        "head": "Marine biologists diving the reefs of Milne Bay, Papua New Guinea, have confirmed a tenth species of walking shark — a metre-long fish that uses its fins to stroll across the seafloor rather than swim.",
+        "src": "ZME Science",
+        "url": "https://www.zmescience.com/science/news-science/scientists-identify-new-walking-shark-species-with-morse-code-like-markings/",
+        "img": "https://images.unsplash.com/photo-1705607014209-0314bf7daa5a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "London, England",
+        "head": "A Lancet study led by Queen Mary University of London finds that cervical cancer deaths have fallen to zero among vaccinated young women in England, the strongest evidence yet that the disease can be made rare in an entire generation.",
+        "src": "National Geographic",
+        "url": "https://www.nationalgeographic.com/health/article/cervical-cancer-hpv-vaccine-success",
+        "img": "https://images.unsplash.com/photo-1613758947307-f3b8f5d80711?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Lower Mekong Basin, Cambodia",
+        "head": "A fish long feared gone from the Mekong keeps turning up in Cambodian nets, with researchers confirming a fourth recent capture of the giant salmon carp after fifteen years with no confirmed sighting.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/07/recent-discoveries-of-lost-mekong-giant-salmon-carp-renews-hope-for-the-fish/",
+        "img": "https://images.unsplash.com/photo-1683872478229-50c4070df309?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Dunedin, New Zealand",
+        "head": "Two classes of Dunedin schoolchildren spent eight weeks raising money and collecting 237 pairs of pyjamas so other local kids have something warm to sleep in this winter.",
+        "src": "Otago Daily Times",
+        "url": "https://www.odt.co.nz/news/dunedin/pupils-help-others-rug-bedtime",
+        "img": "https://images.unsplash.com/photo-1760013531865-89ff324f83a6?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Bourg-Saint-Pierre / Martigny, Switzerland",
+        "head": "Switzerland still keeps St. Bernard dogs on the Great St. Bernard Pass, living heirs to a mountain rescue tradition that began at a hospice founded in 1050.",
+        "src": "Associated Press",
+        "url": "https://abcnews.com/Lifestyle/wireStory/st-bernard-dogs-honored-museum-bridges-breeds-history-134231635",
+        "img": "https://images.unsplash.com/photo-1612599170017-de8c11bd5c21?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Nairobi, Kenya & Kigali, Rwanda",
+        "head": "Kenya and Rwanda have upgraded their disease-tracking systems to pinpoint drug-resistant infections case by case rather than relying on aggregate counts.",
+        "src": "WHO Regional Office for Africa",
+        "url": "https://www.afro.who.int/news/kenya-rwanda-strengthen-their-defences-against-antimicrobial-resistance",
+        "img": "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-06-30",
     "slug": "2026-06-30",
     "edition": 485,
