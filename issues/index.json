@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-05",
+    "slug": "2026-07-05",
+    "edition": 487,
+    "stories": [
+      {
+        "cat": "Global Progress",
+        "place": "French Polynesia",
+        "head": "French Polynesia has placed 30 percent of its ocean under full protection, sealing off 520,000 square kilometres of Pacific water from industrial fishing and seabed mining.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/06/french-polynesia-expands-ocean-protections-to-30-of-its-waters/",
+        "img": "https://images.unsplash.com/photo-1531959870249-9f9b729efcf4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Richard Underwood Nature Refuge, Queensland, Australia",
+        "head": "A trail camera at a Queensland wildlife refuge has confirmed a joey growing in the pouch of a critically endangered northern hairy-nosed wombat, a species down to about 450 animals worldwide.",
+        "src": "Good Good Good",
+        "url": "https://www.goodgoodgood.co/articles/trail-camera-northern-hairy-nosed-wombat-spotted",
+        "img": "https://images.unsplash.com/photo-1743938153060-7f6c4b1b9ba0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Yokohama, Japan",
+        "head": "A Yokohama train station has brought back the beloved clatter of its old split-flap departure board, rebuilt as a digital screen that keeps the same analogue soul.",
+        "src": "SoraNews24",
+        "url": "https://soranews24.com/2026/07/04/japanese-train-company-brings-back-beloved-patapata-departure-boardwith-a-clever-digital-twist/",
+        "img": "https://images.unsplash.com/photo-1768677675301-627aae4d9427?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "South Downs National Park, England",
+        "head": "Glow-worm larvae have been released into a new, unusually dark corner of England's South Downs National Park, chosen for skies clear enough to let their green glow carry.",
+        "src": "ITV News Meridian",
+        "url": "https://www.itv.com/news/meridian/2026-07-02/glow-worms-introduced-to-new-south-downs-site-to-benefit-from-dark-skies",
+        "img": "https://images.unsplash.com/photo-1763953239955-ff27e74e7e84?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Rockford, Tennessee, United States",
+        "head": "A 22-year-old engineer in Tennessee has turned a pair of desktop 3D printers into a weekend denture lab, giving people who cannot afford dental care a new smile in a fraction of the usual time.",
+        "src": "The Hustle",
+        "url": "https://thehustle.co/news/free-dentures-to-those-in-need-thanks-to-3d-printing",
+        "img": "https://images.unsplash.com/photo-1681939282781-341ac4f61996?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Stockholm, Sweden",
+        "head": "A 15-year Swedish study finds that older adults already showing early biological signs of Alzheimer's can still lower their dementia risk substantially through diet alone.",
+        "src": "Karolinska Institutet",
+        "url": "https://news.ki.se/healthier-diet-linked-to-lower-dementia-in-older-adults-at-risk",
+        "img": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-01",
     "slug": "2026-07-01",
     "edition": 486,
