@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-06",
+    "slug": "2026-07-06",
+    "edition": 488,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Pendjari National Park, Benin",
+        "head": "Camera traps in Benin's Pendjari National Park have recorded West African leopard density more than tripling, from 0.62 to 2.08 animals per 100 square kilometres between 2017 and 2023.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/07/endangered-west-african-leopards-show-signs-of-recovery-despite-odds-its-a-win/",
+        "img": "https://images.unsplash.com/photo-1566708627877-859df13ae63e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Chicago, Illinois, United States",
+        "head": "Sister Stephanie Baliga and her team have run the Chicago Marathon every fall since 2011, raising more than $2.6 million for the Mission of Our Lady of the Angels food pantry in West Humboldt Park.",
+        "src": "Good Good Good",
+        "url": "https://www.goodgoodgood.co/articles/nun-runs-marathons-for-charity",
+        "img": "https://images.unsplash.com/photo-1590333748338-d629e4564ad9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Bergen, Norway",
+        "head": "A twelve-hospital trial across Norway and Sweden has found that rituximab controls newly diagnosed multiple sclerosis just as effectively as the far costlier standard drug, ocrelizumab.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-07-treatment-multiple-sclerosis-shown-effective.html",
+        "img": "https://images.unsplash.com/photo-1623682687826-fe06bf64e6d8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Clarence, Tasmania, Australia",
+        "head": "Neil, a one-tonne elephant seal born in southern Tasmania in 2020, has returned for his sixth consecutive winter moult, this year settling into the Clarence council area outside Hobart.",
+        "src": "UPI",
+        "url": "https://www.upi.com/Odd_News/2026/07/02/australia-Neil-the-seal-Tasmania-Australia/4521783013488/",
+        "img": "https://images.unsplash.com/photo-1666363528954-51382581c51a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Gloucestershire, England",
+        "head": "A Gloucestershire gardener has grown the world's heaviest elephant garlic bulb, weighing 3 pounds and 13.7 ounces and measuring 7.5 inches across.",
+        "src": "UPI",
+        "url": "https://www.upi.com/Odd_News/2026/07/06/Guinness-World-Records-heaviest-elephant-garlic/8271783353553/",
+        "img": "https://images.unsplash.com/photo-1575025120628-9d016842e612?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Africa",
+        "head": "Gavi will make its first cash payment to an African vaccine manufacturer in the second half of 2026, opening a $1.2 billion effort to help the continent produce most of its own vaccines.",
+        "src": "Semafor",
+        "url": "https://www.semafor.com/article/07/02/2026/africa-moves-ahead-with-vaccine-manufacturing-ambitions",
+        "img": "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-05",
     "slug": "2026-07-05",
     "edition": 487,
