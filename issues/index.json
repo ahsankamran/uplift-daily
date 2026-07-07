@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-07",
+    "slug": "2026-07-07",
+    "edition": 489,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Xingu Corridor, Pará, Brazil",
+        "head": "A 42.8-kilometre illegal road that once threatened to split Brazil's Xingu Socioenvironmental Corridor has vanished, swallowed by regrowing rainforest between 2022 and 2025.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/07/crackdown-lets-rainforest-reclaim-illegal-road-in-rare-win-for-the-amazon/",
+        "img": "https://images.unsplash.com/photo-1749266002449-965994ab68b1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Portland, Oregon, United States",
+        "head": "Immunologists at Oregon Health & Science University have identified 75 malaria protein fragments that stay nearly identical across parasite species and infection stages, a blueprint for one vaccine effective against malaria worldwide.",
+        "src": "OHSU News",
+        "url": "https://news.ohsu.edu/2026/07/01/study-reveals-path-for-universal-vaccine-against-malaria",
+        "img": "https://images.unsplash.com/photo-1748261348213-62f4c399bb72?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Eastern Cape, South Africa",
+        "head": "South Africa's Department of Basic Education has replaced every pit toilet identified in a 2018 nationwide school safety audit, finishing repairs at all 3,372 schools on the list.",
+        "src": "AllAfrica",
+        "url": "https://allafrica.com/stories/202607070060.html",
+        "img": "https://images.unsplash.com/photo-1473649085228-583485e6e4d7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Diepsloot, South Africa",
+        "head": "A kindness shown to Karabo Legodi years ago has grown into Valley Football Club, where more than 200 children in Diepsloot, outside Johannesburg, now play every weekend.",
+        "src": "Good Things Guy",
+        "url": "https://www.goodthingsguy.com/how-one-coach-turned-gratitude-into-a-football-club-that-changes-futures/",
+        "img": "https://images.unsplash.com/photo-1544333323-ec9ed3218dd1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Sesoko Island, Okinawa, Japan",
+        "head": "A swimming crab survived about two months trapped inside a floating plastic bottle off Okinawa, growing too large to escape the very shelter that fed it.",
+        "src": "Hiroshima University",
+        "url": "https://www.hiroshima-u.ac.jp/en/news/98552",
+        "img": "https://images.unsplash.com/photo-1760528543790-bb2d3571f813?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Basel, Switzerland",
+        "head": "Record heat at Switzerland's national yodeling festival sent singers and alphorn players to rehearse in Basel's public fountains instead of its streets.",
+        "src": "Associated Press",
+        "url": "https://www.wfmz.com/news/ap/heat-forces-yodelers-at-annual-swiss-festival-to-sing-in-fountains/article_210f6aaf-855f-56e6-b29b-21103c9ab5bd.html",
+        "img": "https://images.unsplash.com/photo-1674242190596-20dc0f49cb8f?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-06",
     "slug": "2026-07-06",
     "edition": 488,
