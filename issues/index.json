@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-09",
+    "slug": "2026-07-09",
+    "edition": 490,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Maio Island, Cabo Verde",
+        "head": "Volunteer fishers on Cabo Verde's Maio Island have logged more than 139,000 patrol trips protecting their own waters over the past decade, part of a program that now spans seven of the country's ten islands.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/07/cabo-verde-program-and-its-fishers-have-been-protecting-the-sea-for-10-years/",
+        "img": "https://images.unsplash.com/photo-1575658075190-c7b80d4a5e77?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Pakistan",
+        "head": "Rooftop solar now supplies roughly one-fifth of Pakistan's electricity, letting the country avoid an estimated $12 billion in oil and gas imports by this February.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/rooftop-solar-gave-power-to-pakistan-when-fossil-fuels-failed-its-now-called-a-boom/",
+        "img": "https://images.unsplash.com/photo-1745187946672-2c1d8cf26a2b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Toronto, Canada",
+        "head": "Toronto researchers screening more than 3,700 genes in mice have identified 81 previously unknown genes driving the hardest-to-treat form of breast cancer.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-07-longstanding-mystery-deadliest-breast-cancer.html",
+        "img": "https://images.unsplash.com/photo-1576091160651-e028ca26a943?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Flathead Valley, Montana, United States",
+        "head": "A Montana nonprofit has been leaving $5 coffee gift cards on the windshields of cars parked overnight outside bars, rewarding anyone who chose a cab home instead of driving.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/viral-volunteer-effort-leaves-surprises-on-the-cars-of-residents-who-took-cabs-home-from-the-bar/",
+        "img": "https://images.unsplash.com/photo-1674404902071-571d8b9525bb?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Somersby, New South Wales, Australia",
+        "head": "A Komodo dragon hatched at Australia's Reptile Park this month, only the third successful captive breeding of the species in the country's history.",
+        "src": "Australian Reptile Park",
+        "url": "https://www.reptilepark.com.au/about/zoo-news/rare-baby-komodo-dragon-hatches-at-the-park",
+        "img": "https://images.unsplash.com/photo-1753583727813-e6c5ec5255c0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Mornington Island, Queensland, Australia",
+        "head": "A Queensland barber known for his tattoos and orange hair spent a week teaching haircutting to residents of Mornington Island, one of Australia's most remote communities.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/this-outback-barber-visits-remote-island-to-host-hairstyling-workshop-bringing-fresh-hope-and-hairdoos/",
+        "img": "https://images.unsplash.com/photo-1641318175316-795cd2db99f8?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-07",
     "slug": "2026-07-07",
     "edition": 489,
