@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-12",
+    "slug": "2026-07-12",
+    "edition": 492,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Central Pacific Ocean",
+        "head": "Scientists have filmed a goblin shark alive in the wild for the first time in the species' known history.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260708022208.htm",
+        "img": "https://images.unsplash.com/photo-1531959870249-9f9b729efcf4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Western Australia",
+        "head": "Australia's numbat has climbed off the endangered list after four decades of fox and cat control.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/07/once-endangered-australias-numbat-is-making-a-hopeful-recovery/",
+        "img": "https://images.unsplash.com/photo-1764776312672-15ffccd2b46b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Germany",
+        "head": "Renewable power supplied 61.8 percent of Germany's electricity in the first half of 2026, a new national record.",
+        "src": "SolarQuarter / Fraunhofer ISE",
+        "url": "https://solarquarter.com/2026/07/08/germanys-renewable-energy-share-reaches-61-8-as-solar-and-wind-set-new-records-in-h1-2026/",
+        "img": "https://images.unsplash.com/photo-1715605569717-494ac7c5656a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Uvongo, South Africa",
+        "head": "A stranger built a shelter for a South African feral cat colony overnight and never said who they were.",
+        "src": "Good Things Guy",
+        "url": "https://www.goodthingsguy.com/angel-builds-uvongo-feral-cats-house/",
+        "img": "https://images.unsplash.com/photo-1710322916725-9489fbbc1a0b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Bologna, Italy",
+        "head": "University of Pisa students built and flew a paper airplane with a wingspan longer than a bowling lane.",
+        "src": "Guinness World Records",
+        "url": "https://www.guinnessworldrecords.com/news/commercial/2026/7/italian-students-build-largest-paper-plane-ever-spans-six-stories-and-successfully-flies",
+        "img": "https://images.unsplash.com/photo-1678221420296-78807f421c4f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Ann Arbor, Michigan, United States",
+        "head": "A gut-repairing drug reversed severe fatty liver disease in animal trials by starving out a harmful bacterium.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260711010116.htm",
+        "img": "https://images.unsplash.com/photo-1578496480240-32d3e0c04525?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-11",
     "slug": "2026-07-11",
     "edition": 491,
