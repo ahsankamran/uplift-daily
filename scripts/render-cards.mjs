@@ -109,7 +109,7 @@ async function main() {
         story: s,
       })
     );
-    await page.goto(`${templateUrl}#${payload}`, {
+    await page.goto(`${templateUrl}?v=${i}#${payload}`, {
       waitUntil: "networkidle0",
       timeout: 30000,
     });

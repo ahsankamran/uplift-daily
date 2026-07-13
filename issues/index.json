@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-13",
+    "slug": "2026-07-13",
+    "edition": 493,
+    "stories": [
+      {
+        "cat": "Everyday Joy",
+        "place": "Aalborg, Denmark",
+        "head": "Denmark's Santas swap snow for sunshine every July.",
+        "src": "The Washington Post",
+        "url": "https://www.washingtonpost.com/world/2026/07/09/santa-denmark-claus-christmas-summer-congress-aalborg/8ecaf184-7b8a-11f1-b194-f872dd4ec5aa_story.html",
+        "img": "https://images.unsplash.com/photo-1513857143559-e27f2c660116?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Cardamom Mountains, Cambodia",
+        "head": "Camera traps in Cambodia's Cardamom Mountains recorded 14 rare species this spring.",
+        "src": "Xinhua",
+        "url": "https://english.news.cn/20260706/0fe4229a33fe4391b3248205df3fc760/c.html",
+        "img": "https://images.unsplash.com/photo-1566708627877-859df13ae63e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "El Salvador",
+        "head": "El Salvador has eliminated trachoma as a public health threat.",
+        "src": "World Health Organization",
+        "url": "https://www.who.int/news/item/13-07-2026-el-salvador-validated-by-who-as-having-eliminated-trachoma-as-a-public-health-problem",
+        "img": "https://images.unsplash.com/photo-1624337887888-f5ea6a1e573e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Hyderabad, India",
+        "head": "A stranger stopped for a stuck car in Hyderabad when no one else would.",
+        "src": "Siasat",
+        "url": "https://www.siasat.com/strangers-kindness-becomes-viral-symbol-of-communal-harmony-3503148/",
+        "img": "https://images.unsplash.com/photo-1553198194-1b81858f6436?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Bengaluru, India",
+        "head": "A century-old well in Bengaluru is back to work.",
+        "src": "The Better India",
+        "url": "https://thebetterindia.com/sustainability/bengaluru-sampangiram-nagar-old-well-restoration-water-crisis-community-source-12152512",
+        "img": "https://images.unsplash.com/photo-1687193191982-2e3a19d7612f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Yorkshire, England",
+        "head": "A blood test could spare thousands of women an invasive cancer check.",
+        "src": "FemTech World",
+        "url": "https://www.femtechworld.co.uk/news/cancer/thousands-of-women-could-avoid-painful-cancer-exam-with-new-ai-blood-test-onc26/",
+        "img": "https://images.unsplash.com/photo-1639772823849-6efbd173043c?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-12",
     "slug": "2026-07-12",
     "edition": 492,
