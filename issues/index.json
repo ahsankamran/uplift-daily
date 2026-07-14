@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-14",
+    "slug": "2026-07-14",
+    "edition": 494,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Uttarakhand, India",
+        "head": "A spider with Hawaii's famous smile turned up 7,500 miles away in the Himalayas.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260709160627.htm",
+        "img": "https://images.unsplash.com/photo-1521137849231-1c23a1209abe?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Vindolanda, England",
+        "head": "A Roman guardian spirit spent 1,600 years hiding under a barracks floor.",
+        "src": "GB News",
+        "url": "https://www.gbnews.com/science/archaeology-discovery-rare-carving-protective-spirit-1600-years-hadrians-wall",
+        "img": "https://images.unsplash.com/photo-1758632903822-6d97d401c5d8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Indonesia & Myanmar",
+        "head": "Southeast Asia's mangroves have flipped from the world's biggest loss to one of its biggest gains.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/07/southeast-asian-mangroves-shift-from-historic-decline-to-net-growth/",
+        "img": "https://images.unsplash.com/photo-1672153920077-8bea4b38b077?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Qwa-Qwa, South Africa",
+        "head": "A conservation group in Qwa-Qwa built garden beds fitted for wheelchairs.",
+        "src": "Good Things Guy",
+        "url": "https://www.goodthingsguy.com/differently-abled-farmers-qwa-qwa-get-gardens/",
+        "img": "https://images.unsplash.com/photo-1680344513221-f1ebf639f82e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Beijing, China",
+        "head": "A gum-disease bacterium may explain why some heart valves calcify.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260713000751.htm",
+        "img": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "The Gambia",
+        "head": "The Gambia just received ten ambulances built to reach villages a clinic can't.",
+        "src": "AllAfrica",
+        "url": "https://allafrica.com/stories/202607140396.html",
+        "img": "https://images.unsplash.com/photo-1747889268735-31192c2a6df4?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-13",
     "slug": "2026-07-13",
     "edition": 493,
