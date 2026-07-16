@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-16",
+    "slug": "2026-07-16",
+    "edition": 495,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Otago, New Zealand",
+        "head": "New Zealand just opened five new national parks of the sea.",
+        "src": "RNZ",
+        "url": "https://www.rnz.co.nz/news/te-manu-korihi/597037/new-te-au-roa-o-te-rakihouia-marine-reserves-coming-into-force-in-otago",
+        "img": "https://images.unsplash.com/photo-1670392269716-8ae55fe7a992?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Indiana, United States",
+        "head": "A research administrator just walked the equivalent of Earth's circumference, on his own driveway.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/my-dad-just-walked-the-equivalent-of-earths-circumference-it-took-him-14-years-and-49-pairs-of-new-balance/",
+        "img": "https://images.unsplash.com/photo-1428790031246-698d71b6fe3f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "England",
+        "head": "Regular trips to the museum or theatre may slow the body's biological clock.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260714225526.htm",
+        "img": "https://images.unsplash.com/photo-1761403757058-e3c95b662a89?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Kingston, Canada",
+        "head": "Kingston turned its little free libraries into little free pantries.",
+        "src": "CFRC",
+        "url": "https://www.cfrc.ca/news-events/news/2026/july/three-new-community-food-pantries-pop-up-in-kingston",
+        "img": "https://images.unsplash.com/photo-1563482540011-d6e601d69d48?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Madrid, Spain",
+        "head": "A rescued chimpanzee carried a crystal back to bed and wouldn't give it up.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260713000813.htm",
+        "img": "https://images.unsplash.com/photo-1514722784363-e244edc38ca1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "European Union",
+        "head": "Solar became the European Union's single largest source of electricity in June.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/2026/07/14/solar-generated-record-25-of-eu-power-in-june-with-germany-spain-and-poland-leading-the-ra",
+        "img": "https://images.unsplash.com/photo-1666519071110-e223b4d7f688?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-14",
     "slug": "2026-07-14",
     "edition": 494,
