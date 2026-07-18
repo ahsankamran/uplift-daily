@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-18",
+    "slug": "2026-07-18",
+    "edition": 496,
+    "stories": [
+      {
+        "cat": "Global Progress",
+        "place": "Brazil",
+        "head": "Amazon deforestation just fell to its lowest point in a decade.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/07/amazon-deforestation-falls-to-10-year-low-in-first-half-of-2026/",
+        "img": "https://images.unsplash.com/photo-1591081658714-f576fb7ea3ed?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Gir, Gujarat, India",
+        "head": "Indian grey hornbills are breeding in Gir again, sixty years after they vanished.",
+        "src": "The Better India",
+        "url": "https://thebetterindia.com/wildlife/indian-grey-hornbills-gir-healthy-forests-return-after-six-decades-mature-trees-supporting-ecosystem-12172883",
+        "img": "https://images.unsplash.com/photo-1736267912527-b4341f92eaa5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Lomami National Park, DR Congo",
+        "head": "A monkey with orange-cream lips no one had catalogued turned up deep in the Congo Basin.",
+        "src": "Yale News",
+        "url": "https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin",
+        "img": "https://images.unsplash.com/photo-1529247833802-700f53170380?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Lumberton, Mississippi",
+        "head": "A Mississippi nonprofit spent its second summer making sure every kid in town starts school ready.",
+        "src": "WDAM",
+        "url": "https://www.wdam.com/2026/07/16/lumberton-nonprofit-gives-free-haircuts-prepares-back-school-bash-friday/",
+        "img": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Banaras, India",
+        "head": "A potter in Banaras has spent 12 years personally keeping the city's roadside saplings alive.",
+        "src": "The Better India",
+        "url": "https://thebetterindia.com/changemakers/oxygen-baba-gopal-waters-roadside-trees-banaras-12159653",
+        "img": "https://images.unsplash.com/photo-1599277100479-3252d492a19a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Groningen, Netherlands",
+        "head": "A kidney drug already used for diabetics just proved it works for everyone else too.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260712011753.htm",
+        "img": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-16",
     "slug": "2026-07-16",
     "edition": 495,
