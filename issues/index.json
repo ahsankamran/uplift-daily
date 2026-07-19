@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-19",
+    "slug": "2026-07-19",
+    "edition": 497,
+    "stories": [
+      {
+        "cat": "Quiet Kindness",
+        "place": "London, England",
+        "head": "A daughter's TikTok video saved her father's 30-year-old shoe shop.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/daughter-saves-dads-struggling-shoe-shop-with-tiktok-appeal-and-customer-lines-out-the-door/",
+        "img": "https://images.unsplash.com/photo-1714905713953-8c4f45c978a1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Tongjiang, China",
+        "head": "China and Russia released nearly half a million sturgeon into their shared border river.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/chinese-russian-biologists-release-nearly-500000-young-sturgeon-into-the-amur-river/",
+        "img": "https://images.unsplash.com/photo-1763688506555-c73c1b944080?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Burkina Faso",
+        "head": "Burkina Faso just cut malaria deaths among young children by 60 percent in a year.",
+        "src": "AllAfrica",
+        "url": "https://allafrica.com/stories/202607150588.html",
+        "img": "https://images.unsplash.com/photo-1635496471665-4e67e0e87399?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Granada, Spain",
+        "head": "A 12-week fasting schedule kept weight off for a year, a Spanish trial found.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260718010154.htm",
+        "img": "https://images.unsplash.com/photo-1757801333069-f7b3cabaec4a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Ipswich, Queensland, Australia",
+        "head": "More than 600 trombonists gathered in Ipswich to break a world record.",
+        "src": "Ipswich First",
+        "url": "https://www.ipswichfirst.com.au/ipswich-strikes-world-record-note-with-largest-trombone-ensemble/",
+        "img": "https://images.unsplash.com/photo-1753366754160-e36f3f3c6193?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Saratoga, California",
+        "head": "Four orphaned bobcat kittens who arrived within days of each other are now growing up together.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/4-different-bobkittens-rescued-in-a-week-undergoing-rehab-together-for-return-to-the-wild/",
+        "img": "https://images.unsplash.com/photo-1605235923175-9930bcad51df?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-18",
     "slug": "2026-07-18",
     "edition": 496,
