@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-21",
+    "slug": "2026-07-21",
+    "edition": 498,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Gulf of Guinea, Benin",
+        "head": "A coral reef presumed dead for sixty years turned out to be teeming with life off Benin.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/coral-reef-long-presumed-dead-is-rediscovered-teeming-with-life-off-coast-of-africa/",
+        "img": "https://images.unsplash.com/photo-1691859653297-2a9c557212f7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Xishuangbanna, Yunnan, China",
+        "head": "A wandering elephant family that captivated China in 2021 has grown to twenty-one members.",
+        "src": "People's Daily Online",
+        "url": "http://en.people.cn/n3/2026/0717/c90000-20478753.html",
+        "img": "https://images.unsplash.com/photo-1661803263474-d600344f6457?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Sub-Saharan Africa",
+        "head": "A malaria vaccine that costs about £2.50 a dose is now reaching more than twenty African countries.",
+        "src": "The Portugal News",
+        "url": "https://www.theportugalnews.com/news/2026-07-18/inventor-of-malaria-vaccine-wins-top-honour/1055721",
+        "img": "https://images.unsplash.com/photo-1581594549595-35f6edc7b762?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Concord, North Carolina",
+        "head": "A lonely four-year-old's daily wave turned his Concord, North Carolina block into a real neighborhood.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/it-takes-a-village-to-raise-a-child-but-this-lonely-4-yo-first-had-to-raise-his-neighborhood-watch/",
+        "img": "https://images.unsplash.com/photo-1781974179634-ce0b58065174?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Venice, Italy",
+        "head": "Venice filled its lagoon with 2,500 decorated boats for a tradition that turns 450 this year.",
+        "src": "ANSA",
+        "url": "https://www.ansa.it/veneto/notizie/2026/07/19/unesplosione-di-colori-celebra-la-festa-del-redentore-a-venezia_d0b70de9-6015-4871-8cf2-e5bee6854177.html",
+        "img": "https://images.unsplash.com/photo-1751453516275-a927b8de500d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Brazil",
+        "head": "A cheap antidepressant eased long COVID fatigue in a Brazilian trial of 399 adults.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
+        "img": "https://images.unsplash.com/photo-1758206523826-a65d4cf070aa?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-19",
     "slug": "2026-07-19",
     "edition": 497,
