@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-22",
+    "slug": "2026-07-22",
+    "edition": 499,
+    "stories": [
+      {
+        "cat": "Global Progress",
+        "place": "Melanesia, South Pacific",
+        "head": "Four Pacific nations turned a shared ocean pledge into a 214,000-square-kilometer no-take sanctuary.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/07/melanesian-nations-announce-intention-to-create-massive-ocean-reserve-corridor/",
+        "img": "https://images.unsplash.com/photo-1442386967425-6205da77c3ed?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Brisbane, Australia",
+        "head": "A new malaria drug cleared parasites from human blood within hours in its first trial.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-07-malaria-drug-candidate-phase-trial.html",
+        "img": "https://images.unsplash.com/photo-1572884267966-02340ebc90ac?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Lomphat Wildlife Sanctuary, Cambodia",
+        "head": "A critically endangered vulture returned to a Cambodian sanctuary after a ten-year absence.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/07/white-rumped-vulture-returns-to-a-cambodian-sanctuary-after-a-decades-absence/",
+        "img": "https://images.unsplash.com/photo-1632168069125-d45aedbcbd44?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Germiston, South Africa",
+        "head": "A taxi association in Germiston bought new school shoes for 70 children.",
+        "src": "The Citizen",
+        "url": "https://citizen.co.za/germiston-city-news/news-headlines/local-news/2026/07/21/donation-puts-school-shoes-on-learners-feet/",
+        "img": "https://images.unsplash.com/photo-1678192568478-9488ee55def6?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Crail, Fife, Scotland",
+        "head": "A rare Asian shrike turned up on a Scottish farm and drew 350 birdwatchers in a day.",
+        "src": "Bird-Watchers.com",
+        "url": "https://bird-watchers.com/2026/07/17/long-tailed-shrike-crail-fife-rare-bird-2026/",
+        "img": "https://images.unsplash.com/photo-1658602627144-1a13dec9c4ea?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Accra, Ghana",
+        "head": "Ghana's hand-painted, wildly exaggerated movie posters are finding new life as collectible art.",
+        "src": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art",
+        "img": "https://images.unsplash.com/photo-1632267071031-1cda764f851f?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-21",
     "slug": "2026-07-21",
     "edition": 498,
