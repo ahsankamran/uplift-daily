@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-23",
+    "slug": "2026-07-23",
+    "edition": 500,
+    "stories": [
+      {
+        "cat": "Science & Medicine",
+        "place": "London, England",
+        "head": "A decade-long UK trial found focal therapy left prostate cancer patients as cancer-free as surgery, with far fewer side effects.",
+        "src": "Imperial College Healthcare NHS Trust",
+        "url": "https://www.imperial.nhs.uk/about-us/news/new-study-shows-focal-therapy-treats-prostate-cancer",
+        "img": "https://images.unsplash.com/photo-1578496480240-32d3e0c04525?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Basel, Switzerland",
+        "head": "A 72-year-old Swiss architect has spent four decades proving the greenest building is the one already standing.",
+        "src": "Reasons to be Cheerful",
+        "url": "https://reasonstobecheerful.world/what-if-we-never-built-another-new-building",
+        "img": "https://images.unsplash.com/photo-1648658573279-07980ccf1f24?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Porto, Portugal",
+        "head": "Porto became the first Portuguese city to make public transit free for its own residents.",
+        "src": "RUS Tourism News",
+        "url": "https://www.rustourismnews.com/2026/07/20/porto-makes-public-transport-free-to-reduce-car-use/",
+        "img": "https://images.unsplash.com/photo-1749369080768-cb058130068c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Babar Islands, Indonesia",
+        "head": "A songbird biologists had lumped together as one species for 120 years turned out to be two.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/07/new-bird-species-identified-on-remote-indonesian-island/",
+        "img": "https://images.unsplash.com/photo-1557948649-8624c28a797e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Kannur, Kerala, India",
+        "head": "A near-threatened hornbill turned up on farmland in Kerala for the first time anyone can recall.",
+        "src": "Mongabay India",
+        "url": "https://india.mongabay.com/short-article/2026/07/farmers-of-the-forest/",
+        "img": "https://images.unsplash.com/photo-1736267912527-b4341f92eaa5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "West Warwick, Rhode Island",
+        "head": "Rhode Island bank workers gave up their gas money so Meals on Wheels could keep its vans running.",
+        "src": "Providence Business News",
+        "url": "https://pbn.com/centreville-bank-employees-donate-gas-cards-to-meals-on-wheels/",
+        "img": "https://images.unsplash.com/photo-1638425637198-f4ebe6ef341a?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-22",
     "slug": "2026-07-22",
     "edition": 499,
