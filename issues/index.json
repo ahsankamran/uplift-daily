@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-24",
+    "slug": "2026-07-24",
+    "edition": 501,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Alta Floresta, Brazil",
+        "head": "Rope bridges strung through the Amazon canopy have logged 15,000 animal crossings without a single roadkill.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/07/zero-roadkill-as-amazon-canopy-bridges-secure-15000-crossings/",
+        "img": "https://images.unsplash.com/photo-1650397419080-f50b3ba39a27?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Düsseldorf, Germany",
+        "head": "Scientists found the exact brain switch that tells a worker bee which job to do.",
+        "src": "Phys.org",
+        "url": "https://phys.org/news/2026-07-bee-brains-reveal-colonies-central.html",
+        "img": "https://images.unsplash.com/photo-1578684568599-59ce64da4356?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Zambia",
+        "head": "Zambia launched the final round of a polio campaign aiming to reach 3.9 million children.",
+        "src": "Zambia Monitor",
+        "url": "https://www.zambiamonitor.com/zambia-launches-final-polio-round-targets-3-9-million-children-under-five/",
+        "img": "https://images.unsplash.com/photo-1632053002928-1919605ee6f7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Cambridge, Illinois",
+        "head": "A nine-year-old's bedroom fossil collection grew into his own natural history museum.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/culture/2026/07/17/dinosaur-loving-nine-year-old-boy-recognised-by-guinness-world-records-as-youngest-museum-",
+        "img": "https://images.unsplash.com/photo-1724778057066-3f64121eac13?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Tokyo, Japan",
+        "head": "Four men paralyzed by spinal cord injuries regained measurable movement after a stem cell transplant.",
+        "src": "Inside Precision Medicine",
+        "url": "https://www.insideprecisionmedicine.com/topics/translational-research/spinal-cord-injury-stem-cell-transplant-clears-phase-i-improves-motor-scores/",
+        "img": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Paris, France",
+        "head": "A homeless shelter in Paris got its own outdoor gym, built for people usually left out of fitness culture.",
+        "src": "AthleTech News",
+        "url": "https://athletechnews.com/omnigym-opens-outdoor-gym-in-paris-for-homeless-people/",
+        "img": "https://images.unsplash.com/photo-1773469333571-494f1c01e411?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-23",
     "slug": "2026-07-23",
     "edition": 500,
