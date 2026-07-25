@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-25",
+    "slug": "2026-07-25",
+    "edition": 502,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Kgalagadi Transfrontier Park, South Africa",
+        "head": "A litter of bat-eared fox pups turned a den site in the Kalahari into their own private racetrack.",
+        "src": "Latest Sightings",
+        "url": "https://latestsightings.com/single-post/adorable-baby-foxes-zoom-around-like-sonic",
+        "img": "https://images.unsplash.com/photo-1621383569754-5a8744581af3?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Northumberland, England",
+        "head": "England's largest private rewilding project has begun on 3,035 hectares of Northumberland moorland.",
+        "src": "Geographical",
+        "url": "https://geographical.co.uk/news/englands-largest-private-rewilding-project-launched",
+        "img": "https://images.unsplash.com/photo-1714302057029-8abc22832103?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Worldwide",
+        "head": "Global hunger fell for a third straight year, easing to 7.8 percent of the world's population in 2025.",
+        "src": "UN Food and Agriculture Organization",
+        "url": "https://www.fao.org/newsroom/detail/un-report--global-hunger-levels-ease-for-third-consecutive-year-as-regional-disparities-persist/en",
+        "img": "https://images.unsplash.com/photo-1520052203542-d3095f1b6cf0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "United Kingdom",
+        "head": "Ten of Britain's toughest trees are competing for Tree of the Year, under the theme against the odds.",
+        "src": "Woodland Trust",
+        "url": "https://www.woodlandtrust.org.uk/press-centre/2026/07/tree-of-the-year-shortlist-uk-toughest-trees/",
+        "img": "https://images.unsplash.com/photo-1502311526760-ebc5d6cc0183?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Fukuoka, Japan",
+        "head": "A newly identified compound helped aging muscle repair itself more effectively in lab tests.",
+        "src": "Kyushu University",
+        "url": "https://www.kyushu-u.ac.jp/en/researches/view/410",
+        "img": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Auburn, New York",
+        "head": "A barber who has cut hair for free for a decade now runs a monthly event just for men in need.",
+        "src": "The Citizen",
+        "url": "https://auburnpub.com/news/local/article_ad93db61-6eff-4ad0-a445-a09262d365cb.html",
+        "img": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-24",
     "slug": "2026-07-24",
     "edition": 501,
