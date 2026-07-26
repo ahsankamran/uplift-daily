@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-26",
+    "slug": "2026-07-26",
+    "edition": 503,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Kasungu National Park, Malawi",
+        "head": "Four African wild dogs turned up in a Malawi park that hadn't seen the species in more than a decade.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/07/first-sighting-of-african-wild-dogs-in-malawi-national-park-in-more-than-10-years/",
+        "img": "https://images.unsplash.com/photo-1671931637734-6427ca008a44?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Pune, India",
+        "head": "A 62-year-old turned a spare room in her Pune home into a craft studio that's now taught more than 100 neighbours to sew, crochet and quilt.",
+        "src": "The Better India",
+        "url": "https://thebetterindia.com/senior-citizens/pune-craft-classes-rhoda-gaikwad-creators-hands-craft-room-12189736",
+        "img": "https://images.unsplash.com/photo-1622461962346-a4d6c6ffade5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Brunswick Heads, Australia",
+        "head": "A volunteer-run lunch club is gathering isolated seniors around one table each week in a small Australian town.",
+        "src": "The Echo",
+        "url": "https://www.echo.net.au/2026/07/elders-gather-around-the-garden-table/",
+        "img": "https://images.unsplash.com/photo-1721180672597-beddd124205a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Arunachal Pradesh, India",
+        "head": "Botanists confirmed a delicate alpine herb growing in India for the first time in 158 years.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/07/rare-alpine-herb-confirmed-in-india-after-158-years/",
+        "img": "https://images.unsplash.com/photo-1564197491653-5bd4c50d8457?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Nottingham, England",
+        "head": "A cheap daily fibre supplement eased knee arthritis pain in a six-week trial.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260724061448.htm",
+        "img": "https://images.unsplash.com/photo-1632737173811-cfc7bf387a12?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Worldwide",
+        "head": "Global road deaths have fallen 21 percent since 2011, even as a billion more vehicles joined the world's roads.",
+        "src": "World Health Organization",
+        "url": "https://www.who.int/news/item/20-07-2026-road-deaths-fall-by-21--globally-but-stronger-action-is-needed-to-save-lives",
+        "img": "https://images.unsplash.com/photo-1717339701000-990a1682f200?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-25",
     "slug": "2026-07-25",
     "edition": 502,
