@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-28",
+    "slug": "2026-07-28",
+    "edition": 504,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Western Zambia",
+        "head": "Zambia's leopards are rebounding after villages traded real fur for fake.",
+        "src": "Positive News",
+        "url": "https://www.positive.news/environment/leopards-recover-in-zambia-as-communities-swap-skins-for-synthetics/",
+        "img": "https://images.unsplash.com/photo-1637067788163-e43c2c4a40ed?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Kansas City, Missouri",
+        "head": "More than 100 volunteers repainted a mural of the world's flags, block by block.",
+        "src": "Northeast News",
+        "url": "https://northeastnews.net/pages/volunteers-tackle-and-complete-flag-mural-restoration/",
+        "img": "https://images.unsplash.com/photo-1763934385931-8888d883fe3c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "El Salvador",
+        "head": "El Salvador eliminated a disease that has blinded people for centuries.",
+        "src": "World Health Organization",
+        "url": "https://www.who.int/news/item/13-07-2026-el-salvador-validated-by-who-as-having-eliminated-trachoma-as-a-public-health-problem",
+        "img": "https://images.unsplash.com/photo-1690384451505-2aef8ae1b0ef?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "South Africa",
+        "head": "A young elephant appointed itself the road's official sweeper.",
+        "src": "Latest Sightings",
+        "url": "https://latestsightings.com/single-post/elephant-uses-grass-to-sweep-the-road",
+        "img": "https://images.unsplash.com/photo-1740021778104-6d4abe5808cc?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "London, England",
+        "head": "A London garden dug up an old idea to keep vegetables cool without power.",
+        "src": "Positive News",
+        "url": "https://www.positive.news/society/the-underground-fridge-that-keeps-food-cool-even-in-a-heatwave/",
+        "img": "https://images.unsplash.com/photo-1756728207972-f87b4abb4c82?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Worldwide",
+        "head": "A bladder cancer therapy let most patients keep the organ doctors once had to remove.",
+        "src": "The Lancet Oncology",
+        "url": "https://www.globenewswire.com/news-release/2026/07/27/3333936/0/en/CG-Oncology-Announces-Publication-of-Pivotal-Phase-3-BOND-003-Cohort-C-Study-Results-in-The-Lancet-Oncology.html",
+        "img": "https://images.unsplash.com/photo-1758206523826-a65d4cf070aa?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-26",
     "slug": "2026-07-26",
     "edition": 503,
