@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-30",
+    "slug": "2026-07-30",
+    "edition": 505,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Nepal",
+        "head": "Nepal's tiger population has more than tripled since 2009, a new census shows.",
+        "src": "The Kathmandu Post",
+        "url": "https://kathmandupost.com/national/2026/07/29/nepal-s-tiger-population-rises-to-429-latest-census-shows",
+        "img": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Finland",
+        "head": "A single sauna session sent every kind of white blood cell surging, Finnish researchers found.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260727012141.htm",
+        "img": "https://images.unsplash.com/photo-1745894118353-88e64617e064?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "China",
+        "head": "Coal generated less than half of China's electricity for the first time this year.",
+        "src": "Xinhua",
+        "url": "https://english.news.cn/20260730/7edf2c7f43b8473db3c66128b887665d/c.html",
+        "img": "https://images.unsplash.com/photo-1756913454165-246d96a20b67?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Atlanta, Georgia",
+        "head": "A father's weekly library trips with his daughter grew into a standing invitation for other dads.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/dad-turned-weekly-library-trips-with-his-daughter-into-beloved-community-event-meet-library-dads/",
+        "img": "https://images.unsplash.com/photo-1564329200029-9a8fc635163f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Purbeck, Dorset, England",
+        "head": "A puffin chick hatched on England's south coast for the first time in thirty years.",
+        "src": "GB News",
+        "url": "https://www.gbnews.com/news/dorset-news-baby-puffin-extinction-first-sighting-three-decades",
+        "img": "https://images.unsplash.com/photo-1781276798659-afc089965cf6?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Delhi, India",
+        "head": "An ecologist who left Silicon Valley now teaches Delhi how to garden for wildlife.",
+        "src": "The Better India",
+        "url": "https://thebetterindia.com/environment/engineer-left-silicon-valley-bringing-back-native-plants-birds-butterflies-bees-restoring-natural-ecosystems-12190877",
+        "img": "https://images.unsplash.com/photo-1745415271518-e3844abfec58?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-28",
     "slug": "2026-07-28",
     "edition": 504,
