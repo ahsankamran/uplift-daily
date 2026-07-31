@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-07-31",
+    "slug": "2026-07-31",
+    "edition": 506,
+    "stories": [
+      {
+        "cat": "Science & Medicine",
+        "place": "United States",
+        "head": "A cell therapy slowed heart and muscle decline in boys with advanced Duchenne muscular dystrophy, a trial found.",
+        "src": "UC Davis Health",
+        "url": "https://health.ucdavis.edu/welcome/news/headlines/phase-3-trial-shows-investigational-cell-therapy-slowed-disease-progression-in-duchenne-muscular-dystrophy/2026/07",
+        "img": "https://images.unsplash.com/photo-1639772823907-a716be4bdecc?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Corrientes, Argentina",
+        "head": "Giant anteaters have spread into Brazil from a population that started at zero in Argentina.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/the-worlds-first-giant-anteater-reintroduction-appears-to-be-succeeding-in-brazil/",
+        "img": "https://images.unsplash.com/photo-1761943841002-a0b5aae49af4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Worldwide",
+        "head": "Global hunger fell below 8 percent for the first time since the pandemic, the UN reports.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/global-hunger-falls-below-8-for-the-first-time-since-the-pandemic/",
+        "img": "https://images.unsplash.com/photo-1520052203542-d3095f1b6cf0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Wrexham, Wales",
+        "head": "A Welsh care home funded a choir's trip to Pavarotti's birthplace, and his widow sent a thank-you gift.",
+        "src": "Wrexham.com",
+        "url": "https://wrexham.com/news/pavarottis-widow-sends-sweet-surprise-to-wrexham-care-organisation-296534.html",
+        "img": "https://images.unsplash.com/photo-1638202956270-8167b5c88ce6?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Tainan, Taiwan",
+        "head": "Bamboo bridges built by volunteers have helped double a migratory crab population in Taiwan.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/volunteers-tiny-bamboo-bridges-have-helped-double-migratory-crab-populations-on-taiwan/",
+        "img": "https://images.unsplash.com/photo-1689074311193-c0ab455d66d2?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Liverpool, England",
+        "head": "A Beatles tour bus pulled up beside Paul McCartney while he was FaceTiming Ringo Starr.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/beatles-tour-bus-pulls-alongside-paul-mccartney-while-on-video-call-with-ringo/",
+        "img": "https://images.unsplash.com/photo-1739545886353-fc47bf0670cd?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-30",
     "slug": "2026-07-30",
     "edition": 505,
