@@ -26,6 +26,11 @@ body { display: grid; place-items: center; min-height: 100vh; }
   color: #fff;
   overflow: hidden;
 }
+/* Story format: 9:16 (1080×1920). Top/bottom insets keep content clear of
+   Instagram's Story UI (profile row up top, reply bar at the bottom). */
+.card.story { height: 1920px; }
+.card.story .top { top: 200px; }
+.card.story .body { bottom: 240px; }
 .card .bg {
   position: absolute; inset: 0;
   background-size: cover; background-position: center;
@@ -124,6 +129,9 @@ body { display: grid; place-items: center; min-height: 100vh; }
   let data;
   try { data = JSON.parse(decodeURIComponent(raw)); } catch (e) { return; }
   const s = data.story || {};
+  if (data.format === "story") {
+    document.querySelector(".card").classList.add("story");
+  }
   document.getElementById("num").textContent = data.n || 1;
   document.getElementById("kicker").textContent =
     [s.cat, s.place].filter(Boolean).join(" · ") || "Uplift";

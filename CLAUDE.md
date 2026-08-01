@@ -4,6 +4,8 @@ This repo publishes a daily HTML "paper" of six genuinely good things from
 around the world. A GitHub Actions cron runs Claude Code every morning and asks
 it to produce the next edition. You (Claude Code) are the editor.
 
+> The cloud workflow runs Node 20; the local automation (see below) runs Node 22.
+
 ## What you do, every day
 
 0. **Sync first.** Run `git pull --no-rebase origin main` before doing anything. This repo is published by a daily cron, so the remote is usually ahead of local — pushing without pulling first will be rejected with "fetch first."
@@ -33,7 +35,11 @@ it to produce the next edition. You (Claude Code) are the editor.
 - **No heroes of last resort** (police, militaries, billionaires).
 - **Quiet competence > dramatic rescue.**
 - **One photograph per story**, with a real photographer credit. Prefer Unsplash
-  URLs with photographer attribution if no licensed image is available.
+  URLs with photographer attribution if no licensed image is available. The image
+  URL must be the Unsplash **CDN** form
+  `https://images.unsplash.com/photo-<digits>-<hex>?w=1600&q=80&auto=format&fit=crop`
+  — never the short page slug (`unsplash.com/photos/<slug>`), which 404s and
+  renders a blank card. Verify each returns HTTP 200. (See DAILY.md Step 3.)
 
 ## Categories (pick one of each, every day)
 
@@ -49,20 +55,39 @@ things that simply make a reader smile or feel quietly hopeful.
 
 ```
 index.html          # today's edition (you overwrite this daily)
-issues/             # permanent permalinks, one HTML per day
-  index.json        # manifest: [{date, slug, headlines[], sources[]}, ...]
+shared.css          # shared styles
+tweaks.js           # client-side palette/layout tweaks panel
+issues/             # permanent permalinks, one HTML per day (committed)
+  index.json        # manifest; entries may be flat {date,slug,headlines[],sources[]}
+                    #   or structured {date,number,stories:[{cat,place,head,src,img}]}
   YYYY-MM-DD.html
 archive.html        # list view; reads issues/index.json on load
 feed.html           # vertical IG-style swipeable feed (6 cards/day)
 story.html          # single-story permalink template
 about.html
 signup.html
+DAILY.md            # the daily editorial prompt + search strategy
 templates/
-  issue.html        # the empty skeleton — copy from this when needed
   card.html         # 1080×1350 IG card template for PNG export
-cards/              # generated PNGs, one folder per date
-.github/workflows/daily.yml
+cards/              # generated cards + PDFs, one folder per date — GITIGNORED, local-only
+.github/workflows/daily.yml   # the cloud cron that runs you
 ```
+
+## Local automation (runs on the mac mini — NOT part of the cloud cron)
+
+A launchd agent (`com.uplift.cards`, 2 PM PT) runs `scripts/render-today-local.sh`,
+which after the cloud edition is published: renders photo-led cards, builds a PDF,
+and sends it to a personal WhatsApp group. None of this is committed — `cards/` and
+the WhatsApp session are gitignored.
+
+- `scripts/render-cards.mjs`         — text-led cards from the manifest (run by daily.yml; output gitignored)
+- `scripts/render-archive-cards.mjs` — photo-led cards from issue HTML → cards/<date>/{feed,story}/
+- `scripts/render-pdf.mjs`           — stitches feed cards → cards/<date>/uplift-<date>.pdf
+- `scripts/send-whatsapp.mjs`        — sends the daily PDF (target in whatsapp-target.json)
+- `scripts/send-whatsapp-batch.mjs`  — backfill sender for past editions
+- `scripts/render-today-local.sh`    — the launchd entrypoint tying these together
+
+The cloud editor (you, in CI) does **not** need to run any of these.
 
 ## Tone
 

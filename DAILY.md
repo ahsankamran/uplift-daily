@@ -63,9 +63,18 @@ Avoid: "amazing", "incredible", "heartwarming", "uplifting", "inspires",
 
 ## Step 3 — Pick photos
 
-Search Unsplash for a thematic, calm image per story. Credit the
-photographer in the byline. Image dimensions: use
-`?w=1600&q=80&auto=format&fit=crop` query string.
+Search Unsplash for a thematic, calm image per story; credit the photographer
+in the byline.
+
+The `img` URL MUST be a Unsplash **CDN** URL of the exact form:
+`https://images.unsplash.com/photo-<NUMERIC>-<HEX>?w=1600&q=80&auto=format&fit=crop`
+e.g. `https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80&auto=format&fit=crop`
+
+- The id is the long `photo-<digits>-<hash>` string found in the image's real
+  `src` on the photo page — **NOT** the short slug in the page URL
+  (`unsplash.com/photos/<slug>`). A slug-based URL like
+  `images.unsplash.com/photo-nTF7sqg1vJo` returns 404 and the card renders blank.
+- Before finalizing, verify each `img` returns HTTP 200; if not, pick another photo.
 
 ## Step 4 — Update files
 

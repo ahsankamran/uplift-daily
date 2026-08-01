@@ -3,3 +3,10 @@ node_modules/
 .DS_Store
 *.log
 cards/
+# WhatsApp Web session — effectively a logged-in device token; local-only.
+.wwebjs_auth/
+.wwebjs_cache/
+# Personal WhatsApp chat id — local-only, this repo is public.
+scripts/whatsapp-target.json
+# Local cache: Unsplash page-slug → CDN photo-id map used by backfill-images.mjs.
+scripts/.image-backfill-map.json
