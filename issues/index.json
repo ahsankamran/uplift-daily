@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-01",
+    "slug": "2026-08-01",
+    "edition": 507,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Banat, Serbia",
+        "head": "Serbia's national bird, the eastern imperial eagle, just had its best breeding season on record.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/its-a-record-breeding-year-for-national-bird-of-serbia-the-eastern-imperial-eagle/",
+        "img": "https://images.unsplash.com/photo-1660292416463-edbc2454db89?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Michigan, United States",
+        "head": "A one-minute, drill-free treatment stopped tooth decay in more than half of treated baby teeth, a trial found.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/07/260729010719.htm",
+        "img": "https://images.unsplash.com/photo-1758205307836-0829c799890b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Europe",
+        "head": "Europe's road and industrial pollution has dropped by more than a third in a decade, a new assessment finds.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/europes-air-quality-dramatically-improved-with-39-59-drop-in-industrial-and-road-emissions/",
+        "img": "https://images.unsplash.com/photo-1626165603020-432d80531d5d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Thiruvananthapuram, India",
+        "head": "A Kerala mother turned her hardest years into a trust that now supports 200 other mothers.",
+        "src": "The Better India",
+        "url": "https://thebetterindia.com/parenting/kerala-mother-sheeja-snehasandram-trust-disabled-children-12210598",
+        "img": "https://images.unsplash.com/photo-1624354865769-6c4eb11b2eee?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Derbyshire, England",
+        "head": "A heatwave revealed a 17th-century garden design hidden under an English lawn for 350 years.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/heatwave-reveals-lost-17th-century-garden-under-parched-grass/",
+        "img": "https://images.unsplash.com/photo-1776696123814-5f9c8fd67424?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Conwy, Wales",
+        "head": "A man returned two library books 116 years overdue, and no one asked for the fine.",
+        "src": "North Wales Pioneer",
+        "url": "https://www.northwalespioneer.co.uk/news/26415860.man-returns-books-116-years-overdue-conwy-library/",
+        "img": "https://images.unsplash.com/photo-1476081718509-d5d0b661a376?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-07-31",
     "slug": "2026-07-31",
     "edition": 506,
@@ -289,7 +344,7 @@
       },
       {
         "cat": "Small Wonders",
-        "place": "Düsseldorf, Germany",
+        "place": "D\u00fcsseldorf, Germany",
         "head": "Scientists found the exact brain switch that tells a worker bee which job to do.",
         "src": "Phys.org",
         "url": "https://phys.org/news/2026-07-bee-brains-reveal-colonies-central.html",
@@ -463,7 +518,7 @@
       {
         "cat": "Global Progress",
         "place": "Sub-Saharan Africa",
-        "head": "A malaria vaccine that costs about £2.50 a dose is now reaching more than twenty African countries.",
+        "head": "A malaria vaccine that costs about \u00a32.50 a dose is now reaching more than twenty African countries.",
         "src": "The Portugal News",
         "url": "https://www.theportugalnews.com/news/2026-07-18/inventor-of-malaria-vaccine-wins-top-honour/1055721",
         "img": "https://images.unsplash.com/photo-1581594549595-35f6edc7b762?w=1600&q=80&auto=format&fit=crop"
