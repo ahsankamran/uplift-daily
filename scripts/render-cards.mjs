@@ -112,7 +112,7 @@ async function main() {
     // The query param must change per card: a URL differing only in the
     // #fragment is a same-document navigation, so the template's inline script
     // would never re-run and all six cards would render story 1.
-    await page.goto(`${templateUrl}?card=${i + 1}#${payload}`, {
+    await page.goto(`${templateUrl}?v=${i}#${payload}`, {
       waitUntil: "networkidle0",
       timeout: 30000,
     });
