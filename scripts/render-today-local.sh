@@ -19,8 +19,34 @@ cd "$REPO" || { echo "repo not found: $REPO"; exit 1; }
 DATE="$(date -u +%Y-%m-%d)"
 echo "===== $(date '+%Y-%m-%d %H:%M:%S %Z') — rendering cards for $DATE ====="
 
+# Surface problems on the desktop. This job is unattended, so a failure that
+# only lands in render.log is a failure nobody sees — it went unnoticed for 35
+# days once (a dirty tree blocked every git pull from 2026-06-28 to 08-01).
+notify() { osascript -e "display notification \"$1\" with title \"Uplift daily\"" >/dev/null 2>&1 || true; }
+fail() { echo "FATAL: $1"; notify "$1"; exit 1; }
+
+# One run at a time: two WhatsApp clients on one session contend and hang.
+LOCK="$REPO/.render.lock"
+if ! mkdir "$LOCK" 2>/dev/null; then
+  # Break a lock left behind by a crashed run (older than an hour).
+  if [ -n "$(find "$LOCK" -maxdepth 0 -mmin +60 2>/dev/null)" ]; then
+    echo "breaking stale lock $LOCK"
+    rmdir "$LOCK" 2>/dev/null && mkdir "$LOCK" 2>/dev/null || fail "could not take lock $LOCK"
+  else
+    echo "another run is in progress — exiting"
+    exit 0
+  fi
+fi
+trap 'rmdir "$LOCK" 2>/dev/null' EXIT
+
 echo "--- git pull ---"
-git pull --no-rebase origin main || echo "git pull failed (continuing with local state)"
+# --autostash so uncommitted local edits can never block the sync, and a failed
+# sync is now FATAL. Previously the job logged the failure, carried on against a
+# stale checkout, found no edition for today, and reported "not published yet"
+# — the wrong diagnosis, repeated silently for weeks.
+if ! git pull --no-rebase --autostash origin main; then
+  fail "git pull failed — checkout is stale, refusing to render against old state"
+fi
 
 # Idempotent guard: this job runs several times a day because the cloud cron
 # (GitHub Actions) publishes at an unpredictable time. Skip if the edition
@@ -36,9 +62,31 @@ EXPECTED=$(node -e '
 ' "$DATE")
 HAVE=$(ls cards/"$DATE"/feed/*.png 2>/dev/null | wc -l | tr -d ' ')
 if [ "${EXPECTED:-0}" -eq 0 ]; then
-  echo "edition for $DATE not published yet — will retry on the next scheduled run"
+  # We just synced successfully, so "absent" really does mean "not published
+  # yet" — but if the manifest's newest entry is days old, the cloud cron is
+  # the thing that's broken and that deserves a shout, not a silent retry.
+  NEWEST=$(node -e '
+    const fs=require("fs");
+    try{
+      const d=JSON.parse(fs.readFileSync("issues/index.json"));
+      const a=(Array.isArray(d)?d:d.issues||[]).map(x=>x.date).filter(Boolean).sort();
+      process.stdout.write(a[a.length-1]||"");
+    }catch(_){process.stdout.write("")}
+  ')
+  LAG=$(( ( $(date -u +%s) - $(date -u -j -f %Y-%m-%d "${NEWEST:-1970-01-01}" +%s 2>/dev/null || echo 0) ) / 86400 ))
+  if [ "$LAG" -gt 2 ]; then
+    fail "no new edition since ${NEWEST:-never} (${LAG}d) — the cloud cron may be down"
+  fi
+  echo "edition for $DATE not published yet (newest: $NEWEST) — will retry on the next scheduled run"
   exit 0
 fi
+# Warn (don't block) on photos that will render as an empty well. A card with
+# one blank photo still beats no card, but this must not pass unremarked.
+echo "--- image check ---"
+if ! node scripts/check-images.mjs "$DATE"; then
+  notify "$DATE has broken photo URLs — cards will render blank. See render.log."
+fi
+
 if [ "$HAVE" -ge "$EXPECTED" ]; then
   echo "cards already rendered ($HAVE/$EXPECTED) for $DATE — skipping card render"
 else
@@ -85,6 +133,9 @@ else
     pkill -f 'Chrome for Testing' 2>/dev/null
     sleep 5
   done
-  [ "$sent" -eq 0 ] && echo "whatsapp send failed after 3 attempts (will retry next scheduled run)"
+  if [ "$sent" -eq 0 ]; then
+    echo "whatsapp send failed after 3 attempts (will retry next scheduled run)"
+    notify "WhatsApp send failed for $DATE — the session may need re-linking."
+  fi
 fi
 echo

@@ -10,3 +10,5 @@ cards/
 scripts/whatsapp-target.json
 # Local cache: Unsplash page-slug → CDN photo-id map used by backfill-images.mjs.
 scripts/.image-backfill-map.json
+# Concurrency lock for render-today-local.sh
+.render.lock/
