@@ -56,14 +56,37 @@ const resolveSlug = (slug) => {
   return null;
 };
 
+// A well-formed CDN id is not necessarily a real one — a redirect can go stale,
+// and a cache entry written by an earlier run can rot. Patching an id that 404s
+// just swaps one blank card for another, so confirm the image actually loads
+// before we trust it. (This caught three bad entries already in the cache.)
+const loads = async (id) => {
+  const url = `https://images.unsplash.com/photo-${id}?w=1600&q=80&auto=format&fit=crop`;
+  try {
+    const r = await fetch(url, { method: "HEAD", redirect: "follow" });
+    return r.status === 200;
+  } catch {
+    return false;
+  }
+};
+
 const failed = [];
 let i = 0;
 for (const slug of slugs) {
   i++;
-  if (map[slug]) { continue; } // cached
+  if (map[slug]) {
+    if (await loads(map[slug])) continue; // cached and still good
+    console.log(`  [${i}/${slugs.size}] ${slug} -> cached photo-${map[slug]} now 404s, re-resolving`);
+    delete map[slug];
+  }
   const id = resolveSlug(slug);
-  if (id) { map[slug] = id; console.log(`  [${i}/${slugs.size}] ${slug} -> photo-${id}`); }
-  else { failed.push(slug); console.log(`  [${i}/${slugs.size}] ${slug} -> FAILED`); }
+  if (id && (await loads(id))) {
+    map[slug] = id;
+    console.log(`  [${i}/${slugs.size}] ${slug} -> photo-${id}`);
+  } else {
+    failed.push(slug);
+    console.log(`  [${i}/${slugs.size}] ${slug} -> FAILED${id ? ` (resolved to photo-${id}, but it 404s)` : ""}`);
+  }
   writeFileSync(CACHE, JSON.stringify(map, null, 2)); // persist after each
   await sleep(1500); // gentle throttle
 }
