@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-03",
+    "slug": "2026-08-03",
+    "edition": 508,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Invermere, British Columbia",
+        "head": "First Nations released salmon into a stretch of Canada's Upper Columbia River blocked by dams since 1938.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/07/first-nations-lead-the-return-of-salmon-to-canadas-upper-columbia-river/",
+        "img": "https://images.unsplash.com/photo-1637139496880-52af24614d79?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Pornainen, Finland",
+        "head": "A small Finnish town cut its heating emissions by 70 percent with the world's largest sand battery.",
+        "src": "OilPrice.com",
+        "url": "https://oilprice.com/Energy/Energy-General/Finlands-Sand-Battery-Cuts-Emissions-70-Without-a-Single-Rare-Earth.html",
+        "img": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Hong Kong, China",
+        "head": "One 75-minute weekly workout cut belly fat about as well as three shorter sessions, a trial found.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260801042831.htm",
+        "img": "https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Wisconsin, United States",
+        "head": "A stranger lent his truck to a stranded rock band so they wouldn't miss their next show.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/midwest-stranger-lends-his-truck-to-band-with-broken-down-van/",
+        "img": "https://images.unsplash.com/photo-1758219944336-c164e8d05892?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Marshall Islands",
+        "head": "A rarely seen deep-sea shark surfaced from 430 meters down to look at a research submersible.",
+        "src": "Discover Wildlife",
+        "url": "https://www.discoverwildlife.com/animal-facts/marine-animals/bluntnose-sixgill-shark-marshall-islands",
+        "img": "https://images.unsplash.com/photo-1531959870249-9f9b729efcf4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Arbroath, Scotland",
+        "head": "Two Scottish artists turned bat echolocation calls into a club music album.",
+        "src": "Positive News",
+        "url": "https://www.positive.news/environment/conservation/the-musicians-turning-bat-calls-into-club-music/",
+        "img": "https://images.unsplash.com/photo-1696766418617-e23603fe88b5?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-01",
     "slug": "2026-08-01",
     "edition": 507,
