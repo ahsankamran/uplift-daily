@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-04",
+    "slug": "2026-08-04",
+    "edition": 509,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Torricelli Mountains, Papua New Guinea",
+        "head": "266 clan leaders signed a deed protecting 125,000 hectares of tree kangaroo habitat in Papua New Guinea.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/new-conservation-deed-aims-to-protect-tree-kangaroos-forests-people-in-papua-new-guinea/",
+        "img": "https://images.unsplash.com/photo-1592288801240-7b18bb06e94f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Cambodia",
+        "head": "Cambodia became the first country in Asia and the Pacific to hit the UN's 95-95-95 HIV targets.",
+        "src": "NPR",
+        "url": "https://www.kunc.org/2026-08-03/what-cambodia-did-right-about-preventing-hiv",
+        "img": "https://images.unsplash.com/photo-1566706546199-a93ba33ce9f7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Europe",
+        "head": "A retinal implant that restores reading vision won approval for sale across Europe.",
+        "src": "Singularity Hub",
+        "url": "https://singularityhub.com/2026/07/31/europe-approves-bionic-eye-to-restore-vision-lost-to-blindness/",
+        "img": "https://images.unsplash.com/photo-1483519173755-be893fab1f46?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Santa Ana, California",
+        "head": "A stranger's viral video raised $174,000 for a Navy veteran still working the tarmac at 64.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/womans-viral-video-raises-more-than-174k-for-disabled-veteran-she-spotted-working-at-airport/",
+        "img": "https://images.unsplash.com/photo-1774698078446-59299e016718?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Sabah, Malaysian Borneo",
+        "head": "Camera traps confirmed the oldest wild Sunda clouded leopard ever recorded, still hunting at eight and a half.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/new-images-capture-the-oldest-known-sunda-clouded-leopard-an-8-yo-huntress-with-all-her-teeth/",
+        "img": "https://images.unsplash.com/photo-1613947355903-002fa9e2d4e7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Bristol, England",
+        "head": "A 64-year-old father graduated as a nurse from the same university as his son.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/64-yo-father-of-5-graduates-as-a-nurse-after-studying-alongside-his-son/",
+        "img": "https://images.unsplash.com/photo-1567196758987-b03c45c309ab?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-03",
     "slug": "2026-08-03",
     "edition": 508,
