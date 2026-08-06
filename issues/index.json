@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-06",
+    "slug": "2026-08-06",
+    "edition": 511,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "New South Wales, Australia",
+        "head": "A drone pilot filmed a humpback whale giving birth off Australia, only the fourth such birth ever captured on camera.",
+        "src": "CBS News",
+        "url": "https://www.cbsnews.com/news/humpback-whale-birth-drone-video/",
+        "img": "https://images.unsplash.com/photo-1686430818776-78a93a1f4023?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Spain & Portugal",
+        "head": "The Iberian lynx population reached a record 2,663 animals across Spain and Portugal.",
+        "src": "Euro Weekly News",
+        "url": "https://euroweeklynews.com/2026/07/31/iberian-lynx-record-numbers-rise-to-2663-as-spains-wild-comeback-delights-nature-watchers/",
+        "img": "https://images.unsplash.com/photo-1729756736992-1c619793e8fe?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Worldwide",
+        "head": "Food banks in 47 countries kept half a million tonnes of food out of landfills last year.",
+        "src": "Fresh Produce Journal",
+        "url": "https://www.fruitnet.com/fresh-produce-journal/farm-donations-to-food-banks-jump-55-per-cent/272255.article",
+        "img": "https://images.unsplash.com/photo-1755599629285-91cc09a185c7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Powhatan, Virginia",
+        "head": "A Virginia man known for playing Santa Claus donated a kidney to a stranger.",
+        "src": "WTVR CBS 6",
+        "url": "https://www.wtvr.com/news/local-news/santa-kidney-donation-july-31-2026",
+        "img": "https://images.unsplash.com/photo-1579154491781-5e199df316aa?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Hong Kong",
+        "head": "Children who had less sugar in their first two years carried a lower dementia risk decades later.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/health/2026/08/02/cutting-sugar-up-to-age-two-associated-with-lower-dementia-risk-decades-later-study-finds",
+        "img": "https://images.unsplash.com/photo-1758691462668-046fd85ceac9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Dimapur, Nagaland, India",
+        "head": "An Ao community in Nagaland revived a tradition of communal labor before its harvest festival.",
+        "src": "Morung Express",
+        "url": "https://morungexpress.com/ao-community-revives-traditional-cleanliness-drive-for-tsngremmung-fest",
+        "img": "https://images.unsplash.com/photo-1712055196088-9bc6da4ffbce?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-05",
     "slug": "2026-08-05",
     "edition": 510,
