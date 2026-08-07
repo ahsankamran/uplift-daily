@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-07",
+    "slug": "2026-08-07",
+    "edition": 512,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Okefenokee Swamp, Georgia",
+        "head": "The Okefenokee Swamp became the first new natural UNESCO World Heritage site in the US in three decades.",
+        "src": "WABE",
+        "url": "https://www.wabe.org/okefenokee-becomes-georgias-first-unesco-world-heritage-site/",
+        "img": "https://images.unsplash.com/photo-1760725134648-a3af3a7084b6?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Oromia, Ethiopia",
+        "head": "Ethiopia became the first country to have verified forest-carbon credits issued under the World Bank's newest standard.",
+        "src": "BioCarbon Fund / World Bank",
+        "url": "https://www.biocarbonfund-isfl.org/result-stories/ethiopia-becomes-first-country-have-verified-emission-reductions-issued-under-isfl",
+        "img": "https://images.unsplash.com/photo-1634029878815-1bb307302471?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "New Zealand",
+        "head": "A trial of nearly 4,000 babies found paracetamol and ibuprofen are equally safe in infancy.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260805082510.htm",
+        "img": "https://images.unsplash.com/photo-1496174742515-d2146dcf8e80?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Eastern Cape, South Africa",
+        "head": "Two brothers who couldn't afford fuel after a day's work were paid back many times over by strangers.",
+        "src": "IOL",
+        "url": "https://iol.co.za/news/feel-good/2026-07-29-an-act-of-kindness-how-two-brothers-found-hope-at-a-petrol-station/",
+        "img": "https://images.unsplash.com/photo-1644246905181-c3753e9a82bd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "British Columbia, Canada",
+        "head": "A pod of Pacific white-sided dolphins put on an acrobatic show off British Columbia's coast.",
+        "src": "Whales and Dolphins BC",
+        "url": "https://whalesanddolphinsbc.com/preview/2026/08/preview-sightings/",
+        "img": "https://images.unsplash.com/photo-1547382442-d17c21625a44?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Cirencester, England",
+        "head": "A 97-year-old Englishwoman broke her own world record for wing walking, a year after a stroke.",
+        "src": "UPI",
+        "url": "https://www.upi.com/Odd_News/2026/08/05/Guinness-World-Records-oldest-wing-walker-female/1651785946981/",
+        "img": "https://images.unsplash.com/photo-1750816385372-0e7efff72758?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-06",
     "slug": "2026-08-06",
     "edition": 511,
