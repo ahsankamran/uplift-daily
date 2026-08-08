@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-08",
+    "slug": "2026-08-08",
+    "edition": 513,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Ile-Balkhash Nature Reserve, Kazakhstan",
+        "head": "Kazakhstan released a tiger into the wild for the first time in more than 70 years.",
+        "src": "Astana Times",
+        "url": "https://astanatimes.com/2026/08/kazakhstan-releases-first-tiger-into-wild-in-more-than-70-years/",
+        "img": "https://images.unsplash.com/photo-1730014392621-10de7b9bc20f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Southampton, England",
+        "head": "A vaccine that needs no refrigeration passed its first human trial.",
+        "src": "University Hospital Southampton",
+        "url": "https://www.uhs.nhs.uk/whats-new/press-releases/fridge-free-vaccine-shows-promise-for-reaching-millions-more-people-worldwide",
+        "img": "https://images.unsplash.com/photo-1608422050828-485141c98429?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Gökova Bay, Turkey",
+        "head": "Local fishers and rangers tripled Turkey's protected coastal waters.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/locals-succeed-in-tripling-protected-seascapes-along-300-miles-of-turkiyes-breathtaking-coastline/",
+        "img": "https://images.unsplash.com/photo-1757540458718-39b554788b44?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Zakariyapura, Gujarat, India",
+        "head": "One woman's idea now turns cow dung into cooking fuel for 368 households.",
+        "src": "The Better India",
+        "url": "https://thebetterindia.com/sustainability/zakariyapura-biogas-cattle-dung-village-women-livelihoods-gujarat-12239846",
+        "img": "https://images.unsplash.com/photo-1530507629858-e4977d30e9e0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Tasmania, Australia",
+        "head": "A thumb-sized fish that walks instead of swims became a photography milestone.",
+        "src": "Australian Photography",
+        "url": "https://www.australianphotography.com/news/critically-endangered-tasmanian-fish-becomes-18-000th-species-photographed-for-nat-geo-photo-ark",
+        "img": "https://images.unsplash.com/photo-1760556415132-533affdd9ccf?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Heather, Leicestershire, England",
+        "head": "A Leicestershire village has covered itself in scarecrows every August for 28 years.",
+        "src": "Ashby Nub News",
+        "url": "https://ashby.nub.news/news/local-news/award-winning-scarecrow-competition-back-for-2026-303751",
+        "img": "https://images.unsplash.com/photo-1760359505336-87b5754262f4?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-07",
     "slug": "2026-08-07",
     "edition": 512,
