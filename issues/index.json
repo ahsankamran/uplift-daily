@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-09",
+    "slug": "2026-08-09",
+    "edition": 514,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Glen Affric, Scottish Highlands",
+        "head": "Beaver kits were born wild in a Scottish glen for the first time in 400 years.",
+        "src": "STV News",
+        "url": "https://news.stv.tv/highlands-islands/baby-beavers-born-in-scotlands-most-beautiful-glen-for-the-first-time-in-400-years",
+        "img": "https://images.unsplash.com/photo-1727883760212-655dc564a99c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "England",
+        "head": "Pharmacies delivered nearly 90,000 meningitis vaccinations to young people in a single fortnight.",
+        "src": "NHS England",
+        "url": "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/",
+        "img": "https://images.unsplash.com/photo-1613758947307-f3b8f5d80711?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Worldwide",
+        "head": "The world quietly crossed three terawatts of solar power capacity.",
+        "src": "Energy Connects",
+        "url": "https://www.energyconnects.com/news/renewables/2026/august/the-world-crossed-a-major-solar-milestone-no-one-noticed/",
+        "img": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Palm Beach County, Florida",
+        "head": "A fast-food worker asked to eat her lunch break on a stranger's porch, and found a friend.",
+        "src": "CBS12 News",
+        "url": "https://cbs12.com/news/videos/south-florida-wendys-workers-lunch-break-sparks-viral-friendship-florida-palm-beach-county-wendys-wendys-employee-viral-video-tiktok-ring-camera-friendship-act-of-kindness-random-kindness-lunch-break-porch-homeowner-stranger",
+        "img": "https://images.unsplash.com/photo-1560184897-ae75f418493e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Bradford, England",
+        "head": "A blind cat gave his blood to save a kitten he had never met.",
+        "src": "Good Good Good",
+        "url": "https://www.goodgoodgood.co/articles/kitten-blood-transfusion-from-blind-cat",
+        "img": "https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Naoero, Pacific Ocean",
+        "head": "A Pacific island nation has gone back to calling itself by its true name.",
+        "src": "1News",
+        "url": "https://www.1news.co.nz/2026/08/04/why-this-pacific-nation-is-changing-its-name-after-50-years/",
+        "img": "https://images.unsplash.com/photo-1717560620356-5b6603d13472?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-08",
     "slug": "2026-08-08",
     "edition": 513,
