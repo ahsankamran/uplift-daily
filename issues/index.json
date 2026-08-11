@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-11",
+    "slug": "2026-08-11",
+    "edition": 515,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Zambezi Valley, Zimbabwe",
+        "head": "Community guardians have cut lion-human conflict by up to 98 percent in parts of Zimbabwe.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/08/world-lion-day-the-communities-living-with-lions/",
+        "img": "https://images.unsplash.com/photo-1745885909535-58c453688cb4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "London, England",
+        "head": "Surgeons operated inside the womb to repair a baby's rare bowel condition before birth.",
+        "src": "Great Ormond Street Hospital",
+        "url": "https://www.gosh.nhs.uk/news/first-uk-baby-receives-pioneering-surgery-in-the-womb-for-rare-bowel-condition/",
+        "img": "https://images.unsplash.com/photo-1640876777012-bdb00a6323e2?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Victoria, British Columbia",
+        "head": "A widower spent five years building an eight-foot model ship to hold free books.",
+        "src": "Victoria News",
+        "url": "https://vicnews.com/2026/08/07/victoria-man-builds-community-with-queen-mary-modelled-little-free-library/",
+        "img": "https://images.unsplash.com/photo-1753510158781-b0c91908489d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Lehi, Utah",
+        "head": "A thirteen-year-old spent 300 hours 3D-printing a wheelchair for a toddler he'd never met.",
+        "src": "ABC4 Utah",
+        "url": "https://www.abc4.com/news/wasatch-front/13-year-old-builds-3d-printed-wheelchair/",
+        "img": "https://images.unsplash.com/photo-1709880631993-0ec9e9093fa7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Yunnan, China & Laos",
+        "head": "Scientists named a new beetle genus after One Piece's stretchy hero, Luffy.",
+        "src": "Southwest Journal",
+        "url": "https://www.southwestjournal.com/animals/scientists-name-a-new-beetle-genus-after-one-piece-hero-luffy/",
+        "img": "https://images.unsplash.com/photo-1627830297523-1758e1a9cf0d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Brazilian Amazon",
+        "head": "Amazon deforestation alerts fell to their lowest level in more than a decade.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/",
+        "img": "https://images.unsplash.com/photo-1679335424216-e1edb8ea8e92?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-09",
     "slug": "2026-08-09",
     "edition": 514,
@@ -77,7 +132,7 @@
       },
       {
         "cat": "Global Progress",
-        "place": "Gökova Bay, Turkey",
+        "place": "G\u00f6kova Bay, Turkey",
         "head": "Local fishers and rangers tripled Turkey's protected coastal waters.",
         "src": "Good News Network",
         "url": "https://www.goodnewsnetwork.org/locals-succeed-in-tripling-protected-seascapes-along-300-miles-of-turkiyes-breathtaking-coastline/",
