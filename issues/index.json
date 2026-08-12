@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-12",
+    "slug": "2026-08-12",
+    "edition": 516,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "South Africa",
+        "head": "Elephants freed from captivity are adapting just like their wild-born kin, a study finds.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/when-zoo-elephants-are-rewilded-in-africa-heres-how-good-their-coping-skills-are/",
+        "img": "https://images.unsplash.com/photo-1745526180300-443ef46e6a73?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "County Cork, Ireland",
+        "head": "White-tailed sea eagles raised a chick in Ireland for the first time in over a decade.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/once-gone-from-ireland-majestic-sea-eagles-continue-comeback/",
+        "img": "https://images.unsplash.com/photo-1750282991106-d2e2eddc333b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Worldwide",
+        "head": "New HIV infections and AIDS deaths have fallen to their lowest levels in three decades.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/un-summit-on-hiv-aids-shows-incredible-progress-in-infection-rates-deaths-treatment-access/",
+        "img": "https://images.unsplash.com/photo-1502309085707-08dca030b9a3?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Binghamton, New York",
+        "head": "A steroid alternative brought striking motor gains for toddlers with muscular dystrophy.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/new-treatment-shows-remarkable-motor-improvements-in-boys-with-muscular-dystrophy/",
+        "img": "https://images.unsplash.com/photo-1647565110431-abfbeedd25cd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Worcestershire, England",
+        "head": "A blind horse just won his eighth straight year at a top British dressage show.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/blind-dressage-horse-wins-competitions-by-using-equine-braille/",
+        "img": "https://images.unsplash.com/photo-1597119275334-359a0ccb6ae4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Kelowna, British Columbia",
+        "head": "Two strangers drove a woman 500 kilometres so she wouldn't miss her 90th birthday.",
+        "src": "CBC News",
+        "url": "https://www.cbc.ca/news/canada/british-columbia/strangers-kindness-wildfire-road-trip-kelowna-9.7301285",
+        "img": "https://images.unsplash.com/photo-1750801321923-a93fd5e5bf21?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-11",
     "slug": "2026-08-11",
     "edition": 515,
