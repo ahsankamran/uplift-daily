@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-15",
+    "slug": "2026-08-15",
+    "edition": 517,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Cumbria, England",
+        "head": "Ospreys hatched at an English nature reserve for the first time since Victorian times.",
+        "src": "RSPB",
+        "url": "https://www.rspb.org.uk/whats-happening/news/first-ospreys-to-hatch-on-an-rspb-nature-reserve-in-england-since-victorian-times",
+        "img": "https://images.unsplash.com/photo-1680440257138-a6946d7a662a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Brazilian Amazon",
+        "head": "Deforestation in the Brazilian Amazon fell to its lowest level in thirteen years.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/amazon-deforestation-alerts-fall-to-lowest-level-since-2013-brazilian-data-show/",
+        "img": "https://images.unsplash.com/photo-1741529460022-29bcb9eb29d7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Southampton, England",
+        "head": "A fridge-free vaccine passed its first human trial in Southampton.",
+        "src": "University of Southampton",
+        "url": "https://www.southampton.ac.uk/news/2026/08/fridgefree-vaccine-shows-promise-of-reaching-millions-worldwide.page",
+        "img": "https://images.unsplash.com/photo-1581594549595-35f6edc7b762?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Madagascar",
+        "head": "Scientists described seven new species of diamond frog hidden in Madagascar's leaf litter.",
+        "src": "SWNS",
+        "url": "https://discover.swns.com/2026/08/seven-new-species-of-frog-discovered-on-island/",
+        "img": "https://images.unsplash.com/photo-1501809094333-3ca1f284e2d8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Reading, England",
+        "head": "A student made the first all-British chocolate bar since 1932.",
+        "src": "SWNS",
+        "url": "https://discover.swns.com/2026/08/first-100-british-chocolate-bar-made-since-1932-using-cocoa-from-reading/",
+        "img": "https://images.unsplash.com/photo-1626697556651-67ebdcb8cbd6?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Muskogee, Oklahoma",
+        "head": "A dropped box of cereal led one man to feed hundreds of families in Muskogee.",
+        "src": "Sunny Skyz",
+        "url": "https://www.sunnyskyz.com/good-news/6276/A-Little-Boy-039-s-Joy-Over-a-Box-of-Froot-Loops-Inspired-One-Man-to-Change-His-Community",
+        "img": "https://images.unsplash.com/photo-1684885566223-f235ff345628?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-12",
     "slug": "2026-08-12",
     "edition": 516,
