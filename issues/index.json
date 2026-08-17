@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-17",
+    "slug": "2026-08-17",
+    "edition": 518,
+    "stories": [
+      {
+        "cat": "Global Progress",
+        "place": "Easter Island, Chile",
+        "head": "Rapa Nui's Indigenous people now govern one of the largest marine reserves on Earth.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/270000-square-miles-around-easter-island-to-become-indigenous-managed-ocean-reserve/",
+        "img": "https://images.unsplash.com/photo-1764310869830-9f4214442508?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Uttar Pradesh, India",
+        "head": "More than 150 farmers in Uttar Pradesh now patrol elephant corridors together each night.",
+        "src": "The Better India",
+        "url": "https://thebetterindia.com/wildlife/gajmitra-katarniaghat-elephant-corridor-farmers-protect-elephants-12240096",
+        "img": "https://images.unsplash.com/photo-1712037811858-eed7d3b51ce1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Siak, Sumatra, Indonesia",
+        "head": "A palm oil farmer in Sumatra is replanting the mangroves his coastline lost to the sea.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/on-fragile-sumatran-peatland-a-farmer-fights-to-bring-back-lost-mangroves/",
+        "img": "https://images.unsplash.com/photo-1717292741426-d050f4f25503?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Moorpark, California",
+        "head": "A rescued horse who wouldn't be touched now plays guitar and harp for her own album.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/a-real-rockin-horse-rescue-foal-learns-to-play-instruments-for-album-debut/",
+        "img": "https://images.unsplash.com/photo-1604429287879-6bc7a7572048?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Cardiff, Wales",
+        "head": "A deaf interpreter brings the roar of stadium concerts to deaf fans through sign language.",
+        "src": "Positive News",
+        "url": "https://www.positive.news/society/bringing-the-thrill-of-live-music-to-deaf-audiences-with-the-help-of-air-guitar/",
+        "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Sheffield, England",
+        "head": "A radiation-free lung scan is helping doctors catch children's breathing problems earlier.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/new-radiation-free-lung-scan-could-help-doctors-spot-disease-in-children-earlier/",
+        "img": "https://images.unsplash.com/photo-1758691462667-f2fb90a067ff?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-15",
     "slug": "2026-08-15",
     "edition": 517,
