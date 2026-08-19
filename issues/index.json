@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-19",
+    "slug": "2026-08-19",
+    "edition": 519,
+    "stories": [
+      {
+        "cat": "Global Progress",
+        "place": "Torricelli Mountains, Papua New Guinea",
+        "head": "Clan leaders across 41 Papua New Guinea villages signed a deed protecting 125,000 hectares of rainforest.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/new-conservation-deed-aims-to-protect-tree-kangaroos-forests-people-in-papua-new-guinea/",
+        "img": "https://images.unsplash.com/photo-1699575678956-aefa714b67f0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Southern Italy",
+        "head": "A waste company searched an entire garbage truck for a day to recover a woman's lost lottery ticket.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/garbage-workers-in-italy-help-woman-find-her-million-jackpot/",
+        "img": "https://images.unsplash.com/photo-1591014979485-08d0b2946bc3?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Costa Blanca, Spain",
+        "head": "European otters are breeding again along Spain's Costa Blanca after nearly vanishing last century.",
+        "src": "Euro Weekly News",
+        "url": "https://euroweeklynews.com/2026/08/19/otters-make-a-welcome-comeback-as-they-breed-again-across-the-costa-blanca/",
+        "img": "https://images.unsplash.com/photo-1563155853-f7f8955967ce?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "La Mojana, Colombia",
+        "head": "Satellite images revealed a 500,000-hectare irrigation system built by an ancient farming society in Colombia.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/early-farmers-figured-out-engineering-wonder-building-huge-irrigation-system/",
+        "img": "https://images.unsplash.com/photo-1767917920882-dd37fb10e597?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Kerala, India",
+        "head": "One woman's campaign to save India's forgotten rice has grown into a 30,000-farmer movement.",
+        "src": "The Better India",
+        "url": "https://www.thebetterindia.com/farming/usha-soolapani-save-indias-forgotten-rice-varieties-12395816",
+        "img": "https://images.unsplash.com/photo-1559628233-100c798642d4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Lexington, Kentucky",
+        "head": "Researchers restored two hours of lost sleep in Alzheimer's-model mice by calming a single type of brain cell.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/two-hours-of-sleep-restored-in-alzheimers-brains-in-research-breakthrough/",
+        "img": "https://images.unsplash.com/photo-1711409645921-ef3db0501f96?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-17",
     "slug": "2026-08-17",
     "edition": 518,
