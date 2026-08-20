@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-20",
+    "slug": "2026-08-20",
+    "edition": 520,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Jantho, Aceh, Indonesia",
+        "head": "A once-trafficked orangutan gave birth in the wild forest where she was reintroduced seven years ago.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/rescued-from-traffickers-reintroduced-orangutan-becomes-mother-in-the-wild/",
+        "img": "https://images.unsplash.com/photo-1771968100091-d69cc0feee15?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Boise, Idaho",
+        "head": "Eight teenagers turned their viral summer account into a mission to clean up their hometown river.",
+        "src": "Sunny Skyz",
+        "url": "https://www.sunnyskyz.com/good-news/6284/8-Idaho-Teens-Turn-Their-Viral-Summer-Account-Into-a-Mission-to-Clean-Up-the-Boise-River",
+        "img": "https://images.unsplash.com/photo-1758599669317-efd787d954ef?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Heidelberg, Germany",
+        "head": "A single infusion of engineered immune cells cleared a teenager's metastatic kidney cancer.",
+        "src": "German Cancer Research Center",
+        "url": "https://www.dkfz.de/en/news/press-releases/detail/prame-specific-t-cell-therapy-in-an-adolescent-with-metastatic-kidney-tumor",
+        "img": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Queensland, Australia",
+        "head": "A mother dolphin was filmed teaching her calf to hunt fish with a seashell.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/dolphin-mother-and-calf-observed-using-shells-to-catch-fish-in-australia/",
+        "img": "https://images.unsplash.com/photo-1514125989062-f7531e2bece3?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Yeongdeok, South Korea",
+        "head": "A century-old market street in South Korea is recreating exactly how it looked a hundred years ago.",
+        "src": "Kyunghyang Shinmun",
+        "url": "https://www.khan.co.kr/en/article/202608161423017/",
+        "img": "https://images.unsplash.com/photo-1510673465470-18515a7168e2?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Otago, New Zealand",
+        "head": "New Zealand opened five marine reserves co-governed by the Māori tribe Kāi Tahu for the first time in the country's history.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/new-zealand-opens-marine-reserves-with-groundbreaking-maori-co-management-model/",
+        "img": "https://images.unsplash.com/photo-1782833181537-de8195d915f7?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-19",
     "slug": "2026-08-19",
     "edition": 519,
