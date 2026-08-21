@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-21",
+    "slug": "2026-08-21",
+    "edition": 521,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Nepal",
+        "head": "Nepal's wild tiger population climbed to 429, nearly four times what it was sixteen years ago.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/08/nepals-newest-national-parks-drive-tiger-recovery-but-emerging-concerns-threaten-progress/",
+        "img": "https://images.unsplash.com/photo-1562975444-d910f117a84f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Hubei, China",
+        "head": "A former courier has made over 200 solo trips to reconnect rural elders with children working abroad.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/man-makes-200-trips-to-remote-villages-to-connect-elders-with-their-children-working-abroad/",
+        "img": "https://images.unsplash.com/photo-1773393878467-e12c8f27e7fd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Gili Air, Indonesia",
+        "head": "A women-only diving program on a tiny Indonesian island has restored 850 square meters of coral reef.",
+        "src": "Reasons to Be Cheerful",
+        "url": "https://reasonstobecheerful.world/saving-indonesias-coral-reefs-by-empowering-women",
+        "img": "https://images.unsplash.com/photo-1702045414567-80f538eb9238?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Derbyshire, England",
+        "head": "White storks are nesting in England's Midlands for the first time in 600 years.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/white-storks-make-historic-return-to-the-english-midlands-after-600-year-absence/",
+        "img": "https://images.unsplash.com/photo-1598217762171-346122b3d402?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Baltimore, Maryland",
+        "head": "An experimental vaccine trained the immune system to recognize pancreatic cancer before it forms.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/experimental-drug-generates-immune-response-against-pancreatic-cancer-in-people-at-high-risk/",
+        "img": "https://images.unsplash.com/photo-1748261348213-62f4c399bb72?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "East Lothian, Scotland",
+        "head": "A Scottish estate is letting visitors wander through fourteen acres of blooming sunflowers.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/beat-the-heat-with-a-million-blooming-sunflowers-in-breezy-scotland/",
+        "img": "https://images.unsplash.com/photo-1786658054271-e6885f2cab30?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-20",
     "slug": "2026-08-20",
     "edition": 520,
