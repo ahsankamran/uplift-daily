@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-23",
+    "slug": "2026-08-23",
+    "edition": 522,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Mae Wong National Park, Thailand",
+        "head": "A newly identified lizard species in Thailand's misty highlands is named after a dragon from television.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/08/this-tiny-thai-lizard-shares-its-name-with-a-house-of-the-dragon-beast/",
+        "img": "https://images.unsplash.com/photo-1728755291185-d1be09b5cd94?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Bugio Island, Madeira, Portugal",
+        "head": "A snail whose entire wild population once fit inside a petri dish now numbers in the hundreds on a remote Portuguese island.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/zoo-plucks-21-snails-from-extinction-and-returns-hundreds-to-pristine-atlantic-island-watch/",
+        "img": "https://images.unsplash.com/photo-1570135427321-09cda870b863?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Northern Cape, South Africa",
+        "head": "South Africa switched on Africa's largest hybrid renewable-energy plant, enough to power 200,000 homes.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/french-firm-switches-on-africas-largest-renewable-energy-storage-plant-to-power-200k-houses/",
+        "img": "https://images.unsplash.com/photo-1677273459827-e212995b079d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Netherlands",
+        "head": "A five-week phone-and-video program measurably eased anxiety and depression in migrant workers.",
+        "src": "PLOS Medicine",
+        "url": "https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1005197",
+        "img": "https://images.unsplash.com/photo-1752650733337-cb0189176fb9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Vilnius, Lithuania",
+        "head": "About 150 corgis from nine countries raced, barked and paraded in costume through a Vilnius park.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/video/2026/08/16/corgis-race-bark-and-dress-up-at-quirky-competition-in-vilnius",
+        "img": "https://images.unsplash.com/photo-1777551879345-4da990186048?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Culver City, California",
+        "head": "A new tenant's noise complaint turned into a daily caregiving routine for her 86-year-old neighbor.",
+        "src": "ABC7 Los Angeles",
+        "url": "https://abc7.com/post/culver-city-woman-heidi-widmers-kindness-carole-neighbor-need-captures-millions-hearts-online/19700370/",
+        "img": "https://images.unsplash.com/photo-1694009514875-025cd00ed625?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-21",
     "slug": "2026-08-21",
     "edition": 521,
