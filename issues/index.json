@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-24",
+    "slug": "2026-08-24",
+    "edition": 523,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Raja Ampat, Indonesia",
+        "head": "Eighty-two zebra shark pups, raised in aquariums on four continents, have been released into an Indonesian marine sanctuary.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/zebra-sharks-the-first-ever-to-be-rewilded-after-82-pups-released-by-dedicated-shark-nannies/",
+        "img": "https://images.unsplash.com/photo-1705607014209-0314bf7daa5a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Oromia Region, Ethiopia",
+        "head": "Ethiopian vegetable farmers who traded diesel pumps for solar power are saving nearly $6,000 a year in fuel.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/ethiopian-farmers-save-thousands-by-switching-to-solar-irrigation/",
+        "img": "https://images.unsplash.com/photo-1715605569717-494ac7c5656a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Pflugdorf-Stadl, Bavaria, Germany",
+        "head": "In a Bavarian village, competitors still settle their strength contests by hooking fingers through a leather loop and pulling.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/culture/2026/08/24/its-excruciating-welcome-to-bavarias-unusual-finger-wrestling-championship",
+        "img": "https://images.unsplash.com/photo-1574452030370-bf2ebf9292fa?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Barrie, Ontario, Canada",
+        "head": "When a stranger at a driving-test centre had no car to test in, a Barrie, Ontario woman handed him her keys.",
+        "src": "CBC News",
+        "url": "https://www.cbc.ca/news/canada/first-person-loan-car-to-stranger-9.7306763",
+        "img": "https://images.unsplash.com/photo-1727893512947-8bdc773ceb02?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Aarhus, Denmark",
+        "head": "Scientists finally worked out why the narwhal's tusk twists exactly the way it does.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/double-spiral-secret-of-narwhals-twisted-tusk-revealed-by-xray-tech/",
+        "img": "https://images.unsplash.com/photo-1659964000402-1ab348832ea3?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "England",
+        "head": "A year into Britain's maternal RSV vaccine programme, newborn intensive-care admissions for the virus have been cut in half.",
+        "src": "Nursing Times",
+        "url": "https://www.nursingtimes.net/public-health/vaccine-programme-sparks-50-drop-in-rsv-infant-admissions-19-08-2026/",
+        "img": "https://images.unsplash.com/photo-1770831208268-07daeaa6c6c4?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-23",
     "slug": "2026-08-23",
     "edition": 522,
