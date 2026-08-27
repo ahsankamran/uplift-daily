@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-27",
+    "slug": "2026-08-27",
+    "edition": 524,
+    "stories": [
+      {
+        "cat": "Everyday Joy",
+        "place": "Buñol, Spain",
+        "head": "Buñol turned red again for its 79th tomato fight.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/culture/2026/08/27/la-tomatina-2026-in-pictures-tomato-chaos-takes-over-the-streets-of-bunol",
+        "img": "https://images.unsplash.com/photo-1667644837613-f18447efe06e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Punjab, Pakistan",
+        "head": "Pakistan links two dolphin sanctuaries into 249 unbroken miles of protected river.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/pakistan-combines-river-dolphin-sanctuaries-along-the-indus-river-protecting-250-miles-of-habitat/",
+        "img": "https://images.unsplash.com/photo-1539131258078-89aaa90dd845?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Southampton, England",
+        "head": "A drought-surviving plant's trick could take vaccines off the fridge for good.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/resurrecting-plant-inspires-fridge-free-vaccines-that-could-save-the-millions-of-doses-wasted-annually/",
+        "img": "https://images.unsplash.com/photo-1608422050828-485141c98429?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Ross Valley, California",
+        "head": "A donor who has no children in the district gave its teachers $1 million anyway.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/woman-gives-1-million-in-life-changing-bonuses-to-teachers-in-her-school-district/",
+        "img": "https://images.unsplash.com/photo-1758685848142-06e158cf64bc?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Victoria, Australia",
+        "head": "This orchid spends most of the year as a single leaf, waiting for one particular bee.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/scientists-and-volunteers-take-big-step-towards-saving-rare-cryptic-australian-orchid/",
+        "img": "https://images.unsplash.com/photo-1561120560-94e54f4f68b0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Uganda",
+        "head": "A toilet designed for astronauts found its real job on Earth instead.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/inventor-envisioned-a-waterless-toilet-for-astronauts-realized-it-could-solve-a-global-sanitation-crisis-instead/",
+        "img": "https://images.unsplash.com/photo-1747889268735-31192c2a6df4?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-24",
     "slug": "2026-08-24",
     "edition": 523,
@@ -572,7 +627,7 @@
       },
       {
         "cat": "Global Progress",
-        "place": "G\u00f6kova Bay, Turkey",
+        "place": "Gökova Bay, Turkey",
         "head": "Local fishers and rangers tripled Turkey's protected coastal waters.",
         "src": "Good News Network",
         "url": "https://www.goodnewsnetwork.org/locals-succeed-in-tripling-protected-seascapes-along-300-miles-of-turkiyes-breathtaking-coastline/",
@@ -1224,7 +1279,7 @@
       },
       {
         "cat": "Small Wonders",
-        "place": "D\u00fcsseldorf, Germany",
+        "place": "Düsseldorf, Germany",
         "head": "Scientists found the exact brain switch that tells a worker bee which job to do.",
         "src": "Phys.org",
         "url": "https://phys.org/news/2026-07-bee-brains-reveal-colonies-central.html",
@@ -1398,7 +1453,7 @@
       {
         "cat": "Global Progress",
         "place": "Sub-Saharan Africa",
-        "head": "A malaria vaccine that costs about \u00a32.50 a dose is now reaching more than twenty African countries.",
+        "head": "A malaria vaccine that costs about £2.50 a dose is now reaching more than twenty African countries.",
         "src": "The Portugal News",
         "url": "https://www.theportugalnews.com/news/2026-07-18/inventor-of-malaria-vaccine-wins-top-honour/1055721",
         "img": "https://images.unsplash.com/photo-1581594549595-35f6edc7b762?w=1600&q=80&auto=format&fit=crop"
@@ -1876,7 +1931,7 @@
     "stories": [
       {
         "cat": "Nature",
-        "place": "Xingu Corridor, Par\u00e1, Brazil",
+        "place": "Xingu Corridor, Pará, Brazil",
         "head": "A 42.8-kilometre illegal road that once threatened to split Brazil's Xingu Socioenvironmental Corridor has vanished, swallowed by regrowing rainforest between 2022 and 2025.",
         "src": "Mongabay",
         "url": "https://news.mongabay.com/2026/07/crackdown-lets-rainforest-reclaim-illegal-road-in-rare-win-for-the-amazon/",
@@ -2042,7 +2097,7 @@
       {
         "cat": "Small Wonders",
         "place": "Milne Bay, Papua New Guinea",
-        "head": "Marine biologists diving the reefs of Milne Bay, Papua New Guinea, have confirmed a tenth species of walking shark \u2014 a metre-long fish that uses its fins to stroll across the seafloor rather than swim.",
+        "head": "Marine biologists diving the reefs of Milne Bay, Papua New Guinea, have confirmed a tenth species of walking shark — a metre-long fish that uses its fins to stroll across the seafloor rather than swim.",
         "src": "ZME Science",
         "url": "https://www.zmescience.com/science/news-science/scientists-identify-new-walking-shark-species-with-morse-code-like-markings/",
         "img": "https://images.unsplash.com/photo-1705607014209-0314bf7daa5a?w=1600&q=80&auto=format&fit=crop"
@@ -2136,8 +2191,8 @@
       },
       {
         "cat": "Global Progress",
-        "place": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
-        "head": "S\u00e3o Tom\u00e9 and Pr\u00edncipe formally designated its first two marine protected areas on June 29, covering mangroves, rocky reefs, and sea turtle nesting beaches in the Gulf of Guinea.",
+        "place": "São Tomé and Príncipe",
+        "head": "São Tomé and Príncipe formally designated its first two marine protected areas on June 29, covering mangroves, rocky reefs, and sea turtle nesting beaches in the Gulf of Guinea.",
         "src": "Mongabay",
         "url": "https://news.mongabay.com/short-article/2026/06/sao-tome-declares-first-two-of-eight-planned-marine-protected-areas/",
         "img": "https://images.unsplash.com/photo-tDRbTSmfMs4?w=1600&q=80&auto=format&fit=crop"
@@ -2168,7 +2223,7 @@
       {
         "cat": "Global Progress",
         "place": "Pakistan",
-        "head": "Citizens across Pakistan installed 27 gigawatts of distributed solar in two years \u2014 matching the country's entire legacy fossil-fuel capacity \u2014 and avoided an estimated 12 billion dollars in fuel imports.",
+        "head": "Citizens across Pakistan installed 27 gigawatts of distributed solar in two years — matching the country's entire legacy fossil-fuel capacity — and avoided an estimated 12 billion dollars in fuel imports.",
         "src": "CleanTechnica / Ember",
         "url": "https://cleantechnica.com/2026/06/25/distributed-solar-has-pushed-up-pakistans-electricity-demand-by-a-fifth-in-two-years/",
         "img": "https://images.unsplash.com/photo-Ilpf2eUPpUE?w=1600&q=80&auto=format&fit=crop"
@@ -2192,7 +2247,7 @@
       {
         "cat": "Small Wonders",
         "place": "Davis, California, USA",
-        "head": "A red-tailed hawk at UC Davis's raptor centre was filmed compensating for moulting gaps in his wings by pulling his feathers closer on each stroke and tilting his tail for extra thrust \u2014 the first time this adaptation has been documented.",
+        "head": "A red-tailed hawk at UC Davis's raptor centre was filmed compensating for moulting gaps in his wings by pulling his feathers closer on each stroke and tilting his tail for extra thrust — the first time this adaptation has been documented.",
         "src": "Phys.org / Journal of the Royal Society Interface",
         "url": "https://phys.org/news/2026-06-red-tailed-hawks-flight-feathers.html",
         "img": "https://images.unsplash.com/photo-7IshdvLrKnA?w=1600&q=80&auto=format&fit=crop"
@@ -2223,7 +2278,7 @@
       {
         "cat": "Quiet Kindness",
         "place": "Dartford, Kent, United Kingdom",
-        "head": "A Polish-born woman in Dartford, Kent, who won \u00a31 million gave her neighbours of 14 years \u00a35,000 the same afternoon so they could take their first family holiday abroad.",
+        "head": "A Polish-born woman in Dartford, Kent, who won £1 million gave her neighbours of 14 years £5,000 the same afternoon so they could take their first family holiday abroad.",
         "src": "Good News Network",
         "url": "https://www.goodnewsnetwork.org/woman-wins-lottery-and-immediately-gives-neighbor-5000-for-family-vacation/",
         "img": "https://images.unsplash.com/photo-RIAUZwnUxp8?w=1600&q=80&auto=format&fit=crop"
@@ -2262,7 +2317,7 @@
       {
         "cat": "Nature",
         "place": "Pacific, Caribbean, Indo-Pacific",
-        "head": "Researchers have identified 165,000 square kilometres of coral reef that may withstand climate change through 2050 \u2014 a new map of what to protect most urgently.",
+        "head": "Researchers have identified 165,000 square kilometres of coral reef that may withstand climate change through 2050 — a new map of what to protect most urgently.",
         "src": "Mongabay",
         "url": "https://news.mongabay.com/short-article/2026/06/not-all-coral-reefs-are-doomed-as-a-result-of-climate-change-study-suggests/",
         "img": "https://images.unsplash.com/photo-vPKNGHhD6XE?w=1600&q=80&auto=format&fit=crop"
@@ -2270,7 +2325,7 @@
       {
         "cat": "Small Wonders",
         "place": "North Island, New Zealand",
-        "head": "A New Zealand cave has yielded the bones of a flying ancestor of the k\u0101k\u0101p\u014d, sealed in volcanic ash for a million years and never before seen in the fossil record.",
+        "head": "A New Zealand cave has yielded the bones of a flying ancestor of the kākāpō, sealed in volcanic ash for a million years and never before seen in the fossil record.",
         "src": "ScienceDaily / Flinders University",
         "url": "https://www.sciencedaily.com/releases/2026/06/260623011129.htm",
         "img": "https://images.unsplash.com/photo-WkfDrhxDozc?w=1600&q=80&auto=format&fit=crop"
@@ -2278,7 +2333,7 @@
       {
         "cat": "Global Progress",
         "place": "South Africa",
-        "head": "South Africa has begun rolling out lenacapavir \u2014 a twice-yearly HIV prevention injection \u2014 across 360 public health facilities in 24 high-burden districts, the world's largest deployment of this technology so far.",
+        "head": "South Africa has begun rolling out lenacapavir — a twice-yearly HIV prevention injection — across 360 public health facilities in 24 high-burden districts, the world's largest deployment of this technology so far.",
         "src": "AllAfrica",
         "url": "https://allafrica.com/stories/202606260302.html",
         "img": "https://images.unsplash.com/photo-jr3Y7BYVXYM?w=1600&q=80&auto=format&fit=crop"
@@ -2286,7 +2341,7 @@
       {
         "cat": "Everyday Joy",
         "place": "Mexico City, Mexico",
-        "head": "One of only six women's blind football clubs in Mexico trains three times a week in Mexico City with blackout covers and a rattling ball \u2014 and has set its sights on Copa Am\u00e9rica in September.",
+        "head": "One of only six women's blind football clubs in Mexico trains three times a week in Mexico City with blackout covers and a rattling ball — and has set its sights on Copa América in September.",
         "src": "Positive News",
         "url": "https://www.positive.news/world/the-blind-football-team-opening-up-the-world-for-women-in-mexico/",
         "img": "https://images.unsplash.com/photo-pE_Sxm_GVU4?w=1600&q=80&auto=format&fit=crop"
@@ -2294,8 +2349,8 @@
       {
         "cat": "Science & Medicine",
         "place": "Milan, Italy",
-        "head": "Older adults who took a placebo pill \u2014 and knew it was a placebo \u2014 still improved their memory scores by up to 21 per cent in a three-week Milan trial.",
-        "src": "ScienceDaily / Universit\u00e0 Cattolica",
+        "head": "Older adults who took a placebo pill — and knew it was a placebo — still improved their memory scores by up to 21 per cent in a three-week Milan trial.",
+        "src": "ScienceDaily / Università Cattolica",
         "url": "https://www.sciencedaily.com/releases/2026/06/260625060159.htm",
         "img": "https://images.unsplash.com/photo-cGNCepznaV8?w=1600&q=80&auto=format&fit=crop"
       },
@@ -2317,7 +2372,7 @@
       {
         "cat": "Nature",
         "place": "Senegal, Madagascar, Chile, Canada",
-        "head": "Six ocean sanctuaries across four continents have earned Blue Park status for the highest standard of marine protection \u2014 four of the awards going to sites in Africa.",
+        "head": "Six ocean sanctuaries across four continents have earned Blue Park status for the highest standard of marine protection — four of the awards going to sites in Africa.",
         "src": "Mongabay",
         "url": "https://news.mongabay.com/2026/06/six-marine-sanctuaries-recognized-as-blue-parks-four-of-them-in-africa/",
         "img": "https://images.unsplash.com/photo-HYHYGLs-Rp8?w=1600&q=80&auto=format&fit=crop"
@@ -2325,7 +2380,7 @@
       {
         "cat": "Science & Medicine",
         "place": "England",
-        "head": "In the five years to 2024, no woman in her early twenties has died from cervical cancer in England \u2014 the first time this has been true in recorded history.",
+        "head": "In the five years to 2024, no woman in her early twenties has died from cervical cancer in England — the first time this has been true in recorded history.",
         "src": "Gavi / The Lancet",
         "url": "https://www.gavi.org/vaccineswork/hpv-vaccine-means-no-young-women-die-cervical-cancer-england-study-finds",
         "img": "https://images.unsplash.com/photo-NFvdKIhxYlU?w=1600&q=80&auto=format&fit=crop"
@@ -2333,7 +2388,7 @@
       {
         "cat": "Global Progress",
         "place": "Italy",
-        "head": "For the first time since the Middle Ages, Italy's forests cover more land than its farms \u2014 a reversal driven by young people returning to mountain villages.",
+        "head": "For the first time since the Middle Ages, Italy's forests cover more land than its farms — a reversal driven by young people returning to mountain villages.",
         "src": "Good News Network",
         "url": "https://www.goodnewsnetwork.org/italys-forests-larger-than-agriculture-land-for-the-first-time-since-the-middle-ages/",
         "img": "https://images.unsplash.com/photo-s8KAw4dZleI?w=1600&q=80&auto=format&fit=crop"
@@ -2348,7 +2403,7 @@
       },
       {
         "cat": "Everyday Joy",
-        "place": "Neuch\u00e2tel, Switzerland",
+        "place": "Neuchâtel, Switzerland",
         "head": "More than eleven thousand trains have rolled over a set of solar panels laid between live rails in Switzerland, and the first-year results are in.",
         "src": "SWI swissinfo.ch",
         "url": "https://www.swissinfo.ch/eng/emissions-reduction/solar-energy-from-railways-shows-first-positive-results-in-switzerland/91628036",
@@ -2372,7 +2427,7 @@
       {
         "cat": "Small Wonders",
         "place": "Neotropical region",
-        "head": "A Neotropical butterfly lives nearly three times longer than its closest relatives and shows almost no physiological decline as it ages \u2014 a discovery that may point toward the molecular roots of healthy longevity.",
+        "head": "A Neotropical butterfly lives nearly three times longer than its closest relatives and shows almost no physiological decline as it ages — a discovery that may point toward the molecular roots of healthy longevity.",
         "src": "ScienceDaily / University of Bristol",
         "url": "https://www.sciencedaily.com/releases/2026/06/260622014302.htm",
         "img": "https://images.unsplash.com/photo-lQPlQNIK-qk?w=1600&q=80&auto=format&fit=crop"
@@ -2380,15 +2435,15 @@
       {
         "cat": "Science & Medicine",
         "place": "Leiden, Netherlands",
-        "head": "A study of 212 long-lived families from Leiden has identified twelve rare genetic variants linked to healthy aging \u2014 including one mutation that appears to dial down inflammation while leaving immune function intact.",
+        "head": "A study of 212 long-lived families from Leiden has identified twelve rare genetic variants linked to healthy aging — including one mutation that appears to dial down inflammation while leaving immune function intact.",
         "src": "ScienceDaily / European Society of Human Genetics",
         "url": "https://www.sciencedaily.com/releases/2026/06/260621060301.htm",
         "img": "https://images.unsplash.com/photo-PYJsZHFGUuA?w=1600&q=80&auto=format&fit=crop"
       },
       {
         "cat": "Global Progress",
-        "place": "Bogot\u00e1, Colombia",
-        "head": "Colombia's Congress has passed Latin America's first law specifically outlawing female genital mutilation \u2014 a milestone reached after two years of advocacy led largely by indigenous Ember\u00e1 women.",
+        "place": "Bogotá, Colombia",
+        "head": "Colombia's Congress has passed Latin America's first law specifically outlawing female genital mutilation — a milestone reached after two years of advocacy led largely by indigenous Emberá women.",
         "src": "Equality Now",
         "url": "https://equalitynow.org/news/news-and-insights/a-victory-for-the-movement-colombia-adopts-latin-americas-first-law-against-fgm-c/",
         "img": "https://images.unsplash.com/photo-niF21NBzPjI?w=1600&q=80&auto=format&fit=crop"
@@ -2412,7 +2467,7 @@
       {
         "cat": "Everyday Joy",
         "place": "Minneapolis, USA",
-        "head": "For one dollar in quarters, a vending machine in a Minneapolis bookshop dispenses a mystery envelope containing an original artwork by a local artist \u2014 and nearly three thousand pieces have sold.",
+        "head": "For one dollar in quarters, a vending machine in a Minneapolis bookshop dispenses a mystery envelope containing an original artwork by a local artist — and nearly three thousand pieces have sold.",
         "src": "Good News Network",
         "url": "https://www.goodnewsnetwork.org/minnesota-artists-mini-art-vending-machine-has-sold-nearly-3000-pieces-of-one-dollar-art/",
         "img": "https://images.unsplash.com/photo-RmlDzoC7avY?w=1600&q=80&auto=format&fit=crop"
@@ -2427,7 +2482,7 @@
       {
         "cat": "Nature",
         "place": "Melville Island, Australia",
-        "head": "After twenty-two years of sustained effort, Tiwi Island rangers have eradicated invasive tropical fire ants from Melville Island \u2014 completing one of the top three invasive-ant removals recorded globally.",
+        "head": "After twenty-two years of sustained effort, Tiwi Island rangers have eradicated invasive tropical fire ants from Melville Island — completing one of the top three invasive-ant removals recorded globally.",
         "src": "Mongabay",
         "url": "https://news.mongabay.com/2026/06/rangers-eradicate-invasive-tropical-fire-ants-in-australias-tiwi-islands/",
         "img": "https://images.unsplash.com/photo-nTF7sqg1vJo?w=1600&q=80&auto=format&fit=crop"
@@ -2435,7 +2490,7 @@
       {
         "cat": "Science & Medicine",
         "place": "New Haven, USA",
-        "head": "A twelve-year study of eleven thousand older adults finds that nearly half improved cognitively or physically \u2014 and that positive beliefs about ageing predicted the size of the gain.",
+        "head": "A twelve-year study of eleven thousand older adults finds that nearly half improved cognitively or physically — and that positive beliefs about ageing predicted the size of the gain.",
         "src": "ScienceDaily / Yale School of Public Health",
         "url": "https://www.sciencedaily.com/releases/2026/06/260620100428.htm",
         "img": "https://images.unsplash.com/photo-IzIERuIwJWo?w=1600&q=80&auto=format&fit=crop"
@@ -2459,7 +2514,7 @@
       {
         "cat": "Global Progress",
         "place": "Khyber Pakhtunkhwa, Pakistan",
-        "head": "Pakistan has pre-validated six of its seven administrative regions for the elimination of maternal and neonatal tetanus \u2014 putting ninety-four percent of the country's 265 million people in areas where the disease has been controlled.",
+        "head": "Pakistan has pre-validated six of its seven administrative regions for the elimination of maternal and neonatal tetanus — putting ninety-four percent of the country's 265 million people in areas where the disease has been controlled.",
         "src": "The Nation Pakistan / WHO-UNICEF",
         "url": "https://www.nation.com.pk/20-Jun-2026/pakistan-moves-closer-mnt-elimination-kp-achievement",
         "img": "https://images.unsplash.com/photo-UmF5HGRuwIg?w=1600&q=80&auto=format&fit=crop"
@@ -2467,7 +2522,7 @@
       {
         "cat": "Everyday Joy",
         "place": "Bulford, Wiltshire, England",
-        "head": "An archaeologist excavating three miles from Stonehenge drew a line between two 5,000-year-old post holes on a hunch \u2014 and found they were aligned precisely with the midsummer sunrise.",
+        "head": "An archaeologist excavating three miles from Stonehenge drew a line between two 5,000-year-old post holes on a hunch — and found they were aligned precisely with the midsummer sunrise.",
         "src": "Good News Network / Wessex Archaeology",
         "url": "https://www.goodnewsnetwork.org/a-stonehenge-prototype-aligned-with-the-solstices-is-a-once-in-a-lifetime-find-for-these-archaeologists/",
         "img": "https://images.unsplash.com/photo-oQ9pECond48?w=1600&q=80&auto=format&fit=crop"
@@ -2482,7 +2537,7 @@
       {
         "cat": "Nature",
         "place": "Otago, New Zealand",
-        "head": "Five strict no-take marine reserves protecting 308 square kilometres take effect on July 1 along New Zealand's Otago coast \u2014 the country's largest single expansion of marine protection in more than a decade.",
+        "head": "Five strict no-take marine reserves protecting 308 square kilometres take effect on July 1 along New Zealand's Otago coast — the country's largest single expansion of marine protection in more than a decade.",
         "src": "RNZ News / DOC New Zealand",
         "url": "https://www.rnz.co.nz/news/environment/597037/new-te-au-roa-o-te-rakihouia-marine-reserves-coming-into-force-in-otago",
         "img": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80&auto=format&fit=crop"
@@ -2490,7 +2545,7 @@
       {
         "cat": "Small Wonders",
         "place": "Ceiriog Valley, Wales",
-        "head": "Britain's longest dragonfly landed on conservation officer Sarah Hawkes' thumb during an early-morning walk beside a Welsh river \u2014 still too cool to fly, it simply rested on her hand.",
+        "head": "Britain's longest dragonfly landed on conservation officer Sarah Hawkes' thumb during an early-morning walk beside a Welsh river — still too cool to fly, it simply rested on her hand.",
         "src": "Good News Network",
         "url": "https://www.goodnewsnetwork.org/britains-longest-dragonfly-hitches-ride-on-womans-thumb/",
         "img": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80&auto=format&fit=crop"
@@ -2514,7 +2569,7 @@
       {
         "cat": "Quiet Kindness",
         "place": "Agra, India",
-        "head": "Every afternoon since mid-April, Suyash Jain has walked a route through Agra to distribute chilled sharbat to outdoor workers \u2014 and his family tends fifteen bird-water stations across the city each morning.",
+        "head": "Every afternoon since mid-April, Suyash Jain has walked a route through Agra to distribute chilled sharbat to outdoor workers — and his family tends fifteen bird-water stations across the city each morning.",
         "src": "The Better India",
         "url": "https://thebetterindia.com/changemakers/agra-man-serving-sharbat-workers-water-bowls-birds-summer-relief-volunteer-donate-12054528",
         "img": "https://images.unsplash.com/photo-1546173159-315724a31696?w=1600&q=80&auto=format&fit=crop"
@@ -2522,7 +2577,7 @@
       {
         "cat": "Everyday Joy",
         "place": "London, UK",
-        "head": "Five Guinness World Records for penny-farthing bicycles were broken in the City of London on June 13, including the world's largest \u2014 ridden on stilts \u2014 and the world's smallest, ridden by a six-year-old.",
+        "head": "Five Guinness World Records for penny-farthing bicycles were broken in the City of London on June 13, including the world's largest — ridden on stilts — and the world's smallest, ridden by a six-year-old.",
         "src": "Guinness World Records",
         "url": "https://www.guinnessworldrecords.com/news/2026/6/wheels-of-fortune-worlds-largest-and-smallest-penny-farthing-bikes-unveiled-in-london",
         "img": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?w=1600&q=80&auto=format&fit=crop"
@@ -2577,7 +2632,7 @@
       {
         "cat": "Science & Medicine",
         "place": "29 countries",
-        "head": "A phase 3 trial of bepirovirsen achieved a functional cure in one in five chronic hepatitis B patients \u2014 the first time a finite course of treatment has cleared the surface antigen at scale.",
+        "head": "A phase 3 trial of bepirovirsen achieved a functional cure in one in five chronic hepatitis B patients — the first time a finite course of treatment has cleared the surface antigen at scale.",
         "src": "CIDRAP / New England Journal of Medicine",
         "url": "https://www.cidrap.umn.edu/hepatitis/phase-3-trials-novel-drug-show-functional-cure-20-chronic-hepatitis-b-patients",
         "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&q=80&auto=format&fit=crop"
@@ -2591,8 +2646,8 @@
     "stories": [
       {
         "cat": "Small Wonders",
-        "place": "Lake Tuz, T\u00fcrkiye",
-        "head": "More than five thousand flamingo chicks have hatched at Lake Tuz in central Turkey \u2014 more than double last year's count \u2014 after a water-pumping project reversed the drought damage that wiped out entire cohorts of nestlings in 2021.",
+        "place": "Lake Tuz, Türkiye",
+        "head": "More than five thousand flamingo chicks have hatched at Lake Tuz in central Turkey — more than double last year's count — after a water-pumping project reversed the drought damage that wiped out entire cohorts of nestlings in 2021.",
         "src": "Good News Network",
         "url": "https://www.goodnewsnetwork.org/thousands-of-flamingo-chicks-hatch-in-major-comeback-after-climate-disaster/",
         "img": "https://images.unsplash.com/photo-q4fxCjCj_GI?w=1600&q=80&auto=format&fit=crop"
@@ -2608,7 +2663,7 @@
       {
         "cat": "Science & Medicine",
         "place": "London, UK",
-        "head": "London's clean-air zones have cut emergency hospital admissions for heart disease at a rate of 8.1 percent per year since the scheme began \u2014 the first study to measure the effect directly against a matched control area.",
+        "head": "London's clean-air zones have cut emergency hospital admissions for heart disease at a rate of 8.1 percent per year since the scheme began — the first study to measure the effect directly against a matched control area.",
         "src": "Imperial College London / Environment International",
         "url": "https://www.imperial.ac.uk/news/articles/2026/londons-ulez-and-t-charge-linked-to-reductions-in-emergency-hospital-admissions/",
         "img": "https://images.unsplash.com/photo-LcuBRr7pRCc?w=1600&q=80&auto=format&fit=crop"
@@ -2616,24 +2671,24 @@
       {
         "cat": "Quiet Kindness",
         "place": "Mumbai, India",
-        "head": "Each Sunday morning at 4 a.m., a Mumbai couple wake, cook, and serve breakfast to a hundred people \u2014 a routine they have kept for nearly three years and fifteen thousand meals.",
+        "head": "Each Sunday morning at 4 a.m., a Mumbai couple wake, cook, and serve breakfast to a hundred people — a routine they have kept for nearly three years and fifteen thousand meals.",
         "src": "The Better India",
         "url": "https://thebetterindia.com/changemakers/pooja-dipesh-dedhia-matoshree-foundation-mumbai-sunday-breakfast-meals-12039100",
         "img": "https://images.unsplash.com/photo-EEzYovNQYss?w=1600&q=80&auto=format&fit=crop"
       },
       {
         "cat": "Global Progress",
-        "place": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
-        "head": "S\u00e3o Tom\u00e9 and Pr\u00edncipe's president has signed the nation's first marine protected areas into law \u2014 two coastal reserves protecting coral reefs, shark nursery grounds, and sea-turtle nesting beaches.",
+        "place": "São Tomé and Príncipe",
+        "head": "São Tomé and Príncipe's president has signed the nation's first marine protected areas into law — two coastal reserves protecting coral reefs, shark nursery grounds, and sea-turtle nesting beaches.",
         "src": "Fauna & Flora",
         "url": "https://www.fauna-flora.org/news/minister-announces-eight-new-marine-protected-areas-for-sao-tome-and-principe/",
         "img": "https://images.unsplash.com/photo-DDA1vq93tzk?w=1600&q=80&auto=format&fit=crop"
       },
       {
         "cat": "Everyday Joy",
-        "place": "Malm\u00f6 to Oslo, Sweden & Norway",
-        "head": "A new daytime train from Malm\u00f6 to Oslo launched on 15 June \u2014 a six-and-a-half-hour journey through Gothenburg's waterfront, Sweden's ancient lake country, and granite gorges, with a dining car serving food sourced from communities along the route.",
-        "src": "Good News Network / Sn\u00e4llt\u00e5get",
+        "place": "Malmö to Oslo, Sweden & Norway",
+        "head": "A new daytime train from Malmö to Oslo launched on 15 June — a six-and-a-half-hour journey through Gothenburg's waterfront, Sweden's ancient lake country, and granite gorges, with a dining car serving food sourced from communities along the route.",
+        "src": "Good News Network / Snälltåget",
         "url": "https://www.goodnewsnetwork.org/swedens-breathtaking-new-train-ride-to-oslo-passes-by-best-of-countrys-landscape/",
         "img": "https://images.unsplash.com/photo-9xhu1BA1RqA?w=1600&q=80&auto=format&fit=crop"
       }
@@ -2647,7 +2702,7 @@
       {
         "cat": "Nature",
         "place": "Canterbury, Kent, UK",
-        "head": "Four Sumatran tiger cubs \u2014 the first ever born at Howletts Wild Animal Park in Kent \u2014 have begun venturing outside their den, watched over by first-time mother Tipah.",
+        "head": "Four Sumatran tiger cubs — the first ever born at Howletts Wild Animal Park in Kent — have begun venturing outside their den, watched over by first-time mother Tipah.",
         "src": "The Aspinall Foundation",
         "url": "https://www.goodnewsnetwork.org/sumatran-tiger-cubs-born-in-the-uk-is-huge-win-with-only-400-left-in-wild/",
         "img": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=1600&q=80&auto=format&fit=crop"
@@ -2655,7 +2710,7 @@
       {
         "cat": "Global Progress",
         "place": "Mombasa, Kenya",
-        "head": "Nine African governments announced marine-protection commitments at the 11th Our Ocean Conference in Mombasa \u2014 the first time the global ocean summit has convened on African soil.",
+        "head": "Nine African governments announced marine-protection commitments at the 11th Our Ocean Conference in Mombasa — the first time the global ocean summit has convened on African soil.",
         "src": "WCS / Our Ocean Conference",
         "url": "https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/26307/9-African-Governments-Announce-New-Marine-Protections-at-Our-Ocean-Conference.aspx",
         "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80&auto=format&fit=crop"
@@ -2671,7 +2726,7 @@
       {
         "cat": "Quiet Kindness",
         "place": "Fruitland, Iowa, USA",
-        "head": "Two 13-year-olds out for a summer bike ride near Fruitland, Iowa, found an elderly neighbour lying alone in her yard \u2014 she had been there for sixteen hours, unable to reach her phone.",
+        "head": "Two 13-year-olds out for a summer bike ride near Fruitland, Iowa, found an elderly neighbour lying alone in her yard — she had been there for sixteen hours, unable to reach her phone.",
         "src": "Sunnyskyz / KWQC",
         "url": "https://www.sunnyskyz.com/good-news/6221/Two-Teen-Out-for-a-Summer-Bike-Ride-End-Up-Saving-Elderly-Woman-Trapped-Outside-for-16-Hours",
         "img": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80&auto=format&fit=crop"
@@ -2679,15 +2734,15 @@
       {
         "cat": "Small Wonders",
         "place": "Canada",
-        "head": "Since a M\u00e9tis woman rescued an injured crow from a rooftop gutter in Canada, the local crow population has been leaving small gifts along her walking route.",
+        "head": "Since a Métis woman rescued an injured crow from a rooftop gutter in Canada, the local crow population has been leaving small gifts along her walking route.",
         "src": "Good News Network",
         "url": "https://www.goodnewsnetwork.org/woman-who-rescued-injured-crow-keeps-getting-thank-you-gifts-from-other-birds/",
         "img": "https://images.unsplash.com/photo-1548268770-66184a21657e?w=1600&q=80&auto=format&fit=crop"
       },
       {
         "cat": "Everyday Joy",
-        "place": "\u0130zmir, Turkey",
-        "head": "A stray ginger cat strolled onto the stage at an open-air theatre in \u0130zmir during the climactic death scene of Romeo and Juliet, settled beside the fallen Romeo, and began to nibble his hair.",
+        "place": "İzmir, Turkey",
+        "head": "A stray ginger cat strolled onto the stage at an open-air theatre in İzmir during the climactic death scene of Romeo and Juliet, settled beside the fallen Romeo, and began to nibble his hair.",
         "src": "Classic FM",
         "url": "https://www.classicfm.com/discover-music/periods-genres/ballet/cat-stage-romeo-juliet/",
         "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1600&q=80&auto=format&fit=crop"
@@ -2702,7 +2757,7 @@
       {
         "cat": "Nature",
         "place": "Global",
-        "head": "Earth's mangrove forests have turned a corner \u2014 for the first time in four decades, annual gains in coverage now outpace losses.",
+        "head": "Earth's mangrove forests have turned a corner — for the first time in four decades, annual gains in coverage now outpace losses.",
         "src": "Phys.org / Science",
         "url": "https://phys.org/news/2026-06-global-mangrove-forests-rebound-climate.html",
         "img": "https://images.unsplash.com/photo-l0Cc0rKPIUk?w=1600&q=80&auto=format&fit=crop"
@@ -2710,7 +2765,7 @@
       {
         "cat": "Everyday Joy",
         "place": "Altyn Dala, Kazakhstan",
-        "head": "The last truly wild horses on Earth are galloping free on the Kazakh steppe again \u2014 five released onto the Altyn Dala reserve in the third wave of a transnational restoration.",
+        "head": "The last truly wild horses on Earth are galloping free on the Kazakh steppe again — five released onto the Altyn Dala reserve in the third wave of a transnational restoration.",
         "src": "The Astana Times",
         "url": "https://astanatimes.com/2026/06/kazakhstan-advances-przewalskis-horse-restoration-with-wild-release-and-new-arrivals/",
         "img": "https://images.unsplash.com/photo-A81818EFqGQ?w=1600&q=80&auto=format&fit=crop"
@@ -2718,7 +2773,7 @@
       {
         "cat": "Global Progress",
         "place": "Tunis, Tunisia",
-        "head": "Tunisia has become the 31st country to eliminate trachoma \u2014 ending the leading infectious cause of blindness after fifty years of sustained national effort.",
+        "head": "Tunisia has become the 31st country to eliminate trachoma — ending the leading infectious cause of blindness after fifty years of sustained national effort.",
         "src": "WHO",
         "url": "https://www.who.int/news/item/14-05-2026-tunisia-validated-by-who-as-having-eliminated-trachoma-as-a-public-health-problem",
         "img": "https://images.unsplash.com/photo-AqCyaVmr_7I?w=1600&q=80&auto=format&fit=crop"
@@ -2726,15 +2781,15 @@
       {
         "cat": "Quiet Kindness",
         "place": "Dallas, Texas, USA",
-        "head": "After a 2\u20132 draw with the Netherlands at the World Cup in Dallas, Japanese supporters stayed behind to collect cups and wrappers from their stadium section before leaving.",
+        "head": "After a 2–2 draw with the Netherlands at the World Cup in Dallas, Japanese supporters stayed behind to collect cups and wrappers from their stadium section before leaving.",
         "src": "Good News Network",
         "url": "https://www.goodnewsnetwork.org/japanese-fans-cleaned-the-stadium-after-world-cup-match-while-the-players-cleaned-locker-room/",
         "img": "https://images.unsplash.com/photo-MPhf5gE1qrI?w=1600&q=80&auto=format&fit=crop"
       },
       {
         "cat": "Small Wonders",
-        "place": "Gal\u00e1pagos Islands, Ecuador",
-        "head": "Scalloped hammerhead sharks \u2014 tracked by satellite on a 1,400-kilometre round trip from the Gal\u00e1pagos to Central American nursery waters \u2014 have won full international protection across their entire migratory range.",
+        "place": "Galápagos Islands, Ecuador",
+        "head": "Scalloped hammerhead sharks — tracked by satellite on a 1,400-kilometre round trip from the Galápagos to Central American nursery waters — have won full international protection across their entire migratory range.",
         "src": "The Cooldown / CMS",
         "url": "https://www.thecooldown.com/green-tech/scalloped-hammerhead-sharks-international-protections/",
         "img": "https://images.unsplash.com/photo-YDQ7XfbDEkw?w=1600&q=80&auto=format&fit=crop"
@@ -2742,7 +2797,7 @@
       {
         "cat": "Science & Medicine",
         "place": "Berlin, Germany",
-        "head": "A Berlin-led trial gave four in five patients with severe knee osteoarthritis meaningful pain relief through a minimally invasive procedure \u2014 no surgery, no stitches, and no general anaesthesia required.",
+        "head": "A Berlin-led trial gave four in five patients with severe knee osteoarthritis meaningful pain relief through a minimally invasive procedure — no surgery, no stitches, and no general anaesthesia required.",
         "src": "Good News Network / Radiology",
         "url": "https://www.goodnewsnetwork.org/knee-pain-suffered-by-millions-can-be-eased-using-new-non-surgical-procedure/",
         "img": "https://images.unsplash.com/photo-pbUWW-CBoqY?w=1600&q=80&auto=format&fit=crop"
@@ -2765,7 +2820,7 @@
       {
         "cat": "Everyday Joy",
         "place": "Gran, Hadeland, Norway",
-        "head": "On a school field trip in Hadeland, six-year-old Henrik found a corroded iron blade half-hidden in the earth \u2014 a 1,300-year-old scramseax from the early Viking age.",
+        "head": "On a school field trip in Hadeland, six-year-old Henrik found a corroded iron blade half-hidden in the earth — a 1,300-year-old scramseax from the early Viking age.",
         "src": "Good News Network",
         "url": "https://www.goodnewsnetwork.org/6-year-old-finds-ancient-viking-sword-on-school-field-trip-buried-for-1300-years/",
         "img": "https://images.unsplash.com/photo-e1sTn8-hGEE?w=1600&q=80&auto=format&fit=crop"
@@ -2773,7 +2828,7 @@
       {
         "cat": "Small Wonders",
         "place": "Global",
-        "head": "Scientists have mapped Earth's underground fungal highways for the first time and found 110 quadrillion kilometres of living thread \u2014 enough to circle the Sun a billion times \u2014 hidden beneath every field, meadow, and forest.",
+        "head": "Scientists have mapped Earth's underground fungal highways for the first time and found 110 quadrillion kilometres of living thread — enough to circle the Sun a billion times — hidden beneath every field, meadow, and forest.",
         "src": "Phys.org / Science",
         "url": "https://phys.org/news/2026-06-global-mycorrhizal-fungi-reveals-true.html",
         "img": "https://images.unsplash.com/photo-GjfjdnO0Eg0?w=1600&q=80&auto=format&fit=crop"
@@ -2781,7 +2836,7 @@
       {
         "cat": "Quiet Kindness",
         "place": "Nagaoka, Niigata, Japan",
-        "head": "A 7-Eleven owner in Niigata posted signs welcoming heat-stricken strangers to cool off at no charge \u2014 repaying a kindness from a decade ago that he had carried with him ever since.",
+        "head": "A 7-Eleven owner in Niigata posted signs welcoming heat-stricken strangers to cool off at no charge — repaying a kindness from a decade ago that he had carried with him ever since.",
         "src": "Good News Network",
         "url": "https://www.goodnewsnetwork.org/7-eleven-owner-pays-forward-kindness-from-a-decade-ago-with-viral-signs-offering-shelter-from-scorching-heat/",
         "img": "https://images.unsplash.com/photo-qi2hmCwlhcE?w=1600&q=80&auto=format&fit=crop"
@@ -2797,7 +2852,7 @@
       {
         "cat": "Global Progress",
         "place": "Africa",
-        "head": "Africa has gained ten years of average life expectancy since 2000, the WHO's 2026 annual report finds \u2014 a steady, continent-wide rise through decades of conflict, famine, and epidemic disease.",
+        "head": "Africa has gained ten years of average life expectancy since 2000, the WHO's 2026 annual report finds — a steady, continent-wide rise through decades of conflict, famine, and epidemic disease.",
         "src": "Good News Network / WHO",
         "url": "https://www.goodnewsnetwork.org/african-continent-gains-10-years-of-life-expectancy-since-2000-despite-wars-famine-and-instability/",
         "img": "https://images.unsplash.com/photo-gogGhbvHrYw?w=1600&q=80&auto=format&fit=crop"
@@ -2812,7 +2867,7 @@
       {
         "cat": "Nature",
         "place": "Ulong Island, Palau",
-        "head": "Rat removal from a single Palau island sent seabird calls up 286 percent within one year \u2014 and the coral reef below is already recovering.",
+        "head": "Rat removal from a single Palau island sent seabird calls up 286 percent within one year — and the coral reef below is already recovering.",
         "src": "Mongabay",
         "url": "https://news.mongabay.com/short-article/2026/06/researchers-find-dramatic-restoration-on-land-and-sea-after-island-rat-removal/",
         "img": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80&auto=format&fit=crop"
@@ -2820,7 +2875,7 @@
       {
         "cat": "Global Progress",
         "place": "South Africa",
-        "head": "South Africa has begun distributing lenacapavir \u2014 a twice-yearly injection proven nearly 100 percent effective against HIV \u2014 at 360 public clinics across six provinces.",
+        "head": "South Africa has begun distributing lenacapavir — a twice-yearly injection proven nearly 100 percent effective against HIV — at 360 public clinics across six provinces.",
         "src": "ABC News / AP",
         "url": "https://abcnews.go.com/International/wireStory/highly-effective-prevention-drug-arrives-south-africa-worlds-133703721",
         "img": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1600&q=80&auto=format&fit=crop"
@@ -2836,7 +2891,7 @@
       {
         "cat": "Small Wonders",
         "place": "Oaxaca, Mexico",
-        "head": "The Mexican long-tongued bat extends an eight-centimetre tongue to drink agave nectar \u2014 and without it neither wild agave nor artisanal mezcal could survive.",
+        "head": "The Mexican long-tongued bat extends an eight-centimetre tongue to drink agave nectar — and without it neither wild agave nor artisanal mezcal could survive.",
         "src": "Mongabay",
         "url": "https://news.mongabay.com/short-article/2026/06/the-bats-that-pollinate-for-tequila-photo-of-the-week/",
         "img": "https://images.unsplash.com/photo-1545696968-1a31ea033ca2?w=1600&q=80&auto=format&fit=crop"
@@ -2867,7 +2922,7 @@
       {
         "cat": "Global Progress",
         "place": "Brazilian Amazon",
-        "head": "Brazil's Amazon recorded just 3,182 square kilometres of deforestation alerts over the past twelve months \u2014 the lowest annual figure since 2014 and the lowest May reading in the history of satellite monitoring.",
+        "head": "Brazil's Amazon recorded just 3,182 square kilometres of deforestation alerts over the past twelve months — the lowest annual figure since 2014 and the lowest May reading in the history of satellite monitoring.",
         "src": "Mongabay",
         "url": "https://news.mongabay.com/2026/06/amazon-deforestation-alerts-fall-to-lowest-12-month-level-since-2014-show-brazilian-data/",
         "img": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600&q=80&auto=format&fit=crop"
@@ -2883,7 +2938,7 @@
       {
         "cat": "Small Wonders",
         "place": "Vienna, Austria",
-        "head": "Researchers analyzing 884 captive parrots across 30 species found that 413 birds use human names as specific labels for individual people and animals \u2014 not as random mimicry.",
+        "head": "Researchers analyzing 884 captive parrots across 30 species found that 413 birds use human names as specific labels for individual people and animals — not as random mimicry.",
         "src": "PLOS ONE / University of Vienna",
         "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0346830",
         "img": "https://images.unsplash.com/photo-1548366086-7f1b76106622?w=1600&q=80&auto=format&fit=crop"
@@ -2930,7 +2985,7 @@
       {
         "cat": "Nature",
         "place": "Iberian Peninsula, Spain and Portugal",
-        "head": "The Iberian lynx has reached 2,663 individuals \u2014 a 95 percent increase in four years and the highest count ever recorded \u2014 marking the first measurable step toward the population target for formal recovery.",
+        "head": "The Iberian lynx has reached 2,663 individuals — a 95 percent increase in four years and the highest count ever recorded — marking the first measurable step toward the population target for formal recovery.",
         "src": "The Portugal News",
         "url": "https://www.theportugalnews.com/news/2026-06-08/iberian-lynx-population-grew-by-95/1036280",
         "img": "https://images.unsplash.com/photo-6njkAeHHMOE?w=1600&q=80&auto=format&fit=crop"
@@ -2954,7 +3009,7 @@
       {
         "cat": "Small Wonders",
         "place": "Mairehau, Christchurch, New Zealand",
-        "head": "A one-in-a-million chimera apple \u2014 split precisely half red, half golden-yellow, divided by a near-perfect straight line from stem to core \u2014 has become the quiet celebrity of a Christchurch corner shop.",
+        "head": "A one-in-a-million chimera apple — split precisely half red, half golden-yellow, divided by a near-perfect straight line from stem to core — has become the quiet celebrity of a Christchurch corner shop.",
         "src": "New Zealand Herald",
         "url": "https://www.nzherald.co.nz/nz/unusual-split-colour-chimera-apple-amazes-shoppers-at-christchurch-fruit-shop/CM6YI22KXRDARHPG5BQEV3IEPQ/",
         "img": "https://images.unsplash.com/photo-O99GEXDopTk?w=1600&q=80&auto=format&fit=crop"
@@ -3001,7 +3056,7 @@
       {
         "cat": "Quiet Kindness",
         "place": "Niigata Prefecture, Japan",
-        "head": "A 7-Eleven franchise owner in Niigata placed signs at his three stores inviting anyone feeling unwell from the heat to come inside and cool down, no purchase required \u2014 and the gesture prompted 7-Eleven Japan to adopt a nationwide campaign.",
+        "head": "A 7-Eleven franchise owner in Niigata placed signs at his three stores inviting anyone feeling unwell from the heat to come inside and cool down, no purchase required — and the gesture prompted 7-Eleven Japan to adopt a nationwide campaign.",
         "src": "Good News Network / Mainichi Shimbun",
         "url": "https://www.goodnewsnetwork.org/7-eleven-owner-pays-forward-kindness-from-a-decade-ago-with-viral-signs-offering-shelter-from-scorching-heat/",
         "img": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1600&q=80&auto=format&fit=crop"
@@ -3009,7 +3064,7 @@
       {
         "cat": "Small Wonders",
         "place": "Babar Islands, Indonesia",
-        "head": "A small fantail bird on Indonesia's Babar Islands has been recognised as an entirely new species \u2014 revealed not by appearance but by a song no ornithologist had written down for 120 years.",
+        "head": "A small fantail bird on Indonesia's Babar Islands has been recognised as an entirely new species — revealed not by appearance but by a song no ornithologist had written down for 120 years.",
         "src": "Sci.News / Bulletin of the British Ornithologists' Club",
         "url": "https://www.sci.news/biology/rhipidura-laguceria-14829.html",
         "img": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=1600&q=80&auto=format&fit=crop"
@@ -3040,7 +3095,7 @@
       {
         "cat": "Nature",
         "place": "Buru Island, Maluku, Indonesia",
-        "head": "After nearly a century of near-disappearance, the blue-fronted lorikeet has been photographed alive on Buru Island \u2014 nine individuals confirmed in a 14-day expedition that reached a summit no scientist had previously climbed.",
+        "head": "After nearly a century of near-disappearance, the blue-fronted lorikeet has been photographed alive on Buru Island — nine individuals confirmed in a 14-day expedition that reached a summit no scientist had previously climbed.",
         "src": "Smithsonian Magazine",
         "url": "https://www.smithsonianmag.com/smart-news/this-colorful-parakeet-had-been-seen-only-once-over-the-past-century-birders-just-rediscovered-it-in-an-unexplored-indonesian-forest-180988907/",
         "img": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=1600&q=80&auto=format&fit=crop"
@@ -3048,7 +3103,7 @@
       {
         "cat": "Science & Medicine",
         "place": "Global",
-        "head": "Once-weekly survodutide cleared fatty liver disease entirely in 61 percent of patients in the SYNCHRONIZE-MASLD Phase 3 trial \u2014 the strongest result yet for a condition affecting 38 percent of adults worldwide.",
+        "head": "Once-weekly survodutide cleared fatty liver disease entirely in 61 percent of patients in the SYNCHRONIZE-MASLD Phase 3 trial — the strongest result yet for a condition affecting 38 percent of adults worldwide.",
         "src": "Nature Medicine",
         "url": "https://www.nature.com/articles/s41591-026-04479-3",
         "img": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1600&q=80&auto=format&fit=crop"
@@ -3056,7 +3111,7 @@
       {
         "cat": "Small Wonders",
         "place": "Firth of Forth, Scotland",
-        "head": "Bass Rock \u2014 home to one of the world's largest northern gannet colonies and called one of the '12 wildlife wonders of the world' by Sir David Attenborough \u2014 has passed into conservation ownership for the first time in 320 years.",
+        "head": "Bass Rock — home to one of the world's largest northern gannet colonies and called one of the '12 wildlife wonders of the world' by Sir David Attenborough — has passed into conservation ownership for the first time in 320 years.",
         "src": "STV News",
         "url": "https://news.stv.tv/east-central/rspb-buys-scottish-islands-to-safeguard-awe-inspiring-seabird-sanctuaries",
         "img": "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=1600&q=80&auto=format&fit=crop"
@@ -3064,7 +3119,7 @@
       {
         "cat": "Quiet Kindness",
         "place": "Amritsar, Punjab, India",
-        "head": "A clothing shopkeeper near the Golden Temple in Amritsar served chai, cooked a full Punjabi meal, walked a foreign visitor through the neighbourhood, and placed a traditional scarf around his neck \u2014 all after the visitor arrived with no money.",
+        "head": "A clothing shopkeeper near the Golden Temple in Amritsar served chai, cooked a full Punjabi meal, walked a foreign visitor through the neighbourhood, and placed a traditional scarf around his neck — all after the visitor arrived with no money.",
         "src": "The Tribune India",
         "url": "https://www.tribuneindia.com/news/punjab/no-money-no-problem-bro-youre-in-india-amritsar-shopkeepers-kindness-to-british-tourist-wins-hearts-online/",
         "img": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1600&q=80&auto=format&fit=crop"
@@ -3072,7 +3127,7 @@
       {
         "cat": "Global Progress",
         "place": "Turks and Caicos Islands",
-        "head": "The World Health Organization certified the Turks and Caicos Islands for eliminating mother-to-child transmission of both HIV and hepatitis B \u2014 the first territory in the Americas to achieve the hepatitis B milestone.",
+        "head": "The World Health Organization certified the Turks and Caicos Islands for eliminating mother-to-child transmission of both HIV and hepatitis B — the first territory in the Americas to achieve the hepatitis B milestone.",
         "src": "PAHO / WHO",
         "url": "https://www.paho.org/en/news/3-6-2026-who-certifies-turks-and-caicos-eliminating-mother-child-transmission-hiv-and",
         "img": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1600&q=80&auto=format&fit=crop"
@@ -3087,7 +3142,7 @@
       {
         "cat": "Everyday Joy",
         "place": "Sapporo, Hokkaido, Japan",
-        "head": "The 35th Yosakoi Soran Festival fills Sapporo with 30,000 dancers across seventeen outdoor stages \u2014 a tradition born in 1992 when Hokkaido University students fused two regional folk dance cultures.",
+        "head": "The 35th Yosakoi Soran Festival fills Sapporo with 30,000 dancers across seventeen outdoor stages — a tradition born in 1992 when Hokkaido University students fused two regional folk dance cultures.",
         "src": "Japan Cheapo",
         "url": "https://japancheapo.com/events/yosakoi-soran-festival/",
         "img": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=1600&q=80&auto=format&fit=crop"
@@ -3095,7 +3150,7 @@
       {
         "cat": "Nature",
         "place": "21 Countries, Europe",
-        "head": "A record 603 dams, weirs, and culverts were removed across 21 European countries in 2025 \u2014 the most in a single year since monitoring began \u2014 reopening 3,700 kilometres of river corridor for migratory fish.",
+        "head": "A record 603 dams, weirs, and culverts were removed across 21 European countries in 2025 — the most in a single year since monitoring began — reopening 3,700 kilometres of river corridor for migratory fish.",
         "src": "Circle of Blue / Dam Removal Europe",
         "url": "https://www.circleofblue.org/newsletter/the-stream-june-2026-europe-removed-record-number-of-river-barriers-last-year-reconnecting-thousands-of-miles-of-waterways/",
         "img": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1600&q=80&auto=format&fit=crop"
@@ -3103,7 +3158,7 @@
       {
         "cat": "Science & Medicine",
         "place": "Global",
-        "head": "A daily pill called daraxonrasib nearly doubled median survival in previously treated metastatic pancreatic cancer \u2014 13.2 months versus 6.7 months on chemotherapy \u2014 in a Phase 3 trial published in the New England Journal of Medicine.",
+        "head": "A daily pill called daraxonrasib nearly doubled median survival in previously treated metastatic pancreatic cancer — 13.2 months versus 6.7 months on chemotherapy — in a Phase 3 trial published in the New England Journal of Medicine.",
         "src": "ASCO Post / New England Journal of Medicine",
         "url": "https://ascopost.com/news/june-2026/daraxonrasib-nearly-doubles-survival-in-previously-treated-metastatic-pancreatic-cancer/",
         "img": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1600&q=80&auto=format&fit=crop"
@@ -3111,7 +3166,7 @@
       {
         "cat": "Global Progress",
         "place": "Indonesia",
-        "head": "Indonesia's national electrification rate reached 99.83 percent in the first quarter of 2026 \u2014 covering 280 million people across 17,000 islands, up from 91 percent a decade ago.",
+        "head": "Indonesia's national electrification rate reached 99.83 percent in the first quarter of 2026 — covering 280 million people across 17,000 islands, up from 91 percent a decade ago.",
         "src": "ANTARA News",
         "url": "https://en.antaranews.com/news/418041/indonesias-electrification-rate-reaches-9983-percent-in-q1-2026",
         "img": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1600&q=80&auto=format&fit=crop"
@@ -3119,7 +3174,7 @@
       {
         "cat": "Quiet Kindness",
         "place": "Nanaimo, British Columbia, Canada",
-        "head": "In Nanaimo, British Columbia, a woman answered her door to find a 12-year-old boy whose father had collapsed \u2014 and performed chest compressions until paramedics arrived and revived him.",
+        "head": "In Nanaimo, British Columbia, a woman answered her door to find a 12-year-old boy whose father had collapsed — and performed chest compressions until paramedics arrived and revived him.",
         "src": "NanaimoNewsNOW",
         "url": "https://nanaimonewsnow.com/2026/06/03/im-just-happy-that-i-answered-my-door-nanaimo-woman-provides-lifesaving-first-aid/",
         "img": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600&q=80&auto=format&fit=crop"
@@ -3127,7 +3182,7 @@
       {
         "cat": "Small Wonders",
         "place": "Jupiter Beach, Florida, USA",
-        "head": "An olive ridley sea turtle nicknamed Tini came ashore at Jupiter Beach, Florida \u2014 1,500 miles north of her species' usual nesting range \u2014 to lay the first olive ridley nest ever documented in the state.",
+        "head": "An olive ridley sea turtle nicknamed Tini came ashore at Jupiter Beach, Florida — 1,500 miles north of her species' usual nesting range — to lay the first olive ridley nest ever documented in the state.",
         "src": "CBS12 / Loggerhead Marinelife Center",
         "url": "https://cbs12.com/news/local/rare-olive-ridley-sea-turtle-nest-documented-in-florida-for-first-time-juno-beach-loggerhead-marinelifecenter-brazil-trinidad-suriname-gabon-nesting-tini-jupiter-beach",
         "img": "https://images.unsplash.com/photo-1544551763-92ab472cad5d?w=1600&q=80&auto=format&fit=crop"
@@ -3142,7 +3197,7 @@
       {
         "cat": "Everyday Joy",
         "place": "Huinchiri, Cusco Region, Peru",
-        "head": "Every June for nearly 600 years, four Quechua communities in Peru's Andes dismantle and completely rebuild the world's last handwoven Inca rope bridge across the Apur\u00edmac gorge.",
+        "head": "Every June for nearly 600 years, four Quechua communities in Peru's Andes dismantle and completely rebuild the world's last handwoven Inca rope bridge across the Apurímac gorge.",
         "src": "UNESCO / Ministry of Culture of Peru",
         "url": "https://ich.unesco.org/en/RL/weaving-of-qeswachaka-bridge-01068",
         "img": "https://images.unsplash.com/photo-1516547873254-63bbacbae3d4?w=1600&q=80&auto=format&fit=crop"
@@ -3150,7 +3205,7 @@
       {
         "cat": "Global Progress",
         "place": "Global Oceans",
-        "head": "On World Oceans Day, the UN confirmed that just over 10 percent of the world's ocean is now inside a protected or conserved area \u2014 crossing the threshold for the first time in history.",
+        "head": "On World Oceans Day, the UN confirmed that just over 10 percent of the world's ocean is now inside a protected or conserved area — crossing the threshold for the first time in history.",
         "src": "Mongabay",
         "url": "https://news.mongabay.com/short-article/2026/06/world-oceans-day-marine-protected-areas-surpass-10-mark-in-2026/",
         "img": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1600&q=80&auto=format&fit=crop"
@@ -3158,7 +3213,7 @@
       {
         "cat": "Science & Medicine",
         "place": "Glasgow, Scotland",
-        "head": "A phase 3 trial finds that finerenone slows kidney decline by 23 percent in patients with chronic kidney disease who do not have diabetes \u2014 the first treatment result for the most common form of the condition.",
+        "head": "A phase 3 trial finds that finerenone slows kidney decline by 23 percent in patients with chronic kidney disease who do not have diabetes — the first treatment result for the most common form of the condition.",
         "src": "New England Journal of Medicine",
         "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2604625",
         "img": "https://images.unsplash.com/photo-1576671081837-49000212a370?w=1600&q=80&auto=format&fit=crop"
@@ -3174,7 +3229,7 @@
       {
         "cat": "Small Wonders",
         "place": "Bristol Bay, Alaska, USA",
-        "head": "Beluga whales in Bristol Bay routinely change mating partners across breeding seasons \u2014 and a 13-year DNA study confirms the strategy is what keeps a small, isolated population genetically healthy.",
+        "head": "Beluga whales in Bristol Bay routinely change mating partners across breeding seasons — and a 13-year DNA study confirms the strategy is what keeps a small, isolated population genetically healthy.",
         "src": "Frontiers in Marine Science / ScienceDaily",
         "url": "https://www.sciencedaily.com/releases/2026/06/260603023921.htm",
         "img": "https://images.unsplash.com/photo-1501261379837-c3b516327829?w=1600&q=80&auto=format&fit=crop"
@@ -3182,7 +3237,7 @@
       {
         "cat": "Quiet Kindness",
         "place": "Fuchu, Hiroshima Prefecture, Japan",
-        "head": "A volunteer walking her poodle on an evening neighbourhood patrol in Hiroshima helped guide a disoriented elderly woman home \u2014 with the dog's calm presence providing the first moment of reassurance.",
+        "head": "A volunteer walking her poodle on an evening neighbourhood patrol in Hiroshima helped guide a disoriented elderly woman home — with the dog's calm presence providing the first moment of reassurance.",
         "src": "News on Japan / FNN",
         "url": "https://newsonjapan.com/article/149536.php",
         "img": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1600&q=80&auto=format&fit=crop"
@@ -3197,7 +3252,7 @@
       {
         "cat": "Nature",
         "place": "Kimboza and Ruvu forest reserves, Tanzania",
-        "head": "Trade bans and a decade of community forest restoration have brought Tanzania's turquoise dwarf gecko back from near-extinction \u2014 populations have returned to pre-collection levels for the first time since the illegal pet trade peaked.",
+        "head": "Trade bans and a decade of community forest restoration have brought Tanzania's turquoise dwarf gecko back from near-extinction — populations have returned to pre-collection levels for the first time since the illegal pet trade peaked.",
         "src": "Mongabay",
         "url": "https://news.mongabay.com/2026/06/how-trade-bans-and-local-conservation-helped-save-a-dazzling-blue-gecko/",
         "img": "https://images.unsplash.com/photo-1535591273668-578e31182c4f?w=1600&q=80&auto=format&fit=crop"
@@ -3205,7 +3260,7 @@
       {
         "cat": "Small Wonders",
         "place": "Hanover, New Hampshire, USA",
-        "head": "Octopuses have learned to use a mirror to locate prey hidden outside their line of sight \u2014 the first invertebrate shown to navigate by its own reflection, bridging 500 million years of separate evolution.",
+        "head": "Octopuses have learned to use a mirror to locate prey hidden outside their line of sight — the first invertebrate shown to navigate by its own reflection, bridging 500 million years of separate evolution.",
         "src": "Current Biology / Dartmouth College",
         "url": "https://home.dartmouth.edu/news/2026/06/study-shows-octopuses-impressive-ability-navigate-space",
         "img": "https://images.unsplash.com/photo-1508866347614-3e680c00286d?w=1600&q=80&auto=format&fit=crop"
@@ -3213,7 +3268,7 @@
       {
         "cat": "Science & Medicine",
         "place": "Cambridge and Southampton, United Kingdom",
-        "head": "A vaccine designed entirely by computer simulations passed its first human trial safely \u2014 triggering immune responses against SARS-CoV-2, SARS-CoV-1, and related bat-origin viruses in all 39 volunteers.",
+        "head": "A vaccine designed entirely by computer simulations passed its first human trial safely — triggering immune responses against SARS-CoV-2, SARS-CoV-1, and related bat-origin viruses in all 39 volunteers.",
         "src": "Journal of Infection / University of Cambridge",
         "url": "https://www.sciencedaily.com/releases/2026/06/260605023357.htm",
         "img": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=1600&q=80&auto=format&fit=crop"
@@ -3221,7 +3276,7 @@
       {
         "cat": "Everyday Joy",
         "place": "India",
-        "head": "A social worker from India has earned the Guinness World Record for the world's largest collection of paper cups \u2014 858 vessels gathered from 31 countries, ranging from 5 ml to 500 ml.",
+        "head": "A social worker from India has earned the Guinness World Record for the world's largest collection of paper cups — 858 vessels gathered from 31 countries, ranging from 5 ml to 500 ml.",
         "src": "Guinness World Records",
         "url": "https://www.guinnessworldrecords.com/news/2026/5/indian-man-with-record-collection-of-800-paper-cups-says-commit-to-your-passion",
         "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80&auto=format&fit=crop"
@@ -3229,7 +3284,7 @@
       {
         "cat": "Quiet Kindness",
         "place": "Sydenham, South London, England",
-        "head": "A nurse at a South London hospice spent months searching for an elderly patient's long-lost brother \u2014 and found him already volunteering at the hospice's own charity shop around the corner.",
+        "head": "A nurse at a South London hospice spent months searching for an elderly patient's long-lost brother — and found him already volunteering at the hospice's own charity shop around the corner.",
         "src": "St. Christopher's Hospice",
         "url": "https://www.stchristophers.org.uk/long-lost-siblings-reunited-muriels-story/",
         "img": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1600&q=80&auto=format&fit=crop"
@@ -3237,7 +3292,7 @@
       {
         "cat": "Global Progress",
         "place": "Latin America and the Caribbean",
-        "head": "The Americas' standardised hypertension programme now operates in 10,950 clinics across 34 countries, serving 50 million adults \u2014 with six in ten patients achieving controlled blood pressure where the programme runs fully.",
+        "head": "The Americas' standardised hypertension programme now operates in 10,950 clinics across 34 countries, serving 50 million adults — with six in ten patients achieving controlled blood pressure where the programme runs fully.",
         "src": "PAHO (Pan American Health Organization)",
         "url": "https://www.paho.org/en/news/3-6-2026-paho-director-presents-2025-annual-report-oas-permanent-council",
         "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&q=80&auto=format&fit=crop"
@@ -3252,7 +3307,7 @@
       {
         "cat": "Nature",
         "place": "Altyn Dala reserve, Kazakhstan",
-        "head": "Thirteen Przewalski's horses have been released into Kazakhstan's Altyn Dala steppe this spring \u2014 the first of the species to live wild in that landscape in more than 200 years.",
+        "head": "Thirteen Przewalski's horses have been released into Kazakhstan's Altyn Dala steppe this spring — the first of the species to live wild in that landscape in more than 200 years.",
         "src": "The Astana Times",
         "url": "https://astanatimes.com/2026/06/kazakhstan-advances-przewalskis-horse-restoration-with-wild-release-and-new-arrivals/",
         "img": "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?w=1600&q=80&auto=format&fit=crop"
@@ -3276,7 +3331,7 @@
       {
         "cat": "Small Wonders",
         "place": "Bonn, Germany",
-        "head": "Homing pigeons navigate in overcast skies using iron stripped from old red blood cells and stored in their livers \u2014 a living magnetic compass hidden in a routine organ.",
+        "head": "Homing pigeons navigate in overcast skies using iron stripped from old red blood cells and stored in their livers — a living magnetic compass hidden in a routine organ.",
         "src": "Science News / Science",
         "url": "https://www.sciencenews.org/article/pigeon-navigation-iron-liver-cells",
         "img": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1600&q=80&auto=format&fit=crop"
@@ -3292,7 +3347,7 @@
       {
         "cat": "Global Progress",
         "place": "Global",
-        "head": "In April 2026, wind and solar generated more electricity worldwide than natural gas for the first time in recorded history \u2014 531 terawatt-hours against gas's 477.",
+        "head": "In April 2026, wind and solar generated more electricity worldwide than natural gas for the first time in recorded history — 531 terawatt-hours against gas's 477.",
         "src": "Ember",
         "url": "https://ember-energy.org/latest-updates/for-the-first-time-wind-and-solar-generated-more-electricity-than-gas-worldwide-in-april-2026/",
         "img": "https://images.unsplash.com/photo-1466611653911-0072c949b957?w=1600&q=80&auto=format&fit=crop"
@@ -3304,12 +3359,12 @@
     "slug": "2026-06-06",
     "edition": 463,
     "headlines": [
-      "A bird species recorded just once in over a century was found alive on a remote Indonesian volcano \u2014 the blue-fronted lorikeet, rediscovered by an expedition that had to climb to 8,900 feet to find it.",
-      "New Zealand gazetted five new marine reserves along the Otago coast \u2014 adding 308 square kilometres of protected ocean and increasing mainland coverage by nearly half \u2014 to be co-managed with K\u0101i Tahu rangers starting July 1.",
-      "A study of 27,000 people published in Nature finds that the thymus \u2014 long assumed to go quiet in adulthood \u2014 predicts mortality risk with striking precision, cutting the risk of death by half in those with the healthiest readings.",
-      "On a busy British Columbia highway, a dozen strangers stopped their vehicles and carried a stranded moose calf back over a concrete divider to its waiting mother \u2014 then drove off without exchanging names.",
-      "Six shipwrecks in Nassau Harbour have been confirmed as the first physical remains of the Golden Age of Piracy \u2014 the decade when Blackbeard, Calico Jack, and Anne Bonny based themselves on New Providence Island.",
-      "Papua New Guinea has cut its malaria death rate by 92 percent since 2000 \u2014 from 13 deaths per 100,000 to one \u2014 using diagnostic testing, artemisinin therapies, and bed nets, and without a vaccine."
+      "A bird species recorded just once in over a century was found alive on a remote Indonesian volcano — the blue-fronted lorikeet, rediscovered by an expedition that had to climb to 8,900 feet to find it.",
+      "New Zealand gazetted five new marine reserves along the Otago coast — adding 308 square kilometres of protected ocean and increasing mainland coverage by nearly half — to be co-managed with Kāi Tahu rangers starting July 1.",
+      "A study of 27,000 people published in Nature finds that the thymus — long assumed to go quiet in adulthood — predicts mortality risk with striking precision, cutting the risk of death by half in those with the healthiest readings.",
+      "On a busy British Columbia highway, a dozen strangers stopped their vehicles and carried a stranded moose calf back over a concrete divider to its waiting mother — then drove off without exchanging names.",
+      "Six shipwrecks in Nassau Harbour have been confirmed as the first physical remains of the Golden Age of Piracy — the decade when Blackbeard, Calico Jack, and Anne Bonny based themselves on New Providence Island.",
+      "Papua New Guinea has cut its malaria death rate by 92 percent since 2000 — from 13 deaths per 100,000 to one — using diagnostic testing, artemisinin therapies, and bed nets, and without a vaccine."
     ],
     "sources": [
       "BirdLife International / American Bird Conservancy",
@@ -3325,12 +3380,12 @@
     "slug": "2026-06-05",
     "edition": 462,
     "headlines": [
-      "In Spello, Umbria, every Corpus Christi the town's neighbourhood groups spend the night laying a two-kilometre carpet of fresh flower petals across the medieval streets \u2014 and a Sunday morning procession walks it to pieces.",
-      "Denmark now has thirteen breeding white stork pairs \u2014 the highest count since 1991 \u2014 as two entirely new nesting sites established themselves in S\u00f8nderjylland and outside Roskilde this spring.",
-      "It is the type of dietary fat \u2014 not the amount \u2014 that determines how fast pancreatic tumours grow, a Yale study published in Cancer Discovery finds, establishing the first biological rationale for a dietary trial in a cancer with a 13 percent five-year survival rate.",
-      "For fifteen years, a retired chef named Lana has run a weekly community club for isolated older adults in Peterborough \u2014 first as the cook, now leading a team of seven volunteers.",
-      "A biting fly found across Europe and Asia sheds its wings the moment it lands on a deer \u2014 and new research confirms it then quietly scales back its own eyesight, redirecting the energy to digestion.",
-      "Zambia's Rural Electrification Authority handed over 85 completed grid-extension projects on June 3 \u2014 its highest single-year delivery, at nearly three times the programme's historical rate."
+      "In Spello, Umbria, every Corpus Christi the town's neighbourhood groups spend the night laying a two-kilometre carpet of fresh flower petals across the medieval streets — and a Sunday morning procession walks it to pieces.",
+      "Denmark now has thirteen breeding white stork pairs — the highest count since 1991 — as two entirely new nesting sites established themselves in Sønderjylland and outside Roskilde this spring.",
+      "It is the type of dietary fat — not the amount — that determines how fast pancreatic tumours grow, a Yale study published in Cancer Discovery finds, establishing the first biological rationale for a dietary trial in a cancer with a 13 percent five-year survival rate.",
+      "For fifteen years, a retired chef named Lana has run a weekly community club for isolated older adults in Peterborough — first as the cook, now leading a team of seven volunteers.",
+      "A biting fly found across Europe and Asia sheds its wings the moment it lands on a deer — and new research confirms it then quietly scales back its own eyesight, redirecting the energy to digestion.",
+      "Zambia's Rural Electrification Authority handed over 85 completed grid-extension projects on June 3 — its highest single-year delivery, at nearly three times the programme's historical rate."
     ],
     "sources": [
       "Comune di Spello / Idealista.it / A Week in Umbria",
@@ -3346,12 +3401,12 @@
     "slug": "2026-06-04",
     "edition": 461,
     "headlines": [
-      "Critically endangered black rhinos have returned to Zimbabwe's Matusadona National Park \u2014 for the first time in thirty years \u2014 as Zimbabwe's national count crosses 1,000 rhinos for the first time since the early 1990s.",
+      "Critically endangered black rhinos have returned to Zimbabwe's Matusadona National Park — for the first time in thirty years — as Zimbabwe's national count crosses 1,000 rhinos for the first time since the early 1990s.",
       "Gut bacteria present in a baby's first year can neutralise an inherited risk of autism spectrum disorder and ADHD, a study tracking infants from birth to age three finds.",
-      "Kyoto's Heian Shrine has marked 75 years of Takigi Noh \u2014 a tradition of performing Japan's 600-year-old masked theatre by bonfire light, begun in 1950 to return Noh to the open air.",
-      "South Korea opened walk-in welfare stations where anyone may collect meals and essentials without an eligibility check \u2014 107 pilot sites have expanded across 67 cities, en route to 300 by year's end.",
-      "Four new records of a shark endemic to Madagascar have surfaced after twenty years of scientific silence \u2014 the blue-spotted bamboo shark, first described in 1914, rediscovered through fish-market surveys.",
-      "Egypt has been certified free of trachoma by the WHO \u2014 the 30th country globally to eliminate the leading infectious cause of blindness \u2014 after driving infection below threshold in all 27 of its governorates."
+      "Kyoto's Heian Shrine has marked 75 years of Takigi Noh — a tradition of performing Japan's 600-year-old masked theatre by bonfire light, begun in 1950 to return Noh to the open air.",
+      "South Korea opened walk-in welfare stations where anyone may collect meals and essentials without an eligibility check — 107 pilot sites have expanded across 67 cities, en route to 300 by year's end.",
+      "Four new records of a shark endemic to Madagascar have surfaced after twenty years of scientific silence — the blue-spotted bamboo shark, first described in 1914, rediscovered through fish-market surveys.",
+      "Egypt has been certified free of trachoma by the WHO — the 30th country globally to eliminate the leading infectious cause of blindness — after driving infection below threshold in all 27 of its governorates."
     ],
     "sources": [
       "Newsday Zimbabwe / African Parks / News24",
@@ -3367,11 +3422,11 @@
     "slug": "2026-06-03",
     "edition": 460,
     "headlines": [
-      "A 460-acre former dairy farm in Somerset recorded 27 new bird species and more than doubled its butterfly count in three years \u2014 after intensive grazing ended and the land was simply left alone.",
-      "A newly named dinosaur from Patagonia had the hooked claws of a raptor and the neck of a heron \u2014 the first theropod ever described as a fish-hunter from the water's edge.",
+      "A 460-acre former dairy farm in Somerset recorded 27 new bird species and more than doubled its butterfly count in three years — after intensive grazing ended and the land was simply left alone.",
+      "A newly named dinosaur from Patagonia had the hooked claws of a raptor and the neck of a heron — the first theropod ever described as a fish-hunter from the water's edge.",
       "A 21-year-old music student stepped from the audience onto a Sydney stage and completed an orchestral concert after the featured pianist fell ill mid-performance.",
-      "Volunteer pilots in Vernon, British Columbia have begun their eighth season of free trishaw rides for seniors \u2014 2,700 rides and 22,000 kilometres into a project started in 2019.",
-      "A manufactured cocktail of 15 gut bacterial strains matched fecal transplants for the first time in a controlled trial \u2014 pointing toward a standardised treatment for a dangerous gut infection.",
+      "Volunteer pilots in Vernon, British Columbia have begun their eighth season of free trishaw rides for seniors — 2,700 rides and 22,000 kilometres into a project started in 2019.",
+      "A manufactured cocktail of 15 gut bacterial strains matched fecal transplants for the first time in a controlled trial — pointing toward a standardised treatment for a dangerous gut infection.",
       "The Turks and Caicos Islands have become the first territory in the Americas to eliminate mother-to-child transmission of hepatitis B, certified by the WHO on June 3."
     ],
     "sources": [
@@ -3388,12 +3443,12 @@
     "slug": "2026-06-02",
     "edition": 459,
     "headlines": [
-      "China's Yangtze sturgeon \u2014 declared extinct in the wild \u2014 has reproduced naturally in the Chishui River for the first time in 25 years, after 342 small hydropower stations were dismantled across three provinces.",
-      "Africa added a record 11.3 gigawatts of renewable energy in 2025 \u2014 triple the previous year \u2014 and for the first time solar and wind projects outnumbered all new fossil-fuel announcements across the continent.",
-      "The world's biggest S\u00e3o Jo\u00e3o opens this week in Campina Grande, Brazil \u2014 33 nights of forr\u00f3, quadrilha dancing, and bonfire parades expected to draw three million visitors to the country's northeast.",
-      "A Singapore photojournalist cooked for nearly 20 hours and served free soup to 50 strangers at his housing-block void deck \u2014 and plans to do it every month.",
+      "China's Yangtze sturgeon — declared extinct in the wild — has reproduced naturally in the Chishui River for the first time in 25 years, after 342 small hydropower stations were dismantled across three provinces.",
+      "Africa added a record 11.3 gigawatts of renewable energy in 2025 — triple the previous year — and for the first time solar and wind projects outnumbered all new fossil-fuel announcements across the continent.",
+      "The world's biggest São João opens this week in Campina Grande, Brazil — 33 nights of forró, quadrilha dancing, and bonfire parades expected to draw three million visitors to the country's northeast.",
+      "A Singapore photojournalist cooked for nearly 20 hours and served free soup to 50 strangers at his housing-block void deck — and plans to do it every month.",
       "Three endangered giant otter pups took their first swimming lessons at Chester Zoo on 28 May, guided into the water one by one by their parents.",
-      "Japanese chemists synthesised vitamin K analogues three times more potent at generating new brain neurons \u2014 and confirmed the compounds cross the blood-brain barrier in mice."
+      "Japanese chemists synthesised vitamin K analogues three times more potent at generating new brain neurons — and confirmed the compounds cross the blood-brain barrier in mice."
     ],
     "sources": [
       "Chinese Academy of Sciences / Xinhua / Water (MDPI)",
@@ -3409,11 +3464,11 @@
     "slug": "2026-06-01",
     "edition": 458,
     "headlines": [
-      "Brazil's Amazon lost less forest in 2025 than in any year since monitoring began \u2014 and deforestation across all Brazilian biomes fell 20.6 percent, a record low.",
+      "Brazil's Amazon lost less forest in 2025 than in any year since monitoring began — and deforestation across all Brazilian biomes fell 20.6 percent, a record low.",
       "DNA taken from 200-year-old museum specimens has solved a 250-year puzzle: the crocodiles of the Seychelles swam at least 3,000 kilometres across the open Indian Ocean to get there.",
-      "More than fifty Cotswolds farmers have pooled 3,000 hectares of land to let their shared rivers run free again \u2014 and three catchments are measurably cleaner after two years of work on the ground.",
+      "More than fifty Cotswolds farmers have pooled 3,000 hectares of land to let their shared rivers run free again — and three catchments are measurably cleaner after two years of work on the ground.",
       "England's first Dutch-style 'cycle street' has opened in Cambridge, where 3,000 cyclists a day now have legal right of way over cars on a road redesigned around bikes.",
-      "A study of 268 people aged 8 to 34 finds that rhythmic musical training \u2014 not melody or ear training \u2014 is what sharpens sustained attention at every stage of development.",
+      "A study of 268 people aged 8 to 34 finds that rhythmic musical training — not melody or ear training — is what sharpens sustained attention at every stage of development.",
       "Global teenage birth rates have fallen by more than 40 percent since 2000, with every major world region now below its year-2000 figure and Central and South Asia recording a decline of more than three-quarters."
     ],
     "sources": [
@@ -3431,10 +3486,10 @@
     "edition": 457,
     "headlines": [
       "Crowds packed Cheung Chau island this weekend for Hong Kong's annual Bun Festival, which climaxes at midnight with a race up a fourteen-metre tower stacked with 9,000 steamed buns.",
-      "An oral drug called daraxonrasib nearly doubled median overall survival for patients with metastatic pancreatic cancer in a Phase 3 trial \u2014 the first RAS inhibitor to do so.",
+      "An oral drug called daraxonrasib nearly doubled median overall survival for patients with metastatic pancreatic cancer in a Phase 3 trial — the first RAS inhibitor to do so.",
       "Twenty-nine European countries dismantled 603 river barriers in 2025, reconnecting 3,740 kilometres of waterway in the fifth consecutive year to set a new continental record.",
       "In Minqin County, Gansu, a local graduate's call drew 30,000 volunteers to plant a million drought-resistant trees against the desert advancing on three sides.",
-      "The wrens of Scotland's St Kilda weigh twice as much as their mainland relatives \u2014 and a new study says they are quietly becoming a new species.",
+      "The wrens of Scotland's St Kilda weigh twice as much as their mainland relatives — and a new study says they are quietly becoming a new species.",
       "Trail cameras in a fragment of Kenyan highland forest have captured three mountain bongos in a place where the species was presumed locally extinct."
     ],
     "sources": [
@@ -3451,12 +3506,12 @@
     "slug": "2026-05-30",
     "edition": 456,
     "headlines": [
-      "Tens of thousands of Andean pilgrims gather in the Sinakara Valley this weekend for Qoyllur Rit'i \u2014 a UNESCO-listed mountain pilgrimage that marks the Pleiades' return to the night sky.",
-      "An antisense drug produced a functional cure for chronic hepatitis B in 19 percent of trial participants \u2014 the first phase 3 result to show any medicine clearing the infection entirely.",
-      "A volunteer network of 3,300 people in Nepal's Bardiya district patrols the forest edge each evening \u2014 using fire, laser light, and sound to redirect tigers and elephants away from the villages they share a border with.",
-      "Five and a half million wild bees are living under a New York cemetery \u2014 discovered when a lab technician noticed the grass buzzing on her walk to work.",
+      "Tens of thousands of Andean pilgrims gather in the Sinakara Valley this weekend for Qoyllur Rit'i — a UNESCO-listed mountain pilgrimage that marks the Pleiades' return to the night sky.",
+      "An antisense drug produced a functional cure for chronic hepatitis B in 19 percent of trial participants — the first phase 3 result to show any medicine clearing the infection entirely.",
+      "A volunteer network of 3,300 people in Nepal's Bardiya district patrols the forest edge each evening — using fire, laser light, and sound to redirect tigers and elephants away from the villages they share a border with.",
+      "Five and a half million wild bees are living under a New York cemetery — discovered when a lab technician noticed the grass buzzing on her walk to work.",
       "A 42-year study of offshore structures in 18 countries finds that decommissioned oil and gas platforms can evolve into reef habitats rivalling natural rocky seafloors in biodiversity.",
-      "Sudan and South Sudan have each received WHO validation for eliminating maternal and neonatal tetanus \u2014 completing decades of vaccination work in some of the world's most logistically difficult conditions."
+      "Sudan and South Sudan have each received WHO validation for eliminating maternal and neonatal tetanus — completing decades of vaccination work in some of the world's most logistically difficult conditions."
     ],
     "sources": [
       "Fertur Travel / UNESCO / Cusco Region",
@@ -3472,12 +3527,12 @@
     "slug": "2026-05-29",
     "edition": 455,
     "headlines": [
-      "China's wild Przewalski's horse population has passed 900 individuals \u2014 recovered from extinction in the wild through forty years of methodical restoration.",
+      "China's wild Przewalski's horse population has passed 900 individuals — recovered from extinction in the wild through forty years of methodical restoration.",
       "Scientists at South Korea's Institute for Basic Science have identified two distinct gut-to-brain signals that redirect eating behaviour when the body runs short of protein.",
-      "A Yorkshire garden designer built a Chelsea show garden around a reflective pool and a self-supporting frame \u2014 then donated the whole installation to a food bank in Northern Ireland.",
-      "A Chennai scholar has spent thirty years writing forty-seven books and delivering lecture demonstrations that teach audiences how to actually understand Bharatanatyam \u2014 not just admire it.",
-      "Florida's loggerhead sea turtles are nesting at a pace 82 percent ahead of last year's already-record season \u2014 and leatherback nests have crossed 1,000 for the first time.",
-      "Battery-electric cars claimed one-fifth of all new registrations across Europe in the first quarter of 2026 \u2014 a milestone analysts had placed firmly in the next decade."
+      "A Yorkshire garden designer built a Chelsea show garden around a reflective pool and a self-supporting frame — then donated the whole installation to a food bank in Northern Ireland.",
+      "A Chennai scholar has spent thirty years writing forty-seven books and delivering lecture demonstrations that teach audiences how to actually understand Bharatanatyam — not just admire it.",
+      "Florida's loggerhead sea turtles are nesting at a pace 82 percent ahead of last year's already-record season — and leatherback nests have crossed 1,000 for the first time.",
+      "Battery-electric cars claimed one-fifth of all new registrations across Europe in the first quarter of 2026 — a milestone analysts had placed firmly in the next decade."
     ],
     "sources": [
       "Good News Network / Xinhua",
@@ -3493,12 +3548,12 @@
     "slug": "2026-05-28",
     "edition": 454,
     "headlines": [
-      "A reintroduced platypus colony in Australia's Royal National Park has grown to 20 known individuals \u2014 and for the first time has confirmed a wild-born offspring.",
-      "Dutch surgeons used a glowing molecular tracer to find oral cancer cells invisible to the naked eye \u2014 and detected every tumour in a phase I/II trial.",
-      "A Kansas City window cleaner offers free cleans to small restaurants \u2014 and films short portraits of the owners that have multiplied one bakery's customers fourfold.",
-      "An undergraduate diver in Taiwan found a new species of sea slug smaller than a sesame seed \u2014 and a Facebook nudibranch group confirmed it was unknown to science.",
+      "A reintroduced platypus colony in Australia's Royal National Park has grown to 20 known individuals — and for the first time has confirmed a wild-born offspring.",
+      "Dutch surgeons used a glowing molecular tracer to find oral cancer cells invisible to the naked eye — and detected every tumour in a phase I/II trial.",
+      "A Kansas City window cleaner offers free cleans to small restaurants — and films short portraits of the owners that have multiplied one bakery's customers fourfold.",
+      "An undergraduate diver in Taiwan found a new species of sea slug smaller than a sesame seed — and a Facebook nudibranch group confirmed it was unknown to science.",
       "A Devon artist folded hundreds of paper daisies from the farewell letters Danes wrote when their country's 400-year letter-delivery service ended.",
-      "The World Health Assembly has adopted its first-ever dedicated resolution on stroke \u2014 a condition that now strikes one in four people during their lifetime."
+      "The World Health Assembly has adopted its first-ever dedicated resolution on stroke — a condition that now strikes one in four people during their lifetime."
     ],
     "sources": [
       "UNSW Sydney / Scimex",
@@ -3514,11 +3569,11 @@
     "slug": "2026-05-27",
     "edition": 453,
     "headlines": [
-      "Colombia has tripled its leatherback sea turtle sanctuary on the Choc\u00f3 Caribbean coast to more than 220,000 acres, extending the protected area to the Panamanian border and securing habitat for four nesting turtle species.",
+      "Colombia has tripled its leatherback sea turtle sanctuary on the Chocó Caribbean coast to more than 220,000 acres, extending the protected area to the Panamanian border and securing habitat for four nesting turtle species.",
       "A monthly injection targeting a single enzyme cleared excess fat from the livers of 60 percent of patients with a severe fatty liver disease for which no treatment is currently approved.",
       "A 72-year-old architect in East London has spent fifteen years running free community workshops where strangers work side by side to create permanent public mosaics.",
       "Europe's first large-scale elephant sanctuary opened in Portugal's Alentejo, welcoming two African elephants who had spent decades living alone in a circus and a zoo.",
-      "Skomer Island's puffin colony has reached 52,019 \u2014 a record that exceeds last year's previous best by more than 8,000 birds.",
+      "Skomer Island's puffin colony has reached 52,019 — a record that exceeds last year's previous best by more than 8,000 birds.",
       "All 193 WHO member states have adopted the first update to the global antimicrobial resistance action plan in eleven years, setting a target of a 10 percent reduction in AMR-linked deaths by 2030."
     ],
     "sources": [
@@ -3535,12 +3590,12 @@
     "slug": "2026-05-26",
     "edition": 452,
     "headlines": [
-      "Eight southern white rhinos have been released into Kidepo Valley National Park in Uganda \u2014 the species' first presence in a Ugandan national park since the last wild rhino was killed there in 1983.",
+      "Eight southern white rhinos have been released into Kidepo Valley National Park in Uganda — the species' first presence in a Ugandan national park since the last wild rhino was killed there in 1983.",
       "The United States has approved the first treatment for hepatitis delta virus, a disease affecting an estimated 15 million people worldwide for which no therapy had previously been licensed.",
       "A former Bengaluru software engineer who moved to Jaisalmer after marriage has opened three village training centres in the Thar Desert, giving women who observe purdah a way to earn without leaving their communities.",
       "A Himalayan pit viper first described in 1864 and long assumed to be one wide-ranging species turns out to be five distinct species, two of them entirely new to science.",
       "A 24-year-old YouTuber from Munich has won the Cooper's Hill Cheese-Rolling for the third year running, defending his title against a field of competitors from five countries.",
-      "Two nations on opposite sides of the world received WHO certification for malaria elimination on the same day \u2014 bringing the global total of formally malaria-free countries to 46."
+      "Two nations on opposite sides of the world received WHO certification for malaria elimination on the same day — bringing the global total of formally malaria-free countries to 46."
     ],
     "sources": [
       "Mongabay / Rhino Fund Uganda",
@@ -3556,11 +3611,11 @@
     "slug": "2026-05-25",
     "edition": 451,
     "headlines": [
-      "Scientists aboard thirteen expeditions have formally described 1,121 previously unknown marine species in a single year \u2014 a 54 percent increase on last year's tally and the largest haul in the Ocean Census's three-year history.",
-      "A World Bank project in Malawi has brought electricity to nearly two million people \u2014 25 percent more than its stated target \u2014 by combining new grid connections with 257,000 solar home systems in off-grid areas.",
-      "Scientists formally described a vivid blue octopus discovered in the Gal\u00e1pagos, Microeledone galapagensis, noting its unusual blue-violet mantle as a likely signal of its isolation from mainland Pacific relatives.",
-      "Leeds' Mockingbird Family Model, which clusters foster families around a shared hub home, has cut annual carer deregistrations to 6 percent against a national average of 23 percent \u2014 keeping more children in stable homes.",
-      "A meta-analysis of fourteen clinical trials finds that walking 8,500 steps a day is linked to sustained weight maintenance \u2014 every additional thousand steps correlates with roughly 1.2 percent less weight regain.",
+      "Scientists aboard thirteen expeditions have formally described 1,121 previously unknown marine species in a single year — a 54 percent increase on last year's tally and the largest haul in the Ocean Census's three-year history.",
+      "A World Bank project in Malawi has brought electricity to nearly two million people — 25 percent more than its stated target — by combining new grid connections with 257,000 solar home systems in off-grid areas.",
+      "Scientists formally described a vivid blue octopus discovered in the Galápagos, Microeledone galapagensis, noting its unusual blue-violet mantle as a likely signal of its isolation from mainland Pacific relatives.",
+      "Leeds' Mockingbird Family Model, which clusters foster families around a shared hub home, has cut annual carer deregistrations to 6 percent against a national average of 23 percent — keeping more children in stable homes.",
+      "A meta-analysis of fourteen clinical trials finds that walking 8,500 steps a day is linked to sustained weight maintenance — every additional thousand steps correlates with roughly 1.2 percent less weight regain.",
       "The National Gallery has taken thirty fine-detail prints of iconic works to Newport on the Isle of Wight, placing them beside supermarkets, high streets, and parks as part of its \"Art On Your Doorstep\" touring programme."
     ],
     "sources": [
@@ -3577,11 +3632,11 @@
     "slug": "2026-05-24",
     "edition": 450,
     "headlines": [
-      "The municipality of Die has placed its entire 432-hectare communal forest on the Vercors plateau under a 60-year nature-recovery easement \u2014 the first such commitment by any French town.",
-      "Wind and solar generated more electricity worldwide than gas in April 2026 \u2014 the first month in modern energy history that renewables have surpassed fossil fuels globally.",
+      "The municipality of Die has placed its entire 432-hectare communal forest on the Vercors plateau under a 60-year nature-recovery easement — the first such commitment by any French town.",
+      "Wind and solar generated more electricity worldwide than gas in April 2026 — the first month in modern energy history that renewables have surpassed fossil fuels globally.",
       "A device that drains excess fluid through the chest's lymphatic vessel rather than the kidneys cleared 6.8 kilograms from hospitalised heart failure patients while leaving kidney function intact, a trial finds.",
       "Women from 2,100 self-help groups collect, sort, and sell more than 170 tonnes of Sambalpur's household waste each day, turning rubbish into a Rs 20-lakh monthly income for the city.",
-      "DNA extracted from droppings has revealed exactly which underground fungi the world's rarest marsupial depends on to eat \u2014 giving conservationists a practical map for finding safe habitat for the first time.",
+      "DNA extracted from droppings has revealed exactly which underground fungi the world's rarest marsupial depends on to eat — giving conservationists a practical map for finding safe habitat for the first time.",
       "Hand-crocheted wildlife scenes have appeared on red post boxes in seven British cities to mark David Attenborough's one hundredth birthday."
     ],
     "sources": [
@@ -3598,12 +3653,12 @@
     "slug": "2026-05-23",
     "edition": 449,
     "headlines": [
-      "A young jaguar rests on a tourist trail in Argentina's Iber\u00e1 Wetlands, the first encounter of its kind since the species vanished from the region more than seventy years ago.",
+      "A young jaguar rests on a tourist trail in Argentina's Iberá Wetlands, the first encounter of its kind since the species vanished from the region more than seventy years ago.",
       "Namibia secures a $63 million permanent conservation fund protecting 24 percent of the country's land and 87 communal wildlife areas in perpetuity.",
       "Patients who lose the most weight on GLP-1 drugs have 22 to 69 percent lower risk of developing sleep apnoea, kidney disease, and heart failure, a study of 90,000 patients finds.",
       "Two hundred and sixty volunteers spend five days returning 20,000 native oysters to Chichester Harbour in the UK's largest-ever subtidal reef restoration.",
       "DanceAfrica 2026 brings Uganda's Ndere Troupe back to Brooklyn for the festival's forty-ninth year.",
-      "Australia is validated by the World Health Organization as having eliminated trachoma \u2014 the first high-income country ever to do so."
+      "Australia is validated by the World Health Organization as having eliminated trachoma — the first high-income country ever to do so."
     ],
     "sources": [
       "Noticias Ambientales / Rewilding Argentina",
@@ -3624,7 +3679,7 @@
       "An mRNA seasonal flu vaccine proved 26 percent more effective than a standard influenza shot across more than 40,000 participants in the largest head-to-head trial yet published.",
       "Ireland's national community street lunch weekend returns for its sixteenth year on Saturday and Sunday, with a target of 1,200 neighbourhood feasts.",
       "Eight hundred volunteer cooks in the self-styled Avocado Capital of the World assembled 6,800 kilograms of guacamole at the thirteenth annual festival and reclaimed the world record.",
-      "Cloud-forest mice inflate a throat air sac to whistle their ten-second songs \u2014 a mechanism researchers describe as unique among animals."
+      "Cloud-forest mice inflate a throat air sac to whistle their ten-second songs — a mechanism researchers describe as unique among animals."
     ],
     "sources": [
       "Oceanographic Magazine / Islands Business",
@@ -3696,8 +3751,8 @@
     "edition": 446,
     "headlines": [
       "Vivid Sydney 2026 opens on Friday for twenty-three nights of free light installations along the harbour, and for the first time in the festival's sixteen-year history extends the programme into daylight hours.",
-      "MIT scientists find that cysteine \u2014 an amino acid in eggs, meat, dairy, and pulses \u2014 activates an immune pathway that regenerates the intestinal lining, opening a new direction for cancer patients recovering from radiotherapy.",
-      "At the 79th World Health Assembly, WHO certified ten countries for eliminating mother-to-child transmission of HIV, syphilis, or hepatitis B \u2014 with Denmark as the first EU member state, and the Maldives the first country to clear all three diseases at once.",
+      "MIT scientists find that cysteine — an amino acid in eggs, meat, dairy, and pulses — activates an immune pathway that regenerates the intestinal lining, opening a new direction for cancer patients recovering from radiotherapy.",
+      "At the 79th World Health Assembly, WHO certified ten countries for eliminating mother-to-child transmission of HIV, syphilis, or hepatitis B — with Denmark as the first EU member state, and the Maldives the first country to clear all three diseases at once.",
       "A plant thought extinct since 1967 has reappeared in the Queensland outback, identified from a photograph uploaded to iNaturalist by a bird bander who noticed something unfamiliar growing between the baobabs.",
       "Thirteen youth-led pollinator conservation projects have been selected across Europe with EU funding and IUCN oversight, from biodiversity gardens in Romania to wet-meadow restoration for an endangered Spanish butterfly.",
       "In two of Zimbabwe's most remote districts, community health workers known as 'vaccine cyclists' have immunised 22,000 girls against cervical cancer by riding bicycles from homestead to homestead."
@@ -3717,17 +3772,17 @@
     "edition": 445,
     "headlines": [
       "A 400-year-old oak in the Lithuanian village of Rukai has won the 2026 European Tree of the Year, drawing more than 200,000 votes across twelve countries and ending Poland's four-year run of victories.",
-      "Kenya has been formally recognised by WHO for eliminating sleeping sickness, after recording no indigenous cases since 2009 \u2014 the second country to eliminate the more severe rhodesiense form.",
-      "A 47-year study of 427 Swedish adults finds that fitness begins a measurable decline at age 35 \u2014 but taking up exercise at any point in adulthood still produces gains of 5 to 10 percent.",
-      "Europe's most complete stegosaur skull has been unearthed in a former crop field in Teruel, Spain \u2014 and the find reshapes the family tree of one of prehistory's most recognisable dinosaurs.",
-      "Thirteen rescued Asian giant tortoises at a Nagaland zoo have produced 114 captive-bred offspring \u2014 roughly half the estimated wild population remaining across all of Asia.",
-      "A woman in Bradford crocheted and delivered more than 100 baby blankets to the maternity ward of the hospital that saved her sight \u2014 arriving in person with the hundredth."
+      "Kenya has been formally recognised by WHO for eliminating sleeping sickness, after recording no indigenous cases since 2009 — the second country to eliminate the more severe rhodesiense form.",
+      "A 47-year study of 427 Swedish adults finds that fitness begins a measurable decline at age 35 — but taking up exercise at any point in adulthood still produces gains of 5 to 10 percent.",
+      "Europe's most complete stegosaur skull has been unearthed in a former crop field in Teruel, Spain — and the find reshapes the family tree of one of prehistory's most recognisable dinosaurs.",
+      "Thirteen rescued Asian giant tortoises at a Nagaland zoo have produced 114 captive-bred offspring — roughly half the estimated wild population remaining across all of Asia.",
+      "A woman in Bradford crocheted and delivered more than 100 baby blankets to the maternity ward of the hospital that saved her sight — arriving in person with the hundredth."
     ],
     "sources": [
       "European Tree of the Year / Good News Network",
       "WHO / World Health Assembly, Geneva",
       "Karolinska Institutet / Journal of Cachexia, Sarcopenia and Muscle",
-      "Fundaci\u00f3n Din\u00f3polis / Vertebrate Zoology",
+      "Fundación Dinópolis / Vertebrate Zoology",
       "The Revelator / Good News Network",
       "Sunny Skyz"
     ]
@@ -3737,12 +3792,12 @@
     "slug": "2026-05-19",
     "edition": 444,
     "headlines": [
-      "On Global Big Day 2026, birders across 203 countries recorded 8,023 species in a single day \u2014 the first time the annual tally has broken the 8,000-species threshold.",
-      "Edinburgh's library service gifted 150 prisoners hand-wrapped books in a Secret Santa scheme that cost \u00a320 and helped earn the city's libraries the UK's Library of the Year award.",
-      "Thirty adults with high-risk blood cancer received CRISPR-edited stem cell transplants in the first human trial to safely combine gene editing with antibody therapy \u2014 and all thirty achieved full engraftment.",
-      "Zoos on four continents competed to film tree kangaroos crunching loudly \u2014 and a week of videos drew millions of views while raising awareness of a rain-forest marsupial under pressure.",
+      "On Global Big Day 2026, birders across 203 countries recorded 8,023 species in a single day — the first time the annual tally has broken the 8,000-species threshold.",
+      "Edinburgh's library service gifted 150 prisoners hand-wrapped books in a Secret Santa scheme that cost £20 and helped earn the city's libraries the UK's Library of the Year award.",
+      "Thirty adults with high-risk blood cancer received CRISPR-edited stem cell transplants in the first human trial to safely combine gene editing with antibody therapy — and all thirty achieved full engraftment.",
+      "Zoos on four continents competed to film tree kangaroos crunching loudly — and a week of videos drew millions of views while raising awareness of a rain-forest marsupial under pressure.",
       "A daily direct train between Prague and Copenhagen runs again for the first time in over a decade, crossing four countries through central Europe's finest landscapes in twelve hours.",
-      "The World Health Organization formally recognised Portugal and the United Arab Emirates for eliminating industrially produced trans fats \u2014 a dietary change estimated to prevent hundreds of thousands of deaths each year."
+      "The World Health Organization formally recognised Portugal and the United Arab Emirates for eliminating industrially produced trans fats — a dietary change estimated to prevent hundreds of thousands of deaths each year."
     ],
     "sources": [
       "Cornell Lab of Ornithology / eBird",
@@ -3758,12 +3813,12 @@
     "slug": "2026-05-18",
     "edition": 443,
     "headlines": [
-      "Kazakhstan's ecology ministry says the saiga antelope population is on track to pass five million this calving season \u2014 a recovery from fewer than 40,000 animals two decades ago.",
+      "Kazakhstan's ecology ministry says the saiga antelope population is on track to pass five million this calving season — a recovery from fewer than 40,000 animals two decades ago.",
       "Thirty-two patients with a genetically distinct form of bowel cancer given immunotherapy before surgery have had zero relapses after 33 months of follow-up.",
-      "Solar panels generated 29 percent of Chile's national electricity in March 2026 \u2014 and on one afternoon in mid-March, solar alone met three-quarters of the country's real-time power demand.",
-      "Researchers sampling deep canyons off Western Australia's Ningaloo coast detected giant squid DNA in six locations \u2014 the first confirmed sign of the species in those seas in more than 25 years.",
+      "Solar panels generated 29 percent of Chile's national electricity in March 2026 — and on one afternoon in mid-March, solar alone met three-quarters of the country's real-time power demand.",
+      "Researchers sampling deep canyons off Western Australia's Ningaloo coast detected giant squid DNA in six locations — the first confirmed sign of the species in those seas in more than 25 years.",
       "Japan's Hobby Show celebrates its 50th year at Tokyo Big Sight, drawing 120,000 visitors over three May days to a festival devoted to making things by hand.",
-      "A retired advertising executive in Mumbai carries a blank canvas into public squares and invites strangers to paint on it \u2014 free of charge, free of instruction, and free of the possibility of getting it wrong."
+      "A retired advertising executive in Mumbai carries a blank canvas into public squares and invites strangers to paint on it — free of charge, free of instruction, and free of the possibility of getting it wrong."
     ],
     "sources": [
       "Times of Central Asia / Qazinform",
@@ -3780,11 +3835,11 @@
     "edition": 442,
     "headlines": [
       "Venice renews its thousand-year pact with the Adriatic today, as the mayor casts a gold ring into the sea from the ceremonial barge of the Serenissima.",
-      "Four years of real-world data show the RTS,S malaria vaccine prevented one in eight deaths among vaccinated children in Ghana, Kenya, and Malawi \u2014 and the jab is now available in 25 countries.",
+      "Four years of real-world data show the RTS,S malaria vaccine prevented one in eight deaths among vaccinated children in Ghana, Kenya, and Malawi — and the jab is now available in 25 countries.",
       "A molecular 'glycerol pocket' in brown fat that triggers calorie burning turns out to govern bone mineralisation too, opening paths to new treatments for metabolic disease and fragile-bone conditions.",
-      "A Dutch court orders that bottom trawlers must obtain permits before dragging the Dogger Bank \u2014 the first European ruling to force regulation of trawling in a marine protected area.",
-      "New Zealand's rangers tunnelled through the back wall of a clifftop nest to rescue a k\u0101k\u0101p\u014d chick perched above a 60-metre drop, lifting the 2026 season's record total to 106 hatchings.",
-      "An SPCA inspector bound for an animal rescue in South Africa's Vaal region found her vehicle trapped in deep mud \u2014 and a stranger named Sean arrived with a tractor before she could ask."
+      "A Dutch court orders that bottom trawlers must obtain permits before dragging the Dogger Bank — the first European ruling to force regulation of trawling in a marine protected area.",
+      "New Zealand's rangers tunnelled through the back wall of a clifftop nest to rescue a kākāpō chick perched above a 60-metre drop, lifting the 2026 season's record total to 106 hatchings.",
+      "An SPCA inspector bound for an animal rescue in South Africa's Vaal region found her vehicle trapped in deep mud — and a stranger named Sean arrived with a tractor before she could ask."
     ],
     "sources": [
       "Comune di Venezia / Venice Insider Guide",
@@ -3801,10 +3856,10 @@
     "edition": 441,
     "headlines": [
       "Eight hundred thousand stalks of ground-hugging moss-phlox bloom in stripes of pink, white, and mauve across a hillside facing Mount Fuji, through May 24.",
-      "India added 55.3 gigawatts of clean electricity in a single year \u2014 nearly double its previous record \u2014 pushing its non-fossil capacity past 283 gigawatts and five years ahead of its Paris Agreement target.",
-      "North Atlantic right whales produced 23 calves in the 2025\u201326 season \u2014 the highest count in seventeen years \u2014 with two first-time mothers still in their tenth year.",
+      "India added 55.3 gigawatts of clean electricity in a single year — nearly double its previous record — pushing its non-fossil capacity past 283 gigawatts and five years ahead of its Paris Agreement target.",
+      "North Atlantic right whales produced 23 calves in the 2025–26 season — the highest count in seventeen years — with two first-time mothers still in their tenth year.",
       "On the second Saturday of each month, volunteer repair coaches at Saskatoon Makerspace fix strangers' broken lamps, clothing, coffee makers, and bicycles for free.",
-      "The veins of a common houseplant trace a Voronoi diagram \u2014 the geometry mathematicians use to divide a plane \u2014 produced entirely by plant hormones, with no measuring and no plan.",
+      "The veins of a common houseplant trace a Voronoi diagram — the geometry mathematicians use to divide a plane — produced entirely by plant hormones, with no measuring and no plan.",
       "A Phase 2 trial in Nigeria finds favipiravir safe in Lassa fever patients, establishing the dosing rationale for a full efficacy study now under way."
     ],
     "sources": [
@@ -3825,7 +3880,7 @@
       "Conservators in southern Iraq are hand-making mud bricks to restore the 4,000-year-old Ziggurat of Ur, matching the original clay chemistry one brick at a time.",
       "An oral antiviral taken within three days of household exposure cuts the risk of developing COVID-19 by two-thirds, a Phase 3 trial found.",
       "New HIV infections have fallen 40 percent worldwide since 2010, with the African region recording a 70 percent drop in AIDS-related deaths since the 2005 peak.",
-      "A 3.5 mm wasp that spent 40 years unsorted in a museum drawer turned out to be an entirely new genus \u2014 named after David Attenborough on his 100th birthday.",
+      "A 3.5 mm wasp that spent 40 years unsorted in a museum drawer turned out to be an entirely new genus — named after David Attenborough on his 100th birthday.",
       "A retired gym teacher in Moncton has spent 14 years collecting and repairing donated bicycles so no child who cannot afford one goes without."
     ],
     "sources": [
@@ -3867,8 +3922,8 @@
       "A targeted drug roughly doubles survival time for the most common form of pancreatic cancer.",
       "Wellingtonians finished returning 250 kiwi to hills where none had called at night for a century.",
       "Larvae of a butterfly absent from Britain for a century are feeding well on Sussex hawthorn.",
-      "A Polish streamer ran nine days and raised $76 million \u2014 more than triple the world record.",
-      "Ghana has protected its first marine reserve \u2014 703 square kilometres of West African coastline."
+      "A Polish streamer ran nine days and raised $76 million — more than triple the world record.",
+      "Ghana has protected its first marine reserve — 703 square kilometres of West African coastline."
     ],
     "sources": [
       "University of Exeter / Convex Seascape Survey",
