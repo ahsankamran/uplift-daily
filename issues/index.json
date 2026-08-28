@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-28",
+    "slug": "2026-08-28",
+    "edition": 525,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Tanzania, Kenya & Mozambique",
+        "head": "A program that pays villages to protect lions instead of killing them is spreading across three countries.",
+        "src": "Good Good Good",
+        "url": "https://www.goodgoodgood.co/articles/lion-landscapes-trail-cameras-conservation-east-africa",
+        "img": "https://images.unsplash.com/photo-1745885909535-58c453688cb4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Birmingham, England",
+        "head": "A gentler cancer treatment is sparing four in five rectal cancer patients from losing their rectum.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-08-clinical-trial-rectal-cancer-major.html",
+        "img": "https://images.unsplash.com/photo-1576671495234-2aaa0156b50a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Nepal",
+        "head": "A pangolin collected in 1836 just solved a 190-year mystery about its own species.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260826055500.htm",
+        "img": "https://images.unsplash.com/photo-1617634840108-63174b292251?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "South Korea",
+        "head": "Seniors who once needed care are now the ones delivering it.",
+        "src": "The Herald Business",
+        "url": "https://biz.heraldcorp.com/article/10827810",
+        "img": "https://images.unsplash.com/photo-1755599629285-91cc09a185c7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Kosovo",
+        "head": "A 56-year-old math teacher broke his own world record for T-shirts worn while heading a football.",
+        "src": "Guinness World Records",
+        "url": "https://www.guinnessworldrecords.com/news/2026/8/maths-professor-with-mad-football-skills-breaks-his-own-record-with-cool-trick",
+        "img": "https://images.unsplash.com/photo-1516567727245-ad8c68f3ec93?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Germany",
+        "head": "Germany hit its 2026 solar power target months ahead of schedule.",
+        "src": "Informed Comment",
+        "url": "https://www.juancole.com/2026/08/germany-energy-months.html",
+        "img": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-27",
     "slug": "2026-08-27",
     "edition": 524,
