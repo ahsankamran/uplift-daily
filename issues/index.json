@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-08-29",
+    "slug": "2026-08-29",
+    "edition": 526,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Central Kazakhstan",
+        "head": "A Przewalski's horse foal was born wild on Kazakhstan's steppe for the first time in two centuries.",
+        "src": "Good News Post",
+        "url": "https://www.goodnewspost.co.uk/tiny-foal-marks-big-step-for-wild-horses-in-kazakhstan/",
+        "img": "https://images.unsplash.com/photo-1547581849-38ba650ad0de?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "European Union",
+        "head": "New EU-wide right-to-repair rules took effect for household electronics.",
+        "src": "RTE",
+        "url": "https://www.rte.ie/news/business/2026/0824/1588931-new-eu-wide-product-repair-rules-come-into-force-today/",
+        "img": "https://images.unsplash.com/photo-1746017240064-83e015ac117d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "London, England",
+        "head": "An AI system guided surgeons through a brain operation that saved a man's sight.",
+        "src": "UCL News",
+        "url": "https://www.ucl.ac.uk/news/2026/aug/first-patient-live-ai-assisted-sight-saving-brain-surgery",
+        "img": "https://images.unsplash.com/photo-1640876777002-badf6aee5bcc?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Phuket, Thailand",
+        "head": "Two vacationing strangers stopped to fix a stranger's broken excavator for free.",
+        "src": "SunnySkyz",
+        "url": "https://www.sunnyskyz.com/good-news/6292/Two-Aussies-Were-on-Vacation-in-Thailand-When-They-Saw-Workers-Struggling-With-an-Excavator-So-They-Stopped-to-Help",
+        "img": "https://images.unsplash.com/photo-1776594974675-b21647efe342?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Liskeard, Cornwall, England",
+        "head": "A wallaby was spotted hopping through a Cornish town before dawn.",
+        "src": "UPI",
+        "url": "https://www.upi.com/Odd_News/2026/08/26/wallaby-loose-Liskeard-Cornwall-England/8921787754795/",
+        "img": "https://images.unsplash.com/photo-1693736649900-dd90ef536aa2?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Dozwil, Switzerland",
+        "head": "A Swiss gardener broke his own chili pepper world record for the third time.",
+        "src": "Guinness World Records",
+        "url": "https://www.guinnessworldrecords.com/news/2026/8/hot-property-swiss-grower-breaks-own-record-with-chilli-longer-than-a-rolling-pin",
+        "img": "https://images.unsplash.com/photo-1678019964614-a6515d5efd44?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "slug": "2026-08-28",
+    "edition": 525,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Tanzania, Kenya & Mozambique",
+        "head": "A program that pays villages to protect lions instead of killing them is spreading across three countries.",
+        "src": "Good Good Good",
+        "url": "https://www.goodgoodgood.co/articles/lion-landscapes-trail-cameras-conservation-east-africa",
+        "img": "https://images.unsplash.com/photo-1745885909535-58c453688cb4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Birmingham, England",
+        "head": "A gentler cancer treatment is sparing four in five rectal cancer patients from losing their rectum.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-08-clinical-trial-rectal-cancer-major.html",
+        "img": "https://images.unsplash.com/photo-1576671495234-2aaa0156b50a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Nepal",
+        "head": "A pangolin collected in 1836 just solved a 190-year mystery about its own species.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260826055500.htm",
+        "img": "https://images.unsplash.com/photo-1617634840108-63174b292251?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "South Korea",
+        "head": "Seniors who once needed care are now the ones delivering it.",
+        "src": "The Herald Business",
+        "url": "https://biz.heraldcorp.com/article/10827810",
+        "img": "https://images.unsplash.com/photo-1755599629285-91cc09a185c7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Kosovo",
+        "head": "A 56-year-old math teacher broke his own world record for T-shirts worn while heading a football.",
+        "src": "Guinness World Records",
+        "url": "https://www.guinnessworldrecords.com/news/2026/8/maths-professor-with-mad-football-skills-breaks-his-own-record-with-cool-trick",
+        "img": "https://images.unsplash.com/photo-1516567727245-ad8c68f3ec93?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Germany",
+        "head": "Germany hit its 2026 solar power target months ahead of schedule.",
+        "src": "Informed Comment",
+        "url": "https://www.juancole.com/2026/08/germany-energy-months.html",
+        "img": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-27",
     "slug": "2026-08-27",
     "edition": 524,
