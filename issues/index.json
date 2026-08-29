@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-29",
+    "slug": "2026-08-29",
+    "edition": 526,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Central Kazakhstan",
+        "head": "A Przewalski's horse foal was born wild on Kazakhstan's steppe for the first time in two centuries.",
+        "src": "Good News Post",
+        "url": "https://www.goodnewspost.co.uk/tiny-foal-marks-big-step-for-wild-horses-in-kazakhstan/",
+        "img": "https://images.unsplash.com/photo-1547581849-38ba650ad0de?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "European Union",
+        "head": "New EU-wide right-to-repair rules took effect for household electronics.",
+        "src": "RTE",
+        "url": "https://www.rte.ie/news/business/2026/0824/1588931-new-eu-wide-product-repair-rules-come-into-force-today/",
+        "img": "https://images.unsplash.com/photo-1746017240064-83e015ac117d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "London, England",
+        "head": "An AI system guided surgeons through a brain operation that saved a man's sight.",
+        "src": "UCL News",
+        "url": "https://www.ucl.ac.uk/news/2026/aug/first-patient-live-ai-assisted-sight-saving-brain-surgery",
+        "img": "https://images.unsplash.com/photo-1640876777002-badf6aee5bcc?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Phuket, Thailand",
+        "head": "Two vacationing strangers stopped to fix a stranger's broken excavator for free.",
+        "src": "SunnySkyz",
+        "url": "https://www.sunnyskyz.com/good-news/6292/Two-Aussies-Were-on-Vacation-in-Thailand-When-They-Saw-Workers-Struggling-With-an-Excavator-So-They-Stopped-to-Help",
+        "img": "https://images.unsplash.com/photo-1776594974675-b21647efe342?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Liskeard, Cornwall, England",
+        "head": "A wallaby was spotted hopping through a Cornish town before dawn.",
+        "src": "UPI",
+        "url": "https://www.upi.com/Odd_News/2026/08/26/wallaby-loose-Liskeard-Cornwall-England/8921787754795/",
+        "img": "https://images.unsplash.com/photo-1693736649900-dd90ef536aa2?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Dozwil, Switzerland",
+        "head": "A Swiss gardener broke his own chili pepper world record for the third time.",
+        "src": "Guinness World Records",
+        "url": "https://www.guinnessworldrecords.com/news/2026/8/hot-property-swiss-grower-breaks-own-record-with-chilli-longer-than-a-rolling-pin",
+        "img": "https://images.unsplash.com/photo-1678019964614-a6515d5efd44?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-28",
     "slug": "2026-08-28",
     "edition": 525,
