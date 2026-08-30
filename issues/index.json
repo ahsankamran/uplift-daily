@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-30",
+    "slug": "2026-08-30",
+    "edition": 527,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Bodham, North Norfolk, England",
+        "head": "A Norfolk field left alone for a decade grew itself a meadow full of orchids.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260822015208.htm",
+        "img": "https://images.unsplash.com/photo-1780747821541-befb61889eb0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Niger",
+        "head": "Niger became the first African country to eliminate river blindness as a public health problem.",
+        "src": "allAfrica",
+        "url": "https://allafrica.com/stories/202608270590.html",
+        "img": "https://images.unsplash.com/photo-1781263378223-1e09658a7567?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Melbourne, Australia",
+        "head": "A trial of nearly 10,000 healthy older adults found statins cut their risk of a first heart attack or stroke by 30 percent.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-08-statins-heart-age.html",
+        "img": "https://images.unsplash.com/photo-1758691462123-8a17ae95d203?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Cheyenne, Wyoming",
+        "head": "A pizza shop turned a $300 prank order into 18 free meals for a hospital's night shift.",
+        "src": "SunnySkyz",
+        "url": "https://www.sunnyskyz.com/good-news/6291/Pizza-Place-Got-a-300-Order-When-the-Owner-Realized-It-Was-a-Prank-He-Donated-the-Pizzas-to-a-Local-Hospital",
+        "img": "https://images.unsplash.com/photo-1566843972142-a7fcb70de55a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Guinea-Bissau, West Africa",
+        "head": "Wild chimpanzees in West Africa have been throwing rocks at the same trees for over a decade.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260826055506.htm",
+        "img": "https://images.unsplash.com/photo-1704265586677-eb11980c5c42?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Mexico City, Mexico",
+        "head": "A Mexico City restaurant's one-day experiment in generosity has grown into a worldwide tradition.",
+        "src": "Fast Company",
+        "url": "https://www.fastcompany.com/91596263/pay-what-you-can-day-expands-2026-list-of-restaurants",
+        "img": "https://images.unsplash.com/photo-1759299595850-24572dd0d447?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-29",
     "slug": "2026-08-29",
     "edition": 526,
