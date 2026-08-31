@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-08-31",
+    "slug": "2026-08-31",
+    "edition": 528,
+    "stories": [
+      {
+        "cat": "Global Progress",
+        "place": "Costa Rica",
+        "head": "Costa Rica's lawmakers made wildlife crossings mandatory on roads that cut through animal habitat.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/08/costa-rica-to-require-wildlife-crossings-for-roads-when-they-impact-fauna/",
+        "img": "https://images.unsplash.com/photo-1604165645922-eb8fdc7d84ee?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Christmas and Cocos Islands, Australia",
+        "head": "Scientists surveying remote Indian Ocean seamounts came home with 149 species new to science.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/scientists-discover-149-new-deep-sea-species-at-remote-indian-ocean-seamounts/",
+        "img": "https://images.unsplash.com/photo-1523585895729-a4bb980d5c14?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "São Paulo State, Brazil",
+        "head": "A daily fish-oil and aspirin combination worked as well as antibiotics against severe gum disease.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260829035216.htm",
+        "img": "https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Sabaragamuwa Province, Sri Lanka",
+        "head": "A plant unseen in Sri Lanka since 1855 was found growing wild again.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/08/lost-for-170-years-rare-plant-recorded-in-sri-lanka/",
+        "img": "https://images.unsplash.com/photo-1516528387618-afa90b13e000?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Broward County, Florida",
+        "head": "Two siblings built an app that has turned unsold pizza into 25,000 free slices for hungry neighbors.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/florida-teens-design-charity-app-to-help-generous-locals-deliver-pizza-for-a-purpose/",
+        "img": "https://images.unsplash.com/photo-1634055789731-c73fbbe3e0dc?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Lightwater, Surrey, England",
+        "head": "The world's oldest person marked her 117th birthday with a llama and a lifelong rule against arguing.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/worlds-oldest-person-celebrates-117-years-of-a-nonconfrontational-approach-to-life/",
+        "img": "https://images.unsplash.com/photo-1545113658-eea9cccdb4a6?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-30",
     "slug": "2026-08-30",
     "edition": 527,
