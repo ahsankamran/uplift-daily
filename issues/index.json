@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-02",
+    "slug": "2026-09-02",
+    "edition": 529,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Altyn Dala, Kazakhstan",
+        "head": "A wild horse foal was born on Kazakhstan's steppe for the first time in two centuries.",
+        "src": "Discover Wildlife",
+        "url": "https://www.discoverwildlife.com/animal-facts/mammals/przewalskis-horse-foal",
+        "img": "https://images.unsplash.com/photo-1752938766909-190f4e87405b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Uganda",
+        "head": "The World Health Organization declared Uganda's Ebola outbreak over.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/who-declares-uganda-ebola-free-after-42-days-without-new-cases/",
+        "img": "https://images.unsplash.com/photo-1551357141-f73a8402ceb3?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Anglesey, Wales & Houston, Texas",
+        "head": "A critically endangered sea turtle found freezing on a Welsh beach got a 5,000-mile lift toward home.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/rare-sea-turtle-near-death-on-uk-beach-gets-5000-mile-lift-to-texas/",
+        "img": "https://images.unsplash.com/photo-1505759600237-87aaf407ab96?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "St Albans, Melbourne, Australia",
+        "head": "A Melbourne landlord left his longtime tenant the home she had rented from him for 23 years.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/renter-is-shocked-when-landlord-gives-her-a-home-after-20-years-being-a-good-tenant-there/",
+        "img": "https://images.unsplash.com/photo-1662667856989-e74560676977?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Oulu, Finland",
+        "head": "A Finnish carpenter defended his air guitar world title before competitors from 13 countries.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/culture/2026/08/31/no-strings-attached-air-guitar-world-championships-return-for-30th-edition-in-finland",
+        "img": "https://images.unsplash.com/photo-1724885794747-f4fb4dd8d0f2?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "San Francisco, California",
+        "head": "A protein found in frog blood may work as an antidote to a deadly shellfish toxin in humans.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/frogs-produce-a-protein-that-counters-deadly-shellfish-toxin-thats-being-tested-as-an-antidote-in-humans/",
+        "img": "https://images.unsplash.com/photo-1575731882302-7ccf5f57e997?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-08-31",
     "slug": "2026-08-31",
     "edition": 528,
