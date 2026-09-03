@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-03",
+    "slug": "2026-09-03",
+    "edition": 530,
+    "stories": [
+      {
+        "cat": "Quiet Kindness",
+        "place": "Hampshire, England",
+        "head": "Strangers from Bristol adopted a solo festivalgoer with autism into their camp for the weekend.",
+        "src": "My Modern Met",
+        "url": "https://mymodernmet.com/dj-adzo-adam-james-first-festival-friends/",
+        "img": "https://images.unsplash.com/photo-1761926826313-a1787661b7b6?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Choshi, Japan",
+        "head": "A kitten rescued from under a vending machine was promoted to stationmaster of a Japanese railway.",
+        "src": "The Star / Bernama-Kyodo",
+        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/30/the-much-adored-cat-stationmaster-gives-hope-to-struggling-japan-railway-to-draw-visitors",
+        "img": "https://images.unsplash.com/photo-1736777800731-eb7ef4ebcc67?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "New York City",
+        "head": "New Yorkers' discarded oyster shells are rebuilding 19 acres of reef in New York Harbor.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/3-million-oysters-eaten-by-new-yorkers-are-rebuilding-the-citys-reefs/",
+        "img": "https://images.unsplash.com/photo-1578882422378-9ed72be08b5e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Timor-Leste",
+        "head": "Timor-Leste eliminated trachoma as a public health problem, the WHO confirmed.",
+        "src": "World Health Organization",
+        "url": "https://www.who.int/news/item/03-09-2026-who-validates-timor-leste-s-elimination-of-trachoma-as-a-public-health-problem",
+        "img": "https://images.unsplash.com/photo-1591325408953-ef9298125f96?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Montreal, Canada",
+        "head": "Deep-sleep brain waves appear to protect against Alzheimer's decline, a three-year study found.",
+        "src": "EurekAlert",
+        "url": "https://www.eurekalert.org/news-releases/1141396",
+        "img": "https://images.unsplash.com/photo-1531353826977-0941b4779a1c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Tübingen, Germany",
+        "head": "The common blackbird sings the most pleasant song in Europe, a listening study found.",
+        "src": "Frontiers",
+        "url": "https://www.frontiersin.org/news/2026/09/02/scientists-discover-key-ingredients-birdsong-pretty-frontiers-bird-science",
+        "img": "https://images.unsplash.com/photo-1742676916561-88d56853cb8a?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-02",
     "slug": "2026-09-02",
     "edition": 529,
