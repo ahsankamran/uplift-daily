@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-04",
+    "slug": "2026-09-04",
+    "edition": 531,
+    "stories": [
+      {
+        "cat": "Global Progress",
+        "place": "Bhutan",
+        "head": "Bhutan eliminates dog-transmitted rabies, a first for its region.",
+        "src": "World Health Organization",
+        "url": "https://www.who.int/news/item/04-09-2026-who-validates-bhutan-for-eliminating-dog-transmitted-human-rabies",
+        "img": "https://images.unsplash.com/photo-1636057423765-c766099ef09d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Mindoro, Philippines",
+        "head": "A pigeon missing for twenty years reappears on a Philippine mountainside.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/09/a-lost-philippine-pigeon-reappears-after-20-years-but-its-forest-is-disappearing/",
+        "img": "https://images.unsplash.com/photo-1592288801240-7b18bb06e94f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Louth, England",
+        "head": "A self-taught carver turns tree trunks into a menagerie, one chainsaw cut at a time.",
+        "src": "SWNS",
+        "url": "https://discover.swns.com/2026/08/artist-creates-amazing-wood-sculptures-using-chainsaw/",
+        "img": "https://images.unsplash.com/photo-1750534232355-1cf0e16f48e9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "United Kingdom",
+        "head": "A new mobile clinic brings free dental care to Britain's hardest-to-reach patients.",
+        "src": "Dentaid",
+        "url": "https://www.dentaid.org/news/dentaid-and-mydentist-launch-revolutionary-new-partnership/",
+        "img": "https://images.unsplash.com/photo-1606811856475-5e6fcdc6e509?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Mo’orea, French Polynesia",
+        "head": "Damselfish turn out to be coral's fastest healers.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/09/damselfish-assisted-repair-of-wounded-corals-surprises-scientists/",
+        "img": "https://images.unsplash.com/photo-1691859653297-2a9c557212f7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Houston, Texas",
+        "head": "A compound in magic mushrooms may block a common chemotherapy side effect.",
+        "src": "MD Anderson Cancer Center",
+        "url": "https://www.mdanderson.org/newsroom/research-newsroom/psilocybin-prevents-chemotherapy-related-nerve-injury-and-associated-symptoms-in-preclinical-models.h00-159858501.html",
+        "img": "https://images.unsplash.com/photo-1761265324091-77d90a22cd16?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-03",
     "slug": "2026-09-03",
     "edition": 530,
