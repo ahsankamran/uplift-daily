@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-05",
+    "slug": "2026-09-05",
+    "edition": 532,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Omo Forest Reserve, Nigeria",
+        "head": "Former poachers are now the rangers guarding one of Nigeria's last rainforests.",
+        "src": "Reasons to be Cheerful",
+        "url": "https://reasonstobecheerful.world/former-poachers-protecting-forest-nigeria/",
+        "img": "https://images.unsplash.com/photo-1749266002449-965994ab68b1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Birmingham, England",
+        "head": "A urine test now catches nine in ten bladder cancers without a scope.",
+        "src": "University of Birmingham",
+        "url": "https://www.birmingham.ac.uk/news/2026/urine-test-identifies-more-than-9-in-10-bladder-cancers-clinical-study-finds",
+        "img": "https://images.unsplash.com/photo-1491299461284-6aa083937f71?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "China",
+        "head": "Solar power capacity overtook coal in China for the first time.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/2026/09/01/solar-outpaces-coal-for-the-first-time-in-china-how-does-europe-compare",
+        "img": "https://images.unsplash.com/photo-1726554068139-d3669703634a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Mathura, India",
+        "head": "A German-born woman has spent thirty years giving India's unwanted cows a permanent home.",
+        "src": "The Better India",
+        "url": "https://thebetterindia.com/web-stories/changemakers/friederike-irina-bruning-radha-surabhi-gaushala-mathura-cow-rescue-12493695",
+        "img": "https://images.unsplash.com/photo-1739066111820-e54cd0271e47?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Kannur, Kerala, India",
+        "head": "A Kerala home stays cool through monsoon season without a single air conditioner.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/indian-home-stays-cool-without-a-c-through-clever-clay-architecture/",
+        "img": "https://images.unsplash.com/photo-1512119706465-5f60cf4d3e2d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Davidson Seamount, California",
+        "head": "A bigfin squid was filmed alive in the northeastern Pacific for the first time.",
+        "src": "MBARI",
+        "url": "https://www.mbari.org/news/mbari-researchers-film-chance-encounter-with-a-rare-deep-sea-bigfin-squid/",
+        "img": "https://images.unsplash.com/photo-1502209524164-acea936639a2?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-04",
     "slug": "2026-09-04",
     "edition": 531,
