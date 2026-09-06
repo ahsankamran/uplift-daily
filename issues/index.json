@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-06",
+    "slug": "2026-09-06",
+    "edition": 533,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Whenua Hou, New Zealand",
+        "head": "New Zealand's flightless kākāpō just had its biggest breeding season on record.",
+        "src": "Department of Conservation",
+        "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone/",
+        "img": "https://images.unsplash.com/photo-1527138235495-6f1b15f33051?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Urbana-Champaign, Illinois",
+        "head": "A review of eighteen trials found daily gratitude and mindfulness practice can ease heart-disease risk.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260901010721.htm",
+        "img": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Zurich, Switzerland",
+        "head": "Scientists gathered in Zurich to be honored for splash-free urinals and the science of nose-blowing.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/culture/2026/09/04/sweet-stealing-capitalists-and-the-definition-of-kissing-the-2026-ig-nobel-award-winners",
+        "img": "https://images.unsplash.com/photo-1650240852447-46505dba4726?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Serangoon, Singapore",
+        "head": "A passer-by lay on hot pavement to keep a fallen stranger's head still until help arrived.",
+        "src": "Mothership",
+        "url": "https://mothership.sg/2026/09/good-samaritan-lies-hot-pavement-serangoon-help-elderly-man/",
+        "img": "https://images.unsplash.com/photo-1586726370832-3440a511e479?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Wales",
+        "head": "A Labrador's surprise litter of twelve reunited with their parents for a first birthday party.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/12-golden-puppies-in-one-litter-reunite-with-mom-on-first-birthday/",
+        "img": "https://images.unsplash.com/photo-1626808504752-0a423780d6d1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Turkmenistan",
+        "head": "Turkmenistan has repaired eight of the methane leaks that satellites flagged as among the world's worst.",
+        "src": "Irish Examiner",
+        "url": "https://www.irishexaminer.com/world/arid-41904757.html",
+        "img": "https://images.unsplash.com/photo-1559510981-10719ce4266a?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-05",
     "slug": "2026-09-05",
     "edition": 532,
