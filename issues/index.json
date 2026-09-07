@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-07",
+    "slug": "2026-09-07",
+    "edition": 534,
+    "stories": [
+      {
+        "cat": "Everyday Joy",
+        "place": "Andenes, Norway",
+        "head": "A museum shaped like a breaching whale is rising above the Arctic Circle.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-new-museum-in-northern-norway-is-bringing-visitors-into-the-world-of-whales-from-life-size-orcas-to-immersive-underwater-exhibits-180989421/",
+        "img": "https://images.unsplash.com/photo-1593378026483-2a1fd46a35bd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Negros and Panay, Philippines",
+        "head": "A Philippine deer's genome could help save it from extinction.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/09/genetic-road-map-offers-hope-for-threatened-visayan-spotted-deer/",
+        "img": "https://images.unsplash.com/photo-1543946207-39bd91e70ca7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "11 Latin American countries",
+        "head": "A two-year lifestyle trial across Latin America improved memory in older adults at risk of dementia.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260903064246.htm",
+        "img": "https://images.unsplash.com/photo-1580869318757-a6c605b061ed?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Los Angeles, California",
+        "head": "A children's entertainer's shout-out paid a Los Angeles baker's rent in a single day.",
+        "src": "TheGrio",
+        "url": "https://thegrio.com/2026/09/04/bomme-sweets-sales-ms-rachel-black-owned-bakery/",
+        "img": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Sandaun Province, Papua New Guinea",
+        "head": "A reddish-brown snake from Papua New Guinea's forests now carries the name of a rock guitarist.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/09/new-nocturnal-snake-from-new-guinea-named-after-slash-of-guns-n-roses/",
+        "img": "https://images.unsplash.com/photo-1607017365995-a949656b6897?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Oulu, Finland & Haparanda, Sweden",
+        "head": "Sweden and Finland reconnected by passenger rail after 30 years apart.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/after-30-years-of-estranged-trains-sweden-and-finland-re-connect-their-railway-lines/",
+        "img": "https://images.unsplash.com/photo-1540804236945-b6ae24bfe0a9?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-06",
     "slug": "2026-09-06",
     "edition": 533,
