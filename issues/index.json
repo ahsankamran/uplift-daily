@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-08",
+    "slug": "2026-09-08",
+    "edition": 535,
+    "stories": [
+      {
+        "cat": "Everyday Joy",
+        "place": "Quibdó, Colombia",
+        "head": "A month-long festival honoring a saint and a culture opened in a Colombian river city.",
+        "src": "Impacto Latino",
+        "url": "https://impactolatino.com/san-pacho-la-fiesta-que-transforma-a-quibdo/",
+        "img": "https://images.unsplash.com/photo-1639002549231-a895a33c4888?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Central Red Sea, Saudi Arabia",
+        "head": "A probiotic treatment kept heat-stressed Red Sea coral alive through a marine heatwave.",
+        "src": "KAUST",
+        "url": "https://www.kaust.edu.sa/en/news/probiotics-for-corals-boost-resilience--help-prevent-mortality",
+        "img": "https://images.unsplash.com/photo-1581458227388-0259e2c7aa9d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Hampshire, England",
+        "head": "Thirty turtle doves were released into an English national park to help reverse a 98 percent decline.",
+        "src": "South Downs National Park Authority",
+        "url": "https://www.southdowns.gov.uk/south-downs-national-park-brings-turtle-dove-back-from-the-brink/",
+        "img": "https://images.unsplash.com/photo-1599990354740-b34ba5925cd8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Washington Heights, New York City",
+        "head": "A New Yorker's 100-day pledge to clean one block turned into a neighborhood flower garden.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/neighbors-gets-swept-up-in-mans-viral-journey-to-clean-1-nyc-street-block-every-day-for-100-days/",
+        "img": "https://images.unsplash.com/photo-1524247108137-732e0f642303?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Zeeland, Netherlands",
+        "head": "A completely white seal with red eyes appeared on a Dutch beach this week.",
+        "src": "NOS",
+        "url": "https://nos.nl/artikel/2630036-zeldzame-albino-zeehond-gespot-op-strand-bij-zeeuwse-neeltje-jans",
+        "img": "https://images.unsplash.com/photo-1598694979601-a20770331e9f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Thailand",
+        "head": "Thailand became the seventh country in Southeast Asia to eliminate rubella.",
+        "src": "World Health Organization",
+        "url": "https://www.who.int/southeastasia/news/detail/05-09-2026-thailand-verified-for-eliminating-rubella-as-a-public-health-problem",
+        "img": "https://images.unsplash.com/photo-1576766125535-b04e15fd0273?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-07",
     "slug": "2026-09-07",
     "edition": 534,
