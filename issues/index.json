@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-09",
+    "slug": "2026-09-09",
+    "edition": 536,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Aguarico River, Ecuador",
+        "head": "Seven Indigenous women are hand-raising a threatened river turtle back from decline in the Ecuadorian Amazon.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/09/indigenous-turtle-women-help-vulnerable-reptiles-recover-in-ecuadorian-amazon/",
+        "img": "https://images.unsplash.com/photo-1600104522376-f34eaa681ee3?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Mendocino Coast, California",
+        "head": "Coho salmon returned to Northern California rivers in the highest numbers researchers have seen in decades.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/endangered-salmon-return-to-california-rivers-in-incredible-numbers-everybodys-just-ecstatic/",
+        "img": "https://images.unsplash.com/photo-1781212893270-eba62842e39e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Denmark",
+        "head": "Starting statins within a year of a diabetes diagnosis was linked to a lower dementia risk in a large Danish study.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260901070520.htm",
+        "img": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Paris, France",
+        "head": "A homeless shelter in Paris installed an outdoor gym, and residents say it is changing their habits.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/new-gym-in-paris-helps-homeless-improve-their-health-and-habits/",
+        "img": "https://images.unsplash.com/photo-1685633225198-41691f35cc4c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Buin, Chile",
+        "head": "Injured penguins in Chile are healing faster in copper-threaded vests.",
+        "src": "The Associated Press",
+        "url": "https://phys.org/news/2026-09-chile-penguins-sport-copper-vests.html",
+        "img": "https://images.unsplash.com/photo-1462888210965-cdf193fb74de?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Bangladesh",
+        "head": "Bangladesh cut its maternal mortality rate below the global 2030 target, four years early.",
+        "src": "World Health Organization",
+        "url": "https://www.who.int/southeastasia/news/detail/08-09-2026-who-south-east-asia-region-recognizes-major-public-health-achievements-across-member-states",
+        "img": "https://images.unsplash.com/photo-1740853265752-fb0c80daed78?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-08",
     "slug": "2026-09-08",
     "edition": 535,
