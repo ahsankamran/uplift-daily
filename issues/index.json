@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-10",
+    "slug": "2026-09-10",
+    "edition": 537,
+    "stories": [
+      {
+        "cat": "Everyday Joy",
+        "place": "Rebild, Denmark",
+        "head": "A Danish homeowner dug up the country's largest Viking silver hoard by accident.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/yard-work-reveals-largest-trove-of-viking-silver-ever-discovered-in-denmark/",
+        "img": "https://images.unsplash.com/photo-1624365168785-c65be9114821?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Cozumel Island, Mexico",
+        "head": "A critically endangered raccoon on a Mexican island taught her family to make toys out of trash.",
+        "src": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/an-endangered-pygmy-raccoon-turned-trash-into-toys-and-taught-her-family-how-too/",
+        "img": "https://images.unsplash.com/photo-1507823782123-27db7f9fd196?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Sri Lanka",
+        "head": "Sri Lanka marked a decade of staying free of malaria and newborn tetanus.",
+        "src": "Lanka Newspapers",
+        "url": "https://www.lankanewspapers.com/2026/09/09/sri-lanka-marks-a-decade-free-from-malaria-and-tetanus-as-world-takes-notice",
+        "img": "https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Highbury, Adelaide, Australia",
+        "head": "A community garden planted three decades ago is still growing neighbours together in Adelaide.",
+        "src": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-09-05/highbury-community-garden-celebrates-30-years/107111722",
+        "img": "https://images.unsplash.com/photo-1628243989859-db92e2de1340?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Inn River, Bavaria, Germany",
+        "head": "A fish missing from a Bavarian river for a century is expanding its range again.",
+        "src": "Technical University of Munich",
+        "url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/long-lost-fish-species-rediscovered-in-another-section-of-the-inn-river",
+        "img": "https://images.unsplash.com/photo-1686922187671-510b88dfc927?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "London, England",
+        "head": "A diabetes drug was linked to fewer asthma attacks and COPD flare-ups in a large UK study.",
+        "src": "HCPLive",
+        "url": "https://www.hcplive.com/view/semaglutide-cuts-asthma-attacks-by-up-to-40-real-world-study",
+        "img": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-09",
     "slug": "2026-09-09",
     "edition": 536,
