@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-12",
+    "slug": "2026-09-12",
+    "edition": 538,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Lugela District, Mozambique",
+        "head": "Mozambique granted permanent protection to a mountain rainforest first spotted on Google Earth.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/09/mozambique-protects-mount-mabu-butterfly-forest/",
+        "img": "https://images.unsplash.com/photo-1741529460022-29bcb9eb29d7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "The Gambia",
+        "head": "A catch-up campaign delivered hundreds of thousands of missed vaccine doses to Gambian children.",
+        "src": "WHO Regional Office for Africa",
+        "url": "https://who-africa.africa-newsroom.com/press/beyond-the-numbers-how-gavis-support-is-helping-the-gambia-move-towards-reaching-every-child-with-lifesaving-vaccines?lang=en",
+        "img": "https://images.unsplash.com/photo-1448099940878-e0c48ea3a165?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Sydney, Australia",
+        "head": "Scientists confirmed for the first time that human heart muscle can regrow after a heart attack.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260909231754.htm",
+        "img": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Newark to Grand Rapids, USA",
+        "head": "A flight attendant gave an exhausted new mother a break by holding her baby for the rest of the flight.",
+        "src": "Fox News",
+        "url": "https://www.foxnews.com/us/united-flight-attendant-makes-quick-save-catching-baby-fall-exhausted-moms-lap",
+        "img": "https://images.unsplash.com/photo-1747560249218-387bf151ad45?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Mornington Peninsula, Australia",
+        "head": "A diver photographed a rare, exposed moment of a blue-ringed octopus guarding her eggs.",
+        "src": "My Modern Met",
+        "url": "https://mymodernmet.com/underwater-awards-australasia-2026/",
+        "img": "https://images.unsplash.com/photo-1565033231493-0da9e53c1bde?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Taormina, Sicily, Italy",
+        "head": "A Sicilian hotel gave a child's lost stuffed bear a five-star vacation before mailing it home.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/hotel-staff-give-girls-lost-plushie-the-vip-treatment-before-sending-her-home-with-a-note-look/",
+        "img": "https://images.unsplash.com/photo-1646519034169-fd82895985ff?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-10",
     "slug": "2026-09-10",
     "edition": 537,
