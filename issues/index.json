@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-13",
+    "slug": "2026-09-13",
+    "edition": 539,
+    "stories": [
+      {
+        "cat": "Global Progress",
+        "place": "Bhutan",
+        "head": "Bhutan became the first South-East Asian country to eliminate dog-transmitted rabies.",
+        "src": "The Logical Indian",
+        "url": "https://thelogicalindian.com/bhutan-rabies-free-who-126368/",
+        "img": "https://images.unsplash.com/photo-1782875899186-c45d0e3e26bd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "New Zealand",
+        "head": "New Zealand's kākāpō population passed 300 for the first time in roughly 75 years.",
+        "src": "Otago Daily Times",
+        "url": "https://www.odt.co.nz/otago/north-otago/recovery-milestone-for-kakapo-after-bumper-year-for-chicks-h053s1yt",
+        "img": "https://images.unsplash.com/photo-1634101351061-eab59ffcd5a6?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Bagnolo Cremasco, Italy",
+        "head": "An Italian scrapyard worker built the world's narrowest drivable car out of a Fiat Panda.",
+        "src": "Cremaoggi",
+        "url": "https://www.cremaoggi.it/2026/09/10/la-panda-stretta-di-marazzi-entra-nel-guinness-world-records-un-altro-vanto-per-litalia/",
+        "img": "https://images.unsplash.com/photo-1637679810942-efad3eae1d8c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "St. Stephen, New Brunswick, Canada",
+        "head": "A small New Brunswick town turned neighbourly favours into a kind of currency.",
+        "src": "CBC News",
+        "url": "https://www.cbc.ca/news/canada/new-brunswick/time-banks-helping-neighbours-exchange-skills-9.7334310",
+        "img": "https://images.unsplash.com/photo-1763758061265-914e5b791bd6?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Silverlake, Dorset, England",
+        "head": "A rare Channel-crossing butterfly turned up nectaring at a Dorset nature reserve.",
+        "src": "Dorset Butterflies",
+        "url": "https://www.dorsetbutterflies.com/2026/09/queen-of-spain-fritillary-silverlake/",
+        "img": "https://images.unsplash.com/photo-1609906288349-0a6ed629b5a9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Houston, Texas, USA",
+        "head": "A compound found in magic mushrooms prevented chemotherapy nerve damage in a new lab study.",
+        "src": "News-Medical.net",
+        "url": "https://www.news-medical.net/news/20260906/Psilocybin-protects-sensory-nerves-from-chemotherapy-damage-in-preclinical-study.aspx",
+        "img": "https://images.unsplash.com/photo-1600995616615-52152934de1d?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-12",
     "slug": "2026-09-12",
     "edition": 538,
