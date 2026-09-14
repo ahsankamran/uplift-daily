@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-14",
+    "slug": "2026-09-14",
+    "edition": 540,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Frome, Somerset, England",
+        "head": "A wild kingfisher landed on a park ranger's hand and stayed for ten minutes.",
+        "src": "Frome Town Council",
+        "url": "https://www.frometowncouncil.gov.uk/the-tale-of-ranger-laura-and-the-kingfisher/",
+        "img": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Nairobi, Kenya",
+        "head": "A Kenyan startup built a robotic hand that translates a teacher's voice into sign language.",
+        "src": "The Japan Times",
+        "url": "https://www.japantimes.co.jp/business/2026/09/10/tech/kenya-startup-robotic-limbs-sign-deaf/",
+        "img": "https://images.unsplash.com/photo-1640550444366-b94e5752c479?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Cheshire, England",
+        "head": "A restored Cheshire wetland now holds almost two-thirds of Britain's black-necked grebes.",
+        "src": "Chester and District Standard",
+        "url": "https://www.chesterstandard.co.uk/news/26503187.warrington-wetland-now-stronghold-black-necked-grebes/",
+        "img": "https://images.unsplash.com/photo-1759829307916-3e29700c1d7f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Philadelphia, USA",
+        "head": "A comic reviewer paused at a quiet booth other passersby had skipped, and it changed an illustrator's year.",
+        "src": "Empire Magazine Africa",
+        "url": "https://empiremagazineafrica.com/yoruba-comic-goes-global-as-oludare-oredipes-ori-captures-international-attention/",
+        "img": "https://images.unsplash.com/photo-1618519764620-7403abdbdfe9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Tamil Nadu, India",
+        "head": "A $150 smartphone attachment matched specialists' cataract diagnoses in rural India.",
+        "src": "ESCRS",
+        "url": "https://www.escrs.org/channels/news/smartphones-could-be-used-to-screen-for-cataracts-and-other-eye-problems",
+        "img": "https://images.unsplash.com/photo-1483519173755-be893fab1f46?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Victoria, British Columbia, Canada",
+        "head": "A Victoria neighbourhood built a racetrack for giant zucchini and let the harvest decide the winner.",
+        "src": "Victoria News",
+        "url": "https://vicnews.com/2026/09/11/zucchini-races-and-friendly-competition-to-highlight-first-annual-little-fernwood-harvest-fun-fair/",
+        "img": "https://images.unsplash.com/photo-1692956475726-d4a90d0dfbdf?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-13",
     "slug": "2026-09-13",
     "edition": 539,
