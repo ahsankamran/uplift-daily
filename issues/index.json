@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-15",
+    "slug": "2026-09-15",
+    "edition": 541,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Altyn Dala Reserve, Kazakhstan",
+        "head": "Wild Przewalski's horses have foaled on the Kazakh steppe for the first time in roughly two centuries.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/09/two-wild-przewalskis-horse-foals-born-in-kazakhstan-after-200-years/",
+        "img": "https://images.unsplash.com/photo-1613514100974-d611a8c13cd5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Chile",
+        "head": "Chile became the first country in South America validated for eliminating dog-transmitted rabies.",
+        "src": "PAHO/WHO",
+        "url": "https://www.paho.org/en/news/14-9-2026-chile-becomes-first-country-south-america-validated-eliminating-dog-transmitted",
+        "img": "https://images.unsplash.com/photo-1632236542159-809925d85fc0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Sepik River, Papua New Guinea",
+        "head": "A Papua New Guinean fisherwoman found a freshwater fish not seen by science in forty years.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/09/indigenous-fisherwoman-finds-lost-spinach-pipefish-not-seen-by-science-in-40-years/",
+        "img": "https://images.unsplash.com/photo-1523585895729-a4bb980d5c14?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Manville, Rhode Island, USA",
+        "head": "Neighbors in a small Rhode Island village quietly outfitted 120 children for the school year.",
+        "src": "turnto10.com",
+        "url": "https://turnto10.com/newsletter-daily/volunteers-collect-back-to-school-clothes-for-local-children-manville-share-shack-lincoln-pretty-cares-inc-september-10-2026",
+        "img": "https://images.unsplash.com/photo-1604176354204-9268737828e4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Barcelona, Spain",
+        "head": "A single DNA injection cut cholesterol nearly in half without statins, in early tests.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260909225602.htm",
+        "img": "https://images.unsplash.com/photo-1637929476734-bd7f5f78e40a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Vrelo-Šarkamen, Serbia",
+        "head": "Archaeologists uncovered a Roman bath with a floor plan never seen before in the empire.",
+        "src": "Live Science",
+        "url": "https://www.livescience.com/archaeology/romans/lavish-private-bath-used-by-roman-emperor-and-high-status-residents-discovered-at-imperial-palace-in-serbia",
+        "img": "https://images.unsplash.com/photo-1589806361261-01ee46a61fda?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-14",
     "slug": "2026-09-14",
     "edition": 540,
