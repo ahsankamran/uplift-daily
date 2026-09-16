@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-16",
+    "slug": "2026-09-16",
+    "edition": 542,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Sonora, Mexico",
+        "head": "Bison are set to roam free in a Mexican desert they vanished from two centuries ago.",
+        "src": "KJZZ",
+        "url": "https://www.kjzz.org/fronteras-desk/2026-09-09/in-sonora-bison-will-roam-after-200-year-absence-in-attempt-to-rewild-the-borderlands",
+        "img": "https://images.unsplash.com/photo-1719979176524-c85048286635?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Berry Head, Devon, England",
+        "head": "An octopus was photographed hitching a ride on a dolphin's back off the English coast.",
+        "src": "PetaPixel",
+        "url": "https://petapixel.com/2026/09/09/extraordinary-photos-show-octopus-riding-a-dolphin-off-the-uk-coast/",
+        "img": "https://images.unsplash.com/photo-1510637234398-d25c9570a0a0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Baiona, Spain",
+        "head": "A Spanish sailing club has spent fourteen years putting people with disabilities behind the wheel.",
+        "src": "Reasons to be Cheerful",
+        "url": "https://reasonstobecheerful.world/adapted-sailing-school",
+        "img": "https://images.unsplash.com/photo-1470218091926-22a08a325802?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Timor-Leste",
+        "head": "The World Health Organization's South-East Asia region has eliminated trachoma entirely.",
+        "src": "WHO",
+        "url": "https://www.who.int/news/item/03-09-2026-who-validates-timor-leste-s-elimination-of-trachoma-as-a-public-health-problem",
+        "img": "https://images.unsplash.com/photo-1763325227586-8735c5bdddea?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Neijiang, China",
+        "head": "The biggest review yet of knee arthritis treatments found a simple brace beats the rest.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260913082208.htm",
+        "img": "https://images.unsplash.com/photo-1748407407936-2aeffd8428dd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Roskilde, Denmark",
+        "head": "A children's soccer field in Denmark turned out to be sitting on a lost medieval convent.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/the-ruins-of-a-long-lost-medieval-convent-have-been-discovered-just-a-few-feet-beneath-a-soccer-field-180989506/",
+        "img": "https://images.unsplash.com/photo-1755365309983-99a713affda4?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-15",
     "slug": "2026-09-15",
     "edition": 541,
