@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-17",
+    "slug": "2026-09-17",
+    "edition": 543,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Corrientes, Argentina",
+        "head": "A giant anteater turned up in an Argentine reserve that hadn't seen one in forty years.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/09/a-giant-anteaters-return-in-argentina-offers-a-case-for-letting-nature-restore-itself/",
+        "img": "https://images.unsplash.com/photo-1772564467026-45a164924fc4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Zambia",
+        "head": "Three wild dogs set an African distance record hunting for a place to call home.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/09/longest-african-mammal-movement-recorded-by-zambian-wild-dogs/",
+        "img": "https://images.unsplash.com/photo-1759520114252-37bcf8017091?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Henrico, Virginia, USA",
+        "head": "A barbecue chef drove a stranded regular home, then bought her lunch.",
+        "src": "12 On Your Side",
+        "url": "https://www.12onyourside.com/2026/09/15/henrico-chef-serves-kindness-stranded-customer/",
+        "img": "https://images.unsplash.com/photo-1720630351938-1233133223f4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Sysmä, Finland",
+        "head": "A metal detectorist dug up two Viking silver hoards in one afternoon.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/10-pounds-of-viking-silver-found-in-finland-extend-incredible-year-for-scandinavian-treasure-hunts/",
+        "img": "https://images.unsplash.com/photo-1777983419444-c4911182f6d2?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Ghana",
+        "head": "Nine African countries have more than doubled average incomes since 1990.",
+        "src": "MyJoyOnline",
+        "url": "https://www.myjoyonline.com/ghana-among-9-african-countries-where-average-incomes-have-more-than-doubled-since-1990/",
+        "img": "https://images.unsplash.com/photo-1741973771743-a4c0e6e59b9d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Tabriz, Iran",
+        "head": "The largest review yet of whole grains found a sweet spot for heart health.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260915232126.htm",
+        "img": "https://images.unsplash.com/photo-1676289124506-bdce1e1acc97?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-16",
     "slug": "2026-09-16",
     "edition": 542,
