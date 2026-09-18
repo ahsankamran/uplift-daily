@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-18",
+    "slug": "2026-09-18",
+    "edition": 544,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Yungas Forest, Bolivia",
+        "head": "Biologists confirmed the first new wild cat species in a century, high in Bolivia's cloud forest.",
+        "src": "National Geographic",
+        "url": "https://www.nationalgeographic.com/animals/article/meet-the-first-new-cat-species-discovered-in-100-years",
+        "img": "https://images.unsplash.com/photo-1605235923175-9930bcad51df?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Cheshire, England",
+        "head": "Two reintroduced beavers raised a Cheshire peatland's groundwater nearly forty-fold.",
+        "src": "Phys.org",
+        "url": "https://phys.org/news/2026-09-beaver-reintroduction-peatland-storage-drought.html",
+        "img": "https://images.unsplash.com/photo-1699388569441-2c784cae58c9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Chan Chan, Peru",
+        "head": "Archaeologists opened a Chimú tomb that had stayed sealed for six hundred years.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/unsealed-for-the-first-time-in-600-years-this-tomb-in-peru-was-just-declared-the-discovery-of-the-decade-180989497/",
+        "img": "https://images.unsplash.com/photo-1763734457893-85373ca644c7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Yonkers, New York, USA",
+        "head": "A Yonkers charity turns a Wednesday haircut into an hour of dignity.",
+        "src": "Catholic Charities of New York",
+        "url": "https://catholiccharitiesny.org/news/free-haircuts-and-fresh-starts-in-yonkers/",
+        "img": "https://images.unsplash.com/photo-1682989356229-a244c8903492?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "England",
+        "head": "England's health service approved a life-extending breast cancer drug.",
+        "src": "ITV News",
+        "url": "https://www.itv.com/news/2026-09-17/life-extending-breast-cancer-drug-becomes-available-on-the-nhs-in-england",
+        "img": "https://images.unsplash.com/photo-1576671081837-49000212a370?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "South Africa",
+        "head": "South Africa has gone 490 days without a rolling blackout.",
+        "src": "Eskom",
+        "url": "https://www.eskom.co.za/eaf-reaches-67-96-diesel-expenditure-falls-by-r4-8-billion-emissions-outperform-target-and-load-reduction-declines-to-just-3-4-of-customers/",
+        "img": "https://images.unsplash.com/photo-1759109391537-ee5aec6f1775?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-17",
     "slug": "2026-09-17",
     "edition": 543,
