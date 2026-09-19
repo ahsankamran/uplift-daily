@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-19",
+    "slug": "2026-09-19",
+    "edition": 545,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Lampang, Thailand",
+        "head": "Asian elephants showed they can stop and think before reaching for food.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/elephants-can-think-before-they-act-and-resist-impulsive-behavior/",
+        "img": "https://images.unsplash.com/photo-1608133013043-ec8c4965fa4d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Athens, Greece",
+        "head": "Athens is turning its old airport into one of Europe's largest parks.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/athens-is-turning-its-old-airport-into-one-of-europes-largest-parks/",
+        "img": "https://images.unsplash.com/photo-1754069620380-3fd3bb15a974?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Mekong River, Cambodia",
+        "head": "Six Irrawaddy dolphin calves were born in the Mekong this year.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/09/mekongs-irrawaddy-dolphins-find-cautious-hope-amid-a-river-in-crisis/",
+        "img": "https://images.unsplash.com/photo-1641382676951-293859d30138?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Codsall, England",
+        "head": "A Staffordshire village started leaving anonymous notes of hope for strangers.",
+        "src": "Express & Star",
+        "url": "https://www.expressandstar.com/your-world/codsall-residents-invited-to-write-messages-of-hope-for-strangers-9087168",
+        "img": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Cambridge, Massachusetts, USA",
+        "head": "Three students built a headset that screens for concussions in under a minute.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/students-win-james-dyson-award-for-device-that-screens-students-for-concussions-in-just-60-seconds/",
+        "img": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "London, England",
+        "head": "Nearly 1,200 Star Trek fans raised their hands together for a world record.",
+        "src": "UPI",
+        "url": "https://www.upi.com/Odd_News/2026/09/15/Guinness-World-Records-Star-Trek-Vulcan-salute/3451789489055/",
+        "img": "https://images.unsplash.com/photo-1600288480699-0b0d8a456dd8?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-18",
     "slug": "2026-09-18",
     "edition": 544,
