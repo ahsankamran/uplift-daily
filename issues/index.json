@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-22",
+    "slug": "2026-09-22",
+    "edition": 546,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Lofoten Islands, Norway",
+        "head": "Sperm whales were caught blowing bubbles to keep themselves in place while they rest.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/09/sperm-whales-blow-bubbles-to-stay-afloat-while-resting-research-shows/",
+        "img": "https://images.unsplash.com/photo-1520646924857-261be3037bc7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Victorian Alps, Australia",
+        "head": "Wildlife officers built a fifty-foot tunnel so rare possums could find mates across a highway.",
+        "src": "Good Good Good",
+        "url": "https://www.goodgoodgood.co/articles/burramy-possums-tunnel-of-love",
+        "img": "https://images.unsplash.com/photo-1588421033046-d7c051d496eb?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Saint-Martin-sur-Ouanne, France",
+        "head": "A Burgundy village reopened its only cafe-bistro after eight months dark.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/rural-french-mayors-rally-to-save-their-local-cafe-bistro-and-help-reverse-national-trend/",
+        "img": "https://images.unsplash.com/photo-1662646133359-7cf4d2ab932e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Buckinghamshire, England",
+        "head": "A retired couple have fostered 59 dogs from Battersea over fifteen years.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/couple-fosters-59-dogs-in-retirement-we-love-to-get-them-out-of-the-kennels/",
+        "img": "https://images.unsplash.com/photo-1675701917667-d654fa82e536?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Stanford, California, USA",
+        "head": "Stanford used AI to design bacteria-killing polymers built to outlast resistance.",
+        "src": "Phys.org",
+        "url": "https://phys.org/news/2026-09-bacteria-polymers-class-antibiotic.html",
+        "img": "https://images.unsplash.com/photo-1595154038281-4beb9195415b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Eastern Australia",
+        "head": "Renewables supplied more than four-fifths of eastern Australia's power for the first time.",
+        "src": "pv magazine",
+        "url": "https://www.pv-magazine.com/2026/09/21/renewables-share-hits-record-high-in-nem-2/",
+        "img": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-19",
     "slug": "2026-09-19",
     "edition": 545,
