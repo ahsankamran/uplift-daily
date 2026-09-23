@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-23",
+    "slug": "2026-09-23",
+    "edition": 547,
+    "stories": [
+      {
+        "cat": "Everyday Joy",
+        "place": "Sumbawa Island, Indonesia",
+        "head": "A ban on compressor diving revived an ancestral freediving skill in Indonesia.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/09/how-freediving-helps-indonesias-bajau-preserve-traditions-and-conserve-marine-life/",
+        "img": "https://images.unsplash.com/photo-1628630500614-1c8924c99c3e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "East Antarctica",
+        "head": "A tropical heat pool sent 695 billion tons of extra snow onto East Antarctica.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/scientists-solve-mystery-behind-snowfall-that-dropped-695-billion-tons-of-ice-on-antarctica/",
+        "img": "https://images.unsplash.com/photo-1602575910101-c539c62c7151?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Portugal",
+        "head": "Renewable sources supplied nearly three-quarters of Portugal's electricity this year.",
+        "src": "The Portugal News",
+        "url": "https://www.theportugalnews.com/news/2026-09-15/renewable-energy-produces-almost-75-of-electricity-in-portugal/1086384",
+        "img": "https://images.unsplash.com/photo-1615209853186-e4bd66602508?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Redgranite, Wisconsin, USA",
+        "head": "Wisconsin prisoners are raising monarch butterflies bound for Mexico.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/prisoners-prove-unlikely-heroes-to-monarch-butterflies-thanks-to-wisconsin-correctional-program/",
+        "img": "https://images.unsplash.com/photo-1510019952405-54985d1c907a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Guangxi, China",
+        "head": "A rare slow loris turned out to be twice as common as scientists thought.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/09/a-rare-slow-loris-may-have-a-much-larger-population-in-china-than-scientists-thought/",
+        "img": "https://images.unsplash.com/photo-1621146027714-e8921770f8d0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Cambridge, England",
+        "head": "Reading for pleasure lowers dementia risk and builds empathy, a review found.",
+        "src": "University of Cambridge",
+        "url": "https://www.cam.ac.uk/stories/reading-for-pleasure-and-for-better-health",
+        "img": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-22",
     "slug": "2026-09-22",
     "edition": 546,
