@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-24",
+    "slug": "2026-09-24",
+    "edition": 548,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Kerguelen Islands",
+        "head": "Genetic testing revealed a fourth gentoo penguin species hiding on a remote sub-Antarctic island.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260920222410.htm",
+        "img": "https://images.unsplash.com/photo-1712921674432-4efe7e3dc2d6?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Côte-Nord, Quebec, Canada",
+        "head": "An amateur astronomer scouting a campsite found a 390-million-year-old crater instead.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/an-amateur-astronomer-using-google-maps-spotted-a-strange-indentation-it-turned-out-to-be-a-meteorite-crater-from-390-million-years-ago-180989158/",
+        "img": "https://images.unsplash.com/photo-1515379409267-e636949fba75?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Benin",
+        "head": "Benin doubled access to drinking water in five years by taxing itself first.",
+        "src": "UN News",
+        "url": "https://news.un.org/en/story/2026/09/1168371",
+        "img": "https://images.unsplash.com/photo-1747330665987-78cec08c8ec9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Spring City, Tennessee, USA",
+        "head": "A small-town diner runs on meal tickets nobody has to ask for.",
+        "src": "NewsChannel 9",
+        "url": "https://newschannel9.com/newsletter-daily/spring-city-cafe-offers-pay-it-forward-meal-tickets-for-anyone-in-need",
+        "img": "https://images.unsplash.com/photo-1623086923609-594e98bb0bff?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "George Town, Penang, Malaysia",
+        "head": "A youth committee brought lantern-making and dough-figurine carving back to Penang's Mid-Autumn Festival.",
+        "src": "The Star",
+        "url": "https://www.thestar.com.my/metro/metro-news/2026/09/23/giving-old-mid-autumn-festival-customs-new-life",
+        "img": "https://images.unsplash.com/photo-1680444029037-5a718fad16c0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Beijing, China",
+        "head": "Nine years of wrist-tracker data linked deep, dreaming sleep to a lower risk of dozens of diseases.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
+        "img": "https://images.unsplash.com/photo-1666934209818-cd6a6d08bd8d?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-23",
     "slug": "2026-09-23",
     "edition": 547,
