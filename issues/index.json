@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-25",
+    "slug": "2026-09-25",
+    "edition": 549,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Punjab and Sindh, Pakistan",
+        "head": "Pakistan linked two river reserves into a single 400-kilometer sanctuary for the world's rarest dolphin.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/09/pakistan-expands-protected-habitat-for-indus-river-dolphin-as-recovery-offers-hope/",
+        "img": "https://images.unsplash.com/photo-1647628135714-9e0b2f4e989c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Côte d’Ivoire",
+        "head": "Côte d'Ivoire is building a nationwide drone network to keep rural clinics stocked with blood and vaccines.",
+        "src": "DroneXL",
+        "url": "https://dronexl.co/2026/09/22/zipline-ivory-coast-10-hubs-300-percent-return/",
+        "img": "https://images.unsplash.com/photo-1665508473202-c5d46db96604?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Cardross, Scotland",
+        "head": "Volunteers turned a windswept Scottish train platform into an award-winning garden.",
+        "src": "The Guardian",
+        "url": "https://www.theguardian.com/lifeandstyle/2026/sep/20/transformed-volunteers-greening-up-britain-train-stations-rhs-bloom",
+        "img": "https://images.unsplash.com/photo-1757782701586-bd5c7040d3cd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Evanston, Illinois, USA",
+        "head": "A mutual-aid group opened its fifth free food pantry in an alley behind a small-town library.",
+        "src": "The Daily Northwestern",
+        "url": "https://dailynorthwestern.com/2026/09/22/lateststories/mutual-aid-group-opens-new-community-fridge-with-womans-club-of-evanston/",
+        "img": "https://images.unsplash.com/photo-1710947949965-8150d227d337?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Durmitor and Komarnica Canyon, Montenegro",
+        "head": "Scientists found two snails in Montenegro's mountains with shells that swing shut like doors.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260923035936.htm",
+        "img": "https://images.unsplash.com/photo-1570135427321-09cda870b863?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Manchester, England",
+        "head": "A urine test found four in five womb cancers without a single invasive procedure.",
+        "src": "University of Manchester",
+        "url": "https://www.manchester.ac.uk/about/news/simple-test-could-take-the-pain-out-of-womb-cancer-check",
+        "img": "https://images.unsplash.com/photo-1583912267670-6575ad472688?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-24",
     "slug": "2026-09-24",
     "edition": 548,
