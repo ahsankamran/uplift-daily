@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-26",
+    "slug": "2026-09-26",
+    "edition": 550,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Taï National Park, Côte d’Ivoire",
+        "head": "A bird unseen for thirteen years reappeared in an Ivorian rainforest.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/09/lost-bird-reappears-in-west-africas-forests-after-more-than-a-decade/",
+        "img": "https://images.unsplash.com/photo-1595363530143-b913b4ea30dd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Scotland",
+        "head": "A gannet's mid-dive torpedo shape won the year's top bird photograph.",
+        "src": "PetaPixel",
+        "url": "https://petapixel.com/2026/09/21/the-phenomenal-winners-of-bird-photographer-of-the-year-2026/",
+        "img": "https://images.unsplash.com/photo-1785937089048-bf5e9ddea207?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Geneva, Switzerland",
+        "head": "The WHO widened its safety checklist for medical devices worldwide.",
+        "src": "World Health Organization",
+        "url": "https://www.who.int/news/item/25-09-2026-who-announces-expansion-of-prequalification-programme-for-medical-devices",
+        "img": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "South Korea",
+        "head": "A stranger tracked down a father's lost wallet just to return it.",
+        "src": "Herald Business",
+        "url": "https://biz.heraldcorp.com/article/10881023",
+        "img": "https://images.unsplash.com/photo-1688488496687-73e4e98dfc6b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Bermuda and the Caribbean",
+        "head": "Oxford's dictionary made room for Bermudian and Caribbean slang.",
+        "src": "The Associated Press",
+        "url": "https://abcnews.com/Lifestyle/wireStory/words-long-caribbean-bermuda-now-part-oxford-english-136688415",
+        "img": "https://images.unsplash.com/photo-1639387130096-7737fc425ec8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Los Angeles, California, USA",
+        "head": "A radiation-and-radioligand combo slowed prostate cancer's return.",
+        "src": "UCLA Health",
+        "url": "https://www.uclahealth.org/news/release/astro-targeted-radioactive-therapy-prostate-cancer-new-sbrt",
+        "img": "https://images.unsplash.com/photo-1576671495234-2aaa0156b50a?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-25",
     "slug": "2026-09-25",
     "edition": 549,
