@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-29",
+    "slug": "2026-09-29",
+    "edition": 551,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Ene River, Peru",
+        "head": "Asháninka fire brigades brought wildfires in 45 Peruvian communities down to zero.",
+        "src": "Positive News",
+        "url": "https://www.positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires/",
+        "img": "https://images.unsplash.com/photo-1699575947488-30f08e71896b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Paris, France",
+        "head": "A charred Gallic wall under a Paris hospital may mark the town Caesar besieged.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/two-thousand-years-ago-julius-caesar-conquered-the-settlement-that-eventually-became-paris-archaeologists-may-have-just-found-it-180989569/",
+        "img": "https://images.unsplash.com/photo-1779358915578-ab521f5626d5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "High seas, worldwide",
+        "head": "The High Seas Treaty passed 100 member countries in a single week.",
+        "src": "High Seas Alliance",
+        "url": "https://highseasalliance.org/2026/09/23/the-high-seas-treaty-reaches-100-parties-cementing-momentum-ahead-of-its-first-conference/",
+        "img": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "The Bronx, New York, USA",
+        "head": "An eighteen-year-old from the Bronx now sends ten children to school in Accra.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/18-year-old-from-the-bronx-starts-nonprofit-to-sponsor-school-children-in-ghana/",
+        "img": "https://images.unsplash.com/photo-1627423896085-e3e694d88e40?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Christchurch, New Zealand",
+        "head": "Gibbons got Marmite-smeared poles and gift-wrapped locusts for their zoo's fiftieth birthday.",
+        "src": "RNZ",
+        "url": "https://www.rnz.co.nz/news/environment/1574525/marmite-smears-live-locusts-to-celebrate-orana-wildlife-park-s-50th-birthday",
+        "img": "https://images.unsplash.com/photo-1565899629718-4dae0e9566bd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Seoul, South Korea",
+        "head": "Blood thinners cut serious events by 69 percent in a middle-risk group of atrial fibrillation patients.",
+        "src": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260925005439.htm",
+        "img": "https://images.unsplash.com/photo-1655313719493-16ebe4906441?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-26",
     "slug": "2026-09-26",
     "edition": 550,
