@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-09-30",
+    "slug": "2026-09-30",
+    "edition": 552,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Indus River, Pakistan",
+        "head": "Pakistan joined its Indus river dolphin sanctuaries into one 400-kilometre protected corridor.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/09/pakistan-expands-protected-habitat-for-indus-river-dolphin-as-recovery-offers-hope/",
+        "img": "https://images.unsplash.com/photo-1538794436234-cb4c548f31b9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Queensland, Australia",
+        "head": "Two stick insects new to science turned up in Australia, one hiding in plain sight for decades.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/two-new-stick-insect-species-have-been-discovered-in-australiaand-another-one-was-hiding-in-plain-sight-180989575/",
+        "img": "https://images.unsplash.com/photo-1632104112533-6a4e5a765ef7?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "The Americas",
+        "head": "Five countries and territories in the Americas were recognised for eliminating diseases, Chile's rabies among them.",
+        "src": "PAHO / WHO",
+        "url": "https://www.paho.org/en/news/29-9-2026-five-countries-and-territories-recognized-disease-elimination-achievements-americas",
+        "img": "https://images.unsplash.com/photo-1654895716780-b4664497420d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Phoenix, Arizona, USA",
+        "head": "A twelve-year-old in Phoenix collected 30,000 diapers for her fifth annual drive.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/12-yos-annual-diaper-drive-dumps-30000-diapers-off-at-arizona-food-bank/",
+        "img": "https://images.unsplash.com/photo-1695998575453-f155392a95ba?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Deloraine, Tasmania, Australia",
+        "head": "A Japanese taste for Tasmanian soba put 300 cherry trees along a Tasmanian river.",
+        "src": "ABC News (Australia)",
+        "url": "https://www.abc.net.au/news/2026-09-29/tasmanian-cherry-blossoms-link-to-japan-cultural-connection/107176340",
+        "img": "https://images.unsplash.com/photo-1585883703919-c17422f1bfba?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Manchester, England",
+        "head": "A simple cell test could spare many women with postmenopausal bleeding an invasive check for womb cancer.",
+        "src": "University of Manchester",
+        "url": "https://www.manchester.ac.uk/about/news/simple-test-could-take-the-pain-out-of-womb-cancer-check",
+        "img": "https://images.unsplash.com/photo-1572884267966-02340ebc90ac?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-09-29",
     "slug": "2026-09-29",
     "edition": 551,
