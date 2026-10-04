@@ -35,6 +35,15 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           claude_args: "--allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
+          # Verbose on purpose: a run on 2026-10-01..03 reported clean success
+          # (is_error: false, 56 turns, real work done) while silently never
+          # writing a new issues/index.json entry. The default redacted log
+          # ("full output hidden for security") made that undiagnosable after
+          # the fact. This repo passes the agent no secrets beyond its own
+          # publish token, so full output here is prompt/reasoning/tool-call
+          # text, not credentials — worth it to be able to see what happened
+          # next time this recurs.
+          show_full_output: true
           prompt: |
             You are the editor for the day. Read CLAUDE.md and DAILY.md
             in this repo, then produce today's edition following the
@@ -42,6 +51,31 @@ jobs:
             the message "Edition NNN — YYYY-MM-DD" where NNN is the new
             edition number. Do not skip steps. Do not invent facts —
             only use stories you can verify via web search.
+
+      # A run can report clean success (is_error: false) after real,
+      # multi-turn work without ever having written today's entry — seen
+      # live on 2026-10-01 through 10-03, three days straight, silently.
+      # Nothing downstream (render-cards.mjs falls back to the newest
+      # existing entry rather than erroring) would have caught that on its
+      # own. Check the one fact that actually matters — did today's date
+      # land in the manifest — before doing anything else, and fail loudly
+      # if not. This repo's own incident history (CLAUDE.md) is explicit
+      # that a silent failure here is worse than a loud one.
+      - name: Verify today's edition was actually written
+        run: |
+          TODAY="$(date -u +%Y-%m-%d)"
+          NEWEST=$(node -e '
+            const fs = require("fs");
+            const d = JSON.parse(fs.readFileSync("issues/index.json", "utf8"));
+            const list = Array.isArray(d) ? d : d.issues || [];
+            const dates = list.map((x) => x.date).filter(Boolean).sort();
+            process.stdout.write(dates[dates.length - 1] || "");
+          ')
+          echo "today (UTC): $TODAY — newest entry in issues/index.json: ${NEWEST:-none}"
+          if [ "$NEWEST" != "$TODAY" ]; then
+            echo "::error::No edition for $TODAY was written to issues/index.json (newest is ${NEWEST:-none}). Claude's run completed without producing today's edition — see the 'Run Claude Code' step output above for what it actually did."
+            exit 1
+          fi
 
       - name: Pull Claude's commit before rendering cards
         run: git pull --rebase || true
@@ -59,3 +93,19 @@ jobs:
             git commit -m "Cards — $(date -u +%F)" || true
             git push || true
           fi
+
+      # Belt-and-suspenders on the other failure shape: Claude wrote and
+      # committed locally but the push itself silently failed (rejected,
+      # auth hiccup, race). The step above already confirmed the *content*
+      # exists; this confirms it actually left the runner and reached
+      # origin/main, not just this ephemeral checkout.
+      - name: Verify the edition actually reached origin/main
+        run: |
+          git fetch origin main
+          LOCAL="$(git rev-parse HEAD)"
+          REMOTE="$(git rev-parse origin/main)"
+          if [ "$LOCAL" != "$REMOTE" ]; then
+            echo "::error::Local HEAD ($LOCAL) never reached origin/main ($REMOTE) — today's edition was written and committed locally but the push did not land."
+            exit 1
+          fi
+          echo "confirmed: origin/main is at $REMOTE, matches this run's HEAD"
