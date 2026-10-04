@@ -45,9 +45,41 @@ follow the procedure above and report a verdict per card. See this
 session's run against Edition 552 for a worked example: it correctly
 failed card #5 (Everyday Joy / Tasmania) and passed the other five.
 
-## Once wired into `daily.yml` (Phase 1 automation)
+## Automated contract (wired into `daily.yml`)
 
-Runs as a narrow Claude Code step, after `render-cards.mjs`, before the
-workflow's push step. Any `fail` verdict blocks the push (same as a Tier 1
-hard block) and triggers the `alert.sh`-style escalation — a half-reviewed
-edition never reaches `main`.
+The reviewer step is a narrow Claude Code invocation with Read access to
+the rendered card PNGs and the day's story data, and Bash access to write
+exactly one file: `.qa/tier2-report.json`, overwritten each run. Nothing
+else. Its prompt ends with an explicit instruction to write this file in
+this exact shape before finishing:
+
+```json
+{
+  "date": "YYYY-MM-DD",
+  "editions": {
+    "combined": [
+      { "n": 1, "cat": "Nature", "pass": true,  "reason": "" },
+      { "n": 2, "cat": "Small Wonders", "pass": true, "reason": "" }
+    ],
+    "coming-together": { "pass": true, "reason": "" }
+  }
+}
+```
+
+`pass: false` always carries a one-line `reason` naming specifically what's
+missing (region-only, theme-only, wrong scene) — never a bare `false`.
+
+A following plain shell step reads this JSON (`node -e '...'`, no model
+call) to decide what happens next — the model's job is the judgment, not
+the gating logic:
+
+- **Any `combined` entry with `pass: false`** blocks the entire push — the
+  flagship product never goes live with an unreviewed photo. Job fails
+  loudly, `alert.sh`-style escalation fires.
+- **A new-category entry (`coming-together` / `open-hands` / `human-spirit`)
+  with `pass: false`** blocks *only that edition's* commit for today — the
+  combined digest and the other new categories still publish normally.
+  Logged clearly, not silently dropped.
+- If `.qa/tier2-report.json` is missing, malformed, or missing an edition
+  that was supposed to run, treat it as `pass: false` for everything it
+  should have covered — an absent verdict is not an approval.

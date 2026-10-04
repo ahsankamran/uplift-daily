@@ -118,12 +118,16 @@ Run `node scripts/render-cards.mjs YYYY-MM-DD`. It opens
 `templates/card.html` with each story's data in turn and screenshots to
 `cards/YYYY-MM-DD/{1..6}.png` at 1080×1350.
 
-## Step 6 — Commit
+## Step 6 — Commit (do not push)
 
 ```
-git add -A
+git add index.html feed.html archive.html issues/index.json issues/YYYY-MM-DD.html
 git commit -m "Edition NNN — YYYY-MM-DD"
-git push
 ```
 
-GitHub Pages will rebuild within ~60s. Done.
+Do not run `git push`. The workflow verifies, QA-checks, and pushes your
+commit itself in a later step — it may also add more commits on top
+(derived category editions) before the final push. Scope `git add` to
+exactly these five paths, not `-A` — other steps in the same workflow run
+write to other parts of the tree (`editions/`) and must not get swept into
+this commit.

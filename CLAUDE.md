@@ -23,7 +23,11 @@ it to produce the next edition. You (Claude Code) are the editor.
 5. Append a new entry to `issues/index.json` with date, headlines, sources, slugs.
 6. Update `feed.html`'s `STORIES_TODAY` array with the six new stories.
 7. Update `archive.html`'s `STORIES` array with today's six.
-8. Commit with message: `Edition NNN — YYYY-MM-DD` and push.
+8. Commit with message: `Edition NNN — YYYY-MM-DD`. **Do not push** — the
+   cloud workflow verifies and QA-checks the edition, then pushes it itself
+   (see `daily.yml`). This changed after a 2026-10-01–03 incident where the
+   step reported clean success without ever writing a new edition; see
+   `scripts/qa-edition.mjs` and `scripts/qa-visual-review.md`.
 
 ## Editorial principles (non-negotiable)
 

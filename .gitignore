@@ -3,6 +3,8 @@ node_modules/
 .DS_Store
 *.log
 cards/
+# Scratch working files for the daily.yml QA gate (Tier 1/2 status, verdicts) — not versioned.
+.qa/
 # WhatsApp Web session — effectively a logged-in device token; local-only.
 .wwebjs_auth/
 .wwebjs_cache/
