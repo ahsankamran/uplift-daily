@@ -8,7 +8,11 @@ cards/
 .wwebjs_cache/
 # Personal WhatsApp chat id — local-only, this repo is public.
 scripts/whatsapp-target.json
+# Email delivery destination — local-only, this repo is public.
+scripts/email-target.json
 # Local cache: Unsplash page-slug → CDN photo-id map used by backfill-images.mjs.
 scripts/.image-backfill-map.json
 # Concurrency lock for render-today-local.sh
 .render.lock/
+# Personal iMessage handle for failure alerts — local-only, this repo is public.
+scripts/alert-target.json
