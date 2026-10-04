@@ -10,7 +10,9 @@
 <link rel="stylesheet" href="../../shared.css" />
 <style>
 .lead-story { max-width: 820px; margin: clamp(32px, 6vw, 72px) auto; }
-.lead-story .photo { aspect-ratio: 16/10; margin-bottom: clamp(18px, 2.6vw, 28px); border-radius: 2px; }
+/* .photo is an <a>, inline by default — aspect-ratio has no effect on a
+   non-replaced inline box, so it must be made a block first. */
+.lead-story .photo { display: block; aspect-ratio: 16/10; margin-bottom: clamp(18px, 2.6vw, 28px); border-radius: 2px; }
 .lead-story .headline { font-size: clamp(32px, 5vw, 52px); }
 .lead-story .dek { font-size: clamp(17px, 1.9vw, 20px); max-width: var(--measure); }
 .edition-tag {
@@ -27,6 +29,39 @@
 .archive-row .head { flex: 1; }
 .archive-row .head a { text-decoration: none; }
 .archive-row .head a:hover { color: var(--accent-deep); }
+
+/* The five stories behind the lead. align-items:start keeps rows from
+   stretching to the tallest card; each card is its own column flow. */
+.more-grid {
+  display: grid; grid-template-columns: 1fr; gap: clamp(28px, 4vw, 44px);
+  align-items: start;
+  margin-bottom: clamp(40px, 6vw, 72px);
+}
+@media (min-width: 680px) { .more-grid { grid-template-columns: 1fr 1fr; } }
+.more-card { display: flex; flex-direction: column; min-width: 0; }
+.more-card .photo { display: block; aspect-ratio: 3/2; margin-bottom: 14px; border-radius: 2px; }
+.more-card .headline { font-size: clamp(19px, 2.2vw, 23px); }
+.more-card .dek { font-size: 15px; margin-top: 10px; }
+.more-card .edition-tag { margin-bottom: 8px; font-size: 10.5px; letter-spacing: 0.16em; }
+.more-card .byline { font-size: 10.5px; margin-top: 12px; }
+
+/* Section switcher — the other categories, newspaper-style. */
+.section-nav {
+  border-top: 1px solid var(--rule-soft);
+  border-bottom: 1px solid var(--rule-soft);
+  padding: 12px var(--gutter);
+  margin-bottom: clamp(20px, 3vw, 36px);
+}
+.section-nav-inner {
+  max-width: 1240px; margin: 0 auto;
+  display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: baseline;
+  font-family: var(--sans); font-size: 11px; letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.section-nav .label { color: var(--ink-mute); margin-right: 4px; }
+.section-nav a { text-decoration: none; color: var(--ink-soft); }
+.section-nav a:hover { color: var(--accent-deep); }
+.section-nav a[aria-current="page"] { color: var(--ink); border-bottom: 1px solid var(--accent); }
 </style>
 </head>
 <body>
@@ -43,16 +78,66 @@
     </div>
   </div>
   <nav class="nav">
-    <a href="index.html" aria-current="false">Today</a>
+    <a href="index.html" aria-current="false">Latest</a>
     <a href="archive.html" aria-current="page">Archive</a>
     <a href="../../index.html">Uplift home</a>
   </nav>
 </header>
+<nav class="section-nav">
+    <div class="section-nav-inner">
+      <span class="label">Sections</span>
+      <a href="../../editions/quiet-kindness/index.html">Quiet Kindness</a>
+      <a href="../../editions/small-wonders/index.html" aria-current="page">Small Wonders</a>
+      <a href="../../editions/everyday-joy/index.html">Everyday Joy</a>
+      <a href="../../editions/nature/index.html">Nature</a>
+      <a href="../../editions/science-medicine/index.html">Science &amp; Medicine</a>
+      <a href="../../editions/global-progress/index.html">Global Progress</a>
+      <a href="../../editions/coming-together/index.html">Coming Together</a>
+      <a href="../../editions/open-hands/index.html">Open Hands</a>
+      <a href="../../editions/human-spirit/index.html">Human Spirit</a>
+    </div>
+  </nav>
 <main class="page page--narrow">
   <div class="archive-list">
     <div class="archive-row">
       <span class="date">2026-09-30</span>
       <span class="head"><a href="issues/2026-09-30.html">Two stick insects new to science turned up in Australia, one hiding in plain sight for decades.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-29</span>
+      <span class="head"><a href="issues/2026-09-29.html">A charred Gallic wall under a Paris hospital may mark the town Caesar besieged.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-26</span>
+      <span class="head"><a href="issues/2026-09-26.html">A gannet's mid-dive torpedo shape won the year's top bird photograph.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-25</span>
+      <span class="head"><a href="issues/2026-09-25.html">Scientists found two snails in Montenegro's mountains with shells that swing shut like doors.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-24</span>
+      <span class="head"><a href="issues/2026-09-24.html">An amateur astronomer scouting a campsite found a 390-million-year-old crater instead.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-23</span>
+      <span class="head"><a href="issues/2026-09-23.html">A rare slow loris turned out to be twice as common as scientists thought.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-22</span>
+      <span class="head"><a href="issues/2026-09-22.html">Sperm whales were caught blowing bubbles to keep themselves in place while they rest.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-19</span>
+      <span class="head"><a href="issues/2026-09-19.html">Asian elephants showed they can stop and think before reaching for food.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-18</span>
+      <span class="head"><a href="issues/2026-09-18.html">Biologists confirmed the first new wild cat species in a century, high in Bolivia's cloud forest.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-17</span>
+      <span class="head"><a href="issues/2026-09-17.html">Three wild dogs set an African distance record hunting for a place to call home.</a></span>
     </div>
   </div>
 </main>

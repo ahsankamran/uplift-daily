@@ -10,7 +10,9 @@
 <link rel="stylesheet" href="../../shared.css" />
 <style>
 .lead-story { max-width: 820px; margin: clamp(32px, 6vw, 72px) auto; }
-.lead-story .photo { aspect-ratio: 16/10; margin-bottom: clamp(18px, 2.6vw, 28px); border-radius: 2px; }
+/* .photo is an <a>, inline by default — aspect-ratio has no effect on a
+   non-replaced inline box, so it must be made a block first. */
+.lead-story .photo { display: block; aspect-ratio: 16/10; margin-bottom: clamp(18px, 2.6vw, 28px); border-radius: 2px; }
 .lead-story .headline { font-size: clamp(32px, 5vw, 52px); }
 .lead-story .dek { font-size: clamp(17px, 1.9vw, 20px); max-width: var(--measure); }
 .edition-tag {
@@ -27,6 +29,39 @@
 .archive-row .head { flex: 1; }
 .archive-row .head a { text-decoration: none; }
 .archive-row .head a:hover { color: var(--accent-deep); }
+
+/* The five stories behind the lead. align-items:start keeps rows from
+   stretching to the tallest card; each card is its own column flow. */
+.more-grid {
+  display: grid; grid-template-columns: 1fr; gap: clamp(28px, 4vw, 44px);
+  align-items: start;
+  margin-bottom: clamp(40px, 6vw, 72px);
+}
+@media (min-width: 680px) { .more-grid { grid-template-columns: 1fr 1fr; } }
+.more-card { display: flex; flex-direction: column; min-width: 0; }
+.more-card .photo { display: block; aspect-ratio: 3/2; margin-bottom: 14px; border-radius: 2px; }
+.more-card .headline { font-size: clamp(19px, 2.2vw, 23px); }
+.more-card .dek { font-size: 15px; margin-top: 10px; }
+.more-card .edition-tag { margin-bottom: 8px; font-size: 10.5px; letter-spacing: 0.16em; }
+.more-card .byline { font-size: 10.5px; margin-top: 12px; }
+
+/* Section switcher — the other categories, newspaper-style. */
+.section-nav {
+  border-top: 1px solid var(--rule-soft);
+  border-bottom: 1px solid var(--rule-soft);
+  padding: 12px var(--gutter);
+  margin-bottom: clamp(20px, 3vw, 36px);
+}
+.section-nav-inner {
+  max-width: 1240px; margin: 0 auto;
+  display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: baseline;
+  font-family: var(--sans); font-size: 11px; letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.section-nav .label { color: var(--ink-mute); margin-right: 4px; }
+.section-nav a { text-decoration: none; color: var(--ink-soft); }
+.section-nav a:hover { color: var(--accent-deep); }
+.section-nav a[aria-current="page"] { color: var(--ink); border-bottom: 1px solid var(--accent); }
 </style>
 </head>
 <body>
@@ -43,14 +78,28 @@
     </div>
   </div>
   <nav class="nav">
-    <a href="index.html" aria-current="page">Today</a>
+    <a href="index.html" aria-current="page">Latest</a>
     <a href="archive.html" aria-current="false">Archive</a>
     <a href="../../index.html">Uplift home</a>
   </nav>
 </header>
+<nav class="section-nav">
+    <div class="section-nav-inner">
+      <span class="label">Sections</span>
+      <a href="../../editions/quiet-kindness/index.html">Quiet Kindness</a>
+      <a href="../../editions/small-wonders/index.html">Small Wonders</a>
+      <a href="../../editions/everyday-joy/index.html" aria-current="page">Everyday Joy</a>
+      <a href="../../editions/nature/index.html">Nature</a>
+      <a href="../../editions/science-medicine/index.html">Science &amp; Medicine</a>
+      <a href="../../editions/global-progress/index.html">Global Progress</a>
+      <a href="../../editions/coming-together/index.html">Coming Together</a>
+      <a href="../../editions/open-hands/index.html">Open Hands</a>
+      <a href="../../editions/human-spirit/index.html">Human Spirit</a>
+    </div>
+  </nav>
 <main class="page page--narrow">
   <article class="lead-story">
-    <span class="edition-tag">Everyday Joy · Deloraine, Tasmania, Australia</span>
+    <span class="edition-tag">Everyday Joy · Deloraine, Tasmania, Australia · September 30, 2026</span>
     <a class="photo" href="https://www.abc.net.au/news/2026-09-29/tasmanian-cherry-blossoms-link-to-japan-cultural-connection/107176340" aria-label="Read: A Japanese taste for Tasmanian soba put 300 cherry trees along a Tasmanian river.">
       <img src="https://images.unsplash.com/photo-1585883703919-c17422f1bfba?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
     </a>
@@ -63,6 +112,55 @@
       <a href="https://www.abc.net.au/news/2026-09-29/tasmanian-cherry-blossoms-link-to-japan-cultural-connection/107176340">Read the original →</a>
     </div>
   </article>
+
+  <div class="section-label"><span>More in this category</span></div>
+  <div class="more-grid">
+    <article class="more-card">
+      <a class="photo" href="https://www.rnz.co.nz/news/environment/1574525/marmite-smears-live-locusts-to-celebrate-orana-wildlife-park-s-50th-birthday" aria-label="Read: Gibbons got Marmite-smeared poles and gift-wrapped locusts for their zoo's fiftieth birthday.">
+        <img src="https://images.unsplash.com/photo-1565899629718-4dae0e9566bd?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">Christchurch, New Zealand · September 29, 2026</span>
+      <h2 class="headline"><a href="https://www.rnz.co.nz/news/environment/1574525/marmite-smears-live-locusts-to-celebrate-orana-wildlife-park-s-50th-birthday">Gibbons got Marmite-smeared poles and gift-wrapped locusts for their zoo's fiftieth birthday.</a></h2>
+      <p class="dek">Orana Wildlife Park in Christchurch marked fifty years since it opened on 25 September 1976 with birthday enrichment for its animals. The gibbons had Marmite and peanut butter smeared on poles, plus gift-wrapped boxes of cooked corn and live locusts to unwrap. The party came days after ratepayers gave the park a NZ$1.2 million lifeline.</p>
+      <div class="byline"><span>Source: RNZ</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://abcnews.com/Lifestyle/wireStory/words-long-caribbean-bermuda-now-part-oxford-english-136688415" aria-label="Read: Oxford's dictionary made room for Bermudian and Caribbean slang.">
+        <img src="https://images.unsplash.com/photo-1639387130096-7737fc425ec8?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">Bermuda and the Caribbean · September 26, 2026</span>
+      <h2 class="headline"><a href="https://abcnews.com/Lifestyle/wireStory/words-long-caribbean-bermuda-now-part-oxford-english-136688415">Oxford's dictionary made room for Bermudian and Caribbean slang.</a></h2>
+      <p class="dek">The Oxford English Dictionary added more than a dozen words long used across Bermuda and the Caribbean, including bimpert, a Bermudian term for a foolish person, and canboulay, Trinidad's 1800s emancipation-carnival tradition. Lexicographers drew on decades of everyday use, from hamma, Bermudian for friend, to vex money, the Caribbean term for a woman's emergency cash reserve. The update gives formal recognition to language islanders have spoken for generations, alongside dishes like peanut punch and sugar cake.</p>
+      <div class="byline"><span>Source: The Associated Press</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://www.theguardian.com/lifeandstyle/2026/sep/20/transformed-volunteers-greening-up-britain-train-stations-rhs-bloom" aria-label="Read: Volunteers turned a windswept Scottish train platform into an award-winning garden.">
+        <img src="https://images.unsplash.com/photo-1757782701586-bd5c7040d3cd?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">Cardross, Scotland · September 25, 2026</span>
+      <h2 class="headline"><a href="https://www.theguardian.com/lifeandstyle/2026/sep/20/transformed-volunteers-greening-up-britain-train-stations-rhs-bloom">Volunteers turned a windswept Scottish train platform into an award-winning garden.</a></h2>
+      <p class="dek">The Royal Horticultural Society gave its first-ever Railway Stations in Bloom prize to Cardross station on Scotland's west coast, chosen from five shortlisted stations across Britain. Since 2022, the Cardross Community Organic Garden group led by Jane Connolly has planted every available bed with fruit trees and vegetables, turning a once-bare stop into somewhere people travel to see. Judges praised how the group pulled in schoolchildren, Brownies, and other volunteers along the way.</p>
+      <div class="byline"><span>Source: The Guardian</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://www.thestar.com.my/metro/metro-news/2026/09/23/giving-old-mid-autumn-festival-customs-new-life" aria-label="Read: A youth committee brought lantern-making and dough-figurine carving back to Penang's Mid-Autumn Festival.">
+        <img src="https://images.unsplash.com/photo-1680444029037-5a718fad16c0?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">George Town, Penang, Malaysia · September 24, 2026</span>
+      <h2 class="headline"><a href="https://www.thestar.com.my/metro/metro-news/2026/09/23/giving-old-mid-autumn-festival-customs-new-life">A youth committee brought lantern-making and dough-figurine carving back to Penang's Mid-Autumn Festival.</a></h2>
+      <p class="dek">On the Esplanade in George Town, organizers revived a full slate of Mid-Autumn customs this week, from lantern-riddle games to mooncake-making demonstrations. The Clan-Associations Youth Committee's Goh Kok Liang added dough-figurine carving, paper-cutting, and Sichuan opera face-changing to old standbys like hopscotch and the wind-fire wheel, drawing families ahead of the festival's September 25 date. The point, he said, is giving young people in a modern port city an easy, everyday way to hold onto a shared tradition.</p>
+      <div class="byline"><span>Source: The Star</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://news.mongabay.com/2026/09/how-freediving-helps-indonesias-bajau-preserve-traditions-and-conserve-marine-life/" aria-label="Read: A ban on compressor diving revived an ancestral freediving skill in Indonesia.">
+        <img src="https://images.unsplash.com/photo-1628630500614-1c8924c99c3e?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">Sumbawa Island, Indonesia · September 23, 2026</span>
+      <h2 class="headline"><a href="https://news.mongabay.com/2026/09/how-freediving-helps-indonesias-bajau-preserve-traditions-and-conserve-marine-life/">A ban on compressor diving revived an ancestral freediving skill in Indonesia.</a></h2>
+      <p class="dek">In the Bajau fishing village of Poto Tano, octopus hunters once dropped to the seafloor trailing air hoses from a compressor; a 2020 ban made the older skill of freediving 15 to 20 meters with a handmade lure called a pocong valuable again. Only about ten people in the community can still use the pocong well, and the roughly 40 fishers of the PELITA brotherhood now close two or three fishing grounds at a time, for months, so the octopus can recover. They find their way by reading stars, wind, and current rather than GPS, a practice a local women's conservation group is now helping document and pass on to the next generation.</p>
+      <div class="byline"><span>Source: Mongabay</span></div>
+    </article>
+  </div>
 </main>
 <footer class="foot">
   <div class="foot-inner">

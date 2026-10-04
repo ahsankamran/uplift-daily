@@ -10,7 +10,9 @@
 <link rel="stylesheet" href="../../shared.css" />
 <style>
 .lead-story { max-width: 820px; margin: clamp(32px, 6vw, 72px) auto; }
-.lead-story .photo { aspect-ratio: 16/10; margin-bottom: clamp(18px, 2.6vw, 28px); border-radius: 2px; }
+/* .photo is an <a>, inline by default — aspect-ratio has no effect on a
+   non-replaced inline box, so it must be made a block first. */
+.lead-story .photo { display: block; aspect-ratio: 16/10; margin-bottom: clamp(18px, 2.6vw, 28px); border-radius: 2px; }
 .lead-story .headline { font-size: clamp(32px, 5vw, 52px); }
 .lead-story .dek { font-size: clamp(17px, 1.9vw, 20px); max-width: var(--measure); }
 .edition-tag {
@@ -27,6 +29,39 @@
 .archive-row .head { flex: 1; }
 .archive-row .head a { text-decoration: none; }
 .archive-row .head a:hover { color: var(--accent-deep); }
+
+/* The five stories behind the lead. align-items:start keeps rows from
+   stretching to the tallest card; each card is its own column flow. */
+.more-grid {
+  display: grid; grid-template-columns: 1fr; gap: clamp(28px, 4vw, 44px);
+  align-items: start;
+  margin-bottom: clamp(40px, 6vw, 72px);
+}
+@media (min-width: 680px) { .more-grid { grid-template-columns: 1fr 1fr; } }
+.more-card { display: flex; flex-direction: column; min-width: 0; }
+.more-card .photo { display: block; aspect-ratio: 3/2; margin-bottom: 14px; border-radius: 2px; }
+.more-card .headline { font-size: clamp(19px, 2.2vw, 23px); }
+.more-card .dek { font-size: 15px; margin-top: 10px; }
+.more-card .edition-tag { margin-bottom: 8px; font-size: 10.5px; letter-spacing: 0.16em; }
+.more-card .byline { font-size: 10.5px; margin-top: 12px; }
+
+/* Section switcher — the other categories, newspaper-style. */
+.section-nav {
+  border-top: 1px solid var(--rule-soft);
+  border-bottom: 1px solid var(--rule-soft);
+  padding: 12px var(--gutter);
+  margin-bottom: clamp(20px, 3vw, 36px);
+}
+.section-nav-inner {
+  max-width: 1240px; margin: 0 auto;
+  display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: baseline;
+  font-family: var(--sans); font-size: 11px; letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.section-nav .label { color: var(--ink-mute); margin-right: 4px; }
+.section-nav a { text-decoration: none; color: var(--ink-soft); }
+.section-nav a:hover { color: var(--accent-deep); }
+.section-nav a[aria-current="page"] { color: var(--ink); border-bottom: 1px solid var(--accent); }
 </style>
 </head>
 <body>
@@ -43,16 +78,66 @@
     </div>
   </div>
   <nav class="nav">
-    <a href="index.html" aria-current="false">Today</a>
+    <a href="index.html" aria-current="false">Latest</a>
     <a href="archive.html" aria-current="page">Archive</a>
     <a href="../../index.html">Uplift home</a>
   </nav>
 </header>
+<nav class="section-nav">
+    <div class="section-nav-inner">
+      <span class="label">Sections</span>
+      <a href="../../editions/quiet-kindness/index.html" aria-current="page">Quiet Kindness</a>
+      <a href="../../editions/small-wonders/index.html">Small Wonders</a>
+      <a href="../../editions/everyday-joy/index.html">Everyday Joy</a>
+      <a href="../../editions/nature/index.html">Nature</a>
+      <a href="../../editions/science-medicine/index.html">Science &amp; Medicine</a>
+      <a href="../../editions/global-progress/index.html">Global Progress</a>
+      <a href="../../editions/coming-together/index.html">Coming Together</a>
+      <a href="../../editions/open-hands/index.html">Open Hands</a>
+      <a href="../../editions/human-spirit/index.html">Human Spirit</a>
+    </div>
+  </nav>
 <main class="page page--narrow">
   <div class="archive-list">
     <div class="archive-row">
       <span class="date">2026-09-30</span>
       <span class="head"><a href="issues/2026-09-30.html">A twelve-year-old in Phoenix collected 30,000 diapers for her fifth annual drive.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-29</span>
+      <span class="head"><a href="issues/2026-09-29.html">An eighteen-year-old from the Bronx now sends ten children to school in Accra.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-26</span>
+      <span class="head"><a href="issues/2026-09-26.html">A stranger tracked down a father's lost wallet just to return it.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-25</span>
+      <span class="head"><a href="issues/2026-09-25.html">A mutual-aid group opened its fifth free food pantry in an alley behind a small-town library.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-24</span>
+      <span class="head"><a href="issues/2026-09-24.html">A small-town diner runs on meal tickets nobody has to ask for.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-23</span>
+      <span class="head"><a href="issues/2026-09-23.html">Wisconsin prisoners are raising monarch butterflies bound for Mexico.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-22</span>
+      <span class="head"><a href="issues/2026-09-22.html">A retired couple have fostered 59 dogs from Battersea over fifteen years.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-19</span>
+      <span class="head"><a href="issues/2026-09-19.html">A Staffordshire village started leaving anonymous notes of hope for strangers.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-18</span>
+      <span class="head"><a href="issues/2026-09-18.html">A Yonkers charity turns a Wednesday haircut into an hour of dignity.</a></span>
+    </div>
+    <div class="archive-row">
+      <span class="date">2026-09-17</span>
+      <span class="head"><a href="issues/2026-09-17.html">A barbecue chef drove a stranded regular home, then bought her lunch.</a></span>
     </div>
   </div>
 </main>

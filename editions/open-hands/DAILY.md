@@ -113,10 +113,24 @@ Report the result as:
 }
 ```
 
-## Step 5 — Update files (once wired into daily automation — not yet)
+## Step 5 — Write the files
 
-Append to `editions/open-hands/issues/index.json`, write
-`editions/open-hands/issues/YYYY-MM-DD.html`, regenerate
-`editions/open-hands/feed.html` and `archive.html`, render the card via
-`templates/card.html`. This step is not active yet — see the main repo
-plan for the automation rollout.
+Do not hand-author any HTML. Write the JSON object from Step 4 to a file
+(e.g. `/tmp/open-hands-story.json`), then run:
+
+```
+node scripts/build-single-story-edition.mjs open-hands "Open Hands" /tmp/open-hands-story.json
+```
+
+This writes `editions/open-hands/index.html`,
+`editions/open-hands/issues/YYYY-MM-DD.html`,
+`editions/open-hands/issues/index.json`, and regenerates
+`editions/open-hands/archive.html` — all from the one shared generator
+(`scripts/lib/edition-page.mjs`) that every edition uses, so the HTML
+stays consistent without being hand-written each day.
+
+## Step 6 — Stop here
+
+Do not run `git add`, `git commit`, or `git push`. The workflow stages,
+QA-checks, and commits your edition itself after this step — your job
+ends once the files from Step 5 are written to disk.

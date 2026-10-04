@@ -9,5 +9,104 @@
     "url": "https://www.manchester.ac.uk/about/news/simple-test-could-take-the-pain-out-of-womb-cancer-check",
     "img": "https://images.unsplash.com/photo-1572884267966-02340ebc90ac?w=1600&q=80&auto=format&fit=crop",
     "photographer": ""
+  },
+  {
+    "date": "2026-09-29",
+    "cat": "Science & Medicine",
+    "place": "Seoul, South Korea",
+    "head": "Blood thinners cut serious events by 69 percent in a middle-risk group of atrial fibrillation patients.",
+    "summary": "The SINGLE-AF trial followed 1,803 people with atrial fibrillation at intermediate stroke risk, comparing direct oral anticoagulants with no anticoagulation. Serious events, including stroke, major bleeding and cardiovascular death, occurred in 0.5 percent of those on the drugs against 1.5 percent of those without, and ischemic stroke in 0.1 percent against 1.1 percent. Professor Boyoung Joung of Yonsei University, who led the trial, said the New England Journal of Medicine results may inform guidelines and reimbursement.",
+    "src": "ScienceDaily",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260925005439.htm",
+    "img": "https://images.unsplash.com/photo-1655313719493-16ebe4906441?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
+    "date": "2026-09-26",
+    "cat": "Science & Medicine",
+    "place": "Los Angeles, California, USA",
+    "head": "A radiation-and-radioligand combo slowed prostate cancer's return.",
+    "summary": "In a UCLA-led study presented at the ASTRO 2026 meeting, men with recurrent prostate cancer who added targeted radioligand therapy to focused radiation went a median 19.4 months before their cancer progressed, compared with six months on radiation alone. Radiation oncologist Esther Yu and colleagues found a hormone-therapy combination performed similarly, at 21.7 months, but caused serious side effects in twice as many patients as the radioligand approach. The findings give doctors a way to delay the cancer's return while sparing some men the harsher effects of hormone treatment.",
+    "src": "UCLA Health",
+    "url": "https://www.uclahealth.org/news/release/astro-targeted-radioactive-therapy-prostate-cancer-new-sbrt",
+    "img": "https://images.unsplash.com/photo-1576671495234-2aaa0156b50a?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
+    "date": "2026-09-25",
+    "cat": "Science & Medicine",
+    "place": "Manchester, England",
+    "head": "A urine test found four in five womb cancers without a single invasive procedure.",
+    "summary": "University of Manchester researchers tested 1,864 women with postmenopausal bleeding using a new method that reads cells from urine and vaginal fluid, published this week in The Lancet Obstetrics, Gynaecology & Women's Health. The test correctly flagged more than 80 percent of the 99 confirmed womb cancers and cleared 93 percent of women who didn't have cancer, sparing many an anxious wait for a hospital biopsy. Lead researcher Professor Emma Davidson says the simple sample could let doctors reassure most women much earlier in the process.",
+    "src": "University of Manchester",
+    "url": "https://www.manchester.ac.uk/about/news/simple-test-could-take-the-pain-out-of-womb-cancer-check",
+    "img": "https://images.unsplash.com/photo-1583912267670-6575ad472688?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
+    "date": "2026-09-24",
+    "cat": "Science & Medicine",
+    "place": "Beijing, China",
+    "head": "Nine years of wrist-tracker data linked deep, dreaming sleep to a lower risk of dozens of diseases.",
+    "summary": "Peking University researchers tracked 95,559 UK Biobank participants who wore wrist accelerometers for a week, then followed their health records for the next nine years. Led by Jingsong Luo and published this September in PLOS Medicine, the team found more REM sleep tied to a lower risk of 83 conditions including heart failure and dementia, while more deep sleep lowered the odds of seven others, including type 2 diabetes. The researchers say sleep architecture, not just how many hours you get, may be a simple signal doctors could watch for early risk.",
+    "src": "ScienceDaily",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260923035930.htm",
+    "img": "https://images.unsplash.com/photo-1666934209818-cd6a6d08bd8d?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
+    "date": "2026-09-23",
+    "cat": "Science & Medicine",
+    "place": "Cambridge, England",
+    "head": "Reading for pleasure lowers dementia risk and builds empathy, a review found.",
+    "summary": "University of Cambridge researchers Barbara Sahakian and Christelle Langley reviewed the evidence on reading and health, published September 15 in Psychological Medicine. A study following 5,500 adults over 55 for five years found frequent readers were significantly less likely to develop cognitive impairment, with reading linked to a 33 percent lower risk of Alzheimer's disease. Nearly two-thirds of readers said books helped them understand other people's feelings, compared with fewer than half of non-readers.",
+    "src": "University of Cambridge",
+    "url": "https://www.cam.ac.uk/stories/reading-for-pleasure-and-for-better-health",
+    "img": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
+    "date": "2026-09-22",
+    "cat": "Science & Medicine",
+    "place": "Stanford, California, USA",
+    "head": "Stanford used AI to design bacteria-killing polymers built to outlast resistance.",
+    "summary": "Stanford researchers trained an AI model on natural antimicrobial peptides, then screened 1.7 million candidate polymers and found ten that killed E. coli \"well above expectations,\" one especially effective against hard-to-treat biofilms. Materials scientist Eric Appel and former graduate student Shoshana Williams designed the polymers to physically tear apart bacterial membranes rather than block one biochemical pathway, a harder trick for bacteria to evolve around since it means rebuilding the membrane itself. Published in the journal Matter, the polymers are also cheaper and more stable to produce than natural peptides, which the team hopes could widen access to new treatments as drug-resistant infections keep rising worldwide.",
+    "src": "Phys.org",
+    "url": "https://phys.org/news/2026-09-bacteria-polymers-class-antibiotic.html",
+    "img": "https://images.unsplash.com/photo-1595154038281-4beb9195415b?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
+    "date": "2026-09-19",
+    "cat": "Science & Medicine",
+    "place": "Cambridge, Massachusetts, USA",
+    "head": "Three students built a headset that screens for concussions in under a minute.",
+    "summary": "The device, called Rumble Rims, uses infrared eye-tracking to measure how well an athlete follows and fixates on a moving target, a sideline task that takes two to three minutes. Harvard students Radhika Saran, Cleo Pontone and Sophia DeVito designed it to close the gap between expensive clinical scanners and a coach's guesswork, and it won the James Dyson Award for the United States this year. About 15.1 percent of American high schoolers, roughly 2.5 million teenagers, report a sports-related concussion each year, and the team plans to use the $6,500 prize to refine the coach-facing display.",
+    "src": "Good News Network",
+    "url": "https://www.goodnewsnetwork.org/students-win-james-dyson-award-for-device-that-screens-students-for-concussions-in-just-60-seconds/",
+    "img": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
+    "date": "2026-09-18",
+    "cat": "Science & Medicine",
+    "place": "England",
+    "head": "England's health service approved a life-extending breast cancer drug.",
+    "summary": "NICE approved Enhertu for NHS use in England on September 17, reversing an earlier rejection made on cost grounds, and the drug is now available to roughly 1,000 women a year with HER2-low metastatic breast cancer. In trials, patients who had already had chemotherapy saw median overall survival reach 23.4 months and progression-free survival reach 9.9 months. The decision follows a two-year campaign by patients and clinicians to get the treatment funded.",
+    "src": "ITV News",
+    "url": "https://www.itv.com/news/2026-09-17/life-extending-breast-cancer-drug-becomes-available-on-the-nhs-in-england",
+    "img": "https://images.unsplash.com/photo-1576671081837-49000212a370?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
+    "date": "2026-09-17",
+    "cat": "Science & Medicine",
+    "place": "Tabriz, Iran",
+    "head": "The largest review yet of whole grains found a sweet spot for heart health.",
+    "summary": "Dr. Helda Tutunchi of Tabriz University of Medical Sciences led a meta-analysis of 87 clinical trials and more than 6,500 participants, published September 15 in the European Heart Journal, and found the strongest cardiovascular benefits at 60 to 100 grams of whole grains a day, roughly four to six servings. Across trials from Asia, Europe, North America, Australia and Brazil, that range brought improvements in body weight, blood pressure, cholesterol, blood sugar, triglycerides and inflammation, whether from oatmeal, whole grain bread or brown rice. Most trials lasted only about eight weeks, so the team says longer studies are still needed to confirm whether the benefits hold up over time or translate into fewer heart attacks and strokes.",
+    "src": "ScienceDaily",
+    "url": "https://www.sciencedaily.com/releases/2026/09/260915232126.htm",
+    "img": "https://images.unsplash.com/photo-1676289124506-bdce1e1acc97?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
   }
 ]

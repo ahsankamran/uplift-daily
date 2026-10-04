@@ -10,7 +10,9 @@
 <link rel="stylesheet" href="../../shared.css" />
 <style>
 .lead-story { max-width: 820px; margin: clamp(32px, 6vw, 72px) auto; }
-.lead-story .photo { aspect-ratio: 16/10; margin-bottom: clamp(18px, 2.6vw, 28px); border-radius: 2px; }
+/* .photo is an <a>, inline by default — aspect-ratio has no effect on a
+   non-replaced inline box, so it must be made a block first. */
+.lead-story .photo { display: block; aspect-ratio: 16/10; margin-bottom: clamp(18px, 2.6vw, 28px); border-radius: 2px; }
 .lead-story .headline { font-size: clamp(32px, 5vw, 52px); }
 .lead-story .dek { font-size: clamp(17px, 1.9vw, 20px); max-width: var(--measure); }
 .edition-tag {
@@ -27,6 +29,39 @@
 .archive-row .head { flex: 1; }
 .archive-row .head a { text-decoration: none; }
 .archive-row .head a:hover { color: var(--accent-deep); }
+
+/* The five stories behind the lead. align-items:start keeps rows from
+   stretching to the tallest card; each card is its own column flow. */
+.more-grid {
+  display: grid; grid-template-columns: 1fr; gap: clamp(28px, 4vw, 44px);
+  align-items: start;
+  margin-bottom: clamp(40px, 6vw, 72px);
+}
+@media (min-width: 680px) { .more-grid { grid-template-columns: 1fr 1fr; } }
+.more-card { display: flex; flex-direction: column; min-width: 0; }
+.more-card .photo { display: block; aspect-ratio: 3/2; margin-bottom: 14px; border-radius: 2px; }
+.more-card .headline { font-size: clamp(19px, 2.2vw, 23px); }
+.more-card .dek { font-size: 15px; margin-top: 10px; }
+.more-card .edition-tag { margin-bottom: 8px; font-size: 10.5px; letter-spacing: 0.16em; }
+.more-card .byline { font-size: 10.5px; margin-top: 12px; }
+
+/* Section switcher — the other categories, newspaper-style. */
+.section-nav {
+  border-top: 1px solid var(--rule-soft);
+  border-bottom: 1px solid var(--rule-soft);
+  padding: 12px var(--gutter);
+  margin-bottom: clamp(20px, 3vw, 36px);
+}
+.section-nav-inner {
+  max-width: 1240px; margin: 0 auto;
+  display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: baseline;
+  font-family: var(--sans); font-size: 11px; letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.section-nav .label { color: var(--ink-mute); margin-right: 4px; }
+.section-nav a { text-decoration: none; color: var(--ink-soft); }
+.section-nav a:hover { color: var(--accent-deep); }
+.section-nav a[aria-current="page"] { color: var(--ink); border-bottom: 1px solid var(--accent); }
 </style>
 </head>
 <body>
@@ -43,14 +78,28 @@
     </div>
   </div>
   <nav class="nav">
-    <a href="index.html" aria-current="page">Today</a>
+    <a href="index.html" aria-current="page">Latest</a>
     <a href="archive.html" aria-current="false">Archive</a>
     <a href="../../index.html">Uplift home</a>
   </nav>
 </header>
+<nav class="section-nav">
+    <div class="section-nav-inner">
+      <span class="label">Sections</span>
+      <a href="../../editions/quiet-kindness/index.html" aria-current="page">Quiet Kindness</a>
+      <a href="../../editions/small-wonders/index.html">Small Wonders</a>
+      <a href="../../editions/everyday-joy/index.html">Everyday Joy</a>
+      <a href="../../editions/nature/index.html">Nature</a>
+      <a href="../../editions/science-medicine/index.html">Science &amp; Medicine</a>
+      <a href="../../editions/global-progress/index.html">Global Progress</a>
+      <a href="../../editions/coming-together/index.html">Coming Together</a>
+      <a href="../../editions/open-hands/index.html">Open Hands</a>
+      <a href="../../editions/human-spirit/index.html">Human Spirit</a>
+    </div>
+  </nav>
 <main class="page page--narrow">
   <article class="lead-story">
-    <span class="edition-tag">Quiet Kindness · Phoenix, Arizona, USA</span>
+    <span class="edition-tag">Quiet Kindness · Phoenix, Arizona, USA · September 30, 2026</span>
     <a class="photo" href="https://www.goodnewsnetwork.org/12-yos-annual-diaper-drive-dumps-30000-diapers-off-at-arizona-food-bank/" aria-label="Read: A twelve-year-old in Phoenix collected 30,000 diapers for her fifth annual drive.">
       <img src="https://images.unsplash.com/photo-1695998575453-f155392a95ba?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
     </a>
@@ -63,6 +112,55 @@
       <a href="https://www.goodnewsnetwork.org/12-yos-annual-diaper-drive-dumps-30000-diapers-off-at-arizona-food-bank/">Read the original →</a>
     </div>
   </article>
+
+  <div class="section-label"><span>More in this category</span></div>
+  <div class="more-grid">
+    <article class="more-card">
+      <a class="photo" href="https://www.goodnewsnetwork.org/18-year-old-from-the-bronx-starts-nonprofit-to-sponsor-school-children-in-ghana/" aria-label="Read: An eighteen-year-old from the Bronx now sends ten children to school in Accra.">
+        <img src="https://images.unsplash.com/photo-1627423896085-e3e694d88e40?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">The Bronx, New York, USA · September 29, 2026</span>
+      <h2 class="headline"><a href="https://www.goodnewsnetwork.org/18-year-old-from-the-bronx-starts-nonprofit-to-sponsor-school-children-in-ghana/">An eighteen-year-old from the Bronx now sends ten children to school in Accra.</a></h2>
+      <p class="dek">Max Owobu started the Yenko Foundation at 15, paying a first child's school fees in Ghana out of his weekly allowance. It now sponsors ten children through kindergarten to fifth grade at Calvary Methodist Elementary School in Accra, where $1,000 covers a year of tuition, uniforms, transport and meals. He aims to sponsor ten to fifteen children all the way through primary school, then extend the work to hospitals and orphanages.</p>
+      <div class="byline"><span>Source: Good News Network</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://biz.heraldcorp.com/article/10881023" aria-label="Read: A stranger tracked down a father's lost wallet just to return it.">
+        <img src="https://images.unsplash.com/photo-1688488496687-73e4e98dfc6b?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">South Korea · September 26, 2026</span>
+      <h2 class="headline"><a href="https://biz.heraldcorp.com/article/10881023">A stranger tracked down a father's lost wallet just to return it.</a></h2>
+      <p class="dek">A man in South Korea lost a wallet holding 700,000 won and his cards at a gas station while visiting his grandchildren, and spent the next day retracing his route with no luck. Nearly a month later a local community center called: someone had turned the wallet in through a police substation, every bill and card intact, along with a handwritten note mailed to his registered address. &quot;This wallet, which must be precious to someone, ended up in the wrong hands,&quot; the finder wrote, adding that returning it brought more relief than keeping it ever could have.</p>
+      <div class="byline"><span>Source: Herald Business</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://dailynorthwestern.com/2026/09/22/lateststories/mutual-aid-group-opens-new-community-fridge-with-womans-club-of-evanston/" aria-label="Read: A mutual-aid group opened its fifth free food pantry in an alley behind a small-town library.">
+        <img src="https://images.unsplash.com/photo-1710947949965-8150d227d337?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">Evanston, Illinois, USA · September 25, 2026</span>
+      <h2 class="headline"><a href="https://dailynorthwestern.com/2026/09/22/lateststories/mutual-aid-group-opens-new-community-fridge-with-womans-club-of-evanston/">A mutual-aid group opened its fifth free food pantry in an alley behind a small-town library.</a></h2>
+      <p class="dek">Evanston Community Fridges and the Woman's Club of Evanston unveiled a new refrigerator and pantry between the club's building and the public library, the group's first stocked spot downtown. The shelves, filled entirely by neighbors leaving what they can spare, typically empty within hours and serve an estimated 200 to 300 people a month, including students, seniors, and people without homes. Organizer Adrienne Edwards says the fridges work on one rule: anyone can be the one giving or the one taking, and no one has to say which.</p>
+      <div class="byline"><span>Source: The Daily Northwestern</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://newschannel9.com/newsletter-daily/spring-city-cafe-offers-pay-it-forward-meal-tickets-for-anyone-in-need" aria-label="Read: A small-town diner runs on meal tickets nobody has to ask for.">
+        <img src="https://images.unsplash.com/photo-1623086923609-594e98bb0bff?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">Spring City, Tennessee, USA · September 24, 2026</span>
+      <h2 class="headline"><a href="https://newschannel9.com/newsletter-daily/spring-city-cafe-offers-pay-it-forward-meal-tickets-for-anyone-in-need">A small-town diner runs on meal tickets nobody has to ask for.</a></h2>
+      <p class="dek">At BB's Café in Spring City, Tennessee, customers can buy a ticket off a board by the register that anyone short on cash can quietly redeem for a hot meal. Owner Brandi Sanders started the pay-it-forward board after her own years of going hungry as a teenager: &quot;I try to be more giving 'cause I know how it felt.&quot; The café was recently nominated for a local community award, but Sanders says the point was never recognition, just making sure nobody in town has to ask twice.</p>
+      <div class="byline"><span>Source: NewsChannel 9</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://www.goodnewsnetwork.org/prisoners-prove-unlikely-heroes-to-monarch-butterflies-thanks-to-wisconsin-correctional-program/" aria-label="Read: Wisconsin prisoners are raising monarch butterflies bound for Mexico.">
+        <img src="https://images.unsplash.com/photo-1510019952405-54985d1c907a?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">Redgranite, Wisconsin, USA · September 23, 2026</span>
+      <h2 class="headline"><a href="https://www.goodnewsnetwork.org/prisoners-prove-unlikely-heroes-to-monarch-butterflies-thanks-to-wisconsin-correctional-program/">Wisconsin prisoners are raising monarch butterflies bound for Mexico.</a></h2>
+      <p class="dek">About 20 men at Redgranite Correctional Institution spend each summer tending caterpillars in a purpose-built enclosure they call the monarch mansion. The program, started in 2025 by Carrie Jahnke, grew from 60 caterpillars its first year to 100 this year, with inmates logging data and tagging each butterfly before release. &quot;I enjoy being part of this program and being able to give back to the community,&quot; said participant Nathan Lecker — once their wings strengthen, the monarchs fly thousands of miles south to overwinter in Mexico.</p>
+      <div class="byline"><span>Source: Good News Network</span></div>
+    </article>
+  </div>
 </main>
 <footer class="foot">
   <div class="foot-inner">

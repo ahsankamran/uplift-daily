@@ -10,7 +10,9 @@
 <link rel="stylesheet" href="../../shared.css" />
 <style>
 .lead-story { max-width: 820px; margin: clamp(32px, 6vw, 72px) auto; }
-.lead-story .photo { aspect-ratio: 16/10; margin-bottom: clamp(18px, 2.6vw, 28px); border-radius: 2px; }
+/* .photo is an <a>, inline by default — aspect-ratio has no effect on a
+   non-replaced inline box, so it must be made a block first. */
+.lead-story .photo { display: block; aspect-ratio: 16/10; margin-bottom: clamp(18px, 2.6vw, 28px); border-radius: 2px; }
 .lead-story .headline { font-size: clamp(32px, 5vw, 52px); }
 .lead-story .dek { font-size: clamp(17px, 1.9vw, 20px); max-width: var(--measure); }
 .edition-tag {
@@ -27,6 +29,39 @@
 .archive-row .head { flex: 1; }
 .archive-row .head a { text-decoration: none; }
 .archive-row .head a:hover { color: var(--accent-deep); }
+
+/* The five stories behind the lead. align-items:start keeps rows from
+   stretching to the tallest card; each card is its own column flow. */
+.more-grid {
+  display: grid; grid-template-columns: 1fr; gap: clamp(28px, 4vw, 44px);
+  align-items: start;
+  margin-bottom: clamp(40px, 6vw, 72px);
+}
+@media (min-width: 680px) { .more-grid { grid-template-columns: 1fr 1fr; } }
+.more-card { display: flex; flex-direction: column; min-width: 0; }
+.more-card .photo { display: block; aspect-ratio: 3/2; margin-bottom: 14px; border-radius: 2px; }
+.more-card .headline { font-size: clamp(19px, 2.2vw, 23px); }
+.more-card .dek { font-size: 15px; margin-top: 10px; }
+.more-card .edition-tag { margin-bottom: 8px; font-size: 10.5px; letter-spacing: 0.16em; }
+.more-card .byline { font-size: 10.5px; margin-top: 12px; }
+
+/* Section switcher — the other categories, newspaper-style. */
+.section-nav {
+  border-top: 1px solid var(--rule-soft);
+  border-bottom: 1px solid var(--rule-soft);
+  padding: 12px var(--gutter);
+  margin-bottom: clamp(20px, 3vw, 36px);
+}
+.section-nav-inner {
+  max-width: 1240px; margin: 0 auto;
+  display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: baseline;
+  font-family: var(--sans); font-size: 11px; letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.section-nav .label { color: var(--ink-mute); margin-right: 4px; }
+.section-nav a { text-decoration: none; color: var(--ink-soft); }
+.section-nav a:hover { color: var(--accent-deep); }
+.section-nav a[aria-current="page"] { color: var(--ink); border-bottom: 1px solid var(--accent); }
 </style>
 </head>
 <body>
@@ -43,14 +78,28 @@
     </div>
   </div>
   <nav class="nav">
-    <a href="index.html" aria-current="page">Today</a>
+    <a href="index.html" aria-current="page">Latest</a>
     <a href="archive.html" aria-current="false">Archive</a>
     <a href="../../index.html">Uplift home</a>
   </nav>
 </header>
+<nav class="section-nav">
+    <div class="section-nav-inner">
+      <span class="label">Sections</span>
+      <a href="../../editions/quiet-kindness/index.html">Quiet Kindness</a>
+      <a href="../../editions/small-wonders/index.html">Small Wonders</a>
+      <a href="../../editions/everyday-joy/index.html">Everyday Joy</a>
+      <a href="../../editions/nature/index.html" aria-current="page">Nature</a>
+      <a href="../../editions/science-medicine/index.html">Science &amp; Medicine</a>
+      <a href="../../editions/global-progress/index.html">Global Progress</a>
+      <a href="../../editions/coming-together/index.html">Coming Together</a>
+      <a href="../../editions/open-hands/index.html">Open Hands</a>
+      <a href="../../editions/human-spirit/index.html">Human Spirit</a>
+    </div>
+  </nav>
 <main class="page page--narrow">
   <article class="lead-story">
-    <span class="edition-tag">Nature · Indus River, Pakistan</span>
+    <span class="edition-tag">Nature · Indus River, Pakistan · September 30, 2026</span>
     <a class="photo" href="https://news.mongabay.com/2026/09/pakistan-expands-protected-habitat-for-indus-river-dolphin-as-recovery-offers-hope/" aria-label="Read: Pakistan joined its Indus river dolphin sanctuaries into one 400-kilometre protected corridor.">
       <img src="https://images.unsplash.com/photo-1538794436234-cb4c548f31b9?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
     </a>
@@ -63,6 +112,55 @@
       <a href="https://news.mongabay.com/2026/09/pakistan-expands-protected-habitat-for-indus-river-dolphin-as-recovery-offers-hope/">Read the original →</a>
     </div>
   </article>
+
+  <div class="section-label"><span>More in this category</span></div>
+  <div class="more-grid">
+    <article class="more-card">
+      <a class="photo" href="https://www.positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires/" aria-label="Read: Asháninka fire brigades brought wildfires in 45 Peruvian communities down to zero.">
+        <img src="https://images.unsplash.com/photo-1699575947488-30f08e71896b?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">Ene River, Peru · September 29, 2026</span>
+      <h2 class="headline"><a href="https://www.positive.news/environment/the-forest-is-life-how-indigenous-communities-in-peru-are-preventing-wildfires/">Asháninka fire brigades brought wildfires in 45 Peruvian communities down to zero.</a></h2>
+      <p class="dek">Across 45 Asháninka communities in Peru's Ene River region, wildfires fell from 25 in 2023 to nine in 2024, and none were recorded in 2025. Community members trained as certified firefighters watch for smoke by satellite, drone and radio under the Paamari programme, run by the Central Asháninka of the Ene River with the charity Cool Earth. Burned area dropped from 2,648 hectares to 492 in a year when fires across Peru destroyed 63,000 hectares.</p>
+      <div class="byline"><span>Source: Positive News</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://news.mongabay.com/2026/09/lost-bird-reappears-in-west-africas-forests-after-more-than-a-decade/" aria-label="Read: A bird unseen for thirteen years reappeared in an Ivorian rainforest.">
+        <img src="https://images.unsplash.com/photo-1595363530143-b913b4ea30dd?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">Taï National Park, Côte d’Ivoire · September 26, 2026</span>
+      <h2 class="headline"><a href="https://news.mongabay.com/2026/09/lost-bird-reappears-in-west-africas-forests-after-more-than-a-decade/">A bird unseen for thirteen years reappeared in an Ivorian rainforest.</a></h2>
+      <p class="dek">Field researchers photographed a Ghana cuckooshrike in Côte d'Ivoire's Taï National Park in June, the species' first confirmed sighting since 2013. Stephanie Bartlett and Paulo Ditzel of the International Bird Conservation Partnership spent six months surveying West Africa's forests before capturing what may be the best photographs ever taken of the bird. The team plans to return to Taï within the year to survey further and strengthen ties with the local researchers protecting the park's shrinking forest.</p>
+      <div class="byline"><span>Source: Mongabay</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://news.mongabay.com/2026/09/pakistan-expands-protected-habitat-for-indus-river-dolphin-as-recovery-offers-hope/" aria-label="Read: Pakistan linked two river reserves into a single 400-kilometer sanctuary for the world's rarest dolphin.">
+        <img src="https://images.unsplash.com/photo-1647628135714-9e0b2f4e989c?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">Punjab and Sindh, Pakistan · September 25, 2026</span>
+      <h2 class="headline"><a href="https://news.mongabay.com/2026/09/pakistan-expands-protected-habitat-for-indus-river-dolphin-as-recovery-offers-hope/">Pakistan linked two river reserves into a single 400-kilometer sanctuary for the world's rarest dolphin.</a></h2>
+      <p class="dek">The government's new Punjnad Indus River Dolphin Sanctuary now connects with an existing reserve in Sindh, giving the critically endangered, functionally blind species a continuous protected corridor along the river. A 2025 survey counted roughly 1,987 of the dolphins, up from a low of 617 in 2001, though gillnets still cause more than half of recorded deaths. WWF-Pakistan biologist Uzma Khan says the connected corridor lets dolphins move between feeding grounds without crossing the busiest fishing waters.</p>
+      <div class="byline"><span>Source: Mongabay</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://www.sciencedaily.com/releases/2026/09/260920222410.htm" aria-label="Read: Genetic testing revealed a fourth gentoo penguin species hiding on a remote sub-Antarctic island.">
+        <img src="https://images.unsplash.com/photo-1712921674432-4efe7e3dc2d6?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">Kerguelen Islands · September 24, 2026</span>
+      <h2 class="headline"><a href="https://www.sciencedaily.com/releases/2026/09/260920222410.htm">Genetic testing revealed a fourth gentoo penguin species hiding on a remote sub-Antarctic island.</a></h2>
+      <p class="dek">An international team analyzing genomes, body size, calls, and breeding schedules confirmed that gentoo penguins on France's remote Kerguelen Islands form their own species, Pygoscelis kerguelensis — the first new penguin species named in more than a century. The researchers, publishing in Communications Biology, found that three populations long treated as mere subspecies are genetically distinct enough to split the familiar gentoo penguin into four separate species. Conservationists say the finer-grained map gives each population, several already vulnerable to warming seas, a clearer claim to its own protection.</p>
+      <div class="byline"><span>Source: ScienceDaily</span></div>
+    </article>
+    <article class="more-card">
+      <a class="photo" href="https://www.goodnewsnetwork.org/scientists-solve-mystery-behind-snowfall-that-dropped-695-billion-tons-of-ice-on-antarctica/" aria-label="Read: A tropical heat pool sent 695 billion tons of extra snow onto East Antarctica.">
+        <img src="https://images.unsplash.com/photo-1602575910101-c539c62c7151?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="" loading="lazy" />
+      </a>
+      <span class="edition-tag">East Antarctica · September 23, 2026</span>
+      <h2 class="headline"><a href="https://www.goodnewsnetwork.org/scientists-solve-mystery-behind-snowfall-that-dropped-695-billion-tons-of-ice-on-antarctica/">A tropical heat pool sent 695 billion tons of extra snow onto East Antarctica.</a></h2>
+      <p class="dek">Between 2021 and 2023, satellites recorded East Antarctica's largest ice-mass gain on record, equal to about four years of the continent's average annual loss. Researcher Qinghua Ding traced the cause to unusual warming in the tropical Pacific-Indian &quot;warm pool,&quot; which sent an atmospheric river of moisture toward Queen Mary Land and Wilkes Land as heavy snow. Only 9 percent of the anomaly was linked to human-caused warming, and researchers say the gain is temporary, not a reversal of the ice sheet's long-term decline.</p>
+      <div class="byline"><span>Source: Good News Network</span></div>
+    </article>
+  </div>
 </main>
 <footer class="foot">
   <div class="foot-inner">
