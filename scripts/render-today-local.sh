@@ -22,8 +22,12 @@ echo "===== $(date '+%Y-%m-%d %H:%M:%S %Z') — rendering cards for $DATE ====="
 # Surface problems on the desktop. This job is unattended, so a failure that
 # only lands in render.log is a failure nobody sees — it went unnoticed for 35
 # days once (a dirty tree blocked every git pull from 2026-06-28 to 08-01).
-notify() { osascript -e "display notification \"$1\" with title \"Uplift daily\"" >/dev/null 2>&1 || true; }
-fail() { echo "FATAL: $1"; notify "$1"; exit 1; }
+# A desktop notification on a headless Mac Mini is indistinguishable from
+# silence — that is exactly how 300 consecutive WhatsApp failures went unseen.
+# alert.sh fans out to iMessage (leaves the machine, lands on your phone) as
+# well as the notification, and drops a Desktop file for anything critical.
+notify() { bash "$REPO/scripts/alert.sh" "$1" "${2:-warn}" || true; }
+fail() { echo "FATAL: $1"; notify "$1" critical; exit 1; }
 
 # One run at a time: two WhatsApp clients on one session contend and hang.
 LOCK="$REPO/.render.lock"
@@ -38,6 +42,38 @@ if ! mkdir "$LOCK" 2>/dev/null; then
   fi
 fi
 trap 'rmdir "$LOCK" 2>/dev/null' EXIT
+
+# --- WhatsApp session health -------------------------------------------------
+# Deliberately FIRST: before the git pull, before the published-yet guard,
+# before rendering. The two-month outage happened precisely because session
+# health was only ever exercised as a side effect of publishing, so an
+# unrelated failure upstream (a stale checkout) let the session sit idle until
+# WhatsApp unlinked it at ~14 days. Connecting daily regardless of everything
+# else both keeps the session warm and surfaces a dead link the same day.
+echo "--- whatsapp health ---"
+node scripts/whatsapp-health.mjs
+HEALTH_RC=$?
+# An alarm with no off-switch gets ignored, so recovery clears the Desktop
+# file the critical path drops. Anything still on the Desktop is still true.
+if [ "$HEALTH_RC" -eq 0 ]; then
+  rm -f "$HOME/Desktop/UPLIFT-NEEDS-ATTENTION.txt" 2>/dev/null || true
+fi
+if [ "$HEALTH_RC" -eq 7 ]; then
+  STALE_DAYS=$(node -e '
+    const fs=require("fs");
+    try{
+      const h=JSON.parse(fs.readFileSync("cards/.whatsapp-health.json","utf8"));
+      const last=h.lastSendOk||h.lastLinkOk;
+      process.stdout.write(last ? String(Math.floor((Date.now()-Date.parse(last))/86400000)) : "999");
+    }catch(_){ process.stdout.write("999"); }
+  ' 2>/dev/null || echo 999)
+  # One missed day is a warning; two or more means the daily paper has actually
+  # stopped arriving, which earns the Desktop file and the louder wording.
+  SEV=warn
+  [ "${STALE_DAYS:-999}" -gt 1 ] && SEV=critical
+  echo "whatsapp link is DEAD (nothing delivered for ${STALE_DAYS}d) — escalating"
+  notify "WhatsApp link is dead — no edition delivered for ${STALE_DAYS} day(s). Fix: cd $REPO && npm run relink" "$SEV"
+fi
 
 echo "--- git pull ---"
 # --autostash so uncommitted local edits can never block the sync, and a failed
@@ -121,21 +157,34 @@ else
   # process clears it, so retry up to 3 times with a pause between (each attempt
   # also clears stale browser locks on its own).
   sent=0
+  relink=0
   for attempt in 1 2 3; do
     echo "whatsapp send attempt $attempt/3"
-    if node scripts/send-whatsapp.mjs "$DATE"; then
+    node scripts/send-whatsapp.mjs "$DATE"
+    rc=$?
+    if [ "$rc" -eq 0 ]; then
       touch "$SENT_MARK"
       echo "sent and marked $SENT_MARK"
       sent=1
       break
     fi
-    echo "attempt $attempt did not complete"
+    # Exit 7 = the session is gone and WhatsApp wants a QR. No number of
+    # retries can fix that; only a human with the phone can. Retrying it three
+    # times cost 7.5 minutes a day for two months and changed nothing.
+    if [ "$rc" -eq 7 ]; then
+      echo "session needs re-linking — not retrying"
+      relink=1
+      break
+    fi
+    echo "attempt $attempt did not complete (exit $rc)"
     pkill -f 'Chrome for Testing' 2>/dev/null
     sleep 5
   done
-  if [ "$sent" -eq 0 ]; then
+  if [ "$relink" -eq 1 ]; then
+    notify "WhatsApp needs re-linking — $DATE was not delivered. Fix: cd $REPO && npm run relink" critical
+  elif [ "$sent" -eq 0 ]; then
     echo "whatsapp send failed after 3 attempts (will retry next scheduled run)"
-    notify "WhatsApp send failed for $DATE — the session may need re-linking."
+    notify "WhatsApp send failed for $DATE — will retry tomorrow. See render.log."
   fi
 fi
 echo

@@ -7,19 +7,21 @@
 //   node scripts/send-whatsapp.mjs 2026-06-10
 //   node scripts/send-whatsapp.mjs                # defaults to today (UTC)
 //
-// First run: a QR code prints in the terminal — open WhatsApp on your phone →
-// Settings → Linked Devices → Link a Device, and scan it. Every run after that
-// is automatic. Called by render-today-local.sh after the PDF is built.
+// This script never links a device — it only sends. If the session has expired
+// it exits 7 immediately; re-link with `npm run relink` (scripts/relink-whatsapp.mjs),
+// which renders a scannable PNG. Called by render-today-local.sh after the PDF is built.
+//
+// Exit codes: 0 sent · 1 bad date · 2 no PDF · 3 auth failure · 4 send error
+//             5 stalled (retryable) · 6 upload unconfirmed · 7 needs re-link (human)
 //
 // Note: this is unofficial automation (against WhatsApp's ToS). Fine for
 // sending to your own account; don't point it at strangers.
 
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
-import { existsSync, readFileSync, rmSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, rmSync, readdirSync, writeFileSync } from "node:fs";
 import pkg from "whatsapp-web.js";
 const { Client, LocalAuth, MessageMedia } = pkg;
-import qrcode from "qrcode-terminal";
 import puppeteer from "puppeteer";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -51,6 +53,18 @@ if (existsSync(sessionDir)) {
   }
 }
 
+// Shared health record (also written by relink/health scripts) so a human — or
+// the wrapper — can ask "when did this last actually work?" without parsing a
+// 12,000-line log.
+const HEALTH = resolve(REPO, "cards", ".whatsapp-health.json");
+function recordHealth(patch) {
+  try {
+    let cur = {};
+    if (existsSync(HEALTH)) { try { cur = JSON.parse(readFileSync(HEALTH, "utf8")); } catch {} }
+    writeFileSync(HEALTH, JSON.stringify({ ...cur, ...patch }, null, 2) + "\n");
+  } catch {}
+}
+
 const client = new Client({
   authStrategy: new LocalAuth({ dataPath: resolve(REPO, ".wwebjs_auth") }),
   puppeteer: {
@@ -76,9 +90,16 @@ process.on("unhandledRejection", (err) => {
   console.error("unhandledRejection:", m);
 });
 
-client.on("qr", (qr) => {
-  console.log("\nScan this with WhatsApp → Linked Devices → Link a Device:\n");
-  qrcode.generate(qr, { small: true });
+// A QR event means the saved session is gone: WhatsApp wants a fresh device
+// link, which is a human-with-a-phone job. Nothing about waiting, timing out,
+// or retrying can change that — the old code printed the QR into an unattended
+// log and burned the full 150s timeout three times a day for two months. So
+// bail immediately with a distinct code (7) and let the wrapper escalate to a
+// human. Re-link with: npm run relink
+client.on("qr", () => {
+  console.error("NEEDS RELINK: WhatsApp session is no longer valid (server asked for a QR).");
+  console.error("Fix: run  npm run relink  and scan the QR that opens in Preview.");
+  finish(7);
 });
 
 client.on("authenticated", () => console.log("authenticated — session saved"));
@@ -116,6 +137,7 @@ client.on("ready", async () => {
     }
     if (ack >= 1) {
       console.log(`sent uplift-${date}.pdf to ${dest} (ack ${ack})`);
+      recordHealth({ lastSendOk: new Date().toISOString(), lastSendDate: date });
       finish(0);
     } else {
       console.error(`upload not confirmed for uplift-${date}.pdf (ack ${ack}) — not marking sent`);
@@ -133,7 +155,7 @@ client.on("ready", async () => {
 // non-zero and let the shell wrapper retry with a fresh process — a cleaner
 // reset. Exit 5 = stalled/timeout (retryable); the wrapper distinguishes it.
 setTimeout(() => {
-  if (!done) { console.error("timed out before send (session stalled or needs re-link)"); finish(5); }
+  if (!done) { console.error("timed out before send (session stalled) — retryable"); finish(5); }
 }, 150 * 1000);
 
 client.initialize();

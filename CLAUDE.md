@@ -86,6 +86,29 @@ the WhatsApp session are gitignored.
 - `scripts/send-whatsapp.mjs`        — sends the daily PDF (target in whatsapp-target.json)
 - `scripts/send-whatsapp-batch.mjs`  — backfill sender for past editions
 - `scripts/render-today-local.sh`    — the launchd entrypoint tying these together
+- `scripts/whatsapp-health.mjs`      — daily session heartbeat; runs first, independent of publishing
+- `scripts/relink-whatsapp.mjs`      — `npm run relink`: QR as a scannable PNG when the link dies
+- `scripts/alert.sh`                 — failure escalation off the machine (iMessage; target in alert-target.json)
+- `scripts/backfill-whatsapp.sh`     — resumable chunked send of every rendered edition lacking a marker
+- `scripts/weekly-health-check.sh`   — Friday audit (launchd `com.uplift.health`, 9 AM PT), independent of the daily job
+
+If the daily PDF stops arriving, the link has almost certainly expired —
+WhatsApp drops linked devices idle for ~14 days. Run `npm run relink`, scan
+the PNG that opens in Preview, then `npm run health` to confirm. Anything
+missed while it was down: `bash scripts/backfill-whatsapp.sh`.
+
+Two launchd agents now: `com.uplift.cards` (2 PM daily — publish, render, send,
+and a link health check that runs *first*, so session health no longer depends
+on an edition existing) and `com.uplift.health` (Fridays 9 AM — an independent
+audit that survives the daily job breaking, and also alerts when the link is
+healthy but nothing has been delivered in days). Both escalate via `alert.sh`.
+
+**Delivery state lives in two places and they must agree:** a per-edition
+`cards/<date>/.whatsapp-sent` marker, and `cards/.whatsapp-health.json`
+(`lastSendOk`). Every sender writes both. A sender that delivers without
+writing a marker makes delivered editions look undelivered forever — that is
+exactly how a 2026-06-12 backfill of 32 editions nearly got re-sent as
+duplicates on 2026-08-29.
 
 The cloud editor (you, in CI) does **not** need to run any of these.
 
