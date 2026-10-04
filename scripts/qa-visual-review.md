@@ -28,6 +28,18 @@ sample from `scripts/render-sample-card.mjs`), with that story's
      rescuing), does the photo show people doing something in that
      territory, or at minimum objects/setting consistent with it — not an
      empty landscape standing in for human action?
+   - **Does the photo depict the right *relationship*, not just the right
+     activity?** This is the subtlest failure and the one a quick read
+     misses. A story about a neighbour mowing someone's lawn unpaid is
+     contradicted by a photo of a uniformed commercial crew with a
+     zero-turn ride-on — same activity, opposite relationship, and the
+     relationship is the whole story. Watch for: paid/professional
+     signals (matching uniforms, hi-vis, company logos, commercial-grade
+     equipment) on a story about volunteering or neighbourliness; an
+     institutional setting on a story about an individual; a posed
+     product shot on a story about ordinary life. Ask what the photo
+     says about *who these people are to each other*, and check that
+     against the story.
 3. **Verdict per card:** `pass` (genuine match), or `fail` (theme-only /
    region-only / wrong scene) with a one-line reason naming specifically
    what's missing — not just "doesn't match."
@@ -36,6 +48,19 @@ sample from `scripts/render-sample-card.mjs`), with that story's
    (search again, or swap the story) — see
    `MEMORY.md` → `feedback_uplift_editor_agent_quality_bar` for why this is
    a hard rule, not a preference.
+5. **Judge the pixels, never the metadata.** Unsplash titles and alt text
+   are frequently wrong — the commercial-crew photo that failed on
+   2026-10-04 is titled "A man mowing a lawn with a lawn mower," and the
+   sourcing agent passed it through by reading that title rather than
+   opening the image. Download and look at the actual file before any
+   verdict.
+
+**This review is not reliably deterministic.** On 2026-10-04 two
+independent passes over the same six cards disagreed: the first passed the
+Moose Jaw card, the second correctly failed it on the relationship test
+above. Treat a single clean pass as weaker evidence than it looks, and
+when a run fails anything, re-review the *whole* set after the fix rather
+than only re-checking the card that failed.
 
 ## Running it today (pre-automation)
 
