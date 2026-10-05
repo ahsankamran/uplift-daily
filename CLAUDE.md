@@ -101,6 +101,28 @@ WhatsApp drops linked devices idle for ~14 days. Run `npm run relink`, scan
 the PNG that opens in Preview, then `npm run health` to confirm. Anything
 missed while it was down: `bash scripts/backfill-whatsapp.sh`.
 
+**2026-10-04: the ~14-day idle theory no longer fits.** A fresh relink at
+22:53 PT Oct 3 verified healthy immediately, then was rejected with a QR
+request by the 14:00 PT run the next day — roughly 15 hours, with the
+machine active throughout, so idle timeout cannot explain it. Ruled out:
+stale `Singleton*` locks, orphaned Chrome processes, a held `.render.lock`
+(all checked, all absent), and library drift (`whatsapp-web.js` 1.34.7 is
+the latest published). Session storage is intact and being written.
+
+What remains, unresolved: WhatsApp's web client version jumped from
+`2.3000.1047113681` (cached Sep 9) to `2.3000.1049240009` (cached at the
+Oct 3 relink), and nothing here pins a web version. Either that jump broke
+the library's assumptions, or WhatsApp is detecting and revoking the
+linked device — both are consistent with a session that authenticates
+cleanly and is rejected hours later, and the two cannot be told apart from
+this side. The last genuinely successful send remains 2026-06-27.
+
+Treat this channel as unreliable by design: it is unofficial automation
+against WhatsApp's ToS (as noted in `send-whatsapp.mjs`), so enforcement
+is a feature of the platform, not a bug in this repo. Email (Phase 5,
+`scripts/send-email.mjs` + Resend, running in the cloud job) is the
+channel to depend on; WhatsApp is best-effort.
+
 Two launchd agents now: `com.uplift.cards` (2 PM daily — publish, render, send,
 and a link health check that runs *first*, so session health no longer depends
 on an edition existing) and `com.uplift.health` (Fridays 9 AM — an independent
