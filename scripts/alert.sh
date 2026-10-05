@@ -60,6 +60,19 @@ else
   echo "alert: no iMessage handle configured — set \"imessage\" in scripts/alert-target.json"
 fi
 
+# --- channel 1b: Jarvis app push (as Rocket) ----------------------------------
+# The channel that actually reaches the phone from a launchd job. iMessage via
+# osascript needs an Automation grant that macOS never prompts a background
+# bash process for, so channel 1 fails silently under launchd (found 2026-10-04).
+# Lives outside this repo (~/projects/prism/jarvis/app); skipped if absent.
+JARVIS_PY="$HOME/projects/prism/venv/bin/python3"
+JARVIS_APP="$HOME/projects/prism/jarvis/app"
+if [ -x "$JARVIS_PY" ] && [ -f "$JARVIS_APP/push.py" ]; then
+  N=$(cd "$JARVIS_APP" && "$JARVIS_PY" -c \
+      'import sys, push; print(push.send_push("Rocket", sys.argv[1], persona="rocket"))' "$TAG: $MSG" 2>/dev/null)
+  echo "alert: Jarvis app push to ${N:-0} device(s)"
+fi
+
 # --- channel 2: desktop notification (free, sometimes seen) ------------------
 osascript -e "display notification \"$MSG\" with title \"$TAG\"" >/dev/null 2>&1 || true
 
