@@ -183,14 +183,21 @@ jobs:
           done
 
       # ============================================================
-      # TIER 2 — one vision pass over everything rendered so far:
-      # combined digest's 6 feed cards + whichever new categories
-      # passed Tier 1. Writes .qa/tier2-report.json per the contract
-      # in scripts/qa-visual-review.md. Read-only except for that one
-      # report file.
+      # TIER 2 — TWO independent vision passes over everything
+      # rendered so far: the combined digest's 6 feed cards plus
+      # whichever new categories passed Tier 1.
+      #
+      # Two passes, not one, because this review is demonstrably
+      # non-deterministic: on 2026-10-04 two runs over identical cards
+      # disagreed, and the pass that caught the real defect (a
+      # commercial landscaping crew illustrating a story about unpaid
+      # neighbourly help) was the second one. A single pass would have
+      # shipped it. Each pass writes its own report and a later step
+      # fails a card if EITHER pass fails it — the union of findings,
+      # so a miss in one run is covered by the other.
       # ============================================================
 
-      - name: Tier 2 QA — visual review
+      - name: Tier 2 QA — visual review (pass 1)
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -212,9 +219,98 @@ jobs:
             matched against that slug's editions/<slug>/issues/index.json
             entry for today.
 
-            Write your verdict to .qa/tier2-report.json in exactly the
+            Write your verdict to .qa/tier2-report-1.json in exactly the
             JSON shape the contract specifies. This is the only file you
             should write.
+
+      # Deliberately a fresh invocation with no knowledge of pass 1 — the
+      # point is an independent second opinion, so it must not be able to
+      # anchor on the first one's verdicts.
+      - name: Tier 2 QA — visual review (pass 2)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: "--allowedTools Read,Bash"
+          prompt: |
+            Read scripts/qa-visual-review.md and follow its procedure and
+            "Automated contract" section exactly. Run `date -u +%Y-%m-%d`
+            yourself via Bash to get today's date — use that for every
+            path below.
+
+            Review today's combined digest: the 6 feed cards at
+            cards/<today>/feed/*.png, matched against issues/index.json's
+            entry for today (cat/place/head per card, in order).
+
+            Also review each new-category sample card that exists at
+            cards/_samples/<slug>.png for slug in coming-together,
+            open-hands, human-spirit (a missing file means that one
+            didn't pass Tier 1 — skip it, don't report an entry for it),
+            matched against that slug's editions/<slug>/issues/index.json
+            entry for today.
+
+            Judge every card yourself from the images. Do not read
+            .qa/tier2-report-1.json or any other existing verdict file —
+            this is an independent second opinion and must not be
+            influenced by another reviewer's conclusions.
+
+            Write your verdict to .qa/tier2-report-2.json in exactly the
+            JSON shape the contract specifies. This is the only file you
+            should write.
+
+      # Merge the two passes: a card ships only if BOTH passed it. Either
+      # reviewer failing something is enough to block, since the 2026-10-04
+      # incident showed a real defect visible to only one of two passes.
+      - name: Merge the two Tier 2 passes
+        run: |
+          node -e '
+            const fs = require("fs");
+            const load = (p) => {
+              try { return JSON.parse(fs.readFileSync(p, "utf8")); }
+              catch (e) { return null; }
+            };
+            const a = load(".qa/tier2-report-1.json");
+            const b = load(".qa/tier2-report-2.json");
+            if (!a && !b) {
+              console.error("::error::both Tier 2 passes failed to produce a report — treating as fail-everything");
+              process.exit(1);
+            }
+            // A missing report is not an approval: if only one pass
+            // produced output, its verdicts stand alone but we say so
+            // loudly, because the whole point is two opinions.
+            if (!a || !b) {
+              console.log("::warning::only one Tier 2 pass produced a report — proceeding on a single opinion");
+            }
+            const merged = { date: (a || b).date, editions: {} };
+            const combinedA = (a && a.editions && a.editions.combined) || null;
+            const combinedB = (b && b.editions && b.editions.combined) || null;
+            const n = Math.max(combinedA ? combinedA.length : 0, combinedB ? combinedB.length : 0);
+            merged.editions.combined = [];
+            for (let i = 0; i < n; i++) {
+              const ca = combinedA && combinedA[i];
+              const cb = combinedB && combinedB[i];
+              const pass = (!ca || ca.pass) && (!cb || cb.pass) && (ca || cb);
+              const reason = [ca && !ca.pass ? `pass1: ${ca.reason}` : null,
+                              cb && !cb.pass ? `pass2: ${cb.reason}` : null]
+                             .filter(Boolean).join(" | ");
+              merged.editions.combined.push({
+                n: (ca || cb).n, cat: (ca || cb).cat, pass: !!pass, reason,
+              });
+              if (!pass) console.log(`combined card ${(ca || cb).n}: BLOCKED — ${reason}`);
+            }
+            for (const slug of ["coming-together", "open-hands", "human-spirit"]) {
+              const ea = a && a.editions && a.editions[slug];
+              const eb = b && b.editions && b.editions[slug];
+              if (!ea && !eb) continue;
+              const pass = (!ea || ea.pass) && (!eb || eb.pass);
+              const reason = [ea && !ea.pass ? `pass1: ${ea.reason}` : null,
+                              eb && !eb.pass ? `pass2: ${eb.reason}` : null]
+                             .filter(Boolean).join(" | ");
+              merged.editions[slug] = { pass: !!pass, reason };
+              if (!pass) console.log(`${slug}: BLOCKED — ${reason}`);
+            }
+            fs.writeFileSync(".qa/tier2-report.json", JSON.stringify(merged, null, 2));
+            console.log("merged verdict written to .qa/tier2-report.json");
+          '
 
       - name: Evaluate QA verdicts and commit what passed
         run: |
