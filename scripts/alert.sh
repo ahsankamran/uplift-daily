@@ -42,19 +42,39 @@ if [ -f "$CFG" ]; then
 fi
 
 if [ -n "$HANDLE" ] && [[ "$HANDLE" != *"REPLACE"* ]]; then
-  # `participant` resolves a raw phone number or Apple ID without requiring the
-  # contact to exist in Contacts.
-  if osascript <<APPLESCRIPT >/dev/null 2>&1
+  # Quotes and backslashes in the message would otherwise terminate the
+  # AppleScript string literal and swallow the alert.
+  ESCAPED=$(printf '%s' "$TAG: $MSG" | sed -e 's/\\/\\\\/g' -e 's/"/\\"/g')
+
+  # `participant` resolves a raw phone number or Apple ID without requiring
+  # the contact to exist in Contacts.
+  #
+  # This used to look the service up first:
+  #     set svc to 1st account whose service type = iMessage
+  # On macOS 26 that enumeration fails with -1728 (errAENoSuchObject) even
+  # when Messages is signed in and Automation permission IS granted — Apple
+  # has progressively removed the Messages scripting dictionary's account
+  # API. The failure looked exactly like a permissions problem, which is why
+  # ~300 alerts reported "does Terminal have Automation permission?" while
+  # the real cause was a dead API. Sending straight to a participant skips
+  # the lookup entirely and works on 26.4 (verified 2026-10-04).
+  if osascript -e "tell application \"Messages\" to send \"$ESCAPED\" to participant \"$HANDLE\"" >/dev/null 2>&1; then
+    echo "alert: iMessage sent to $HANDLE"
+  else
+    # Older macOS wants the service resolved first; keep it as a fallback so
+    # this script still works if run on an earlier system.
+    if osascript <<APPLESCRIPT >/dev/null 2>&1
 tell application "Messages"
   set svc to 1st account whose service type = iMessage
   set who to participant "$HANDLE" of svc
-  send "$TAG: $MSG" to who
+  send "$ESCAPED" to who
 end tell
 APPLESCRIPT
-  then
-    echo "alert: iMessage sent to $HANDLE"
-  else
-    echo "alert: iMessage FAILED (is Messages signed in? does Terminal have Automation permission for Messages in System Settings → Privacy & Security → Automation?)"
+    then
+      echo "alert: iMessage sent to $HANDLE (via legacy account lookup)"
+    else
+      echo "alert: iMessage FAILED — both the direct and legacy AppleScript forms errored. Check Messages is signed in, and that Automation permission for Messages is granted to whatever runs this (System Settings → Privacy & Security → Automation)."
+    fi
   fi
 else
   echo "alert: no iMessage handle configured — set \"imessage\" in scripts/alert-target.json"
