@@ -109,13 +109,30 @@ stale `Singleton*` locks, orphaned Chrome processes, a held `.render.lock`
 (all checked, all absent), and library drift (`whatsapp-web.js` 1.34.7 is
 the latest published). Session storage is intact and being written.
 
-What remains, unresolved: WhatsApp's web client version jumped from
-`2.3000.1047113681` (cached Sep 9) to `2.3000.1049240009` (cached at the
-Oct 3 relink), and nothing here pins a web version. Either that jump broke
-the library's assumptions, or WhatsApp is detecting and revoking the
-linked device — both are consistent with a session that authenticates
-cleanly and is rejected hours later, and the two cannot be told apart from
-this side. The last genuinely successful send remains 2026-06-27.
+**Resolved later the same day: the library is broken against the current
+WhatsApp Web client.** With a freshly relinked, verified-healthy session
+that authenticates and reaches `ready` with no QR, every send throws from
+WhatsApp's *own* bundled JavaScript:
+
+```
+Data passed to getter must include an id property
+(it's how we memoize) but got undefined
+  at static.whatsapp.net/rsrc.php/v4/yI/r/dJXbF_AaHbv.js
+```
+
+Both `send-whatsapp.mjs` and `send-all-editions.mjs` fail identically, so
+this is not a bug in either script — `whatsapp-web.js` 1.34.7 (the latest
+published) no longer matches the web client WhatsApp now serves. The web
+version cached here jumped from `2.3000.1047113681` (Sep 9) to
+`2.3000.1049240009` (Oct 3), and nothing pins a version.
+
+**Relinking cannot fix this** — the session is fine; the send path is
+broken. Some earlier "NEEDS RELINK" failures may have been this same
+incompatibility surfacing differently rather than genuine session death.
+Options, none of them good: wait for upstream to catch up, try pinning an
+older web client via `webVersionCache` (fragile, and WhatsApp may refuse
+outdated clients), or move off WhatsApp. The last genuinely successful
+send remains 2026-06-27.
 
 Treat this channel as unreliable by design: it is unofficial automation
 against WhatsApp's ToS (as noted in `send-whatsapp.mjs`), so enforcement
