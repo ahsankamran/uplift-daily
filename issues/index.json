@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-01",
+    "slug": "2026-11-01",
+    "edition": 554,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Pemba Island, Zanzibar, Tanzania",
+        "head": "Fishers on Pemba Island asked for marine reserves, and got 1,300 square kilometres.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/10/pembas-new-marine-protected-areas-show-the-power-of-collaboration-to-meet-30x30-goal/",
+        "img": "https://images.unsplash.com/photo-1620896712848-d05411ec91ec?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Corvo, Azores, Portugal",
+        "head": "An Atlantic island switched off its lights so young shearwaters could find the sea.",
+        "src": "Positive News",
+        "url": "https://www.positive.news/society/good-news-stories-from-week-44-of-2026/",
+        "img": "https://images.unsplash.com/photo-1777277593226-a35f2e804576?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Sardinia, Italy",
+        "head": "Fifteen Sardinian restaurants are offering families a table with no screens on it.",
+        "src": "Tgcom24",
+        "url": "https://www.tgcom24.mediaset.it/tgcom-mag/sardegna-progetto-tavola-senza-schermi-alonzi_118238264-202602k.shtml",
+        "img": "https://images.unsplash.com/photo-1791409287886-15a1076136aa?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Bridgetown, Barbados",
+        "head": "Barbados has gone three years without a baby born with HIV.",
+        "src": "PAHO / WHO",
+        "url": "https://www.paho.org/en/news/30-10-2026-barbados-eliminates-mother-child-transmission-hiv",
+        "img": "https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Beijing, China",
+        "head": "A vitamin B5 derivative sold as a supplement eased psoriasis in a small trial.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-10-common-nutritional-supplement-boost-psoriasis.html",
+        "img": "https://images.unsplash.com/photo-1602052577122-f73b9710adba?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Beijing, China",
+        "head": "A strawberry grower has been taking calls from schoolchildren for nineteen years.",
+        "src": "South China Morning Post",
+        "url": "https://www.scmp.com/news/people-culture/trending-china/article/3372431/chinese-student-encouraged-farm-owner-enrols-masters-programme-6-years-later",
+        "img": "https://images.unsplash.com/photo-1759509295194-e85b92b24e15?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-10-04",
     "slug": "2026-10-04",
     "edition": 553,
