@@ -4,7 +4,12 @@ on:
   schedule:
     # 14:00 UTC = 07:00 PT (PDT). Adjust if you want a different deliver time.
     - cron: "0 14 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force_publish:
+        description: "Publish even if a card fails visual review"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -261,101 +266,31 @@ jobs:
       # reviewer failing something is enough to block, since the 2026-10-04
       # incident showed a real defect visible to only one of two passes.
       - name: Merge the two Tier 2 passes
-        run: |
-          node -e '
-            const fs = require("fs");
-            const load = (p) => {
-              try { return JSON.parse(fs.readFileSync(p, "utf8")); }
-              catch (e) { return null; }
-            };
-            const a = load(".qa/tier2-report-1.json");
-            const b = load(".qa/tier2-report-2.json");
-            if (!a && !b) {
-              console.error("::error::both Tier 2 passes failed to produce a report — treating as fail-everything");
-              process.exit(1);
-            }
-            // A missing report is not an approval: if only one pass
-            // produced output, its verdicts stand alone but we say so
-            // loudly, because the whole point is two opinions.
-            if (!a || !b) {
-              console.log("::warning::only one Tier 2 pass produced a report — proceeding on a single opinion");
-            }
-            const merged = { date: (a || b).date, editions: {} };
-            const combinedA = (a && a.editions && a.editions.combined) || null;
-            const combinedB = (b && b.editions && b.editions.combined) || null;
-            const n = Math.max(combinedA ? combinedA.length : 0, combinedB ? combinedB.length : 0);
-            merged.editions.combined = [];
-            for (let i = 0; i < n; i++) {
-              const ca = combinedA && combinedA[i];
-              const cb = combinedB && combinedB[i];
-              const pass = (!ca || ca.pass) && (!cb || cb.pass) && (ca || cb);
-              const reason = [ca && !ca.pass ? `pass1: ${ca.reason}` : null,
-                              cb && !cb.pass ? `pass2: ${cb.reason}` : null]
-                             .filter(Boolean).join(" | ");
-              merged.editions.combined.push({
-                n: (ca || cb).n, cat: (ca || cb).cat, pass: !!pass, reason,
-              });
-              if (!pass) console.log(`combined card ${(ca || cb).n}: BLOCKED — ${reason}`);
-            }
-            for (const slug of ["coming-together", "open-hands", "human-spirit"]) {
-              const ea = a && a.editions && a.editions[slug];
-              const eb = b && b.editions && b.editions[slug];
-              if (!ea && !eb) continue;
-              const pass = (!ea || ea.pass) && (!eb || eb.pass);
-              const reason = [ea && !ea.pass ? `pass1: ${ea.reason}` : null,
-                              eb && !eb.pass ? `pass2: ${eb.reason}` : null]
-                             .filter(Boolean).join(" | ");
-              merged.editions[slug] = { pass: !!pass, reason };
-              if (!pass) console.log(`${slug}: BLOCKED — ${reason}`);
-            }
-            fs.writeFileSync(".qa/tier2-report.json", JSON.stringify(merged, null, 2));
-            console.log("merged verdict written to .qa/tier2-report.json");
-          '
+        run: node scripts/merge-tier2.mjs 6
+
+      # Without this, a reviewer malfunction is invisible: the reports live
+      # only on the runner, the job dies, and there is nothing to inspect.
+      # That is how a one-line shape mismatch discarded every edition from
+      # 2026-10-05 to 10-31 while every step before it reported success.
+      - name: Upload QA reports for diagnosis
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-reports
+          path: .qa/
+          retention-days: 14
+          if-no-files-found: warn
 
       - name: Evaluate QA verdicts and commit what passed
+        env:
+          FORCE_PUBLISH: ${{ inputs.force_publish && '1' || '0' }}
         run: |
           TODAY="$(date -u +%Y-%m-%d)"
-          node -e '
-            const fs = require("fs");
-            const today = process.argv[1];
-            let report;
-            try {
-              report = JSON.parse(fs.readFileSync(".qa/tier2-report.json", "utf8"));
-            } catch (e) {
-              console.error("::error::.qa/tier2-report.json missing or malformed — treating as fail-everything:", e.message);
-              process.exit(1);
-            }
-            const combined = report.editions && report.editions.combined;
-            if (!Array.isArray(combined) || combined.length < 6 || combined.some((c) => !c.pass)) {
-              console.error("::error::combined digest failed Tier 2 visual review — see .qa/tier2-report.json. Not pushing.");
-              for (const c of combined || []) {
-                if (!c.pass) console.error(`  card #${c.n} (${c.cat}): ${c.reason}`);
-              }
-              process.exit(1);
-            }
-            console.log("combined digest: Tier 2 passed, all 6 cards.");
+          node scripts/evaluate-qa.mjs
 
-            for (const slug of ["coming-together", "open-hands", "human-spirit"]) {
-              const entry = report.editions && report.editions[slug];
-              const tier1 = fs.existsSync(`.qa/tier1-${slug}.status`)
-                ? fs.readFileSync(`.qa/tier1-${slug}.status`, "utf8").trim()
-                : "fail";
-              const ok = tier1 === "pass" && entry && entry.pass;
-              fs.writeFileSync(`.qa/final-${slug}.status`, ok ? "pass" : "fail");
-              if (!ok) {
-                const why = tier1 !== "pass" ? "Tier 1" : (entry ? entry.reason : "no Tier 2 verdict");
-                console.log(`${slug}: not committing today (${why})`);
-              } else {
-                console.log(`${slug}: Tier 1 + Tier 2 both passed.`);
-              }
-            }
-          ' "$TODAY"
-
-          # Combined digest passed (the node step above would have exited 1
-          # otherwise, which stops this whole step before we get here) —
-          # it was already committed by the "combined digest" step itself,
-          # nothing more to do for it here.
-
+          # The combined digest was already committed by its own step; if
+          # evaluate-qa.mjs exited non-zero we never reach here, so nothing
+          # gets pushed. No revert needed — the runner is thrown away.
           for slug in coming-together open-hands human-spirit; do
             if [ "$(cat ".qa/final-$slug.status" 2>/dev/null)" = "pass" ]; then
               git add "editions/$slug/"
@@ -394,6 +329,23 @@ jobs:
 
       # Belt-and-suspenders: confirm the push actually landed, not just
       # that this ephemeral checkout thinks it did.
+      # NOTE: do not call scripts/alert.sh here — it is macOS-only
+      # (osascript) and silently no-ops on the ubuntu runner. CI failures
+      # surface through GitHub's own workflow-failure notifications; make
+      # sure those are enabled for this repo. The job summary below is the
+      # in-run breadcrumb.
+      - name: Explain the failure in the job summary
+        if: failure()
+        run: |
+          {
+            echo "## Uplift daily FAILED — $(date -u +%Y-%m-%d)"
+            echo
+            echo "No edition was published. Download the **qa-reports** artifact on this run for the Tier 2 verdicts."
+            echo
+            echo "If a card genuinely failed visual review, fix the photo and re-run."
+            echo "If the reviewers malfunctioned, re-run with **force_publish** checked."
+          } >> "$GITHUB_STEP_SUMMARY"
+
       - name: Verify the edition actually reached origin/main
         run: |
           git fetch origin main

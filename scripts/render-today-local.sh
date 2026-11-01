@@ -76,12 +76,32 @@ if [ "$HEALTH_RC" -eq 7 ]; then
 fi
 
 echo "--- git pull ---"
+# This Mac is usually asleep at 14:00 and launchd fires the job the moment it
+# wakes, before Wi-Fi has associated — git then fails in ~30ms with "Failed to
+# connect to github.com port 443", which is not a timeout, it is no route yet.
+# That cost 8 consecutive days in Oct 2026. Wait for the network before
+# treating a sync failure as real.
+for attempt in 1 2 3 4 5 6; do
+  if curl -sI -o /dev/null --max-time 10 https://github.com; then
+    echo "network up (attempt $attempt)"
+    break
+  fi
+  echo "no network yet (attempt $attempt/6) — waiting 10s"
+  sleep 10
+done
+
 # --autostash so uncommitted local edits can never block the sync, and a failed
 # sync is now FATAL. Previously the job logged the failure, carried on against a
 # stale checkout, found no edition for today, and reported "not published yet"
 # — the wrong diagnosis, repeated silently for weeks.
-if ! git pull --no-rebase --autostash origin main; then
-  fail "git pull failed — checkout is stale, refusing to render against old state"
+PULL_OK=0
+for attempt in 1 2 3; do
+  if git pull --no-rebase --autostash origin main; then PULL_OK=1; break; fi
+  echo "git pull attempt $attempt/3 failed — retrying in 15s"
+  sleep 15
+done
+if [ "$PULL_OK" -ne 1 ]; then
+  fail "git pull failed after 3 attempts — checkout is stale, refusing to render against old state"
 fi
 
 # Idempotent guard: this job runs several times a day because the cloud cron
