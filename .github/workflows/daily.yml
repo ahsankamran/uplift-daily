@@ -362,13 +362,19 @@ jobs:
             file; form your own view.
 
             Write your verdict to .qa/tier2-report-1.json in exactly the
-            JSON shape the contract specifies, overwriting it. Then copy
-            it to .qa/tier2-report-2.json. These are the only files you
-            should write.
+            JSON shape the contract specifies, overwriting it. Do not
+            write .qa/tier2-report-2.json — a single honest opinion is
+            better than one opinion copied twice to look like two, and
+            the merge step reports the reduced coverage openly.
 
       - name: Re-merge after repair
         if: steps.merge1.outputs.blocked != '0' && steps.merge1.outputs.blocked != ''
-        run: node scripts/merge-tier2.mjs 6
+        run: |
+          # The first round's pass-2 report describes the OLD photos; if
+          # left in place the merge would blend pre- and post-repair
+          # verdicts and could re-block a card that was just fixed.
+          rm -f .qa/tier2-report-2.json
+          node scripts/merge-tier2.mjs 6
 
       - name: Upload QA reports for diagnosis
         if: always()
@@ -377,7 +383,12 @@ jobs:
           name: qa-reports
           path: .qa/
           retention-days: 14
-          if-no-files-found: warn
+          # upload-artifact@v4 skips dotfiles by default, and .qa is
+          # hidden — without this the step reports success while
+          # uploading nothing, which is how the diagnostics added to
+          # make failures visible were themselves invisible.
+          include-hidden-files: true
+          if-no-files-found: error
 
       - name: Evaluate QA verdicts and commit what passed
         env:
@@ -422,8 +433,31 @@ jobs:
             git commit -m "Cards — $(date -u +%F)" || true
           fi
 
+      # A bare `git push` loses the whole edition if anything landed on
+      # main during the ~15 minutes this job takes — which is exactly the
+      # "work completed, then discarded" failure this pipeline keeps
+      # hitting. Rebase onto whatever arrived and retry before giving up.
       - name: Push everything
-        run: git push
+        run: |
+          # claude-code-action rewrites origin's URL with its own app token
+          # and then REVOKES that token when its step ends. Any push after
+          # that fails with "Invalid username or token" — which is exactly
+          # what happened once the push moved out of the action on
+          # 2026-10-04. Restore a credential we actually still hold.
+          git remote set-url origin \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push attempt $attempt/3 rejected — rebasing onto origin/main and retrying"
+            git fetch origin main
+            git rebase origin/main || { echo "::error::rebase conflict — cannot auto-merge today's edition"; exit 1; }
+          done
+          echo "::error::push failed after 3 attempts"
+          exit 1
 
       # Belt-and-suspenders: confirm the push actually landed, not just
       # that this ephemeral checkout thinks it did.
