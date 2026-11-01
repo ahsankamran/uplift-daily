@@ -63,8 +63,13 @@ Avoid: "amazing", "incredible", "heartwarming", "uplifting", "inspires",
 
 ## Step 3 — Pick photos
 
-Search Unsplash for a thematic, calm image per story; credit the photographer
-in the byline.
+**Do not search for a "thematic" image.** That instruction used to be here
+and it is what broke this step for a month: every edition from 2026-10-05
+to 10-31 was rejected at visual review for photos that matched a theme but
+not the story — an Alpine peak for a river in Cumbria, a tropical reef for
+southern Australia, a Vietnamese outdoor gym for an English retirement
+village, baby shoes for a school custodian. Mood matching fails. Find a
+photo of the actual thing.
 
 The `img` URL MUST be a Unsplash **CDN** URL of the exact form:
 `https://images.unsplash.com/photo-<NUMERIC>-<HEX>?w=1600&q=80&auto=format&fit=crop`
@@ -74,7 +79,46 @@ e.g. `https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80&a
   `src` on the photo page — **NOT** the short slug in the page URL
   (`unsplash.com/photos/<slug>`). A slug-based URL like
   `images.unsplash.com/photo-nTF7sqg1vJo` returns 404 and the card renders blank.
-- Before finalizing, verify each `img` returns HTTP 200; if not, pick another photo.
+- Verify each `img` returns HTTP 200; if not, pick another photo.
+
+### You must LOOK at every photo before accepting it
+
+HTTP 200 only proves a file exists. Unsplash titles and alt text are
+routinely wrong — the photo that failed review on 2026-10-04 is titled
+"A man mowing a lawn with a lawn mower" and actually shows a two-man
+commercial crew on a ride-on mower. **Judging a photo by its metadata is
+how every one of these failures happened.** So, for each story:
+
+```
+curl -sL "<cdn-url>" -o /tmp/check.jpg
+```
+
+then open `/tmp/check.jpg` with the Read tool and look at it. Then ask:
+
+1. **Subject** — does the image show the actual thing the headline is
+   about? A story about seahorses needs a seahorse, not a reef.
+2. **Place** — if the story names a real location, is this plausibly
+   *that* place? Cumbria is not the Alps. Southern Australia is not the
+   Red Sea. England is not Vietnam. Check signage, vegetation, architecture
+   and climate for contradictions.
+3. **Relationship** — if people appear, are they the right people to each
+   other? A uniformed commercial crew contradicts a story about an unpaid
+   neighbour, even though both are "someone mowing a lawn".
+
+A photo that fails any of these is rejected, not noted. Search again with
+different terms — try the specific subject and the specific activity, not
+just the mood. If after real effort nothing genuinely depicts the story,
+**pick a different story**; do not finalize a weak match with a caveat.
+
+An honest generic image is acceptable where the story has no visual
+specifics — fresh vegetables for a dietary-trial story, lab bench work for
+a diagnostics story — *provided it does not imply a place or relationship
+that isn't true*. "Generic but honest" passes. "Evocative but wrong" does
+not.
+
+Every photo you accept will be independently reviewed twice before the
+edition can publish, and either reviewer rejecting a single card blocks the
+whole edition. Checking now costs you one `curl` and one look.
 
 ## Step 4 — Update files
 
