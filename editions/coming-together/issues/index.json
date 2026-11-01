@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-01",
+    "cat": "Coming Together",
+    "place": "Mandurah, Australia",
+    "head": "More than 200 volunteers pulled 525 kilograms of rubbish from Mandurah's waterways in one morning.",
+    "summary": "More than 200 volunteers spread across six sites along the waterways of Mandurah, Western Australia, on 25 October and carried out over 525 kilograms of rubbish in a single morning. Coastal Waste Warriors ran the annual clean-up, named for Luca, a dolphin calf who died in 2019 after repeated entanglement in discarded fishing line, sending crews to the Dawesville Cut foreshore, Port Bouvard Marina, the Creery Wetlands and Boundary Island. The event has now taken about 3.5 tonnes out of Mandurah's waterways since it began, and returns each October.",
+    "src": "91.7 The Wave",
+    "url": "https://www.917thewave.com.au/news/local-news/hundreds-of-volunteers-remove-525kgs-of-rubbish-from-mandurahs-waterways/",
+    "img": "https://images.unsplash.com/photo-1758599668932-484f54cdf48f?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Vitaly Gariev, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-10-04",
     "cat": "Coming Together",
     "place": "Pacific Palisades, USA",
