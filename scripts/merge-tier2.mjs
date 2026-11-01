@@ -24,7 +24,7 @@
 // "this failed review". Those are different problems with different fixes
 // and they must not produce the same message.
 
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, appendFileSync } from "node:fs";
 
 const expectedCombined = Number(process.argv[2] || 6);
 
@@ -146,3 +146,14 @@ if (covered < expectedCombined) {
 merged.blockedCount = blocked;
 writeFileSync(".qa/tier2-report.json", JSON.stringify(merged, null, 2));
 console.log(`merged: ${covered}/${expectedCombined} combined cards reviewed, ${blocked} blocked`);
+
+// Let the workflow branch on this: a blocked card should trigger a repair
+// round, not end the day. Blocking with no way to repair is what turned
+// ordinary photo misses into 27 consecutive days of nothing published.
+if (process.env.GITHUB_OUTPUT) {
+  const failedCards = merged.editions.combined
+    .filter((c) => !c.pass)
+    .map((c) => c.n)
+    .join(",");
+  appendFileSync(process.env.GITHUB_OUTPUT, `blocked=${blocked}\nfailed_cards=${failedCards}\n`);
+}

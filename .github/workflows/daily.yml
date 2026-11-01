@@ -101,8 +101,13 @@ jobs:
       - name: Tier 1 QA — combined digest
         run: node scripts/qa-edition.mjs "$(date -u +%Y-%m-%d)"
 
+      # render-archive-cards.mjs, not render-cards.mjs: Tier 2 reviews
+      # cards/<date>/feed/*.png and only this script produces that layout
+      # (render-cards.mjs writes them flat as cards/<date>/1.png). The
+      # reviewers had been globbing whatever they could find. This is also
+      # the photo-led output the PDF and the WhatsApp sender expect.
       - name: Render combined digest's IG cards
-        run: node scripts/render-cards.mjs
+        run: node scripts/render-archive-cards.mjs "$(date -u +%Y-%m-%d)"
 
       # ============================================================
       # THREE NEW CATEGORIES — independent of the combined digest and
@@ -266,12 +271,105 @@ jobs:
       # reviewer failing something is enough to block, since the 2026-10-04
       # incident showed a real defect visible to only one of two passes.
       - name: Merge the two Tier 2 passes
+        id: merge1
         run: node scripts/merge-tier2.mjs 6
 
       # Without this, a reviewer malfunction is invisible: the reports live
       # only on the runner, the job dies, and there is nothing to inspect.
       # That is how a one-line shape mismatch discarded every edition from
       # 2026-10-05 to 10-31 while every step before it reported success.
+      # ============================================================
+      # REPAIR ROUND — one bounded second chance.
+      #
+      # Blocking without repairing is what turned ordinary photo misses
+      # into 27 consecutive days of nothing published (2026-10-05..10-31):
+      # the reviewers correctly rejected mood-matched photos every single
+      # day, and nothing ever went back and fixed them. A gate that can
+      # only say no is a gate that eventually says no forever.
+      #
+      # Runs only when something was actually blocked, fixes only the
+      # cards the reviewers named, then re-renders and re-reviews. Exactly
+      # one round, so a pathological day costs one extra cycle, not an
+      # unbounded loop.
+      # ============================================================
+
+      - name: Repair the photos the reviewers rejected
+        if: steps.merge1.outputs.blocked != '0' && steps.merge1.outputs.blocked != ''
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: "--model claude-opus-5 --allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
+          show_full_output: true
+          prompt: |
+            Today's edition was blocked by visual review. Your job is to
+            fix the rejected photos — nothing else. Do not change any
+            headline, summary, source, URL, or story.
+
+            Read .qa/tier2-report.json. Every entry under
+            editions.combined with "pass": false has a "reason" naming
+            exactly what is wrong with that card's photo. Card number N
+            corresponds to the Nth story in today's entry in
+            issues/index.json.
+
+            For each failed card, read DAILY.md Step 3 and follow it
+            properly — in particular, you MUST download each candidate
+            photo (curl -sL "<url>" -o /tmp/c.jpg) and LOOK at it with
+            the Read tool before accepting it. The previous attempt
+            failed precisely because photos were chosen from search
+            results and metadata without being viewed. Unsplash titles
+            are frequently wrong.
+
+            Judge each replacement on subject, place and relationship,
+            against the specific reason the reviewer gave. Search on the
+            story's actual subject and activity, not its mood. If you
+            genuinely cannot find an honest photo for a story, it is
+            better to pick a generic-but-truthful image that implies no
+            false place or relationship than to repeat a wrong one.
+
+            Update the img URL, the photographer credit, AND the alt text
+            in every place that story appears: issues/index.json,
+            index.html, issues/<today>.html and feed.html. Stale alt text
+            describing the old photo is itself a defect — it misdescribes
+            the image to screen-reader users.
+
+            Then commit (do NOT push) with the message
+            "Photo repairs — YYYY-MM-DD".
+
+      - name: Re-render cards after repair
+        if: steps.merge1.outputs.blocked != '0' && steps.merge1.outputs.blocked != ''
+        run: |
+          rm -rf "cards/$(date -u +%Y-%m-%d)"
+          node scripts/render-archive-cards.mjs "$(date -u +%Y-%m-%d)"
+
+      - name: Tier 2 re-review after repair
+        if: steps.merge1.outputs.blocked != '0' && steps.merge1.outputs.blocked != ''
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: "--model claude-opus-5 --allowedTools Read,Bash"
+          prompt: |
+            Read scripts/qa-visual-review.md and follow its procedure and
+            "Automated contract" section exactly. Run `date -u +%Y-%m-%d`
+            via Bash for today's date.
+
+            These cards have just had their photos repaired after an
+            earlier review rejected them. Review ALL six feed cards at
+            cards/<today>/feed/*.png afresh against issues/index.json's
+            entry for today — not only the ones that failed before, since
+            a repair can introduce a new problem.
+
+            Judge the images yourself. Do not read any existing verdict
+            file; form your own view.
+
+            Write your verdict to .qa/tier2-report-1.json in exactly the
+            JSON shape the contract specifies, overwriting it. Then copy
+            it to .qa/tier2-report-2.json. These are the only files you
+            should write.
+
+      - name: Re-merge after repair
+        if: steps.merge1.outputs.blocked != '0' && steps.merge1.outputs.blocked != ''
+        run: node scripts/merge-tier2.mjs 6
+
       - name: Upload QA reports for diagnosis
         if: always()
         uses: actions/upload-artifact@v4
