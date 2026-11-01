@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-11-01",
+    "cat": "Science & Medicine",
+    "place": "Beijing, China",
+    "head": "A vitamin B5 derivative sold as a supplement eased psoriasis in a small trial.",
+    "summary": "Researchers in Beijing report in the Journal of Experimental Medicine that pantethine, an inexpensive derivative of vitamin B5, relieved psoriasis in mice and improved symptoms in a 24-person trial over twelve weeks, with every patient also using the standard calcipotriene-and-betamethasone ointment. The work, co-led by Wei-Na Zhang of the State Key Laboratory of Biomedical Analysis and Cheng-Xin Li of the First Medical Center of the Chinese PLA General Hospital, traces the effect to a vanin-pantethine pathway that changes how dendritic cells behave, and found the clearest benefit in patients whose blood cholesterol was raised. The team calls the human half of the study proof of concept rather than proof of mechanism, and wants larger trials before anyone changes a prescription.",
+    "src": "Medical Xpress",
+    "url": "https://medicalxpress.com/news/2026-10-common-nutritional-supplement-boost-psoriasis.html",
+    "img": "https://images.unsplash.com/photo-1602052577122-f73b9710adba?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
     "date": "2026-10-04",
     "cat": "Science & Medicine",
     "place": "Montreal, Canada",
