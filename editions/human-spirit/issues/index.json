@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-01",
+    "cat": "Human Spirit",
+    "place": "Yernagudem, Andhra Pradesh, India",
+    "head": "An engineer working in Abu Dhabi has kept free after-school classes running in 79 Indian villages for 15 years.",
+    "summary": "An after-school programme across 79 villages in Andhra Pradesh and Telangana has logged 569,419 hours of free tuition for 3,165 children since it opened in August 2011 with 50 pupils in Classes 4 and 5. Bethala Veera Swami, a contracts engineer who works in Abu Dhabi, set it up with childhood friends from his village of Yernagudem; the classes run from 3.30pm to 5.30pm six days a week, and teachers log attendance and call parents when a child stops turning up. PARD India now wants the classes running in 150 villages by 2030.",
+    "src": "The Better India",
+    "url": "https://thebetterindia.com/changemakers/bethala-veera-swami-pard-india-rural-children-education-andhra-after-school-12765819",
+    "img": "https://images.unsplash.com/photo-1692269725827-699e04a11cdf?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Swastik Arora, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-10-04",
     "cat": "Human Spirit",
     "place": "North Fork John Day Wilderness, Oregon, USA",
