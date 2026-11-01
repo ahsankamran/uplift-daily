@@ -52,7 +52,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: "--allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
+          claude_args: "--model claude-opus-5 --allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
           # Verbose on purpose: a run on 2026-10-01..03 reported clean success
           # (is_error: false, real work done) while silently never writing a
           # new issues/index.json entry. Redacted-by-default output made that
@@ -115,7 +115,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: "--allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
+          claude_args: "--model claude-opus-5 --allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
           show_full_output: true
           prompt: |
             Read editions/coming-together/DAILY.md and CLAUDE.md in this
@@ -128,7 +128,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: "--allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
+          claude_args: "--model claude-opus-5 --allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
           show_full_output: true
           prompt: |
             Read editions/open-hands/DAILY.md and CLAUDE.md in this repo,
@@ -141,7 +141,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: "--allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
+          claude_args: "--model claude-opus-5 --allowedTools Bash,Read,Write,Edit,WebSearch,WebFetch"
           show_full_output: true
           prompt: |
             Read editions/human-spirit/DAILY.md and CLAUDE.md in this
@@ -206,7 +206,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: "--allowedTools Read,Bash"
+          claude_args: "--model claude-opus-5 --allowedTools Read,Bash"
           prompt: |
             Read scripts/qa-visual-review.md and follow its procedure and
             "Automated contract" section exactly. Run `date -u +%Y-%m-%d`
@@ -235,7 +235,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          claude_args: "--allowedTools Read,Bash"
+          claude_args: "--model claude-opus-5 --allowedTools Read,Bash"
           prompt: |
             Read scripts/qa-visual-review.md and follow its procedure and
             "Automated contract" section exactly. Run `date -u +%Y-%m-%d`
