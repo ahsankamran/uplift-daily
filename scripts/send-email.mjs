@@ -45,10 +45,14 @@ if (!all.length) {
 // --latest` made every ISO date compare >= "--latest", selecting the
 // ENTIRE archive. Verified: that combination queued 92 messages.
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
-const explicit = argv.filter((a) => ISO.test(a));
 const wantsLatest = argv.includes("--latest");
 const sinceIdx = argv.indexOf("--since");
 const sinceVal = sinceIdx !== -1 ? argv[sinceIdx + 1] : null;
+// The date that belongs to --since is its VALUE, not a standalone
+// selector — counting it as both made `--since 2026-10-01` look like two
+// competing selectors and rejected a correct invocation.
+const sinceValIdx = sinceIdx === -1 ? -1 : sinceIdx + 1;
+const explicit = argv.filter((a, i) => ISO.test(a) && i !== sinceValIdx);
 
 const selectors = [explicit.length ? "dates" : null, wantsLatest ? "--latest" : null,
                    sinceIdx !== -1 ? "--since" : null].filter(Boolean);
