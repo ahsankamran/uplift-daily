@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-02",
+    "cat": "Human Spirit",
+    "place": "Kallachi, Kerala, India",
+    "head": "A Kozhikode auto driver handed in the 1.05 million rupees he found lying on a state highway.",
+    "summary": "Thayyil Suneesh, an auto-rickshaw driver from Kummamkode, spotted a packet holding 1.05 million rupees, about $12,000, on the state highway in front of the Kairali Complex at Kallachi, in Kerala's Kozhikode district, at around 8pm on 26 October. He took the packet to the Nadapuram police station that same night, and an alert circulated on social media reached the owners, who had lost 22 bundles of 500-rupee notes along the road. They arrived at the station at about 2pm the next day, and Sub-Inspector Sreejith handed the money back to them there.",
+    "src": "Onmanorama",
+    "url": "https://www.onmanorama.com/news/kerala/2026/10/28/auto-driver-s-honesty-helps-owner-reclaim-10-5-lakh.html",
+    "img": "https://images.unsplash.com/photo-1642767407558-647e79bab34a?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Ajin K S, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-01",
     "cat": "Human Spirit",
     "place": "Yernagudem, Andhra Pradesh, India",
