@@ -376,6 +376,25 @@ jobs:
           rm -f .qa/tier2-report-2.json
           node scripts/merge-tier2.mjs 6
 
+      # Twenty-seven editions were researched, written, committed on the
+      # runner — and destroyed, because the push failed and GitHub throws
+      # the VM away. The work only ever existed in one place. Snapshot it
+      # the moment it exists, so a failure anywhere downstream costs a
+      # retry rather than the day's work. if: always() is the point.
+      - name: Snapshot the edition so a failed push cannot destroy it
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: edition-${{ github.run_id }}
+          path: |
+            index.html
+            feed.html
+            archive.html
+            issues/
+            editions/
+          retention-days: 30
+          if-no-files-found: warn
+
       - name: Upload QA reports for diagnosis
         if: always()
         uses: actions/upload-artifact@v4

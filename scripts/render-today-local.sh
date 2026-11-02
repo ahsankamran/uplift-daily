@@ -160,6 +160,18 @@ else
 fi
 
 # --- PDF of the edition (idempotent — just overwrites) ---
+# Keep a local copy of every published edition, independent of GitHub.
+# The cloud job is where editions are made and it has already destroyed
+# 27 of them; this machine is the second place they exist.
+echo "--- local archive ---"
+ARCHIVE="$REPO/../uplift-archive"
+mkdir -p "$ARCHIVE/$DATE"
+for f in index.html feed.html archive.html "issues/$DATE.html" issues/index.json; do
+  [ -f "$REPO/$f" ] && cp "$REPO/$f" "$ARCHIVE/$DATE/$(basename "$f")" 2>/dev/null
+done
+cp -R "$REPO/cards/$DATE" "$ARCHIVE/$DATE/cards" 2>/dev/null || true
+echo "archived $DATE to $ARCHIVE/$DATE"
+
 echo "--- pdf ---"
 node scripts/render-pdf.mjs "$DATE"
 
