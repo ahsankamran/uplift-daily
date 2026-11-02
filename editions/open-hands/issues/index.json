@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-02",
+    "cat": "Open Hands",
+    "place": "Lexington, Kentucky, USA",
+    "head": "A $30 million gift will expand the visitor center and education space at Kentucky's state botanical garden.",
+    "summary": "The Bill Gatton Foundation has committed $30 million to the Arboretum, State Botanical Garden of Kentucky, the 100-acre public garden on the edge of the University of Kentucky's campus in Lexington. Foundation trustee Danny Dunn traced the gift to an earlier version of the will left by Bill Gatton, a university alumnus, and the money covers six projects, among them an expanded visitor center, an education building with two flex classrooms, a reconfigured entrance and improved walkways. The garden hosted at least 75 classes and more than 1,300 students last year, and its director, Michael Wall, expects construction to start in 2027 and run about a year.",
+    "src": "WEKU",
+    "url": "https://www.weku.org/lexington-richmond/2026-10-29/30m-gift-will-expand-uk-arboretum-visitor-center-parking-and-more-for-botanical-garden-enthusiasts",
+    "img": "https://images.unsplash.com/photo-1763328913245-6a65e25e153e?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Wietse Jongsma, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-01",
     "cat": "Open Hands",
     "place": "London, United Kingdom",
