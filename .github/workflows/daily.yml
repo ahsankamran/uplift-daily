@@ -335,8 +335,23 @@ jobs:
             describing the old photo is itself a defect — it misdescribes
             the image to screen-reader users.
 
-            Then commit (do NOT push) with the message
-            "Photo repairs — YYYY-MM-DD".
+            Do NOT run git add, git commit or git push. The three
+            category editions are deliberately left uncommitted at this
+            point so a QA-rejected one can be discarded later; a commit
+            here sweeps them in and makes rejected work un-discardable.
+            On 2026-11-01 exactly that happened and an edition both
+            reviewers had rejected was published. Write the files and
+            stop — the workflow commits what passed.
+
+      # Scoped deliberately: only the combined digest's own files. The
+      # three category editions must stay uncommitted so the evaluate step
+      # can still discard a rejected one.
+      - name: Commit the combined digest's repairs
+        if: steps.merge1.outputs.blocked != '0' && steps.merge1.outputs.blocked != ''
+        run: |
+          TODAY="$(date -u +%Y-%m-%d)"
+          git add index.html feed.html archive.html issues/index.json "issues/$TODAY.html" 2>/dev/null || true
+          git commit -m "Photo repairs — $TODAY" || true
 
       - name: Re-render cards after repair
         if: steps.merge1.outputs.blocked != '0' && steps.merge1.outputs.blocked != ''
@@ -424,7 +439,7 @@ jobs:
           # gets pushed. No revert needed — the runner is thrown away.
           for slug in coming-together open-hands human-spirit; do
             if [ "$(cat ".qa/final-$slug.status" 2>/dev/null)" = "pass" ]; then
-              git add "editions/$slug/"
+              git add "editions/$slug/" 2>/dev/null || true
               git commit -m "$slug — $TODAY" || true
             else
               git checkout -- "editions/$slug/" 2>/dev/null || true

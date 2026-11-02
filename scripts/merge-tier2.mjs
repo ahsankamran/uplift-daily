@@ -24,59 +24,15 @@
 // "this failed review". Those are different problems with different fixes
 // and they must not produce the same message.
 
-import { readFileSync, writeFileSync, existsSync, appendFileSync } from "node:fs";
+import { writeFileSync, appendFileSync } from "node:fs";
+import { loadReport, normaliseCombined, normaliseSingle, isApproved, reasonOf } from "./lib/qa-report.mjs";
 
 const expectedCombined = Number(process.argv[2] || 6);
 
-function load(path) {
-  if (!existsSync(path)) return { ok: false, why: "file not written" };
-  let raw;
-  try {
-    raw = readFileSync(path, "utf8");
-  } catch (e) {
-    return { ok: false, why: `unreadable: ${e.message}` };
-  }
-  // A reviewer may wrap JSON in prose or a ```json fence despite the
-  // contract; salvage the outermost object rather than discarding the work.
-  const start = raw.indexOf("{");
-  const end = raw.lastIndexOf("}");
-  if (start === -1 || end <= start) return { ok: false, why: "no JSON object found" };
-  try {
-    return { ok: true, data: JSON.parse(raw.slice(start, end + 1)) };
-  } catch (e) {
-    return { ok: false, why: `invalid JSON: ${e.message}` };
-  }
-}
-
-// Accepts: an array of entries; an object keyed by card number; or an
-// object with a nested array. Returns [] only when there is genuinely
-// nothing card-shaped in there.
-function normaliseCombined(v) {
-  if (v == null) return null;
-  if (Array.isArray(v)) return v;
-  if (typeof v === "object") {
-    const vals = Object.entries(v).map(([k, val]) => {
-      if (val && typeof val === "object" && !Array.isArray(val)) {
-        return { n: val.n ?? (Number(k) || undefined), ...val };
-      }
-      return null;
-    }).filter(Boolean);
-    return vals.length ? vals : null;
-  }
-  return null;
-}
-
-function normaliseSingle(v) {
-  if (v == null) return null;
-  if (typeof v === "object" && !Array.isArray(v)) return v;
-  if (Array.isArray(v) && v.length) return v[0];
-  return null;
-}
-
 const SLUGS = ["coming-together", "open-hands", "human-spirit"];
 
-const r1 = load(".qa/tier2-report-1.json");
-const r2 = load(".qa/tier2-report-2.json");
+const r1 = loadReport(".qa/tier2-report-1.json");
+const r2 = loadReport(".qa/tier2-report-2.json");
 
 for (const [label, r] of [["pass 1", r1], ["pass 2", r2]]) {
   if (!r.ok) console.log(`::warning::Tier 2 ${label} unusable — ${r.why}`);
@@ -98,26 +54,36 @@ if (!combinedA && !combinedB) {
   process.exit(1);
 }
 
-const n = Math.max(combinedA?.length || 0, combinedB?.length || 0);
+// Align the two reviewers by CARD NUMBER, never by array position. A
+// reviewer may legitimately report only the cards it rejected; zipping by
+// index attributed card 5's defect to card 1 — blocking a good photo and
+// publishing the bad one. Verified before this fix.
+const cardNumbers = [...new Set([
+  ...(combinedA ? [...combinedA.keys()] : []),
+  ...(combinedB ? [...combinedB.keys()] : []),
+])].sort((x, y) => x - y);
+
 const merged = { date: (a || b).date || "", editions: { combined: [] } };
 let blocked = 0;
 
-for (let i = 0; i < n; i++) {
-  const ca = combinedA?.[i];
-  const cb = combinedB?.[i];
+for (const num of cardNumbers) {
+  const ca = combinedA?.get(num);
+  const cb = combinedB?.get(num);
   const src = ca || cb;
-  // Union of failures: either reviewer failing a card blocks it. A card
-  // only one reviewer saw still counts — a missing opinion is not approval,
-  // but it is also not a failure on its own.
-  const pass = (!ca || ca.pass !== false) && (!cb || cb.pass !== false);
+  // Either reviewer withholding approval blocks the card. isApproved()
+  // requires an affirmative verdict, so pass:"false" / pass:0 /
+  // pass:"fail" / a bare reason can no longer read as approval.
+  const failA = ca && !isApproved(ca);
+  const failB = cb && !isApproved(cb);
+  const pass = !failA && !failB;
   const reason = [
-    ca && ca.pass === false ? `pass1: ${ca.reason || "(no reason given)"}` : null,
-    cb && cb.pass === false ? `pass2: ${cb.reason || "(no reason given)"}` : null,
+    failA ? `pass1: ${reasonOf(ca)}` : null,
+    failB ? `pass2: ${reasonOf(cb)}` : null,
   ].filter(Boolean).join(" | ");
-  merged.editions.combined.push({ n: src.n ?? i + 1, cat: src.cat || "", pass, reason });
+  merged.editions.combined.push({ n: num, cat: src.cat || "", pass, reason });
   if (!pass) {
     blocked++;
-    console.log(`combined card ${src.n ?? i + 1}: BLOCKED — ${reason}`);
+    console.log(`combined card ${num}: BLOCKED — ${reason}`);
   }
 }
 
@@ -125,10 +91,12 @@ for (const slug of SLUGS) {
   const ea = normaliseSingle(a?.editions?.[slug]);
   const eb = normaliseSingle(b?.editions?.[slug]);
   if (!ea && !eb) continue;
-  const pass = (!ea || ea.pass !== false) && (!eb || eb.pass !== false);
+  const failA = ea && !isApproved(ea);
+  const failB = eb && !isApproved(eb);
+  const pass = !failA && !failB;
   const reason = [
-    ea && ea.pass === false ? `pass1: ${ea.reason || "(no reason given)"}` : null,
-    eb && eb.pass === false ? `pass2: ${eb.reason || "(no reason given)"}` : null,
+    failA ? `pass1: ${reasonOf(ea)}` : null,
+    failB ? `pass2: ${reasonOf(eb)}` : null,
   ].filter(Boolean).join(" | ");
   merged.editions[slug] = { pass, reason };
   if (!pass) console.log(`${slug}: BLOCKED — ${reason}`);

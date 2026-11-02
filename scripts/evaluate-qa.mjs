@@ -30,27 +30,40 @@
 // FORCE_PUBLISH=1 overrides a genuine block, for manual recovery runs.
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { loadReport, normaliseCombined, normaliseSingle, isApproved, reasonOf } from "./lib/qa-report.mjs";
 
 const SLUGS = ["coming-together", "open-hands", "human-spirit"];
 const EXPECTED_COMBINED = 6;
 const force = process.env.FORCE_PUBLISH === "1";
 
-let report;
-try {
-  report = JSON.parse(readFileSync(".qa/tier2-report.json", "utf8"));
-} catch (e) {
-  // merge-tier2.mjs exits non-zero and stops the job before this when both
-  // passes are unusable, so reaching here means something unexpected.
-  console.log(`::error::.qa/tier2-report.json unreadable (${e.message}). Not publishing. See the qa-reports artifact.`);
-  process.exit(force ? 0 : 1);
+// Uses the SAME parser as merge-tier2.mjs. These two files previously
+// parsed the contract differently: merge normalised an object-keyed
+// `combined`, this one did not, silently saw zero cards, and published an
+// edition a reviewer had explicitly rejected. One parser, one meaning.
+const loaded = loadReport(".qa/tier2-report.json");
+if (!loaded.ok) {
+  console.log(`::error::.qa/tier2-report.json unreadable (${loaded.why}). See the qa-reports artifact.`);
+  // Write the per-edition statuses BEFORE any exit: the workflow reads a
+  // missing status as "discard", so returning early here silently threw
+  // away all three category editions on a forced recovery run.
+  for (const slug of SLUGS) writeFileSync(`.qa/final-${slug}.status`, "fail");
+  if (force) {
+    console.log("::warning::FORCE_PUBLISH=1 — publishing the combined digest despite an unreadable report.");
+    process.exit(0);
+  }
+  process.exit(1);
 }
+const report = loaded.data;
 
-const combined = Array.isArray(report?.editions?.combined) ? report.editions.combined : [];
-const genuineFailures = combined.filter((c) => c.pass === false);
+const combinedMap = normaliseCombined(report?.editions?.combined);
+const combined = combinedMap ? [...combinedMap.entries()].map(([n, e]) => ({ n, ...e })) : [];
+// Not-approved, not merely `pass === false` — an explicit rejection
+// spelled any other way used to slip through as approval.
+const genuineFailures = combined.filter((c) => !isApproved(c));
 const covered = combined.length;
 
 for (const c of genuineFailures) {
-  console.log(`::error::combined card #${c.n}${c.cat ? ` (${c.cat})` : ""} failed visual review — ${c.reason}`);
+  console.log(`::error::combined card #${c.n}${c.cat ? ` (${c.cat})` : ""} failed visual review — ${reasonOf(c)}`);
 }
 
 if (covered < EXPECTED_COMBINED) {
@@ -64,19 +77,19 @@ if (covered < EXPECTED_COMBINED) {
 
 // Per-edition decisions for the three new categories: both tiers must pass.
 for (const slug of SLUGS) {
-  const entry = report?.editions?.[slug];
+  const entry = normaliseSingle(report?.editions?.[slug]);
   const tier1 = existsSync(`.qa/tier1-${slug}.status`)
     ? readFileSync(`.qa/tier1-${slug}.status`, "utf8").trim()
     : "fail";
   // No Tier 2 entry means it wasn't reviewed (usually because Tier 1 already
   // excluded it). Only an explicit pass:false is a quality failure.
-  const tier2Failed = entry && entry.pass === false;
+  const tier2Failed = entry && !isApproved(entry);
   const ok = tier1 === "pass" && !tier2Failed;
   writeFileSync(`.qa/final-${slug}.status`, ok ? "pass" : "fail");
   if (ok) {
     console.log(`${slug}: publishing${entry ? "" : " (Tier 2 did not report on it)"}`);
   } else {
-    console.log(`${slug}: held back — ${tier1 !== "pass" ? "failed Tier 1" : entry.reason}`);
+    console.log(`${slug}: held back — ${tier1 !== "pass" ? "failed Tier 1" : reasonOf(entry)}`);
   }
 }
 

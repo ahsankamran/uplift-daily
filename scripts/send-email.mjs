@@ -34,15 +34,52 @@ const all = (Array.isArray(manifest) ? manifest : manifest.issues || [])
   .filter((e) => Array.isArray(e.stories) && e.stories.length)
   .sort((a, b) => a.date.localeCompare(b.date));
 
-let dates = argv.filter((a) => /^\d{4}-\d{2}-\d{2}$/.test(a));
-if (argv.includes("--latest")) dates = [all[all.length - 1].date];
-const sinceIdx = argv.indexOf("--since");
-if (sinceIdx !== -1 && argv[sinceIdx + 1]) {
-  const since = argv[sinceIdx + 1];
-  dates = all.filter((e) => e.date >= since).map((e) => e.date);
+if (!all.length) {
+  console.error("no editions with stories[] in issues/index.json — nothing to send");
+  process.exit(2);
 }
+
+// Selectors are mutually exclusive and --since is validated. Previously
+// they were applied in sequence so the last one silently won: passing an
+// explicit date alongside --since discarded the date, and `--since
+// --latest` made every ISO date compare >= "--latest", selecting the
+// ENTIRE archive. Verified: that combination queued 92 messages.
+const ISO = /^\d{4}-\d{2}-\d{2}$/;
+const explicit = argv.filter((a) => ISO.test(a));
+const wantsLatest = argv.includes("--latest");
+const sinceIdx = argv.indexOf("--since");
+const sinceVal = sinceIdx !== -1 ? argv[sinceIdx + 1] : null;
+
+const selectors = [explicit.length ? "dates" : null, wantsLatest ? "--latest" : null,
+                   sinceIdx !== -1 ? "--since" : null].filter(Boolean);
+if (selectors.length > 1) {
+  console.error(`choose one selector, got ${selectors.length}: ${selectors.join(", ")}`);
+  process.exit(2);
+}
+
+let dates = [];
+if (explicit.length) {
+  dates = explicit;
+} else if (wantsLatest) {
+  dates = [all[all.length - 1].date];
+} else if (sinceIdx !== -1) {
+  if (!sinceVal || !ISO.test(sinceVal)) {
+    console.error(`--since needs a YYYY-MM-DD date, got ${sinceVal === undefined ? "nothing" : `"${sinceVal}"`}`);
+    process.exit(2);
+  }
+  dates = all.filter((e) => e.date >= sinceVal).map((e) => e.date);
+}
+
 if (!dates.length) {
-  console.error("usage: send-email.mjs <date>... | --since <date> | --latest  [--dry-run]");
+  console.error("usage: send-email.mjs <date>... | --since <YYYY-MM-DD> | --latest  [--dry-run]");
+  process.exit(2);
+}
+
+// A bulk send is almost never intended interactively; make it deliberate.
+const BULK = 5;
+if (dates.length > BULK && !DRY && process.env.ALLOW_BULK !== "1") {
+  console.error(`refusing to send ${dates.length} emails in one run (limit ${BULK}).`);
+  console.error("re-run with --dry-run to preview, or ALLOW_BULK=1 to proceed.");
   process.exit(2);
 }
 
@@ -163,7 +200,6 @@ for (const date of dates) {
   if (DRY) {
     console.log(`[dry-run] ${date}: "${subject}" -> ${to} (${entry.stories.length} stories, ${html.length} bytes)`);
     for (const s of entry.stories) console.log(`    ${s.cat}: ${s.head}`);
-    sent++;
     continue;
   }
 
@@ -187,5 +223,5 @@ for (const date of dates) {
   }
 }
 
-console.log(`\n${sent} sent, ${failed} failed`);
+console.log(DRY ? `\n${dates.length} previewed (nothing sent)` : `\n${sent} sent, ${failed} failed`);
 process.exit(failed ? 1 : 0);
