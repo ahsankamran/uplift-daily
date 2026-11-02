@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-02",
+    "cat": "Coming Together",
+    "place": "Warsaw, Poland",
+    "head": "Nearly 250 volunteers spent the All Saints' weekend collecting for Warsaw's oldest gravestones.",
+    "summary": "Nearly 250 volunteers — actors, musicians and journalists among them — carried collection tins along the paths of Warsaw's Stare Powązki cemetery from 9am until about 8pm on 31 October and 1 November, in the 52nd year of the appeal. The Jerzy Waldorff committee that runs it took about 270,000 złoty last year, money that went toward conserving 27 historic monuments alongside 1.9 million złoty in city grants. Forty more gravestones are booked for restoration next year, out of roughly 300 the committee still counts as urgent and about 1,700 saved over five decades.",
+    "src": "Radio Eska Warszawa",
+    "url": "https://warszawa.eska.pl/aktrzy-i-politycy-z-puszkami-na-powazkach-trwa-wielka-kwesta-na-ratowanie-zabytkowych-nagrobkow-aa-Qeei-AcuH-7Fr3.html",
+    "img": "https://images.unsplash.com/photo-1648944489857-2b2c16d629f9?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Samuel Š, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-01",
     "cat": "Coming Together",
     "place": "Amboy, Illinois, USA",
