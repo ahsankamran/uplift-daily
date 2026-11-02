@@ -92,10 +92,13 @@ jobs:
       # the category section bar would vanish on any day Claude didn't happen
       # to carry it over. This re-inserts it idempotently instead of relying
       # on the rewrite to preserve it.
+      # Guarded: this bar is cosmetic. An exception here must not cost the
+      # day's edition — secondary steps killing the primary product is the
+      # exact pattern that lost 27 of them.
       - name: Re-inject the category section bar
         run: |
-          node scripts/inject-section-nav.mjs
-          git add index.html archive.html
+          node scripts/inject-section-nav.mjs || echo "::warning::section-bar injection failed; publishing without refreshing it"
+          git add index.html archive.html 2>/dev/null || true
           git commit -m "Section bar — $(date -u +%Y-%m-%d)" || true
 
       - name: Tier 1 QA — combined digest
@@ -436,21 +439,28 @@ jobs:
       # just repackaged.
       # ============================================================
 
+      # NON-BLOCKING ON PURPOSE. build-category-editions.mjs exits 1 if
+      # any single category fails to derive, and this step sits BEFORE the
+      # push — so without the guard one unrecognised category name would
+      # discard the whole day's digest. That is exactly the shape of
+      # failure that cost 27 editions: a secondary nicety killing the
+      # primary product. The derived pages are regenerable from the digest
+      # at any time; the digest is not.
       - name: Derive the 6 category editions
         run: |
-          node scripts/build-category-editions.mjs "$(date -u +%Y-%m-%d)"
-          git add editions/quiet-kindness/ editions/small-wonders/ editions/everyday-joy/ editions/nature/ editions/science-medicine/ editions/global-progress/
+          if node scripts/build-category-editions.mjs "$(date -u +%Y-%m-%d)"; then
+            echo "all category editions derived"
+          else
+            echo "::warning::Some category editions failed to derive. The combined digest still publishes; re-run scripts/build-category-editions.mjs for that date to backfill them."
+          fi
+          git add editions/quiet-kindness/ editions/small-wonders/ editions/everyday-joy/ editions/nature/ editions/science-medicine/ editions/global-progress/ 2>/dev/null || true
           git commit -m "Derived category editions — $(date -u +%Y-%m-%d)" || true
 
-      # cards/ was already rendered earlier (before Tier 2 needed to look
-      # at it) and is gitignored repo-wide, so this is just staging
-      # whatever's already on disk — no need to render again.
-      - name: Commit cards (only — never node_modules)
-        run: |
-          git add cards/ || true
-          if ! git diff --cached --quiet; then
-            git commit -m "Cards — $(date -u +%F)" || true
-          fi
+      # cards/ is gitignored repo-wide, so there is deliberately nothing to
+      # commit here — the rendered cards are build output, reachable via
+      # the edition snapshot artifact and regenerable from the manifest.
+      # The old step in this slot ran `git add cards/` and silently did
+      # nothing while its name implied otherwise.
 
       # A bare `git push` loses the whole edition if anything landed on
       # main during the ~15 minutes this job takes — which is exactly the
