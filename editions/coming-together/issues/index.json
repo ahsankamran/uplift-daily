@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-03",
+    "cat": "Coming Together",
+    "place": "Dietzenbach, Germany",
+    "head": "People from 79 nations planted 2,500 trees together in one Hessen forest.",
+    "summary": "Six hundred and eighty-five people from 79 countries planted 1,750 sessile oaks and 750 hornbeams in the Eulerwald on the edge of Dietzenbach, south-east of Frankfurt, on 24 October. The non-profit Waldfreunde gGmbH ran the day with more than 20 volunteers and a HessenForst forester, Benedikt Reiss, who showed newcomers how to set a sapling; everyone brought a passport so the Rekord-Institut für Deutschland could count nationalities, and its adjudicator Meike Janz handed over the certificate the same day. The previous mark of 66 nationalities had stood since a planting in Qatar, and the organisers chose the date because it falls on United Nations Day.",
+    "src": "OF-NEWS Offenbach",
+    "url": "https://of-news.de/dietzenbach/weltrekord-in-dietzenbach-menschen-aus-79-nationen-pflanzen-gemeinsam-2-500-baeume-171420/",
+    "img": "https://images.unsplash.com/photo-1777150895644-2ca253ee1c93?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Hammilton Ojijo, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-02",
     "cat": "Coming Together",
     "place": "Warsaw, Poland",
