@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-11-03",
+    "cat": "Small Wonders",
+    "place": "University of Tübingen, Germany",
+    "head": "Two crows called Iggy and Lemmy decide what they are looking at twice as fast as we do.",
+    "summary": "Andreas Nieder and Philipp Schmidbauer put two carrion crows in front of a touchscreen showing a cluster of dots, some drifting left or right and the rest moving at random, and the birds learned to tap the side matching the drift for a mealworm. Over thousands of trials, reported in Science on October 22, Iggy and Lemmy averaged 235 milliseconds a decision — roughly half the time monkeys and people take on comparable tasks, with no loss of accuracy — and electrodes picked up neurons in the nidopallium caudolaterale, the bird equivalent of a primate's prefrontal cortex, firing from 70 milliseconds after the dots appeared. Nieder reads it as evidence that quick, complicated computation needs no mammalian neocortex; whether other birds are as fast, nobody yet knows.",
+    "src": "Smithsonian Magazine",
+    "url": "https://www.smithsonianmag.com/smart-news/crows-can-make-decisions-based-on-visual-information-at-lightning-speed-roughly-twice-as-fast-as-humans-can-study-suggests-180989779/",
+    "img": "https://images.unsplash.com/photo-1605207209791-dfe90cf9f16b?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
     "date": "2026-11-02",
     "cat": "Small Wonders",
     "place": "Breekkrans River, Western Cape, South Africa",
