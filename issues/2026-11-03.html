@@ -1,0 +1,999 @@
+<!doctype html>
+<html lang="en" data-palette="paper" data-mark="masthead" data-featured="cover">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Uplift — Good things, every morning.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+/* =========================================================
+   Uplift — shared styles
+   A warm, quiet editorial system.
+   ========================================================= */
+
+/* ---------- Tokens ---------- */
+:root {
+  /* Warm paper palette (default) */
+  --paper:       oklch(97.8% 0.012 84);
+  --paper-deep:  oklch(95.2% 0.018 84);
+  --rule:        oklch(78% 0.02 70);
+  --rule-soft:   oklch(88% 0.015 75);
+  --ink:         oklch(22% 0.015 60);
+  --ink-soft:    oklch(38% 0.018 60);
+  --ink-mute:    oklch(52% 0.02 65);
+  --accent:      oklch(58% 0.12 55);     /* sunrise ochre */
+  --accent-deep: oklch(46% 0.12 45);
+
+  /* Type */
+  --serif: "Spectral", "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans:  "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --mono:  "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Rhythm */
+  --measure: 68ch;
+  --gutter: clamp(20px, 3.5vw, 56px);
+  --col-gap: clamp(20px, 2.2vw, 40px);
+  --row-gap: clamp(32px, 4vw, 64px);
+}
+
+/* Palette variants driven by data-palette on <html> */
+html[data-palette="ivory"] {
+  --paper:       oklch(98.5% 0.006 95);
+  --paper-deep:  oklch(96.2% 0.010 95);
+  --rule:        oklch(80% 0.012 90);
+  --rule-soft:   oklch(90% 0.008 90);
+  --ink:         oklch(20% 0.010 90);
+  --ink-soft:    oklch(36% 0.012 90);
+  --ink-mute:    oklch(52% 0.012 90);
+  --accent:      oklch(55% 0.10 40);
+  --accent-deep: oklch(44% 0.10 35);
+}
+html[data-palette="cool"] {
+  --paper:       oklch(98% 0.006 240);
+  --paper-deep:  oklch(95.5% 0.010 240);
+  --rule:        oklch(78% 0.015 235);
+  --rule-soft:   oklch(88% 0.010 235);
+  --ink:         oklch(20% 0.015 260);
+  --ink-soft:    oklch(36% 0.015 260);
+  --ink-mute:    oklch(52% 0.015 255);
+  --accent:      oklch(52% 0.09 230);
+  --accent-deep: oklch(42% 0.09 225);
+}
+html[data-palette="dark"] {
+  --paper:       oklch(18% 0.010 70);
+  --paper-deep:  oklch(22% 0.012 70);
+  --rule:        oklch(42% 0.015 70);
+  --rule-soft:   oklch(30% 0.012 70);
+  --ink:         oklch(92% 0.012 85);
+  --ink-soft:    oklch(78% 0.015 85);
+  --ink-mute:    oklch(62% 0.018 80);
+  --accent:      oklch(72% 0.11 70);
+  --accent-deep: oklch(80% 0.11 75);
+}
+
+/* ---------- Reset / base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+html {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+body {
+  min-height: 100vh;
+  background: var(--paper);
+  overflow-x: hidden;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: var(--rule); }
+a:hover { text-decoration-color: var(--accent-deep); color: var(--accent-deep); }
+
+/* ---------- Masthead ---------- */
+.masthead {
+  padding: clamp(20px, 2.4vw, 36px) var(--gutter) 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+.masthead-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.masthead-utility {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  padding-bottom: 14px;
+}
+.masthead-utility a { text-decoration: none; }
+.masthead-utility a:hover { color: var(--accent-deep); }
+.masthead-utility .issue { display: flex; gap: 18px; }
+
+.masthead-rule { border-top: 1px solid var(--rule); border-bottom: 3px double var(--rule); height: 4px; }
+.masthead-rule--thin { border-top: 1px solid var(--rule); border-bottom: none; height: 1px; }
+
+.wordmark-wrap {
+  text-align: center;
+  padding: clamp(18px, 2.6vw, 36px) 0 clamp(14px, 2vw, 26px);
+  position: relative;
+}
+.wordmark {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(48px, 9.5vw, 128px);
+  letter-spacing: 0.14em;
+  line-height: 0.95;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--ink);
+  font-feature-settings: "ss01" on;
+}
+.wordmark .sun {
+  display: inline-block;
+  width: 0.58em;
+  height: 0.29em;
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+  background: var(--accent);
+  vertical-align: baseline;
+  margin: 0 0.04em -0.02em;
+  position: relative;
+  top: 0.02em;
+}
+.tagline {
+  margin: 10px 0 0;
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: clamp(14px, 1.3vw, 17px);
+  letter-spacing: 0.01em;
+}
+
+/* Alternative wordmark — all-lowercase quiet */
+html[data-mark="quiet"] .wordmark {
+  text-transform: lowercase;
+  letter-spacing: -0.02em;
+  font-style: italic;
+  font-weight: 500;
+}
+html[data-mark="quiet"] .wordmark .sun { display: none; }
+
+/* Nav */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: clamp(18px, 3vw, 38px);
+  padding: 14px 0 18px;
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.nav a {
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 1px solid transparent;
+}
+.nav a[aria-current="page"] { border-bottom-color: var(--accent); color: var(--ink); }
+.nav a:hover { color: var(--accent-deep); border-bottom-color: var(--accent); }
+
+/* ---------- Layout containers ---------- */
+.page { max-width: 1240px; margin: 0 auto; padding: 0 var(--gutter); }
+.page--narrow { max-width: 780px; }
+
+.section-label {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: clamp(40px, 5vw, 72px) 0 clamp(20px, 2.4vw, 30px);
+}
+.section-label::before,
+.section-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--rule-soft);
+}
+
+/* ---------- Story primitives ---------- */
+.kicker {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent-deep);
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.headline {
+  font-family: var(--serif);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  margin: 0;
+  text-wrap: balance;
+}
+.headline a { text-decoration: none; }
+.headline a:hover { color: var(--accent-deep); }
+.dek {
+  font-family: var(--serif);
+  color: var(--ink-soft);
+  line-height: 1.5;
+  text-wrap: pretty;
+  margin: 14px 0 0;
+}
+.byline {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-top: 14px;
+}
+.byline .dot { margin: 0 8px; opacity: 0.5; }
+
+.photo {
+  display: block;
+  position: relative;
+  background: var(--paper-deep);
+  overflow: hidden;
+}
+.photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo-credit {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  color: var(--ink-mute);
+  letter-spacing: 0.06em;
+  margin-top: 8px;
+}
+
+/* Striped fallback */
+.photo--placeholder::before {
+  content: "";
+  position: absolute; inset: 0;
+  background:
+    repeating-linear-gradient(135deg,
+      color-mix(in oklch, var(--ink) 6%, transparent) 0 2px,
+      transparent 2px 14px),
+    var(--paper-deep);
+}
+.photo--placeholder::after {
+  content: attr(data-label);
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+}
+
+/* ---------- Footer ---------- */
+.foot {
+  border-top: 1px solid var(--rule-soft);
+  margin-top: clamp(60px, 8vw, 120px);
+  padding: clamp(28px, 3.5vw, 48px) var(--gutter) clamp(24px, 3vw, 40px);
+}
+.foot-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+.foot-inner a { text-decoration: none; }
+.foot-links { display: flex; gap: 22px; flex-wrap: wrap; }
+
+/* ---------- Utility ---------- */
+.hairline { height: 1px; background: var(--rule-soft); }
+.rule-thick { height: 1px; background: var(--rule); }
+
+/* ---------- Signup inline ---------- */
+.signup-inline {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  padding: clamp(40px, 5vw, 72px) 0;
+}
+.signup-inline h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(28px, 3.4vw, 40px);
+  letter-spacing: -0.01em;
+  margin: 0 0 10px;
+  text-wrap: balance;
+}
+.signup-inline p {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--ink-soft);
+  margin: 0 0 26px;
+}
+.signup-form {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--ink);
+  max-width: 460px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+.signup-form input {
+  flex: 1;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 17px;
+  padding: 12px 4px;
+  outline: none;
+}
+.signup-form input::placeholder { color: var(--ink-mute); font-style: italic; }
+.signup-form button {
+  border: 0;
+  background: transparent;
+  color: var(--accent-deep);
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding: 0 6px 0 18px;
+  cursor: pointer;
+}
+.signup-form button:hover { color: var(--ink); }
+
+.signup-meta {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-top: 16px;
+}
+
+/* ---------- Print ---------- */
+@media print {
+  @page { size: Letter; margin: 0.6in 0.55in; }
+  html, body { background: #fff !important; color: #111 !important; font-size: 11pt; }
+  .tweaks-panel, .nav, .masthead-utility, .signup-inline, .foot,
+  section[aria-labelledby="yesterday-h"], .today-label .note,
+  .featured-meta a, .featured a.photo[href]::after { display: none !important; }
+  a { color: inherit !important; text-decoration: none !important; }
+  .masthead { padding: 0; border-bottom: 1px solid #999; margin-bottom: 18pt; }
+  .masthead-rule { border-color: #777; }
+  .masthead-rule--thin { border-color: #bbb; }
+  .wordmark-wrap { padding: 8pt 0 6pt; }
+  .wordmark { font-size: 42pt !important; letter-spacing: 0.14em; }
+  .tagline { font-size: 10pt; margin-top: 4pt; }
+  .page { max-width: none; padding: 0; }
+  .dateline { padding: 6pt 0; margin-bottom: 14pt; font-size: 8pt; border-bottom: 1px solid #ccc; }
+  .today-label { margin-bottom: 12pt; }
+  .today-label .greeting { font-size: 16pt; }
+  .featured { display: block !important; padding-bottom: 16pt; border-bottom: 1px solid #ccc; }
+  .featured .photo { aspect-ratio: 16/7 !important; max-height: 3.2in; margin-bottom: 10pt; }
+  .featured .photo img { object-fit: cover; }
+  .featured .headline { font-size: 28pt !important; line-height: 1.05; margin: 6pt 0; }
+  .featured .dek { font-size: 12pt; line-height: 1.45; }
+  .featured .featured-text { max-width: none; }
+  .featured-meta { margin-top: 8pt; }
+  .featured-meta .byline { font-size: 8pt; color: #444; }
+  .two-up {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 22pt !important;
+    padding: 14pt 0 0 !important;
+    border-bottom: 0 !important;
+    page-break-inside: avoid;
+  }
+  .two-up .story-card .photo { aspect-ratio: 3/2 !important; max-height: 1.8in; margin-bottom: 8pt; }
+  .two-up .headline { font-size: 16pt !important; line-height: 1.15; }
+  .two-up .dek { font-size: 10.5pt; line-height: 1.4; }
+  .two-up .byline { font-size: 7.5pt; margin-top: 6pt; }
+  .kicker { font-size: 8pt; margin-bottom: 4pt; }
+  .photo--placeholder::before, .photo--placeholder::after { display: none; }
+  .photo { background: #f0ece4; }
+}
+
+/* ---------- Tweaks panel ---------- */
+.tweaks-panel {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 280px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  padding: 18px 20px 20px;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--ink);
+  z-index: 80;
+  box-shadow: 0 20px 40px -20px rgba(0,0,0,0.18), 0 2px 4px rgba(0,0,0,0.04);
+  display: none;
+}
+.tweaks-panel.is-open { display: block; }
+.tweaks-panel h3 {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin: 0 0 14px;
+  font-weight: 500;
+}
+.tweaks-group { margin-bottom: 14px; }
+.tweaks-group > label {
+  display: block;
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-bottom: 6px;
+}
+.tweaks-opts { display: flex; gap: 6px; flex-wrap: wrap; }
+.tweaks-opts button {
+  border: 1px solid var(--rule);
+  background: transparent;
+  color: var(--ink-soft);
+  font-family: var(--sans);
+  font-size: 11px;
+  padding: 6px 10px;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  border-radius: 2px;
+}
+.tweaks-opts button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+.tweaks-close {
+  position: absolute;
+  top: 10px; right: 12px;
+  background: transparent; border: 0;
+  color: var(--ink-mute);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* SECTION-NAV-CSS:START */
+.section-nav {
+  border-top: 1px solid var(--rule-soft);
+  border-bottom: 1px solid var(--rule-soft);
+  padding: 12px var(--gutter);
+}
+.section-nav-inner {
+  max-width: 1240px; margin: 0 auto;
+  display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: baseline;
+  font-family: var(--sans); font-size: 11px; letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.section-nav .label { color: var(--ink-mute); margin-right: 4px; }
+.section-nav a { text-decoration: none; color: var(--ink-soft); }
+.section-nav a:hover { color: var(--accent-deep); }
+/* SECTION-NAV-CSS:END */
+</style>
+<style>
+/* ---------- Home-only ---------- */
+.dateline {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px 0 14px;
+  border-bottom: 1px solid var(--rule-soft);
+  margin-bottom: clamp(30px, 4vw, 56px);
+}
+.dateline .date-main { color: var(--ink); }
+.dateline .weather {
+  display: flex; gap: 22px;
+  color: var(--ink-mute);
+}
+
+/* Today row */
+.today-label {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  margin: 0 0 clamp(18px, 2vw, 28px);
+}
+.today-label .greeting {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(22px, 2.4vw, 30px);
+  color: var(--ink);
+  margin: 0;
+  font-weight: 400;
+}
+.today-label .greeting em { font-style: normal; color: var(--accent-deep); }
+.today-label .note {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-left: auto;
+}
+
+/* Featured — cover (default): full-bleed photo, headline below */
+.featured {
+  display: grid;
+  gap: clamp(20px, 2.4vw, 34px);
+  padding-bottom: clamp(36px, 4.4vw, 60px);
+  border-bottom: 1px solid var(--rule-soft);
+}
+.featured .photo { aspect-ratio: 16/9; }
+.featured .headline { font-size: clamp(38px, 5.4vw, 72px); }
+.featured .dek { font-size: clamp(17px, 1.5vw, 21px); max-width: 56ch; }
+.featured .featured-text { max-width: 820px; }
+.featured-meta {
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: 20px; flex-wrap: wrap;
+}
+
+/* Featured — broadsheet: two columns, photo left */
+html[data-featured="broadsheet"] .featured {
+  grid-template-columns: 1.1fr 1fr;
+  align-items: start;
+}
+html[data-featured="broadsheet"] .featured .photo { aspect-ratio: 4/5; }
+html[data-featured="broadsheet"] .featured .headline { font-size: clamp(32px, 3.8vw, 56px); }
+html[data-featured="broadsheet"] .featured .featured-text { padding-top: 6px; }
+
+/* Featured — restrained: small photo, text-first */
+html[data-featured="restrained"] .featured { grid-template-columns: 1fr; }
+html[data-featured="restrained"] .featured .photo {
+  aspect-ratio: 3/2;
+  max-width: 560px;
+  order: 2;
+}
+html[data-featured="restrained"] .featured .headline { font-size: clamp(32px, 4.2vw, 56px); }
+
+/* Two secondary stories side-by-side */
+.two-up {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(28px, 3.5vw, 60px);
+  padding: clamp(30px, 4vw, 56px) 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+.story-card .photo { aspect-ratio: 3/2; margin-bottom: 18px; }
+.story-card .headline { font-size: clamp(22px, 2.2vw, 32px); }
+.story-card .dek { font-size: 16px; }
+.story-card .headline a:hover { color: var(--accent-deep); }
+
+/* Yesterday — three-up smaller */
+.yesterday {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(24px, 3vw, 44px);
+  padding: clamp(20px, 2.6vw, 36px) 0 clamp(30px, 4vw, 56px);
+}
+.yesterday .story-card .photo { aspect-ratio: 4/3; }
+.yesterday .headline { font-size: clamp(19px, 1.7vw, 24px); }
+.yesterday .dek { font-size: 15px; color: var(--ink-mute); }
+
+/* Mobile */
+@media (max-width: 820px) {
+  .two-up, .yesterday { grid-template-columns: 1fr; }
+  html[data-featured="broadsheet"] .featured { grid-template-columns: 1fr; }
+  .dateline { flex-direction: column; gap: 4px; align-items: flex-start; }
+  .dateline .weather { gap: 14px; }
+  .today-label { flex-wrap: wrap; }
+  .featured .dek,
+  .story-card .dek {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Masthead -->
+<header class="masthead" data-screen-label="home-masthead">
+  <div class="masthead-inner">
+    <div class="masthead-utility">
+      <div class="issue">
+        <span>Tuesday, November&nbsp;3, 2026</span>
+        <span>No.&nbsp;556</span>
+      </div>
+      <div><a href="signup.html">Subscribe →</a></div>
+    </div>
+
+    <div class="masthead-rule masthead-rule--thin"></div>
+
+    <div class="wordmark-wrap">
+      <h1 class="wordmark">Upl<span class="sun" aria-hidden="true"></span>ft</h1>
+      <p class="tagline">Six good things, every morning.</p>
+    </div>
+
+    <div class="masthead-rule"></div>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" aria-current="page">Today</a>
+      <a href="feed.html">Feed</a>
+      <a href="archive.html">Archive</a>
+      <a href="about.html">About</a>
+      <a href="signup.html">Subscribe</a>
+    </nav>
+  <!-- SECTION-NAV:START (generated by scripts/inject-section-nav.mjs — do not hand-edit) -->
+  <nav class="section-nav" aria-label="Sections">
+    <div class="section-nav-inner">
+      <span class="label">Sections</span>
+      <a href="editions/quiet-kindness/index.html">Quiet Kindness</a>
+      <a href="editions/small-wonders/index.html">Small Wonders</a>
+      <a href="editions/everyday-joy/index.html">Everyday Joy</a>
+      <a href="editions/nature/index.html">Nature</a>
+      <a href="editions/science-medicine/index.html">Science &amp; Medicine</a>
+      <a href="editions/global-progress/index.html">Global Progress</a>
+      <a href="editions/coming-together/index.html">Coming Together</a>
+      <a href="editions/open-hands/index.html">Open Hands</a>
+      <a href="editions/human-spirit/index.html">Human Spirit</a>
+    </div>
+  </nav>
+  <!-- SECTION-NAV:END -->
+  </div>
+</header>
+
+<!-- Dateline strip -->
+<main class="page" data-screen-label="home">
+  <div class="dateline">
+    <div class="date-main">Issued daily at dawn, wherever you are reading.</div>
+    <div class="weather">
+      <span>Filed from 3 continents today</span>
+      <span>Edition 556</span>
+    </div>
+  </div>
+
+  <!-- Today -->
+  <section aria-labelledby="today-h">
+    <div class="today-label">
+      <h2 id="today-h" class="greeting">Today, <em>six good things.</em></h2>
+      <span class="note">4 min read · 763 words</span>
+    </div>
+
+    <!-- Featured / lead -->
+    <article class="featured">
+      <a class="photo" href="https://news.stv.tv/highlands-islands/beavers-to-be-reintroduced-to-loch-ness-500-years-on-from-last-sighting" aria-label="Read: Beavers are going back into the waters around Loch Ness after 500 years.">
+        <img
+          src="https://images.unsplash.com/photo-1727883760212-655dc564a99c?w=1600&q=80&auto=format&fit=crop"
+          alt="A beaver sitting up in the shallows of a wooded lake, gnawing a peeled stick"
+          loading="eager"
+          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','River Ness catchment, Highland, Scotland — STV News, October 30 2026'); this.remove();" />
+      </a>
+      <div class="featured-text">
+        <span class="kicker">Nature · River Ness catchment, Highland, Scotland</span>
+        <h2 class="headline"><a href="https://news.stv.tv/highlands-islands/beavers-to-be-reintroduced-to-loch-ness-500-years-on-from-last-sighting">Beavers are going back into the waters around Loch Ness after 500 years.</a></h2>
+        <p class="dek">NatureScot approved a licence on October 30 for Trees for Life and the Beaver Trust to release up to 15 beaver families into the River Ness catchment over three years, five centuries after the last beaver was recorded at the loch. The animals will come from farmland elsewhere in Scotland where they are damaging prime agricultural ground, be trapped under licence and health-screened before being moved; more than 73 percent of those who answered NatureScot&#x27;s consultation supported the plan, and the agency says it is taking seriously the concerns raised by land managers, fisheries managers and people living in the catchment. The first releases could come within weeks, in a catchment NatureScot identified back in 2022 as one of the most suitable in Scotland.</p>
+        <div class="featured-meta">
+          <div class="byline">
+            Reported by <strong style="font-weight:500">STV News</strong>
+            <span class="dot">·</span> Photograph by Eliot Sachot
+          </div>
+          <a href="https://news.stv.tv/highlands-islands/beavers-to-be-reintroduced-to-loch-ness-500-years-on-from-last-sighting" style="font-family:var(--sans); font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--accent-deep); text-decoration:none;">Read the story →</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Two secondary -->
+    <div class="two-up">
+      <article class="story-card">
+        <a class="photo" href="https://www.smithsonianmag.com/smart-news/crows-can-make-decisions-based-on-visual-information-at-lightning-speed-roughly-twice-as-fast-as-humans-can-study-suggests-180989779/" aria-label="Read: Two crows called Iggy and Lemmy decide what they are looking at twice as fast as we do.">
+        <img
+          src="https://images.unsplash.com/photo-1605207209791-dfe90cf9f16b?w=1200&q=80&auto=format&fit=crop"
+          alt="A carrion crow standing on autumn grass and fallen leaves, looking straight at the camera"
+          loading="lazy"
+          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','University of Tübingen, Germany — Smithsonian Magazine, October 30 2026'); this.remove();" />
+      </a>
+        <span class="kicker">Small Wonders · University of Tübingen, Germany</span>
+        <h3 class="headline"><a href="https://www.smithsonianmag.com/smart-news/crows-can-make-decisions-based-on-visual-information-at-lightning-speed-roughly-twice-as-fast-as-humans-can-study-suggests-180989779/">Two crows called Iggy and Lemmy decide what they are looking at twice as fast as we do.</a></h3>
+        <p class="dek">Andreas Nieder and Philipp Schmidbauer put two carrion crows in front of a touchscreen showing a cluster of dots, some drifting left or right and the rest moving at random, and the birds learned to tap the side matching the drift for a mealworm. Over thousands of trials, reported in <em>Science</em> on October 22, Iggy and Lemmy averaged 235 milliseconds a decision — roughly half the time monkeys and people take on comparable tasks, with no loss of accuracy — and electrodes picked up neurons in the nidopallium caudolaterale, the bird equivalent of a primate&#x27;s prefrontal cortex, firing from 70 milliseconds after the dots appeared. Nieder reads it as evidence that quick, complicated computation needs no mammalian neocortex; whether other birds are as fast, nobody yet knows.</p>
+        <div class="byline">
+          <strong style="font-weight:500">Smithsonian Magazine</strong>
+            <span class="dot">·</span> Photograph by Amee Fairbank-Brown
+        </div>
+      </article>
+
+      <article class="story-card">
+        <a class="photo" href="https://news.mongabay.com/2026/11/un-recognizes-ongoing-restoration-work-inside-ethiopias-desaa-forest-amid-conflict/" aria-label="Read: A dry forest above Ethiopia&#x27;s Rift Valley has been named a UN restoration flagship.">
+        <img
+          src="https://images.unsplash.com/photo-1572888195250-3037a59d3578?w=1200&q=80&auto=format&fit=crop"
+          alt="Terraced green farmland on the steep escarpment of the Ethiopian highlands, with thatched houses below"
+          loading="lazy"
+          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Desa&#x27;a forest, Tigray, Ethiopia — Mongabay, November 3 2026'); this.remove();" />
+      </a>
+        <span class="kicker">Global Progress · Desa&#x27;a forest, Tigray, Ethiopia</span>
+        <h3 class="headline"><a href="https://news.mongabay.com/2026/11/un-recognizes-ongoing-restoration-work-inside-ethiopias-desaa-forest-amid-conflict/">A dry forest above Ethiopia&#x27;s Rift Valley has been named a UN restoration flagship.</a></h3>
+        <p class="dek">The UN Environment Programme gave the Desa&#x27;a landscape World Restoration Flagship status on October 29 at the biodiversity conference in Yerevan, recognising more than 23,000 hectares of degraded ground now being brought back on the escarpment above the Great Rift Valley. Work started in 2016 with the forest charity WeForest and is now run by the communities living there; measurements credit it with holding back about 500,000 tonnes of soil, catching some 1.9 million cubic metres of rainwater a year, and lifting water infiltration in treated ground by 26 percent since 2019 while untreated ground fell 40 percent. Beekeeping and wider tree cover come next, and UNEP reckons the landscape could take up around 6 million tonnes of carbon dioxide equivalent over 50 years.</p>
+        <div class="byline">
+          <strong style="font-weight:500">Mongabay</strong>
+            <span class="dot">·</span> Photograph by Erik Hathaway
+        </div>
+      </article>
+    </div>
+
+    <!-- More today — 3 smaller cards -->
+    <div class="yesterday" style="border-top:1px solid var(--rule-soft); padding-top: clamp(28px, 3.4vw, 48px);">
+      <article class="story-card">
+        <a class="photo" href="https://www.positive.news/society/what-if-we-stopped-treating-social-care-like-a-service/" aria-label="Read: A Yorkshire village has organised its care around shared meals since 1955.">
+        <img
+          src="https://images.unsplash.com/photo-1570914678671-ec77d4cce9dd?w=1000&q=80&auto=format&fit=crop"
+          alt="Stone houses with slate roofs clustered in a wooded northern English valley on a misty autumn morning"
+          loading="lazy"
+          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Botton Village, North York Moors, England — Positive News, November 3 2026'); this.remove();" />
+      </a>
+        <span class="kicker">Quiet Kindness · Botton Village, North York Moors, England</span>
+        <h3 class="headline"><a href="https://www.positive.news/society/what-if-we-stopped-treating-social-care-like-a-service/">A Yorkshire village has organised its care around shared meals since 1955.</a></h3>
+        <p class="dek">About 120 people live at Botton Village in 19 households, each holding two or three co-workers, a similar number of villagers with learning disabilities, and usually one volunteer, in a community founded in 1955. The day runs on meals and workshops — breakfast at half past seven, workshop hours morning and afternoon, dinner at half past six — and roughly half of residents&#x27; meals are eaten in a neighbour&#x27;s house rather than their own. Thomas Moore, the Sheffield researcher who wrote the piece, notes that arrangements of this kind cost about £26,000 less per person a year than conventional supported living, and that the Care Quality Commission rated 97 percent of them good or outstanding in 2023 against 78 percent across social care.</p>
+        <div class="byline">
+          <strong style="font-weight:500">Positive News</strong>
+            <span class="dot">·</span> Photograph by Dan Smedley
+        </div>
+      </article>
+
+      <article class="story-card">
+        <a class="photo" href="https://www.smithsonianmag.com/smart-news/a-poor-Mans-rembrandt-for-a-few-hundred-bucks-at-amsterdams-rembrandt-museum-a-pop-up-tattoo-studio-is-inking-17th-century-masterpieces-on-human-canvases-180989800/" aria-label="Read: Rembrandt&#x27;s etchings are going onto backs and arms in the house where he made them.">
+        <img
+          src="https://images.unsplash.com/photo-1643513456892-437e82e06f4a?w=1000&q=80&auto=format&fit=crop"
+          alt="A gloved tattoo artist working a line into the stencilled skin of a client&#x27;s back, seen close up"
+          loading="lazy"
+          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Rembrandt House Museum, Amsterdam, Netherlands — Smithsonian Magazine, November 3 2026'); this.remove();" />
+      </a>
+        <span class="kicker">Everyday Joy · Rembrandt House Museum, Amsterdam, Netherlands</span>
+        <h3 class="headline"><a href="https://www.smithsonianmag.com/smart-news/a-poor-Mans-rembrandt-for-a-few-hundred-bucks-at-amsterdams-rembrandt-museum-a-pop-up-tattoo-studio-is-inking-17th-century-masterpieces-on-human-canvases-180989800/">Rembrandt&#x27;s etchings are going onto backs and arms in the house where he made them.</a></h3>
+        <p class="dek">On October 26 the Rembrandt House Museum in Amsterdam, where the painter lived and worked for 19 years, handed a room to a pop-up tattoo studio; six artists are inking his etchings onto visitors there until November 7. The designs run to lions, windmills, sailors, merchants, Hansken the elephant, the self-portraits and the signature, at roughly $110 to $390 each, and the largest is a full-back copy of the 1633 etching <em>The Descent from the Cross</em> on Bo Kwakernaak, 28, who was chosen to have it free across about 20 hours of sitting. Henk Schiffmacher, who leads the project and is running it a second time after 2023, calls it an honour to work &#x201c;in the very place where Rembrandt&#x27;s spirit still lingers&#x201d;, and the final session falls on the night of November 7.</p>
+        <div class="byline">
+          <strong style="font-weight:500">Smithsonian Magazine</strong>
+            <span class="dot">·</span> Photograph by Cloutier Benjamin
+        </div>
+      </article>
+
+      <article class="story-card">
+        <a class="photo" href="https://medicalxpress.com/news/2026-11-earlier-valve-benefits-patients-moderate.html" aria-label="Read: Replacing a moderately narrowed heart valve early keeps people out of hospital.">
+        <img
+          src="https://images.unsplash.com/photo-1691935071222-c008a4ccc2ca?w=1000&q=80&auto=format&fit=crop"
+          alt="An ultrasound cart with its monitor and probes parked beside an examination couch in a clinic room"
+          loading="lazy"
+          onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','74 centres in six countries — Medical Xpress, November 3 2026'); this.remove();" />
+      </a>
+        <span class="kicker">Science &amp; Medicine · 74 centres in six countries</span>
+        <h3 class="headline"><a href="https://medicalxpress.com/news/2026-11-earlier-valve-benefits-patients-moderate.html">Replacing a moderately narrowed heart valve early keeps people out of hospital.</a></h3>
+        <p class="dek">The PROGRESS trial, published in the New England Journal of Medicine, randomised 744 people aged 65 and over — average age 78 — with moderate aortic stenosis and at least one worrying sign, at 74 centres in six countries, either to a transcatheter valve replacement now or to careful monitoring. After two years, 16.7 percent of the valve group had died or had a heart failure event against 23.9 percent of those monitored, and admissions for heart failure ran at 7.4 percent against 14.9 percent; more than half the monitored group had a valve replaced within the two years anyway. The investigators are careful to say this does not mean every moderate narrowing should be treated, and they will follow both groups for ten years to see how the valves last.</p>
+        <div class="byline">
+          <strong style="font-weight:500">Medical Xpress</strong>
+            <span class="dot">·</span> Photograph by Elen Sher
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Yesterday -->
+  <section aria-labelledby="yesterday-h">
+    <div class="section-label"><span id="yesterday-h">Monday · November 2</span></div>
+
+    <div class="yesterday">
+      <article class="story-card">
+        <a class="photo" href="issues/2026-11-02.html" aria-label="Read: New South Wales has turned 178,000 hectares of state forest into a koala park.">
+          <img
+            src="https://images.unsplash.com/photo-1777864000942-21efbe238bce?w=1000&q=80&auto=format&fit=crop"
+            alt="A koala asleep in the fork of a eucalyptus branch, surrounded by grey-green leaves"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Coffs Harbour hinterland, New South Wales, Australia — Mongabay, October 29 2026'); this.remove();" />
+        </a>
+        <span class="kicker">Global Progress · Coffs Harbour hinterland, New South Wales, Australia</span>
+        <h3 class="headline"><a href="issues/2026-11-02.html">New South Wales has turned 178,000 hectares of state forest into a koala park.</a></h3>
+        <p class="dek">The Great Koala National Park, about 475,000 hectares in all, takes in forest that held roughly 12,000 koalas and had been set aside for logging.</p>
+      </article>
+
+      <article class="story-card">
+        <a class="photo" href="issues/2026-11-02.html" aria-label="Read: Mexican biologists are growing mangroves on mounds borrowed from Aztec farmers.">
+          <img
+            src="https://images.unsplash.com/photo-1717821646841-a7562db98f44?w=1000&q=80&auto=format&fit=crop"
+            alt="Channels of still green water winding through dense low mangrove forest on a Mexican coast"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Alvarado Lagoons, Veracruz, Mexico — Mongabay, October 30 2026'); this.remove();" />
+        </a>
+        <span class="kicker">Nature · Alvarado Lagoons, Veracruz, Mexico</span>
+        <h3 class="headline"><a href="issues/2026-11-02.html">Mexican biologists are growing mangroves on mounds borrowed from Aztec farmers.</a></h3>
+        <p class="dek">Seedlings planted on <em>chinampas</em> sit above water that would drown them; the project now runs to some 15,000 mounds across 40 hectares.</p>
+      </article>
+
+      <article class="story-card">
+        <a class="photo" href="issues/2026-11-02.html" aria-label="Read: A critically endangered South African minnow now has ten kilometres of river instead of two.">
+          <img
+            src="https://images.unsplash.com/photo-1755384866790-60200f33e55f?w=1000&q=80&auto=format&fit=crop"
+            alt="Clear shallow water running over a stony riverbed beside a green bank"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('photo--placeholder'); this.parentElement.setAttribute('data-label','Breekkrans River, Western Cape, South Africa — Mongabay, October 28 2026'); this.remove();" />
+        </a>
+        <span class="kicker">Small Wonders · Breekkrans River, Western Cape, South Africa</span>
+        <h3 class="headline"><a href="issues/2026-11-02.html">A critically endangered South African minnow now has ten kilometres of river instead of two.</a></h3>
+        <p class="dek">Three summers of clearing introduced bass from the upper Breekkrans gave the doring fiery redfin five times the river it had.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Signup -->
+  <section class="signup-inline" aria-labelledby="signup-h">
+    <div class="hairline" style="margin-bottom: clamp(40px, 5vw, 72px);"></div>
+    <h2 id="signup-h">One email a day. Six good things.</h2>
+    <p>Arrives at 7:00 AM Pacific, every morning. No tracking pixels, no sponsor reads, no unsubscribe friction.</p>
+    <form class="signup-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thanks →';">
+      <input type="email" placeholder="your@email.com" required aria-label="Email address" />
+      <button type="submit">Subscribe →</button>
+    </form>
+    <div class="signup-meta">18,420 readers · Free forever</div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="foot">
+  <div class="foot-inner">
+    <div>© 2026 Uplift Daily · A small, independent paper</div>
+    <div class="foot-links">
+      <a href="archive.html">Archive</a>
+      <a href="about.html">About</a>
+      <a href="about.html#principles">Principles</a>
+      <a href="mailto:hello@uplift.daily">hello@uplift.daily</a>
+      <a href="signup.html">Subscribe</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Tweaks panel -->
+<aside class="tweaks-panel" id="tweaks-panel" aria-label="Design tweaks">
+  <button class="tweaks-close" aria-label="Close tweaks">×</button>
+  <h3>Tweaks</h3>
+
+  <div class="tweaks-group">
+    <label>Palette</label>
+    <div class="tweaks-opts">
+      <button data-key="palette" data-value="paper">Paper</button>
+      <button data-key="palette" data-value="ivory">Ivory</button>
+      <button data-key="palette" data-value="cool">Cool</button>
+      <button data-key="palette" data-value="dark">Evening</button>
+    </div>
+  </div>
+
+  <div class="tweaks-group">
+    <label>Wordmark</label>
+    <div class="tweaks-opts">
+      <button data-key="mark" data-value="masthead">Masthead</button>
+      <button data-key="mark" data-value="quiet">Quiet</button>
+    </div>
+  </div>
+
+  <div class="tweaks-group">
+    <label>Lead story</label>
+    <div class="tweaks-opts">
+      <button data-key="featured" data-value="cover">Cover</button>
+      <button data-key="featured" data-value="broadsheet">Broadsheet</button>
+      <button data-key="featured" data-value="restrained">Restrained</button>
+    </div>
+  </div>
+</aside>
+
+<script>
+// Shared tweak logic for Uplift — palette + wordmark + featured layout.
+(function () {
+  const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+    "palette": "paper",
+    "mark": "masthead",
+    "featured": "cover"
+  }/*EDITMODE-END*/;
+
+  const STORAGE_KEY = "uplift.tweaks";
+
+  function readStored() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return {};
+      return JSON.parse(raw);
+    } catch (e) { return {}; }
+  }
+  function writeStored(state) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+  }
+
+  const state = Object.assign({}, TWEAK_DEFAULTS, readStored());
+
+  function apply() {
+    const html = document.documentElement;
+    html.setAttribute("data-palette", state.palette);
+    html.setAttribute("data-mark", state.mark);
+    html.setAttribute("data-featured", state.featured);
+    // reflect on tweak panel buttons if present
+    document.querySelectorAll(".tweaks-opts button").forEach((b) => {
+      const k = b.dataset.key; const v = b.dataset.value;
+      if (k && v) b.setAttribute("aria-pressed", state[k] === v ? "true" : "false");
+    });
+  }
+
+  function set(key, value) {
+    state[key] = value;
+    writeStored(state);
+    apply();
+    try {
+      window.parent.postMessage({
+        type: "__edit_mode_set_keys",
+        edits: { [key]: value }
+      }, "*");
+    } catch (e) {}
+  }
+
+  // Apply immediately on script load
+  apply();
+
+  // Edit-mode integration — listener first, then announce
+  function openPanel() {
+    const p = document.getElementById("tweaks-panel");
+    if (p) p.classList.add("is-open");
+  }
+  function closePanel() {
+    const p = document.getElementById("tweaks-panel");
+    if (p) p.classList.remove("is-open");
+  }
+
+  window.addEventListener("message", (e) => {
+    const d = e.data;
+    if (!d || typeof d !== "object") return;
+    if (d.type === "__activate_edit_mode") openPanel();
+    if (d.type === "__deactivate_edit_mode") closePanel();
+  });
+
+  // Wire up buttons once DOM ready
+  function wire() {
+    document.querySelectorAll(".tweaks-opts button").forEach((b) => {
+      b.addEventListener("click", () => set(b.dataset.key, b.dataset.value));
+    });
+    const closeBtn = document.querySelector(".tweaks-close");
+    if (closeBtn) closeBtn.addEventListener("click", closePanel);
+    apply();
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", wire);
+  } else {
+    wire();
+  }
+
+  try {
+    window.parent.postMessage({ type: "__edit_mode_available" }, "*");
+  } catch (e) {}
+
+  window.UpliftTweaks = { set, state };
+})();
+
+</script>
+</body>
+</html>

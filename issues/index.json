@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-03",
+    "slug": "2026-11-03",
+    "edition": 556,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "River Ness catchment, Highland, Scotland",
+        "head": "Beavers are going back into the waters around Loch Ness after 500 years.",
+        "src": "STV News",
+        "url": "https://news.stv.tv/highlands-islands/beavers-to-be-reintroduced-to-loch-ness-500-years-on-from-last-sighting",
+        "img": "https://images.unsplash.com/photo-1727883760212-655dc564a99c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "University of Tübingen, Germany",
+        "head": "Two crows called Iggy and Lemmy decide what they are looking at twice as fast as we do.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/crows-can-make-decisions-based-on-visual-information-at-lightning-speed-roughly-twice-as-fast-as-humans-can-study-suggests-180989779/",
+        "img": "https://images.unsplash.com/photo-1605207209791-dfe90cf9f16b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Desa'a forest, Tigray, Ethiopia",
+        "head": "A dry forest above Ethiopia's Rift Valley has been named a UN restoration flagship.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/11/un-recognizes-ongoing-restoration-work-inside-ethiopias-desaa-forest-amid-conflict/",
+        "img": "https://images.unsplash.com/photo-1572888195250-3037a59d3578?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Botton Village, North York Moors, England",
+        "head": "A Yorkshire village has organised its care around shared meals since 1955.",
+        "src": "Positive News",
+        "url": "https://www.positive.news/society/what-if-we-stopped-treating-social-care-like-a-service/",
+        "img": "https://images.unsplash.com/photo-1570914678671-ec77d4cce9dd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Rembrandt House Museum, Amsterdam, Netherlands",
+        "head": "Rembrandt's etchings are going onto backs and arms in the house where he made them.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-poor-Mans-rembrandt-for-a-few-hundred-bucks-at-amsterdams-rembrandt-museum-a-pop-up-tattoo-studio-is-inking-17th-century-masterpieces-on-human-canvases-180989800/",
+        "img": "https://images.unsplash.com/photo-1643513456892-437e82e06f4a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "74 centres in six countries",
+        "head": "Replacing a moderately narrowed heart valve early keeps people out of hospital.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-11-earlier-valve-benefits-patients-moderate.html",
+        "img": "https://images.unsplash.com/photo-1691935071222-c008a4ccc2ca?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-02",
     "slug": "2026-11-02",
     "edition": 555,
