@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-03",
+    "cat": "Human Spirit",
+    "place": "Sydney, Australia",
+    "head": "A stranger carried an Irish player's spare wheelchair to Australia in her own luggage.",
+    "summary": "Deirdre Donoghue flew a custom-built rugby league wheelchair from Ireland to Sydney in her checked baggage and handed it over at the international terminal on 3 November. She had phoned RTE after hearing an on-air appeal from the uncle of 20-year-old Oran Spain, whose only chair cracked during training in Wollongong and whose spare was sitting at home in Ireland; already booked to visit a friend she had not seen in ten years, she kept the chair with her across every connecting flight. Spain, who had sat out Ireland's opening match of the Wheelchair Rugby League World Cup, took the court against Wales that same day, and Donoghue plans to travel down to Wollongong to watch the team.",
+    "src": "ABC News",
+    "url": "https://www.abc.net.au/news/2026-11-03/wheelchair-delivered-for-irish-league-player/107340580",
+    "img": "https://images.unsplash.com/photo-1740572497450-4f4f2d3be984?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Aldward Castillo, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-02",
     "cat": "Human Spirit",
     "place": "Kallachi, Kerala, India",
