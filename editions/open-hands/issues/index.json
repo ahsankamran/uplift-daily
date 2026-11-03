@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-03",
+    "cat": "Open Hands",
+    "place": "Rothbury, Northumberland, United Kingdom",
+    "head": "A two-year public appeal has bought the 9,500-acre Rothbury Estate for nature.",
+    "summary": "The Wildlife Trusts and Northumberland Wildlife Trust completed the £30m purchase of the entire 9,500-acre Rothbury Estate in Northumberland on 30 October, two years after opening their largest fundraising appeal. More than 25,000 people gave over £17m of that total, from across the UK and more than 50 countries including Finland, Barbados, Kenya and New Zealand, with the remainder coming from the National Lottery Heritage Fund, Defra and charitable trusts. The moorland, woods, river and working farms now stay in single ownership, and the trusts plan nature-friendly farming, habitat restoration and a greenway along a disused railway line, with volunteer soil and wildlife surveys starting this month.",
+    "src": "Hexham Courant",
+    "url": "https://www.hexham-courant.co.uk/news/26681233.rothbury-estate-purchased-30m-wildlife-trusts-appeal/",
+    "img": "https://images.unsplash.com/photo-1716904256610-f294dfde91ee?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Lumin Osity, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-02",
     "cat": "Open Hands",
     "place": "Lexington, Kentucky, USA",
