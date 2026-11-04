@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-04",
+    "cat": "Open Hands",
+    "place": "Ottawa, Canada",
+    "head": "An Ottawa donor has given blood 500 times, 52 years after his first donation.",
+    "summary": "Bob McDougall made his 500th donation to Canadian Blood Services on 2 November at the centre on Carling Avenue in Ottawa, 52 years after he first gave blood in 1974. He now gives plasma and platelets every two weeks, usually on a Monday, and Sandy Renny, a volunteer at the centre, said McDougall is the first person he sees each time he arrives for a shift. Canadian Blood Services, which says about 500 Canadians have reached the same mark, expects national demand for plasma to rise by half over the next five years, and McDougall said he will keep donating as long as his health allows.",
+    "src": "CTV News Ottawa",
+    "url": "https://www.ctvnews.ca/ottawa/article/a-nice-achievement-ottawa-man-marks-500th-donation-to-canadian-blood-services/",
+    "img": "https://images.unsplash.com/photo-1615461066159-fea0960485d5?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Nguyễn Hiệp, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-03",
     "cat": "Open Hands",
     "place": "Rothbury, Northumberland, United Kingdom",
