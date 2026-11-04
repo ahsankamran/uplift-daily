@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-04",
+    "slug": "2026-11-04",
+    "edition": 557,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "University of Bonn, Germany",
+        "head": "Jumping spiders have two kinds of sleep, and in one of them their eyes move.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/do-spiders-dream-these-arachnids-twitch-curl-their-legs-and-move-their-eyes-when-asleep-hinting-at-a-complex-brain-state-180989789/",
+        "img": "https://images.unsplash.com/photo-1580258489239-e78fba81854d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Ile-Balkhash State Nature Reserve, Kazakhstan",
+        "head": "A second tiger is loose in the Ili delta, where none has lived for 70 years.",
+        "src": "The Astana Times",
+        "url": "https://astanatimes.com/2026/11/kazakhstan-releases-second-tiger-into-wild-as-reintroduction-program-advances/",
+        "img": "https://images.unsplash.com/photo-1768253183756-1b6ff31f1865?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Pantanal Matogrossense National Park, Brazil",
+        "head": "Brazil's Pantanal national park is about a third larger than it was.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/brazil-expands-protected-area-for-one-of-the-richest-and-most-sensitive-biomes-on-the-planet/",
+        "img": "https://images.unsplash.com/photo-1598568536940-ce8d1bc05b1a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Melbourne, Victoria, Australia",
+        "head": "A Melbourne man has given blood at all 85 donation centres in Australia.",
+        "src": "ABC News (Australia)",
+        "url": "https://www.abc.net.au/news/2026-10-30/melbourne-man-donates-blood-across-australia/107319322",
+        "img": "https://images.unsplash.com/photo-1753011399874-e4fa3ec22645?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Kunsthalle Bremen, Bremen, Germany",
+        "head": "A German museum has given eight galleries over to the dachshund.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/from-hunting-hounds-to-modernist-muses-dachshunds-have-done-it-all-see-the-worlds-first-art-exhibition-dedicated-exclusively-to-the-sausage-dog-180989797/",
+        "img": "https://images.unsplash.com/photo-1756463113641-2bab3810e4ce?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "King's College London, England",
+        "head": "Twelve short online sessions eased anxiety in pregnancy and after the birth.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-11-digital-therapy-worsening-anxiety-childbirth.html",
+        "img": "https://images.unsplash.com/photo-1651663303138-4dc283e15992?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "slug": "2026-11-03",
     "edition": 556,
