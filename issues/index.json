@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-05",
+    "slug": "2026-11-05",
+    "edition": 558,
+    "stories": [
+      {
+        "cat": "Everyday Joy",
+        "place": "Zócalo, Mexico City, Mexico",
+        "head": "Mexico City's Day of the Dead skeleton is the tallest anyone has built.",
+        "src": "Mexico News Daily",
+        "url": "https://mexiconewsdaily.com/culture/mexico-city-tallest-catrina-record-day-of-the-dead",
+        "img": "https://images.unsplash.com/photo-1730691758793-1da0fc9c9ad1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Islands off western Britain",
+        "head": "Shearwaters flying home through the night drift off course, the way we get jet lag.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/its-not-just-you-some-fast-flying-birds-also-get-jet-lag-180989811/",
+        "img": "https://images.unsplash.com/photo-1666096873246-80a64ed8e8e1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Poovathumkadavu, Thrissur, Kerala, India",
+        "head": "A Kerala village has turned its bus shelter into a small library.",
+        "src": "Onmanorama",
+        "url": "https://www.onmanorama.com/news/kerala/2026/11/03/read-while-you-wait-a-bus-stop-with-a-library.html",
+        "img": "https://images.unsplash.com/photo-1785227449061-030b5a03facc?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Eastern Sierra Nevada, California, USA",
+        "head": "Ground squirrels with more female relatives nearby come through hibernation better.",
+        "src": "Phys.org",
+        "url": "https://phys.org/news/2026-11-big-families-adult-female-ground.html",
+        "img": "https://images.unsplash.com/photo-1712110531196-7a71a91279de?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Denmark",
+        "head": "Two cholesterol tablets together shrank artery plaque by a fifth.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-11-stronger-cholesterol-treatment-plaque-heart.html",
+        "img": "https://images.unsplash.com/photo-1789983361998-1cf433741217?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Mali",
+        "head": "A Malian enterprise has put 150,000 trees into worn-out ground.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/11/malis-moringa-queen-wins-un-recognition-for-restoring-degraded-land/",
+        "img": "https://images.unsplash.com/photo-1771643033515-0028fd03b708?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-04",
     "slug": "2026-11-04",
     "edition": 557,
