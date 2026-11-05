@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-05",
+    "cat": "Open Hands",
+    "place": "London, United Kingdom",
+    "head": "Phoebe Waller-Bridge bought a London flat and gave its use to playwrights starting out.",
+    "summary": "Phoebe Waller-Bridge has bought a flat in London and donated its use to writers early in their careers, who will pay the bills and no rent. The flat is the centrepiece of Writers' Block, a pilot built by Sofie Mason and Diana Jervis-Read on the Adopt a Playwright Award they founded in 2008, which finds rooms for playwrights from low-income backgrounds who need to be in the capital for meetings, rehearsals and performances. Jack Thorne, James Graham, Sally Wainwright, Peter Morgan and Martin McDonagh are funding the pilot as well, and Graham, who slept on friends' floors and worked in call centres when he first came to London, said each spare room keeps a writer from giving up.",
+    "src": "BBC News",
+    "url": "https://www.bbc.co.uk/news/articles/cx4g1qmej086o",
+    "img": "https://images.unsplash.com/photo-1774156720905-11b4f15b284d?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Ben Hadfield, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-04",
     "cat": "Open Hands",
     "place": "Ottawa, Canada",
