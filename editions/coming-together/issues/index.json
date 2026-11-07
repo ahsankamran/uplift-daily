@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-07",
+    "cat": "Coming Together",
+    "place": "Wamphray, Scotland",
+    "head": "A Dumfriesshire village raised £45,000 and bought its own church.",
+    "summary": "Friends of Wamphray Church has completed the purchase of the 1834 kirk in the hills south of Moffat from the Church of Scotland, after raising more than £45,000 in under a year. Donations came from across the United Kingdom and from supporters in the United States and Canada, topped up by a £12,500 grant from Clyde Windfarm and SSE Renewables; the chair, Carol Beattie, said the group was grateful for the time it was given to raise the money and build support. Secretary Rob Harrison says the first job is plumbing in toilets, with a condition survey to follow, and the building opens again for a Remembrance service on Sunday and the village carol service on Christmas Eve.",
+    "src": "Dumfries and Galloway Life",
+    "url": "https://www.greatbritishlife.co.uk/magazines/dumfriesandgalloway/26696497.group-buys-historic-wamphray-church-45-000-appeal/",
+    "img": "https://images.unsplash.com/photo-1650071146328-7dfff84b9e8a?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Maxwell Andrews, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-03",
     "cat": "Coming Together",
     "place": "Dietzenbach, Germany",
