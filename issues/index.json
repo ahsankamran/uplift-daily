@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-07",
+    "slug": "2026-11-07",
+    "edition": 559,
+    "stories": [
+      {
+        "cat": "Everyday Joy",
+        "place": "Hull, England",
+        "head": "A man who started walking in 1998 has reached his mother's front door.",
+        "src": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/2/british-adventurer-karl-bushby-returns-home-after-28-year-walk-around-world",
+        "img": "https://images.unsplash.com/photo-1792968028155-c161b4c041be?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "22 countries across Europe",
+        "head": "Camera traps in 22 countries have made one shared album of Europe's wildlife.",
+        "src": "Phys.org",
+        "url": "https://phys.org/news/2026-11-largest-dataset-date-wildlife-europe.html",
+        "img": "https://images.unsplash.com/photo-1788008233147-39bb3624a91b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Castlemilk, Glasgow, Scotland",
+        "head": "Castlemilk has a shop selling fresh food again, and it is not there to make money.",
+        "src": "Third Force News",
+        "url": "https://tfn.scot/news/new-food-shop-as-castlemilk-campaign-continues",
+        "img": "https://images.unsplash.com/photo-1516594798947-e65505dbb29d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Tawi-Tawi, Philippines",
+        "head": "Horseshoe crabs have been confirmed in a second Philippine province.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/11/scientists-confirm-horseshoe-crabs-in-a-second-philippine-province-urge-conservation",
+        "img": "https://images.unsplash.com/photo-1770618892927-6803b1679970?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Flint, Michigan, USA",
+        "head": "Flint halved its newborn deaths after it began paying every pregnant resident.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-11-newborn-deaths-fell-flint-rx.html",
+        "img": "https://images.unsplash.com/photo-1766299893052-107053bc92a1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Geneva, Switzerland",
+        "head": "Three-quarters of the world is now online.",
+        "src": "International Telecommunication Union",
+        "url": "https://www.itu.int/en/mediacentre/Pages/PR-2026-11-03-Facts-and-Figures.aspx",
+        "img": "https://images.unsplash.com/photo-1770739982427-3169499c332e?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-05",
     "slug": "2026-11-05",
     "edition": 558,
