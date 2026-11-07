@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-07",
+    "cat": "Open Hands",
+    "place": "Newbury, Vermont, USA",
+    "head": "A Vermont couple gave away the 301 acres of woodland they spent a lifetime managing.",
+    "summary": "Doug and Katharine Britton have given 301 acres of forest in Newbury, Vermont, to the Upper Valley Land Trust, which will hold the land permanently conserved and open to the public. The couple managed the hilly, entirely wooded parcel for timber for decades, planting about 30 acres of white pine in the 1950s among the red oak, balsam fir and sugar maple, and the transfer took 25 years to finalize. The gift joins roughly 1,300 acres of already protected land along a wildlife corridor where trust staff have found beaver and bear sign, and the trust plans to keep harvesting timber, extend two town trails across the property and support research on how animals move through it.",
+    "src": "Vermont Public",
+    "url": "https://www.vermontpublic.org/local-news/2026-11-05/301-acres-newbury-conserved-forever",
+    "img": "https://images.unsplash.com/photo-1724878996753-39d506772977?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "David Trinks, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-05",
     "cat": "Open Hands",
     "place": "London, United Kingdom",
