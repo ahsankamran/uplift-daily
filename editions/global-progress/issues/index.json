@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-11-07",
+    "cat": "Global Progress",
+    "place": "Geneva, Switzerland",
+    "head": "Three-quarters of the world is now online.",
+    "summary": "The International Telecommunication Union counts 6.3 billion people using the internet in 2026, 76 percent of humanity, up from a revised 6.1 billion the year before. Its Facts and Figures report, out on November 3, also records that landlocked developing countries and small island developing states met the affordability benchmark for mobile broadband — 2 percent of income per head — for the first time. Two billion people are still offline, and the gap remains wide: 93 percent of people in high-income countries use the internet, against 32 percent in low-income ones.",
+    "src": "International Telecommunication Union",
+    "url": "https://www.itu.int/en/mediacentre/Pages/PR-2026-11-03-Facts-and-Figures.aspx",
+    "img": "https://images.unsplash.com/photo-1770739982427-3169499c332e?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
     "date": "2026-11-05",
     "cat": "Global Progress",
     "place": "Mali",
