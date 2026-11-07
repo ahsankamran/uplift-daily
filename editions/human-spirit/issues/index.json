@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-07",
+    "cat": "Human Spirit",
+    "place": "Cheviot, New Zealand",
+    "head": "A Cheviot mechanic is rebuilding donated bikes into fleets for North Canterbury schools.",
+    "summary": "Nick Watson handed eight rebuilt push bikes to Cheviot Area School in July and says he has another pile ready for a second school in New Zealand's Hurunui district. He runs Sausage Dog Cycles from a workshop on Leader Road north of Cheviot, gives restored bikes away on what he calls Free Bike Fridays and strips the ones beyond saving for parts, while the Hurunui District Council road safety programme supplies helmets to go with them. The council paid for a two-hour maintenance class he taught at Waiau School last term, a second is planned for Cheviot Area School this term, and he will be at the Amberley Farmers Market on 14 November doing free safety checks.",
+    "src": "Otago Daily Times",
+    "url": "https://odt.co.nz/canterbury/north-canterbury/upcycling-bicycles-to-donate-to-north-canterbury-schools-so37s5wr",
+    "img": "https://images.unsplash.com/photo-1675798225739-d8919b7a23f7?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Bohdan Kadun, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-04",
     "cat": "Human Spirit",
     "place": "Delhi, India",
