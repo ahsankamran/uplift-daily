@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-08",
+    "slug": "2026-11-08",
+    "edition": 560,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Ascea, Campania, Italy",
+        "head": "Loggerhead turtles keep nesting further west, and Italy's beach clubs are learning to share the sand.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/11/as-loggerhead-turtles-spread-west-mediterranean-beach-resorts-learn-to-share-the-sand/",
+        "img": "https://images.unsplash.com/photo-1653790857496-4702665ff2cf?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Leipzig, Germany",
+        "head": "Thirty-one pet dogs have been taught to find invasive plants by smell.",
+        "src": "PLOS One",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0359003",
+        "img": "https://images.unsplash.com/photo-1777313030830-254d43f2d2a8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Berri, South Australia",
+        "head": "A Riverland town cooks lunch together every week, and the group runs itself.",
+        "src": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-11-07/cooking-classes-cut-cost-of-living-boost-social-connection/107340382",
+        "img": "https://images.unsplash.com/photo-1760445529215-6fedada394cd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Accra, Ghana",
+        "head": "A photographer who opened his Accra studio in 1953 is being honoured at 97.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/2026/11/05/seven-decades-behind-the-lens-ghanas-james-barnor-receives-top-photography-honour",
+        "img": "https://images.unsplash.com/photo-1510141365970-ac1f0f80b1a5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Boston, Massachusetts, USA",
+        "head": "A single iron infusion let people with the commonest heart failure walk further.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-11-iron-infusion-capacity-people-common.html",
+        "img": "https://images.unsplash.com/photo-1767885009620-0962d8693fa8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Pará and Rondônia, Brazil",
+        "head": "Amazon cacao grew by a third, nearly all of it on land already cleared.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/11/amazon-mapping-shows-cacao-expansion-without-deforestation-in-brazil/",
+        "img": "https://images.unsplash.com/photo-1743252878695-367d69dc87a8?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-07",
     "slug": "2026-11-07",
     "edition": 559,
