@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-08",
+    "cat": "Human Spirit",
+    "place": "Rukum West, Nepal",
+    "head": "Six men working in the United States paid for a kilometre of road to their village in Nepal.",
+    "summary": "Six men from Sani Bheri Rural Municipality-3, all working in the United States, put Rs 207,000 of their own money into a one-kilometre road track from Duabari to Gharillo Bhala Chaur in Nepal's Rukum West district. The track shortens a journey villagers previously made the long way round and makes it easier to move goods and livestock; in Musikot Municipality-1, in the same district, Lalbir Bohara separately spent more than Rs 150,000 finishing a second kilometre from Chyandanda to Gairabari. More than 50 households in the Chhelo Khelne and Gairabari settlements use Bohara's stretch, and a 74-year-old neighbour, Palbhan Nakal, said the men had taken responsibility for a village they no longer live in.",
+    "src": "The Rising Nepal",
+    "url": "https://risingnepaldaily.com/news/88512",
+    "img": "https://images.unsplash.com/photo-1763809677492-b5b23388badc?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Sushanta Rokka, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-07",
     "cat": "Human Spirit",
     "place": "Cheviot, New Zealand",
