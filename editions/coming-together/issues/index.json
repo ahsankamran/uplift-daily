@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-08",
+    "cat": "Coming Together",
+    "place": "London, United Kingdom",
+    "head": "153,862 people in 92 countries read together for 12 hours.",
+    "summary": "Guinness World Records has confirmed that 153,862 people in 92 countries read at the same time during a 12-hour session on 8 October, a new mark for the most people reading online in 12 hours. The National Literacy Trust and the British Council ran the Take 10 to Read challenge, with more than 3,000 schools, libraries, families and hobby groups joining authors online for ten minutes of quiet reading; outside the United Kingdom the biggest groups logged on from Romania, India and Pakistan, and readers also took part from the Cayman Islands, Afghanistan and Venezuela. The adjudicator Will Munford presented the certificate at Malmesbury Primary School in east London on 4 November alongside the children's author Rashmi Sirdeshpande, and a second went to Holy Child Senior Secondary School in New Delhi.",
+    "src": "Guinness World Records",
+    "url": "https://www.guinnessworldrecords.com/news/2026/11/bookworms-from-92-countries-celebrate-national-year-of-reading-with-huge-literary-party",
+    "img": "https://images.unsplash.com/photo-1763896081109-ed6bf56ae955?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Bill Ringer, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-07",
     "cat": "Coming Together",
     "place": "Wamphray, Scotland",
