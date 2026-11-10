@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-10",
+    "cat": "Coming Together",
+    "place": "Poienarii Burchii, Romania",
+    "head": "2,512 people put ash saplings into the ground at the same moment.",
+    "summary": "On 7 November, 2,512 volunteers planted ash saplings simultaneously in the commune of Poienarii Burchii, in Romania's Prahova county, a Guinness World Records mark that passed the 2,055 set in India in July 2025. The adjudicator Richard Stenning validated the attempt on site, where every participant had to plant one tree correctly and start on a single signal; more than 4,000 people had signed up within two weeks of the call going out, and over 3,200 took part in the wider planting, among them students and staff from five universities and three forestry high schools. The Act for Tomorrow association and Kaufland Romania organised the Pădurea Prieteniei project with saplings from the state forest administration Romsilva, and its president Andrei Coșuleanu says the months of preparation now give way to the longer job of looking after the new forest.",
+    "src": "BURSA",
+    "url": "https://www.bursa.ro/romania-sets-a-new-world-record-2-512-people-plant-trees-simultaneously-85189069",
+    "img": "https://images.unsplash.com/photo-1710361006404-a13d01802ce9?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Phil Desforges, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-08",
     "cat": "Coming Together",
     "place": "London, United Kingdom",
