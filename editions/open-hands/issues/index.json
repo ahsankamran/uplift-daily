@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-10",
+    "cat": "Open Hands",
+    "place": "Gruver, Texas, USA",
+    "head": "Farmers in a Texas panhandle town work a donated field for free and turn the harvest into tuition.",
+    "summary": "Farmers and agricultural suppliers around Gruver, in the Texas panhandle, give their labour, machinery and inputs to plant and harvest a field the town's school owns, and the crops have paid out nearly $3 million in scholarships since 2016. The land came from Carl Nielsen, a Danish immigrant who bought it in the late 1800s and left it to Gruver school after his death in the 1970s; it was cash-leased for about $25,000 a year until a group of local farmers proposed in 2012 that they farm it themselves. Forty-eight of the students the fund has backed became the first in their families to finish college, and awards are pegged to West Texas A&M tuition of roughly $4,000 a semester and applied after other scholarships, so they also cover trade school and junior college.",
+    "src": "RFD-TV",
+    "url": "https://www.rfdtv.com/gruver-farmers-turn-donated-farmland-into-college-scholarships-for-local-students",
+    "img": "https://images.unsplash.com/photo-1635174815450-337f1f0abf5a?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Darla Hueske, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-08",
     "cat": "Open Hands",
     "place": "Nanaimo, British Columbia, Canada",
