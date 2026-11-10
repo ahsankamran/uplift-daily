@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-10",
+    "cat": "Human Spirit",
+    "place": "Boksburg, South Africa",
+    "head": "A Boksburg grower cleared a dumping ground by hand and now gives the method away free every Tuesday.",
+    "summary": "Innocent Sukazi asked his local councillor for an unused, rubbish-strewn plot on Kukuku Street in Boksburg, east of Johannesburg, cleared it himself and planted 500 spinach seedlings on it in April 2022. The plot has grown into 2.4 hectares farmed as Sukazi Agriculture, carrying potatoes, tomatoes and spinach year-round with sweet potatoes, peppers and onions in rotation, and it now supports two full-time workers and six part-time helpers through the summer. Every Tuesday evening he teaches the method in a free live session for growers across South Africa and Eswatini, and the compost and seedlings he raises himself let him sell produce at lower farm-gate prices than bought-in stock would allow.",
+    "src": "30 Stades",
+    "url": "https://30stades.com/farming/south-african-man-turns-garbage-dump-into-organic-farm-helps-others-grow-food-12796744",
+    "img": "https://images.unsplash.com/photo-1746014929708-fcb859fd3185?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Richard Nyoni, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-08",
     "cat": "Human Spirit",
     "place": "Rukum West, Nepal",
