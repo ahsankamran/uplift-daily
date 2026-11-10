@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-10",
+    "slug": "2026-11-10",
+    "edition": 561,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Taro, Bali, Indonesia",
+        "head": "A Balinese farmer is breeding fireflies back into the fields he grew up beside.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/11/a-plan-to-save-balis-vanishing-fireflies-takes-root-in-organic-farming",
+        "img": "https://images.unsplash.com/photo-1763953239955-ff27e74e7e84?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Gainesville, Florida, USA",
+        "head": "Seventy-seven kinds of hawkmoth answer a hunting bat by scrambling its sonar.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/these-moths-use-their-genitals-to-fend-off-bats-but-not-in-the-way-you-think-they-emit-ultrasound-to-scramble-the-predators-sonar-180989819/",
+        "img": "https://images.unsplash.com/photo-1751190104520-a5d25908b510?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Orangeville, Ontario, Canada",
+        "head": "An Orangeville sewing circle is closing on its 45,000th handmade thing.",
+        "src": "Orangeville Citizen",
+        "url": "https://citizen.on.ca/salvation-stitchers-sew-their-way-toward-helping-local-patients/",
+        "img": "https://images.unsplash.com/photo-1773511237767-0e324389922a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Vatican City",
+        "head": "A cleaning of the Sistine Chapel shows Michelangelo painted with brushes he made himself.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/michelangelo-used-these-custom-multi-headed-brushes-while-painting-the-last-judgment-to-replicate-his-intricate-sculpting-techniques-180989816/",
+        "img": "https://images.unsplash.com/photo-1576016770956-debb63d92058?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Perth, Western Australia",
+        "head": "Lifting weights three times a week changed what people lost on a weight-loss drug.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-11-resistance-key-muscle-function-glp.html",
+        "img": "https://images.unsplash.com/photo-1706806594828-318b9185ad0e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Freetown, Sierra Leone",
+        "head": "Sierra Leone will cook school lunch for 276,000 children this year.",
+        "src": "World Food Programme",
+        "url": "https://www.wfp.org/news/government-sierra-leone-and-wfp-reaffirm-their-partnership-provide-daily-meals-more-276000",
+        "img": "https://images.unsplash.com/photo-1694286066815-4e17284d61ab?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-08",
     "slug": "2026-11-08",
     "edition": 560,
