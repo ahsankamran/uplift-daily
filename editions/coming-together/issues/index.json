@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-11",
+    "cat": "Coming Together",
+    "place": "Park City, United States",
+    "head": "Park City gave $6.1 million to more than 150 local causes in a single day.",
+    "summary": "Park City, Utah, raised $6.1 million for more than 150 local nonprofits in the 24 hours of 6 November, the biggest total in the history of its annual Live PC Give PC giving day. More than 7,600 people donated, past the 6,800-donor goal the Park City Community Foundation had set, and the groups that signed up competed for a $2,500 top prize that went to the Literary Ladies Book Club, which is passing the money on to Clark's Christmas Foundation. Joel Zarrow, the foundation's chief executive, said participation had fallen short of target last year and comfortably cleared it this time, and the next giving day is already set for 5 November 2027.",
+    "src": "KPCW",
+    "url": "https://www.kpcw.org/park-city/2026-11-09/park-city-raises-more-than-6m-for-local-nonprofits-during-annual-day-of-giving",
+    "img": "https://images.unsplash.com/photo-1533574707021-f25834f77642?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Olivia Hutcherson, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-10",
     "cat": "Coming Together",
     "place": "Poienarii Burchii, Romania",
