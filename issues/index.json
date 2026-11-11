@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-11",
+    "slug": "2026-11-11",
+    "edition": 562,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Llanos de Challe National Park, Atacama, Chile",
+        "head": "More than 200 kinds of flower have come up at once in the Atacama.",
+        "src": "NPR",
+        "url": "https://www.npr.org/2026/11/08/nx-s1-6023812/chile-desert-el-nino",
+        "img": "https://images.unsplash.com/photo-1792325308427-d45dcb69b282?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "University of Naples Federico II, Italy",
+        "head": "An octopus gets through a hole in three moves, or four if it is tight.",
+        "src": "Phys.org",
+        "url": "https://phys.org/news/2026-11-octopuses-small-gaps.html",
+        "img": "https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Hobart, Tasmania, Australia",
+        "head": "A Hobart scheme has been sending gardeners round to older neighbours for twenty years.",
+        "src": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-11-12/gardening-program-connects-seniors-with-volunteers/107375170",
+        "img": "https://images.unsplash.com/photo-1702648159927-65c4764d403b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Kota Bharu, Kelantan, Malaysia",
+        "head": "A Kelantan net-maker has been knotting mesh by hand since 1987.",
+        "src": "Malay Mail",
+        "url": "https://www.malaymail.com/news/life/2026/11/09/at-73-a-kelantan-craftsman-is-weaving-a-future-for-a-fading-fishing-tradition/242452",
+        "img": "https://images.unsplash.com/photo-1767686938964-291bad4118a5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Budapest, Hungary",
+        "head": "Talking back to a hallucinated voice through an avatar quieted it for 13 of 30 people.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-11-voice-virtual-avatars-ease-distress.html",
+        "img": "https://images.unsplash.com/photo-1698050683094-b7e0e57ea903?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Phnom Penh, Cambodia",
+        "head": "Cambodia is offering the HPV vaccine to more than 700,000 girls before the end of December.",
+        "src": "Gavi, the Vaccine Alliance",
+        "url": "https://www.gavi.org/news/media-room/cambodia-accelerates-cervical-cancer-prevention-through-hpv-vaccination",
+        "img": "https://images.unsplash.com/photo-1611694449252-02453c27856a?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-10",
     "slug": "2026-11-10",
     "edition": 561,
