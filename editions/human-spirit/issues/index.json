@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-11",
+    "cat": "Human Spirit",
+    "place": "Mitta Mitta, Australia",
+    "head": "A Mitta Mitta couple have kept the town's weather record by hand for 63 years.",
+    "summary": "Ernie and Merrillyn Cole have been recording the weather for Australia's Bureau of Meteorology from the same house in Mitta Mitta, a north-east Victorian valley town of about 170 people, since 1963. Merrillyn Cole, 82, took on the readings because her husband left early for his forestry job, kept them going while raising a baby and a toddler, and still writes the rain totals out by hand, and a neighbour, retired pilot Russell Kelly, reads the gauge when the couple are away. They have now asked the bureau for an automatic station so they can travel more, and the bureau says it will train a replacement volunteer if one comes forward, which matters in a valley where rainfall can vary by hundreds of millimetres within 10 kilometres.",
+    "src": "ABC News",
+    "url": "https://www.abc.net.au/news/2026-11-09/mitta-mitta-couple-weather-data-63-years-bom-weather-station/107345098",
+    "img": "https://images.unsplash.com/photo-1773493063756-b821d463daf0?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "illia stebelski, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-10",
     "cat": "Human Spirit",
     "place": "Boksburg, South Africa",
