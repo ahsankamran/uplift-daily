@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-12",
+    "slug": "2026-11-12",
+    "edition": 563,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "The Pantanal, Mato Grosso, Brazil",
+        "head": "Jaguars in the Pantanal keep more company than anyone expected.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/11/in-brazils-prey-rich-pantanal-jaguars-reveal-a-surprisingly-social-side/",
+        "img": "https://images.unsplash.com/photo-1681227367357-8968aeab739f?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Phillip Island, Victoria, Australia",
+        "head": "Bush stone-curlews have hatched chicks on Phillip Island for the first time in 50 years.",
+        "src": "Sentinel-Times",
+        "url": "https://sgst.com.au/wild-curlew-chicks-hatch-on-phillip-island-after-50-years",
+        "img": "https://images.unsplash.com/photo-1787273500583-2930d5d9462a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "An international trial",
+        "head": "A personalised cancer vaccine cut melanoma's return by two-fifths.",
+        "src": "The New England Journal of Medicine",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2609762",
+        "img": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Ashdon, Essex, England",
+        "head": "Ashdon has a village shop again, ten years after the last one closed.",
+        "src": "Bishop's Stortford Independent",
+        "url": "https://www.bishopsstortfordindependent.co.uk/news/new-shop-for-uttlesford-village-after-a-10-year-wait-9491050/",
+        "img": "https://images.unsplash.com/photo-1757513671709-4fd8acfc588b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Hervey Bay, Queensland, Australia",
+        "head": "A house in Hervey Bay holds 5,373 turtles.",
+        "src": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-11-12/qld-womans-turtle-obsession-leads-to-guinness-world-record/107369632",
+        "img": "https://images.unsplash.com/photo-1781579326861-111dddcc7762?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Geneva, Switzerland",
+        "head": "Tuberculosis deaths have fallen by more than a third since 2015.",
+        "src": "World Health Organization",
+        "url": "https://www.who.int/news/item/12-11-2026-amid-challenges-countries-increase-domestic-investment-to-protect-progress-against-tuberculosis",
+        "img": "https://images.unsplash.com/photo-1616012480717-fd9867059ca0?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "slug": "2026-11-11",
     "edition": 562,
