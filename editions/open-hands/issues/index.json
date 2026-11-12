@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-12",
+    "cat": "Open Hands",
+    "place": "Rukum East, Nepal",
+    "head": "A 15-year-old in western Nepal paid for her village's new footbridge out of her own earnings.",
+    "summary": "Sadiksha Oli spent Rs60,000 of her own money on a wooden footbridge over the Domai stream at Luma, in Bhume Rural Municipality of Rukum East, where the previous crossing was swept away in June. The money, earned through her monetised Facebook account, bought nails, corrugated iron sheets and the wages of skilled workers, while Oli, her relatives and neighbours cut local timber and finished the four-metre span in three days. The bridge restores the everyday walk between Luma and the ward office, the schools and the district headquarters, a route the stream cuts off whenever the monsoon fills it.",
+    "src": "The Kathmandu Post",
+    "url": "https://kathmandupost.com/national/2026/11/12/when-no-help-came-a-15-year-old-built-her-village-a-bridge",
+    "img": "https://images.unsplash.com/photo-1639829958779-336e5bb48b55?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "ashok acharya, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-10",
     "cat": "Open Hands",
     "place": "Gruver, Texas, USA",
