@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-11-12",
+    "cat": "Science & Medicine",
+    "place": "An international trial",
+    "head": "A personalised cancer vaccine cut melanoma's return by two-fifths.",
+    "summary": "In 1,137 people whose stage IIB to IV melanoma had been removed by surgery, adding a vaccine built from the mutations in each patient's own tumour to the immunotherapy pembrolizumab lowered the risk of recurrence or death by 42%. Two years on, 82.2% of the vaccine group had had no recurrence against 70.0% of those on pembrolizumab alone, and 88.5% were free of distant spread against 80.2%. The INTerpath-001 trial, run by Merck and Moderna and published in the New England Journal of Medicine on November 11, is the first phase 3 result of its kind for a personalised mRNA cancer vaccine; survival figures are not yet mature.",
+    "src": "The New England Journal of Medicine",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2609762",
+    "img": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
     "date": "2026-11-11",
     "cat": "Science & Medicine",
     "place": "Budapest, Hungary",
