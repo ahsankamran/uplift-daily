@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-12",
+    "cat": "Human Spirit",
+    "place": "Melbourne, Australia",
+    "head": "A Bristol woman tracked down the Melbourne family in her father's 1965 home movie.",
+    "summary": "Karen Walsh came close to throwing out an 8mm reel her father, Arthur Howes, shot on a suburban Melbourne street in 1965, and instead emailed the clip, which runs under a minute, to 774 ABC Melbourne to ask who the family in it were. Volkswagen Club of Victoria historian Chris Scane identified the green van as a standard split-window 1962 Kombi manufactured in Clayton, and a school archivist ruled out one college from the boys' uniforms, before Sydney medical student Zac de Boeck recognised five of his own relatives and rang the talkback line. Three generations of his family, the Vanners of Mitcham, have now been named, and Walsh, who says she is the curator of the footage rather than its owner, wants the film to go to the people who were filmed.",
+    "src": "ABC News",
+    "url": "https://www.abc.net.au/news/2026-11-11/melbourne-family-1960s-footage-mystery-solved/107370208",
+    "img": "https://images.unsplash.com/photo-1543536448-d209d2d13a1c?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Denise Jans, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-11",
     "cat": "Human Spirit",
     "place": "Mitta Mitta, Australia",
