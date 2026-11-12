@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-12",
+    "cat": "Coming Together",
+    "place": "Shap, England",
+    "head": "A volunteer-run second-hand shop has given £250,000 back to its Cumbrian village.",
+    "summary": "A £10,000 grant towards new linings for Shap Swimming Pool pushed the Second Chance Charity Shop past £250,000 raised for causes in Shap and Shap Rural since it opened in 2015. Shap Community Enterprise runs the shop entirely on volunteers and pays no wages, only rent and electricity, which is why villagers have made it their preferred place to drop off clothing, bric-a-brac and the electricals the shop tests before resale. Trustees have now scrapped the £5,000 ceiling on single grants and could put up to £30,000 behind one project, after years of funding the football club, the play area, the tennis courts and the village loos.",
+    "src": "Cumberland and Westmorland Herald",
+    "url": "https://cwherald.com/news/250000-milestone-for-shaps-second-chance-charity-shop/",
+    "img": "https://images.unsplash.com/photo-1764173039296-d4eab4cdb4fa?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Centre for Ageing Better, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-11",
     "cat": "Coming Together",
     "place": "Park City, United States",
