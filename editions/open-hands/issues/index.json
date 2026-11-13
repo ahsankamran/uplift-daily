@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-13",
+    "cat": "Open Hands",
+    "place": "Athens, Greece",
+    "head": "A family has given its inherited collection of 22 antiquities and icons to the Greek state.",
+    "summary": "Panagiota Karpida-Razou has handed her family's collection of 20 antiquities and two post-Byzantine icons to the Greek state at a ceremony in the Altar Hall of the National Archaeological Museum in Athens. The objects run from Early Cycladic marble figurines and bowls through bronze Geometric and Archaic jewellery to a Roman helmet and a bronze figurine of Hermes, and reached her father, Konstantinos Karpidas, as a gift from the collector Alexandros Iolas in 1987. The 20 ancient pieces now join the permanent collections of the National Archaeological Museum and the two icons go to the Byzantine and Christian Museum, where Culture Minister Lina Mendoni said they will be accessible to all.",
+    "src": "To Vima",
+    "url": "https://www.tovima.com/culture/private-collection-of-antiquities-and-icons-donated-to-greek-state/",
+    "img": "https://images.unsplash.com/photo-1599847627640-a202f623a805?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Merch Hüsey, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-12",
     "cat": "Open Hands",
     "place": "Rukum East, Nepal",
