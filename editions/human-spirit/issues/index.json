@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-13",
+    "cat": "Human Spirit",
+    "place": "Okobo, Akwa Ibom, Nigeria",
+    "head": "A minibus driver in Akwa Ibom kept a passenger's 400,000 naira untouched for 11 months.",
+    "summary": "Nse Ekpenyong found a parcel holding 400,000 naira on the floor of his commercial minibus on 17 December 2025, after carrying passengers from Okobo to Uyo and making trips to Itam Market in Akwa Ibom State, Nigeria. He waited at the terminal for most of a day, asked the other drivers to pass on his number, and announced the find on a local radio station without saying that the parcel held money, so that no impostor could claim it; nobody came forward, and the bundles stayed hidden at his house for 11 months, including three weeks when a breakdown he could not afford to fix kept his bus off the road. A state official sent to check found the 400,000 naira still intact, and the Akwa Ibom government has since given Ekpenyong, a father of four, a furnished three-bedroom house with solar power and running water.",
+    "src": "Leadership",
+    "url": "https://leadership.ng/akwa-ibom-driver-who-kept-n400000-for-11-months-gets-house-cash-reward/",
+    "img": "https://images.unsplash.com/photo-1636063448667-a42a681a7847?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Ben Iwara, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-12",
     "cat": "Human Spirit",
     "place": "Melbourne, Australia",
