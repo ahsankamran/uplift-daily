@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-11-13",
+    "cat": "Science & Medicine",
+    "place": "QIMR Berghofer Medical Research Institute, Brisbane, Australia",
+    "head": "A genetic score picks out who will lose sight to glaucoma, decades ahead.",
+    "summary": "A risk score built from the genomes of more than six million people, almost 300,000 of them with glaucoma, identifies a top tenth of inherited risk who are about ten times more likely than everyone else to have open-angle glaucoma, the commonest form. Stuart MacGregor's group at QIMR Berghofer Medical Research Institute and Flinders University report in Ophthalmology that this tenth develops the disease roughly 25 years earlier than the lowest tenth, and that among patients followed long term, 24% of the highest-risk group had needed surgery by 80 against none of the lowest. The score is sharpest in people of European ancestry, so the team's stated next job is accuracy in other populations before screening programmes could lean on it.",
+    "src": "Medical Xpress",
+    "url": "https://medicalxpress.com/news/2026-11-people-higher-glaucoma-irreversible.html",
+    "img": "https://images.unsplash.com/photo-1549872901-c350913bd5cb?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
     "date": "2026-11-12",
     "cat": "Science & Medicine",
     "place": "An international trial",
