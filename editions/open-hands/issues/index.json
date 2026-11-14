@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-14",
+    "cat": "Open Hands",
+    "place": "Bantwal, Karnataka, India",
+    "head": "Auto-rickshaw drivers in coastal Karnataka pooled their daily savings to buy their villages a free ambulance.",
+    "summary": "The Navodaya Auto-rickshaw Drivers and Owners Association has put a fully equipped ambulance into free service for Kariyangala and Ammunje, two villages in Bantwal taluk in coastal Karnataka. The roughly 26 drivers who work the Badakabail stand set aside small amounts from their daily takings to cover a vehicle costing about Rs 10 lakh and a medical fitting done in Mysuru costing about Rs 2 lakh, with villagers and local donors making up the rest. The ambulance is parked at the auto stand and the drivers themselves will take turns at the wheel, in an area where people who needed a hospital were until now carried there in the back of a rickshaw.",
+    "src": "Daijiworld",
+    "url": "https://daijiworld.com/news/newsDisplay?newsID=1335046",
+    "img": "https://images.unsplash.com/photo-1775879983887-9d763ead6d4c?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Adhitya Sibikumar, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-13",
     "cat": "Open Hands",
     "place": "Athens, Greece",
