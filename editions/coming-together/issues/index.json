@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-14",
+    "cat": "Coming Together",
+    "place": "Frankenthal, Germany",
+    "head": "About 2,400 people cleared three tonnes of litter out of one German town.",
+    "summary": "About 2,400 people collected roughly three tonnes of litter from the streets and green spaces of Frankenthal in Rhineland-Palatinate, among them some 2,000 children from 11 schools and 22 kindergartens. The town's municipal works department ran the collection for the 22nd year, with eleven clubs and private groups joining the schools; about 1,200 kilos came back in bags, the rest as mattresses, tyres, building rubble, fridges and freezers. Collectors also noted a rising number of discarded disposable e-cigarettes, whose lithium batteries can catch fire in a bin lorry, and the groups that took part receive their prize money on 19 November.",
+    "src": "Wochenblatt-Reporter",
+    "url": "https://www.wochenblatt-reporter.de/frankenthal/c-lokales/frankenthal-2400-menschen-sammeln-drei-tonnen-muell_a936479",
+    "img": "https://images.unsplash.com/photo-1667996112066-4acf43895fa8?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Daria Trofimova, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-13",
     "cat": "Coming Together",
     "place": "Dijon, France",
