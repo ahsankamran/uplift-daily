@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-14",
+    "cat": "Human Spirit",
+    "place": "Bengaluru, India",
+    "head": "A Bengaluru teenager and five classmates turned a school storage room into a 2,000-book library.",
+    "summary": "A disused storage room at Mullur Colony Government School in Bengaluru now holds more than 2,000 donated books, in a school that until then had only textbooks. Asavari Agrawal, 17, and five fellow students gathered the books from schools and neighbours over nearly two years, then redid the flooring, repainted the walls and put in shelves and furniture, choosing titles the children had asked for. She pays for the project, Shape the Future, out of her table tennis prize money and the sale of her piano, and has split the Saturday visits among about 50 student volunteers, with separate heads for fundraising and operations, so they carry on once she leaves for university.",
+    "src": "The Better India",
+    "url": "https://thebetterindia.com/changemakers/asavari-agrawal-shape-the-future-bengaluru-government-school-children-library-teen-12807047",
+    "img": "https://images.unsplash.com/photo-1692269725911-87697c558be1?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Swastik Arora, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-13",
     "cat": "Human Spirit",
     "place": "Okobo, Akwa Ibom, Nigeria",
