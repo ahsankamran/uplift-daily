@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-15",
+    "cat": "Human Spirit",
+    "place": "Luma, Rukum East, Nepal",
+    "head": "A 15-year-old paid for her village's new footbridge out of her Facebook earnings.",
+    "summary": "A four-metre wooden footbridge now crosses the Domai stream at Luma, in Bhume Rural Municipality-9 of Nepal's Rukum East district, replacing a crossing that washed away in June. Sadiksha Oli, 15, covered the Rs60,000 cost herself from her monetised Facebook videos, buying timber, corrugated iron sheets and nails and paying the wages of the skilled workers, while relatives and neighbours worked alongside her to finish the span in three days. The Domai is an easy step across in the dry months and swells past wading in the monsoon, and the children who walk that way to school now have a deck to cross before the next rains.",
+    "src": "The Kathmandu Post",
+    "url": "https://kathmandupost.com/national/2026/11/12/when-no-help-came-a-15-year-old-built-her-village-a-bridge",
+    "img": "https://images.unsplash.com/photo-1639829958779-336e5bb48b55?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Ashok Acharya, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-14",
     "cat": "Human Spirit",
     "place": "Bengaluru, India",
