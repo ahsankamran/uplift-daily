@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-15",
+    "cat": "Open Hands",
+    "place": "Southwestern Ontario, Canada",
+    "head": "A $10.5-million gift will let 60 more Ontario farms test regenerative practices without carrying the risk alone.",
+    "summary": "The Canadian Alliance for Net-Zero Agri-Food is extending its Million Acre Challenge to about 60 more farms and 36,000 more acres in southwestern Ontario, paid for by a new $10.5-million donation from the Weston family. The program covers part of the cost of changes such as no-till planting and better-timed fertilizer and pairs farmers with independent agronomists; in the first phase 32 farmers enrolled more than 15,000 acres across 175 fields, and every one of those farms took up at least one new practice. Recruitment for the second phase opens in December, and Lexi Soudant of Dave Gardiner Farms in Kirkton said the shared record-keeping is what made no-till worth trying on a family farm, where a failed experiment costs real time and money.",
+    "src": "CBC News",
+    "url": "https://www.cbc.ca/accessibility/10-5m-donation-will-help-more-ontario-farmers-adopt-regenerative-practices-9.7420936",
+    "img": "https://images.unsplash.com/photo-1725972281307-bc3da61c7575?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Michael Hamments, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-14",
     "cat": "Open Hands",
     "place": "Bantwal, Karnataka, India",
