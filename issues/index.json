@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-15",
+    "slug": "2026-11-15",
+    "edition": 566,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Bikar and Bokak atolls, Marshall Islands",
+        "head": "Two atolls no one lives on hold some of the healthiest reefs left in the Pacific.",
+        "src": "Frontiers in Marine Science",
+        "url": "https://www.frontiersin.org/news/2026/11/11/scientists-find-last-wild-and-healthy-ecosystems-oceans",
+        "img": "https://images.unsplash.com/photo-1793879751967-19be9ccdcb93?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Southern Poland",
+        "head": "Nineteen slow worms reported as vipers were lifted out of a water meter chamber.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/2026/11/15/19-slow-worms-mistaken-for-vipers-rescued-from-water-meter-chamber",
+        "img": "https://images.unsplash.com/photo-1776583234673-d540b8da8b8e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Trans-Nzoia County, Kenya",
+        "head": "Kenya has certified 6,651 villages as free of open defecation since 2021.",
+        "src": "VaccinesWork",
+        "url": "https://www.gavi.org/vaccineswork/rural-kenya-digging-its-way-safety-diarrhoeal-disease",
+        "img": "https://images.unsplash.com/photo-1620829813552-f4a3590d2ce8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Bordon, Hampshire, England",
+        "head": "A men's shed in Bordon makes whatever the town happens to need.",
+        "src": "Alton Herald",
+        "url": "https://altonherald.com/news/gregs-in-a-fix-as-bordon-mens-shed-welcomes-mp-972531",
+        "img": "https://images.unsplash.com/photo-1497219055242-93359eeed651?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "South London, England",
+        "head": "London's Santa School has been rehearsing Father Christmas for 28 years.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/video/2026/11/15/uk-londons-santa-school-trains-father-christmas-performers-for-2026",
+        "img": "https://images.unsplash.com/photo-1674859146251-53c7c74a76fd?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "An international trial",
+        "head": "Pacing the heart through its own wiring kept more people out of hospital.",
+        "src": "The New England Journal of Medicine",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2612972",
+        "img": "https://images.unsplash.com/photo-1513224502586-d1e602410265?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-14",
     "slug": "2026-11-14",
     "edition": 565,
