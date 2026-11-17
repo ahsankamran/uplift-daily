@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-17",
+    "slug": "2026-11-17",
+    "edition": 567,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Seal Beach and Huntington Beach, California, USA",
+        "head": "The first sea turtles known to hatch on the US West Coast have reached the water.",
+        "src": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/these-adorable-hatchlings-are-from-the-us-west-coasts-first-known-natural-sea-turtle-nests-now-theyve-returned-to-the-wild-180989876/",
+        "img": "https://images.unsplash.com/photo-1653790857496-4702665ff2cf?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Ramat Gan, Israel",
+        "head": "Two gorillas worked out that one of them could be a ladder.",
+        "src": "Phys.org",
+        "url": "https://phys.org/news/2026-11-gorillas-ladder-high.html",
+        "img": "https://images.unsplash.com/photo-1728991531885-2e91d617c777?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Eritrea",
+        "head": "Eritrea is the 34th country to be rid of trachoma as a public health problem.",
+        "src": "World Health Organization",
+        "url": "https://www.who.int/news/item/16-11-2026-eritrea-eliminates-trachoma-a-major-public-health-milestone",
+        "img": "https://images.unsplash.com/photo-1747330665949-d35f7c3ca6ad?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Bratton, Wiltshire, England",
+        "head": "A Wiltshire village is putting its green spaces back together by hand.",
+        "src": "White Horse News",
+        "url": "https://whitehorsenews.co.uk/bratton-green-spaces-project/",
+        "img": "https://images.unsplash.com/photo-1621495753673-e13331b7a111?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Mangaluru, Karnataka, India",
+        "head": "A relay of Konkani singers kept going for twelve and a half days.",
+        "src": "Mangalorean.com",
+        "url": "https://www.mangalorean.com/mandd-sobhann-creates-history-with-12-days-12-hours-and-12-minutes-of-non-stop-singing-setting-a-new-guinness-world-record-finally-achieved/",
+        "img": "https://images.unsplash.com/photo-1771238113736-5954f174156b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Sweden",
+        "head": "A phone game helped antidepressants do more of their work.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-11-smartphone-game-added-depression-adults.html",
+        "img": "https://images.unsplash.com/photo-1645109870868-e1b6f909e444?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-15",
     "slug": "2026-11-15",
     "edition": 566,
