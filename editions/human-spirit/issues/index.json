@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-17",
+    "cat": "Human Spirit",
+    "place": "Esperance to Bunbury, Australia",
+    "head": "A Bunbury retail worker drove 1,400 kilometres through the night to get a stranded turtle into care.",
+    "summary": "A juvenile loggerhead turtle found floating in seaweed off Esperance, on the south coast of Western Australia, is now recovering in a heated tank at the Dolphin Discovery Centre in Bunbury, almost 700 kilometres away. Letesha Heslewood, who works in retail in Bunbury, answered an urgent late-night call-out and made the 16-hour round trip herself, pulling over every couple of hours to splash fresh water over the turtle's eyes and back as the wildlife hospital staff had shown her. The turtle, nicknamed Shaggy for the thick green algae on his shell, will stay in care until April 2027 before being taken north for release off the Ningaloo coast, and Heslewood is registering as an official volunteer wildlife transport officer.",
+    "src": "ABC News",
+    "url": "https://www.abc.net.au/news/2026-11-16/wildlife-carer-road-trip-stranded-loggerhead-turtle-esperance/107384666",
+    "img": "https://images.unsplash.com/photo-1753030775291-6b32b1dacf19?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Antonio Vivace, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-15",
     "cat": "Human Spirit",
     "place": "Luma, Rukum East, Nepal",
