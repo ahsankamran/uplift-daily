@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-17",
+    "cat": "Coming Together",
+    "place": "Helston, England",
+    "head": "Ten volunteers have spent five weekends putting up Helston's 2,000 Christmas bulbs themselves.",
+    "summary": "Ten volunteers have given up five weekends to rig the Christmas lights across Helston in Cornwall, testing roughly 2,000 bulbs and fixing 80 trees to shop fronts ahead of the switch-on on 27 November. Robert Williams, who first helped at 18 and has rigged the lights for 40 years, leads a crew that starts at 6am to stay clear of traffic and gets through about 15,000 cable ties and 20,000 attachment rings each year. They work to a £6,000 budget from the town council, against the £30,000 to £50,000 contractors would charge, and six restored displays spanning Coinagehall Street return for the first time since the pandemic.",
+    "src": "Falmouth Packet",
+    "url": "https://www.falmouthpacket.co.uk/news/26737066.unsung-heroes-behind-helston-christmas-lights/",
+    "img": "https://images.unsplash.com/photo-1766777323208-8207a4b56681?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "T (@tanyabarrow), via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-14",
     "cat": "Coming Together",
     "place": "Frankenthal, Germany",
