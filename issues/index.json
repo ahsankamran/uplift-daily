@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-18",
+    "slug": "2026-11-18",
+    "edition": 568,
+    "stories": [
+      {
+        "cat": "Global Progress",
+        "place": "Bhutan",
+        "head": "Bhutan has won an Earthshot Prize for keeping seven tenths of itself under forest.",
+        "src": "Bhutan Broadcasting Service",
+        "url": "https://www.bbs.bt/248824/",
+        "img": "https://images.unsplash.com/photo-1761048152551-6cfe09973cbb?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Yueqing, Zhejiang, China",
+        "head": "Five siblings cut 430 steps into a mountain so their mother could go home.",
+        "src": "South China Morning Post",
+        "url": "https://www.scmp.com/news/people-culture/trending-china/article/3374598/chinese-siblings-build-430-step-sky-ladder-elderly-mother-who-refuses-live-city",
+        "img": "https://images.unsplash.com/photo-1766025066023-f55cbd4bfa14?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Tayside and Forth, Scotland",
+        "head": "Scotland now has up to 405 beaver territories, against 39 in 2012.",
+        "src": "NatureScot",
+        "url": "https://www.nature.scot/new-survey-shows-tay-and-forth-beaver-population-expanding",
+        "img": "https://images.unsplash.com/photo-1727883760212-655dc564a99c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Aberdeen, Scotland",
+        "head": "Bumblebees turn out to have a preferred amount of salt in their nectar.",
+        "src": "Phys.org",
+        "url": "https://phys.org/news/2026-11-bee-lieve-bumblebees-sweet-salt.html",
+        "img": "https://images.unsplash.com/photo-1780668286275-293733ece402?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Philadelphia, Pennsylvania, USA",
+        "head": "Five hundred and seventy people dressed as Rocky Balboa and ran the museum steps.",
+        "src": "CBS News Philadelphia",
+        "url": "https://www.cbsnews.com/philadelphia/news/rocky-guinness-world-record-philadelphia-art-museum/",
+        "img": "https://images.unsplash.com/photo-1647964436128-21c64014f2c0?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "A multicentre trial",
+        "head": "Two arthritis drugs were tested against each other rather than against a placebo.",
+        "src": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-11-trial-reveals-immune-dampening-drug.html",
+        "img": "https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "slug": "2026-11-17",
     "edition": 567,
