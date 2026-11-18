@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-18",
+    "cat": "Human Spirit",
+    "place": "Rodney, New Zealand",
+    "head": "A man north of Auckland has spent two years rebuilding donated bicycles in his shed.",
+    "summary": "Rick Law currently has 15 refurbished second-hand bikes lined up for donation, each one handed over with a helmet, a lock and a tyre pump. He began about two years ago after Avalon Sanders, whom he knew through the real estate industry, asked him to check over a bike before she gave it away; he now finds most of them through local Facebook pages, spends roughly two hours on each, and has kept the project going on his own since she stepped back in 2025. The bikes go to the Rodney Women's Centre in three or four batches a year, where manager Jo Nicolson passes them on to mothers buying birthday presents, teenagers who need a way to get to work, and retirees after some exercise.",
+    "src": "RNZ",
+    "url": "https://www.rnz.co.nz/news/community/2647412/refurbished-bikes-bring-christmas-cheer",
+    "img": "https://images.unsplash.com/photo-1676531356064-0a527118baf4?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Anton Savinov, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-17",
     "cat": "Human Spirit",
     "place": "Esperance to Bunbury, Australia",
