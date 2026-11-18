@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-18",
+    "cat": "Open Hands",
+    "place": "Shenyang, China",
+    "head": "A Macau collector has given 41 pieces of Chinese export porcelain to the Shenyang Palace Museum.",
+    "summary": "Zhao Qiang, chairman of the Macau Association for Preservation of Cultural Relics, handed 41 pieces of export porcelain to the Shenyang Palace Museum in Liaoning province on 16 November, the day the museum turned 100. The pieces fall into three categories of ware made in China for buyers overseas, and Zhang Guobin, director of the museum's collection department, said they fill a gap in its export porcelain holdings and round out its collection. The museum, which occupies the Qing palace complex used by three emperors and has passed six million visitors this year, will research and display them; Zhao said the pieces once crossed mountains and seas to reach the world.",
+    "src": "Xinhua",
+    "url": "https://english.news.cn/20261116/5cca7d3ed9f44191bbeaeb7e6fba9d2e/c.html",
+    "img": "https://images.unsplash.com/photo-1739475837710-d74d97fdb520?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Luna Wang, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-17",
     "cat": "Open Hands",
     "place": "Dhali, Himachal Pradesh, India",
