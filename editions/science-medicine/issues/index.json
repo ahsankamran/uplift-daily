@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-11-18",
+    "cat": "Science & Medicine",
+    "place": "A multicentre trial",
+    "head": "Two arthritis drugs were tested against each other rather than against a placebo.",
+    "summary": "In a phase 3b trial of 553 adults with active psoriatic arthritis, 55% of those given bimekizumab reached at least a 50% improvement by six months against 44% of those given risankizumab, with the gap at four months running 50% to 38%. Direct comparisons are rare here, because new biologics are normally measured only against a dummy injection, which leaves rheumatologists ranking drugs by inference. Serious side effects stayed under 2% on bimekizumab and near 3% on risankizumab, and candida infections were slightly more common on the first — the sort of detail only a head-to-head can supply.",
+    "src": "Medical Xpress",
+    "url": "https://medicalxpress.com/news/2026-11-trial-reveals-immune-dampening-drug.html",
+    "img": "https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
     "date": "2026-11-17",
     "cat": "Science & Medicine",
     "place": "Sweden",
