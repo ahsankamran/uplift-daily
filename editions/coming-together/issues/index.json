@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-18",
+    "cat": "Coming Together",
+    "place": "Caerphilly, Wales",
+    "head": "Seventy-five volunteer knitters in Caerphilly finished a record 180 blankets this year.",
+    "summary": "The Craft and Chat group at Caerphilly Miners Centre for the Community handed over 180 hand-knitted blankets on 16 November, its biggest year in a decade and up from 140 last year and about 44 three years ago. Around 75 volunteers knit at the centre and at home, logging more than 6,000 hours over the year at roughly 35 hours a blanket, and Councillor Carol Andrews presented the pile for distribution to long-stay patients at Ysbyty Ystrad Fawr, a care home, a church and a youth advocacy service. James Grashoff, who chairs the Miners Centre, says the sessions do as much to bring people together as the blankets do to keep anyone warm, and the group is now asking which other local charities could use them.",
+    "src": "Caerphilly Observer",
+    "url": "https://caerphilly.observer/news/1064328/caerphilly-miners-centre-knitting-group-marks-tenth-anniversary-with-record-180-blanket-donation/",
+    "img": "https://images.unsplash.com/photo-1702534246793-42a5365369bc?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Jessica Ely, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-17",
     "cat": "Coming Together",
     "place": "Helston, England",
