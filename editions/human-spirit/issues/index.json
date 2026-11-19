@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-19",
+    "cat": "Human Spirit",
+    "place": "Jhenaidah, Bangladesh",
+    "head": "A Jhenaidah bank officer has planted close to 6,000 fruit trees along his home roads since 1991.",
+    "summary": "Asit Kumar Biswas, a senior cash officer at Sonali Bank's principal branch in Jhenaidah, western Bangladesh, has planted nearly 6,000 fruit saplings along the roads between his village, Panditpur, and the town since 1991. He buys the saplings himself and puts in several hundred a year on his holidays, hanging small nameplates on the trees he sets at intersections and on government land, and KM Saifuzzaman Shimul of the Jhenaidah Nabaganga River Protection Council says he first saw him planting there around 1993. Since April 2025 he has also spent Fridays releasing native fish fry into the Nabaganga river with his two sons, and he says he is working toward 100,000 fruit trees.",
+    "src": "The Daily Star",
+    "url": "https://www.thedailystar.net/news/news/bank-officers-35-year-mission-6000-fruit-trees-and-counting-4326081",
+    "img": "https://images.unsplash.com/photo-1766859060917-d24e00ea526a?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Fareed Akhyear Chowdhury, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-18",
     "cat": "Human Spirit",
     "place": "Rodney, New Zealand",
