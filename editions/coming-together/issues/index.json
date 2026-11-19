@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-19",
+    "cat": "Coming Together",
+    "place": "Rathangan, County Wexford, Ireland",
+    "head": "A Wexford vintage club raised €85,358 for a church roof by rebuilding one old tractor.",
+    "summary": "Rathangan Vintage Club has raised €85,358 towards re-roofing Rathangan Church in south County Wexford, through a draw for a restored Massey Ferguson 165 tractor and a Honda 50 motorcycle. Members spent months rebuilding the tractor and then spent the year selling tickets at events around Ireland, and Bishop Ger Nash drew the winners at Rathangan Bar, sending the tractor to Markie Redmond from Duncormick and the Honda 50 to Helen Futlong from Adamstown. The village carries the run into next month with a Christmas concert in the church on 11 December and, the following evening, a children's light-up circuit of decorated bikes, go-karts and buggies around it.",
+    "src": "South East Radio",
+    "url": "https://www.southeastradio.ie/news/wexford/south-wexford-community-raises-over-e85000-for-rathangan-church-roof-restoration/",
+    "img": "https://images.unsplash.com/photo-1767104536427-a20739e1f345?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Samuel Solcan, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-18",
     "cat": "Coming Together",
     "place": "Caerphilly, Wales",
