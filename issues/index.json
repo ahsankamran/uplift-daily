@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-19",
+    "slug": "2026-11-19",
+    "edition": 569,
+    "stories": [
+      {
+        "cat": "Nature",
+        "place": "Saleh Bay, Sumbawa, Indonesia",
+        "head": "More than half of a whale shark bay in Sumbawa is being set aside for the sharks.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/11/plans-for-a-new-marine-protected-area-boost-whale-shark-conservation-in-indonesias-saleh-bay/",
+        "img": "https://images.unsplash.com/photo-1787903370268-71bb7a0ac9b1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Luma, Rukum East, Nepal",
+        "head": "A 15-year-old paid for her village's new footbridge and helped build it.",
+        "src": "The Kathmandu Post",
+        "url": "https://kathmandupost.com/national/2026/11/12/when-no-help-came-a-15-year-old-built-her-village-a-bridge",
+        "img": "https://images.unsplash.com/photo-1715176242023-af076a8de543?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Córdoba, Spain",
+        "head": "Three cheeses tied for best in the world, and the steadiest scores won.",
+        "src": "CNN",
+        "url": "https://edition.cnn.com/2026/11/12/travel/french-comte-named-worlds-best-cheese",
+        "img": "https://images.unsplash.com/photo-1781785165275-6ac4deea7a9b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Westport River, Massachusetts, USA",
+        "head": "A survey meant to plan an oyster reef found one already there.",
+        "src": "The New Bedford Light",
+        "url": "https://newbedfordlight.org/state-researchers-embark-on-first-ever-oyster-restoration/",
+        "img": "https://images.unsplash.com/photo-1786365387163-7aa255aa98ec?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "An international trial",
+        "head": "A leukaemia vaccine kept patients alive nine months longer than the alternatives.",
+        "src": "OncLive",
+        "url": "https://www.onclive.com/view/galinpepimut-s-improves-os-in-aml-in-second-or-later-remission",
+        "img": "https://images.unsplash.com/photo-1579165466949-3180a3d056d5?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Guyana",
+        "head": "Guyana has stopped passing HIV and syphilis from mother to child.",
+        "src": "iNews Guyana",
+        "url": "https://inewsguyana.com/guyana-makes-history-as-who-validates-its-elimination-of-mother-to-child-transmission-of-hiv-syphilis/",
+        "img": "https://images.unsplash.com/photo-1766299893052-107053bc92a1?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-18",
     "slug": "2026-11-18",
     "edition": 568,
