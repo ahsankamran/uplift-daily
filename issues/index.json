@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-21",
+    "slug": "2026-11-21",
+    "edition": 570,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Kitimat Fjord System, British Columbia, Canada",
+        "head": "A whale's whole genome has been read from its breath.",
+        "src": "Oceanographic",
+        "url": "https://oceanographicmagazine.com/news/whale-genomes-sequenced-from-drone-collected-snot-in-world-first/",
+        "img": "https://images.unsplash.com/photo-1786037234279-4c6ce8e7402e?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Lord Howe Island, Australia",
+        "head": "A seaweed no one had seen full-grown since 1935 is standing in forests off Lord Howe Island.",
+        "src": "The Conversation",
+        "url": "https://theconversation.com/we-found-a-seaweed-that-hadnt-been-spotted-in-90-years-and-discovered-vast-underwater-forests-291975",
+        "img": "https://images.unsplash.com/photo-1780554755983-c79fb1ee6fff?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Shaunavon, Saskatchewan, Canada",
+        "head": "A Saskatchewan town drives its older neighbours to their appointments.",
+        "src": "CBC News",
+        "url": "https://www.cbc.ca/news/canada/saskatchewan/age-friendly-sask-9.7430139",
+        "img": "https://images.unsplash.com/photo-1764173039743-c5c503f1a408?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Frankfurt, Germany",
+        "head": "Forty years of looking has put the Parthenon's lost pediment back in order.",
+        "src": "The Art Newspaper",
+        "url": "https://www.theartnewspaper.com/2026/11/17/parthenon-east-pediment-recreated-in-frankfurt-exhibition",
+        "img": "https://images.unsplash.com/photo-1577543599916-551c9c4c1ca8?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "An international trial",
+        "head": "Six in ten pancreatic cancer patients responded to a new drug added to standard chemotherapy.",
+        "src": "OncLive",
+        "url": "https://www.onclive.com/view/daraxonrasib-plus-gemcitabine-nab-paclitaxel-generates-durable-responses-in-first-line-metastatic-pdac",
+        "img": "https://images.unsplash.com/photo-1763310225009-50214e3c99d9?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Sierra Leone",
+        "head": "Sierra Leone now gives every newborn a hepatitis B shot on its first day.",
+        "src": "The Sierra Leone Telegraph",
+        "url": "https://thesierraleonetelegraph.com/sierra-leone-to-introduce-hepatitis-b-vaccine-for-newborns-on-november-20",
+        "img": "https://images.unsplash.com/photo-1611694449252-02453c27856a?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-19",
     "slug": "2026-11-19",
     "edition": 569,
