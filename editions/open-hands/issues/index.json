@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-24",
+    "cat": "Open Hands",
+    "place": "Rochester, New York, USA",
+    "head": "A quilting group has sewn more than 500 quilts for the newborn unit at a Rochester hospital.",
+    "summary": "The Itty Bitty Baby Brigade has given more than 500 handmade quilts to the neonatal intensive care unit at Rochester General Hospital in New York, where they are draped over incubators to screen out light and noise. The quilters meet on the third Thursday of each month at a sewing machine shop in Wolcott and sew at home in between, buying their own fabric unless someone donates it. The unit goes through 20 to 25 quilts a month, and every baby takes their quilt home at discharge.",
+    "src": "13WHAM",
+    "url": "https://13wham.com/news/local/group-donates-500-handmade-quilts-to-rochester-general-hospital-nicu",
+    "img": "https://images.unsplash.com/photo-1692561141101-c1528235e6bf?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "K Adams, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-18",
     "cat": "Open Hands",
     "place": "Shenyang, China",
