@@ -2,13 +2,21 @@
   {
     "date": "2026-11-24",
     "cat": "Human Spirit",
-    "place": "Lo Village, Dak Lak, Vietnam",
-    "head": "A homestay owner has kept free English classes running in her coastal village for six years.",
-    "summary": "Free English classes have run for six years in Lo Village, a fishing settlement in Hoa Hiep Ward in Vietnam's Dak Lak Province, and roughly 300 travellers have taught in them. Le Thi Tra My, 31, came home from Ho Chi Minh City in late 2019 and now runs the village cooperative that connects more than 70 households to visiting tourists, hosting the lessons at her own homestay; the teachers have come from Germany, Nepal, France and Russia, which is why the children call it the United Nations class. Ward vice-chairman Duong Van Dong said the next step is to open the classes to teenagers and to people who work with visitors, and to recruit more volunteers.",
-    "src": "Tuoi Tre News",
-    "url": "https://news.tuoitre.vn/foreign-volunteers-teach-english-for-free-at-united-nations-class-in-vietnamese-coastal-village-103261120222110354.htm",
-    "img": "https://images.unsplash.com/photo-1729095181716-67c05e26bc94?w=1600&q=80&auto=format&fit=crop",
-    "photographer": "John McFetridge, via Unsplash"
+    "place": "Yueqing, Zhejiang, China",
+    "head": "Five siblings built their mother a 430-step stone path up a Zhejiang mountainside.",
+    "summary": "Five siblings finished a 430-step stone path with 11 bends up the mountainside at Yannan village in Yueqing, Zhejiang province, in October, three months after starting in August. Huang Zhulian, 58, bought the materials and did the work alongside her brothers and sisters rather than hiring a crew, casting each step on the slope instead of buying them ready-made. Their 86-year-old mother had moved to the city with her children but kept wanting to return to the family's house at the top, and the overgrown trail she used to pick her way along is now a fixed stair she can climb.",
+    "src": "South China Morning Post",
+    "url": "https://www.scmp.com/news/people-culture/trending-china/article/3374598/chinese-siblings-build-430-step-sky-ladder-elderly-mother-who-refuses-live-city",
+    "img": "https://images.unsplash.com/photo-1743093263836-383184736398?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Sergio Kian, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": "403-to-bots",
+      "linkNote": "SCMP returns HTTP 403 to automated clients (bot defense, not a broken link); qa-edition.mjs treats this as a soft warning. Verify by hand in a browser.",
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
   },
   {
     "date": "2026-11-19",
