@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-11-24",
+    "cat": "Science & Medicine",
+    "place": "Fourteen sites in five countries",
+    "head": "A tuberculosis trial has narrowed ten new drug combinations down to two.",
+    "summary": "A tuberculosis trial has narrowed ten new drug combinations down to two.",
+    "src": "The New England Journal of Medicine",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2611913",
+    "img": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1600&q=80&auto=format&fit=crop",
+    "photographer": ""
+  },
+  {
     "date": "2026-11-21",
     "cat": "Science & Medicine",
     "place": "An international trial",
