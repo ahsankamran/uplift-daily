@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-24",
+    "cat": "Coming Together",
+    "place": "Caerphilly, Wales",
+    "head": "75 volunteer knitters in Caerphilly finished a record 180 blankets this year.",
+    "summary": "Around 75 volunteers knitted a record 180 blankets over the past year and handed them over at the Caerphilly Miners Centre for the Community on Monday November 16, the tenth anniversary of the scheme. The centre's Craft and Chat group estimates it put in more than 6,000 hours, with each blanket taking roughly 35 hours to knit and assemble from individual panels made by beginners and experienced knitters working side by side. The blankets went to long-stay patients at Ysbyty Ystrad Fawr, two local care providers and a youth service, and the group is now looking for more organisations to supply next year.",
+    "src": "Caerphilly Observer",
+    "url": "https://caerphilly.observer/news/1064328/caerphilly-miners-centre-knitting-group-marks-tenth-anniversary-with-record-180-blanket-donation/",
+    "img": "https://images.unsplash.com/photo-1641644785726-26ec66bfce73?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Annie Spratt, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-21",
     "cat": "Coming Together",
     "place": "Bengaluru, India",
