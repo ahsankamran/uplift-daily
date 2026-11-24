@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-24",
+    "slug": "2026-11-24",
+    "edition": 571,
+    "stories": [
+      {
+        "cat": "Everyday Joy",
+        "place": "Istanbul, Turkey",
+        "head": "Istanbul has cleared 420 metres of tunnel under Hagia Sophia.",
+        "src": "Euronews",
+        "url": "https://www.euronews.com/2026/11/21/hagia-sophias-hidden-tunnels-uncovered-as-420-metres-of-underground-network-cleaned",
+        "img": "https://images.unsplash.com/photo-1683874350903-8151d987fef4?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Winston-Salem, North Carolina, USA",
+        "head": "Paper wasps have brain cells that answer only to other wasps' faces.",
+        "src": "Phys.org",
+        "url": "https://phys.org/news/2026-11-specialized-brain-cells-wasps-wasp.html",
+        "img": "https://images.unsplash.com/photo-1690934164885-314fc9eeaa5b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Dornoch Firth, Sutherland, Scotland",
+        "head": "Oysters have bred in the Dornoch Firth for the first time in more than a century.",
+        "src": "The Northern Times",
+        "url": "https://www.northern-times.co.uk/news/historic-milestone-as-reintroduced-native-oysters-breed-in-t-450812/",
+        "img": "https://images.unsplash.com/photo-1717251720395-f7ebb07f120d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Penparcau, Ceredigion, Wales",
+        "head": "A Penparcau gardening group is building vegetable beds for a charity across town.",
+        "src": "Cambrian News",
+        "url": "https://www.cambrian-news.co.uk/news/penparcau-aberystwyth-hahav-973896",
+        "img": "https://images.unsplash.com/photo-1791318219716-2ce5458c8257?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "Fourteen sites in five countries",
+        "head": "A tuberculosis trial has narrowed ten new drug combinations down to two.",
+        "src": "The New England Journal of Medicine",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2611913",
+        "img": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "India",
+        "head": "India has given ten million girls their HPV shot in under nine months.",
+        "src": "News On AIR",
+        "url": "https://newsonair.gov.in/india-crosses-historic-milestone-of-1-crore-hpv-vaccine-doses-administered-in-less-than-9-months/",
+        "img": "https://images.unsplash.com/photo-1746017090180-ebb14a589639?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-21",
     "slug": "2026-11-21",
     "edition": 570,
