@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-25",
+    "slug": "2026-11-25",
+    "edition": 572,
+    "stories": [
+      {
+        "cat": "Small Wonders",
+        "place": "Chetumal, Quintana Roo, Mexico",
+        "head": "Mexican hairy dwarf porcupines turn out to glow under ultraviolet light.",
+        "src": "Phys.org",
+        "url": "https://phys.org/news/2026-11-mexican-hairy-dwarf-porcupines-uv.html",
+        "img": "https://images.unsplash.com/photo-1779116732046-eccd4b42266c?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Wellington, New Zealand",
+        "head": "More than 250 kiwi have been carried back into the hills around Wellington.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/11/kiwi-return-to-wellington-hills-after-150-years-in-maori-led-conservation-milestone/",
+        "img": "https://images.unsplash.com/photo-1779097582340-8204bee53310?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Afghanistan",
+        "head": "Five and a half million people in Afghanistan have gained access to water.",
+        "src": "KabulNow",
+        "url": "https://kabulnow.com/2026/11/undp-5-5-million-people-in-afghanistan-gained-access-to-water-through-abadi-project/",
+        "img": "https://images.unsplash.com/photo-1538300342682-cf57afb97285?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Quiet Kindness",
+        "place": "Yap, Federated States of Micronesia",
+        "head": "A school on Yap lets families pay the fees in coconuts.",
+        "src": "Good News Network",
+        "url": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
+        "img": "https://images.unsplash.com/photo-1531414552322-18181005fd82?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "London, England",
+        "head": "Four children will help choose the first Children's Booker Prize.",
+        "src": "Publishers Weekly",
+        "url": "https://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101847-shortlist-child-judges-announced-for-inaugural-children-s-booker-prize.html",
+        "img": "https://images.unsplash.com/photo-1599689868384-59cb2b01bb21?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "The Gambia and Burkina Faso",
+        "head": "Vaccinating whole villages before the rains cut malaria infection by 70% in The Gambia.",
+        "src": "The Lancet",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01562-X/fulltext",
+        "img": "https://images.unsplash.com/photo-1611694449252-02453c27856a?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-24",
     "slug": "2026-11-24",
     "edition": 571,
