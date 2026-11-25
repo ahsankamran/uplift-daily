@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-25",
+    "cat": "Open Hands",
+    "place": "Ottawa, Canada",
+    "head": "The National Gallery of Canada has been promised 56 glass works and the curator to look after them.",
+    "summary": "Charles Bronfman has promised the National Gallery of Canada in Ottawa 56 modern and contemporary glass works by 29 artists, a collection he and his late wife, Andrea, assembled together over decades. The works run from Tiffany Studios, Émile Gallé and the Daum studio through Harvey Littleton, Lino Tagliapietra and the Canadian artist Laura Donefer, and the gift carries an endowment that pays for the gallery's first curatorial position in decorative arts and design. A selection, among it Edward Hald's Fireworks Bowl, is on view in the European galleries until 30 April 2027, and the new curator will take on research, exhibitions and future acquisitions in a field the gallery has never staffed.",
+    "src": "The Art Newspaper",
+    "url": "https://www.theartnewspaper.com/2026/11/20/national-gallery-canada-glass-art-gift-endowment-bronfman-family",
+    "img": "https://images.unsplash.com/photo-1787785016803-1473a6670351?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Mathias Reding, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-24",
     "cat": "Open Hands",
     "place": "Rochester, New York, USA",
