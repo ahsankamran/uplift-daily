@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-26",
+    "slug": "2026-11-26",
+    "edition": 573,
+    "stories": [
+      {
+        "cat": "Quiet Kindness",
+        "place": "Nefyn, Gwynedd, Wales",
+        "head": "A Nefyn pub has opened its back room to whoever in the village wants it.",
+        "src": "Cambrian News",
+        "url": "https://www.cambrian-news.co.uk/news/gwynedd-pub-turns-to-games-to-beat-loneliness-975207",
+        "img": "https://images.unsplash.com/photo-1517127766989-c19048cd61e1?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Small Wonders",
+        "place": "Konstanz, Germany",
+        "head": "The ripples that cross a starling flock may be aimed at the falcon's eyes.",
+        "src": "Phys.org",
+        "url": "https://phys.org/news/2026-11-displays-animal-groups-evolved-predators.html",
+        "img": "https://images.unsplash.com/photo-1516434233442-0c69c369b66d?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Everyday Joy",
+        "place": "Dorchester, Dorset, England",
+        "head": "Dorchester has cast its wandering cat in bronze.",
+        "src": "UPI",
+        "url": "https://www.upi.com/Odd_News/2026/11/23/England-town-erects-bronze-statue-of-beloved-local-cat/8391795459498/",
+        "img": "https://images.unsplash.com/photo-1780859037342-45befe40367a?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Nature",
+        "place": "Kuala Lumpur, Malaysia",
+        "head": "Otters have started showing up along Kuala Lumpur's Klang River.",
+        "src": "Mongabay",
+        "url": "https://news.mongabay.com/2026/11/kuala-lumpur-otters-raise-river-clean-up-hopes/",
+        "img": "https://images.unsplash.com/photo-1705331061640-dc2eab910b74?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Science & Medicine",
+        "place": "An international trial",
+        "head": "A monthly injection held kidney function steady for two years in IgA nephropathy.",
+        "src": "The New England Journal of Medicine",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2609127",
+        "img": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=1600&q=80&auto=format&fit=crop"
+      },
+      {
+        "cat": "Global Progress",
+        "place": "Ethiopia",
+        "head": "Ethiopia is knocking on doors to reach 11.3 million children with polio vaccine.",
+        "src": "World Health Organization",
+        "url": "https://www.afro.who.int/countries/ethiopia/news/ethiopia-launches-polio-vaccination-campaign-protect-more-11-million-children-who-deployed-28-staff",
+        "img": "https://images.unsplash.com/photo-1639401122143-5c3b82fef620?w=1600&q=80&auto=format&fit=crop"
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "slug": "2026-11-25",
     "edition": 572,
