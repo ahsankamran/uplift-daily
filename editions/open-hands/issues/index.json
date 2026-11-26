@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-26",
+    "cat": "Open Hands",
+    "place": "Magrath, Canada",
+    "head": "A ranching family has given 160 acres of never-ploughed prairie on the Milk River Ridge to a land trust.",
+    "summary": "The Coppieters family has handed 65 hectares — 160 acres — of native fescue grassland along the Milk River Ridge, south of Lethbridge, to the Nature Conservancy of Canada. Peter Coppieters Sr. settled the area in 1925 and the quarter-section has never been cultivated; his son Peter Jr. and his wife Donna later bought the pasture and chose to give it away rather than sell it. Local ranchers can keep grazing the land while the conservancy writes a stewardship plan, and the soil beneath it holds an estimated 11,400 tonnes of carbon.",
+    "src": "My Lethbridge Now",
+    "url": "https://mylethbridgenow.com/75118/news/fish-wildlife/land-donation-along-milk-river-ridge-offers-environmental-and-economic-benefits",
+    "img": "https://images.unsplash.com/photo-1634800274756-427677340ee1?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "David Thielen, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-25",
     "cat": "Open Hands",
     "place": "Ottawa, Canada",
