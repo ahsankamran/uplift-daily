@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-27",
+    "cat": "Human Spirit",
+    "place": "Manar, Uttarakhand, India",
+    "head": "A 75-year-old has spent 26 years guarding the hillside forest her village brought back.",
+    "summary": "Women in Manar village in Uttarakhand's Champawat district have returned 11.6 hectares of grazed-bare hillside to banj oak and fodder trees since 2000, and residents say no fire has burned the plot in the years since. Bhagirathi Devi, 75 and known locally as Van Amma, was elected the community forest council's first sarpanch; the women fenced the slope with stones and thorny brush, cleared invasive lantana and kept livestock out for two years, and each household now pays 20 rupees a month for Devi to patrol the woodland twice a day as its guard. The Champawat forest department holds the plot up as a model for fire prevention, and the next step the women are pressing for is that guarding work like Devi's be trained, equipped and paid rather than counted as housework.",
+    "src": "The Better India",
+    "url": "https://thebetterindia.com/conservation/nature/uttarakhand-women-community-forest-restoration-fire-prevention-12838354",
+    "img": "https://images.unsplash.com/photo-1751796883240-1b9b39ecb967?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "DIYA, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-24",
     "cat": "Human Spirit",
     "place": "Yueqing, Zhejiang, China",
