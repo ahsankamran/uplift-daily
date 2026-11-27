@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-27",
+    "cat": "Coming Together",
+    "place": "Carolina Beach, North Carolina, USA",
+    "head": "Three hundred and forty neighbours painted a stingray-shaped stage in Carolina Beach.",
+    "summary": "About 340 volunteers, aged 3 to 93, spent 14 and 15 November painting a community mural across the stingray-shaped stage beside Carolina Beach Lake in North Carolina. The Carolina Beach Mural Project built the two days around a design by local artist Susan Nuttall, after aerial photographs taken while planning last year's MuralFest revealed a silhouette that had gone unremarked for more than twenty years. A public contest has now given the stage a name, SHELLdon, suggested by middle school student Giovanna Cannistraci-Ortiz for the shells she says make the town what it is.",
+    "src": "WECT",
+    "url": "https://www.wect.com/2026/11/27/volunteers-give-carolina-beach-stingray-stage-colorful-makeover/",
+    "img": "https://images.unsplash.com/photo-1744960147383-a642f7c57bff?w=1600&q=80&auto=format&fit=crop",
+    "photographer": "Createasea, via Unsplash",
+    "selfCheck": {
+      "hardNo": "pass",
+      "linkOk": true,
+      "imageOk": true,
+      "imageMatchesSubject": true,
+      "formatOk": true
+    }
+  },
+  {
     "date": "2026-11-24",
     "cat": "Coming Together",
     "place": "Caerphilly, Wales",
